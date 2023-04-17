@@ -1,6 +1,6 @@
 {
   "name": "xterio-icons",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "xterio platform icon components",
   "main": "dist/xterio-icons.cjs.js",
   "module": "dist/xterio-icons.esm.js",
@@ -19,8 +19,7 @@
     "juuust",
     "design"
   ],
-  "bugs": {
-  },
+  "bugs": {},
   "homepage": "https://github.com/XterioTech/xterio-icons#readme",
   "scripts": {
     "fetch": "node bin/fetchSVG.js",
