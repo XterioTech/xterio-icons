@@ -1,15 +1,18 @@
-const upperCamelCase = require('uppercamelcase')
+const upperCamelCase = require("uppercamelcase");
 
 const parseName = (name, defaultStyle) => {
-  const nameSlices = name.split('-')
-  const style = nameSlices[nameSlices.length - 1]
+  const nameSlices = name.replaceAll("-", "_").split("_");
+  const type = nameSlices[0] === "colorful" ? nameSlices.shift() : "normal";
+  const size = nameSlices[nameSlices.length - 1];
   return {
+    type,
+    size,
     name,
-    componentName: upperCamelCase(name),
-    style: style==='fill' || style==='stroke' ? style : defaultStyle
-  }
-}
+    componentName: upperCamelCase(nameSlices.join("_")),
+    style: defaultStyle,
+  };
+};
 
 module.exports = {
-  parseName
+  parseName,
 };

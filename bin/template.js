@@ -1,9 +1,9 @@
 const getAttrs = (style) => {
   const baseAttrs = {
     xmlns: 'http://www.w3.org/2000/svg',
-    width: 'size',
-    height: 'size',
-    viewBox: '0 0 24 24',
+    // width: 'size',
+    // height: 'size',
+    // viewBox: '0 0 24 24',
   }
   const fillAttrs = {
     fill: 'color',
@@ -20,14 +20,14 @@ const getAttrs = (style) => {
   return Object.assign({}, baseAttrs, style==='fill' ? fillAttrs : strokeAttrs)
 }
 
-const getElementCode = (ComponentName, attrs, svgCode) => `
+const getElementCode = (ComponentName, attrs, svgCode,  width, height) => `
   import React from 'react';
   import PropTypes from 'prop-types';
 
   const ${ComponentName} = (props) => {
     const { color, size, ...otherProps } = props;
     return (
-      <svg ${attrs}>
+      <svg ${attrs} width='${width}' height='${height}' viewBox='0 0 ${width} ${height}'>
         ${svgCode}
       </svg>
     )

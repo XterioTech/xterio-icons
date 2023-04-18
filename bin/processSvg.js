@@ -1,5 +1,6 @@
 const Svgo = require('svgo');
 const cheerio = require('cheerio')
+const { transform } = require('@svgr/core')
 
 /**
  * Convert string to CamelCase.
@@ -15,18 +16,21 @@ function CamelCase(str) {
  * @param {string} svg - An SVG string.
  * @returns {Promise<string>}
  */
-function optimize(svg) {
+function optimize(svg, type) {
   const svgo = new Svgo({
     plugins: [
       { convertShapeToPath: false },
       { mergePaths: false },
-      { removeAttrs: { attrs: '(fill|stroke.*)' } },
+      { removeAttrs: type === 'normal' ? { attrs: 'fill' } : {} },
       { removeTitle: true },
+      { convertStyleToAttrs : true },
     ],
   });
 
   return new Promise(resolve => {
-    svgo.optimize(svg).then(({ data }) => resolve(data));
+    svgo.optimize(svg).then(({ data }) => {
+        resolve(data)
+    });
   });
 }
 
@@ -45,14 +49,24 @@ function removeSVGElement(svg) {
  * @param {string} svg - An SVG string.
  * @param {Promise<string>}
  */
-async function processSvg(svg) {
-  const optimized = await optimize(svg)
+async function processSvg(svg, type, size) {
+
+  const optimized = await optimize(svg, type)
     // remove semicolon inserted by prettier
     // because prettier thinks it's formatting JSX not HTML
     .then(svg => svg.replace(/;/g, ''))
-    .then(removeSVGElement)
+    // .then(removeSVGElement)
     .then(svg => svg.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`))
-  return optimized;
+
+//     const jsCode = await transform(
+//         optimized,
+//         {
+//           plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx'],
+//           icon: true,
+//         }
+//       )
+//   return jsCode.replace(`import * as React from "react";\nconst SvgComponent = props => `, '').replace(`;\nexport default SvgComponent;`, '');
+  return optimized
 }
 
 module.exports = processSvg;
