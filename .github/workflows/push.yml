@@ -11,15 +11,20 @@ jobs:
   icon_automation:
     name: figma icon automation
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node_version: ['16']
+        os: [ubuntu-latest]
     steps:
     - uses: actions/checkout@v1
 
     - uses: actions/setup-node@v1
       with:
-        node-version: '14.x'
+        node-version: ${{ matrix.node_version }}
     - run: yarn install
     - name: Figma Action
-      uses: primer/figma-action@v1.0.0-alpha.2
+      
+      s: primer/figma-action@v1.0.0-alpha.2
       with:
         args: "format=svg outputDir=./src/"
       env:
