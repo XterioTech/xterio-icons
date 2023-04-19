@@ -119,6 +119,8 @@ generateIconsIndex();
 
 let ComponentNameToWidth = {};
 
+console.log('icons', JSON.stringify(icons))
+
 Object.keys(icons)
   .map((key) => icons[key])
   .forEach(({ name, width, height }) => {
