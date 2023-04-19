@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 const IconBinanceScalable = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
       <svg
@@ -30,11 +31,6 @@ const IconBinanceScalable = props => {
 IconBinanceScalable.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconBinanceScalable.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconBinanceScalable;

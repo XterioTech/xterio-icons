@@ -3,20 +3,22 @@ import PropTypes from 'prop-types';
 
 const IconPlus16 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="16"
-      height="16"
+      style={{ color }}
+      width={size || '16'}
+      height={size || '16'}
       viewBox="0 0 16 16"
     >
-      <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+      <svg>
         <path
-          fillRule="evenodd"
-          clipRule="evenodd"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
           d="M7 2h2v12H7V9H2V7h5V2zm3 7h4V7h-3l-1 2z"
+          fill="currentColor"
         />
       </svg>
     </svg>
@@ -26,11 +28,6 @@ const IconPlus16 = props => {
 IconPlus16.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconPlus16.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconPlus16;

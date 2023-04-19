@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 const IconSuccess24 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
       <svg
@@ -18,17 +19,16 @@ const IconSuccess24 = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clipPath="url(#clip0_222_841)">
+        <g clip-path="url(#clip0_222_841)">
           <path
             d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
             fill="url(#paint0_linear_222_841)"
           />
           <path
-            d="M7.5 13l3 3 6-6"
-            stroke="#0A1161"
-            strokeWidth="3"
-            strokeLinecap="square"
-            strokeLinejoin="round"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M18.622 10l-7.061 7.06a1.5 1.5 0 01-2.121 0L5.379 13 7.5 10.879l3 3 6-6L18.622 10z"
+            fill="#0A1161"
           />
         </g>
         <defs>
@@ -40,11 +40,11 @@ const IconSuccess24 = props => {
             y2="12.414"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#9EE6FC" />
-            <stop offset="1" stopColor="#EBB9E7" />
+            <stop stop-color="#9EE6FC" />
+            <stop offset="1" stop-color="#EBB9E7" />
           </linearGradient>
           <clipPath id="clip0_222_841">
-            <rect width="24" height="24" fill="#fff" />
+            <path fill="#fff" d="M0 0h24v24H0z" />
           </clipPath>
         </defs>
       </svg>
@@ -55,11 +55,6 @@ const IconSuccess24 = props => {
 IconSuccess24.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconSuccess24.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconSuccess24;

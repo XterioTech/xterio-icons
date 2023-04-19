@@ -3,41 +3,23 @@ import PropTypes from 'prop-types';
 
 const IconXsoulShare40 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="40"
-      height="40"
+      style={{ color }}
+      width={size || '40'}
+      height={size || '40'}
       viewBox="0 0 40 40"
     >
-      <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+      <svg>
         <path
-          d="M3.18 10.289L20 .577l16.82 9.712V29.71L20 39.423 3.18 29.71V10.29z"
-          stroke="#7DD5F9"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M37.32 10L20 0 2.68 10v20L20 40l17.32-10V10zM3.68 29.423V10.577L20 1.155l16.32 9.422v18.846L20 38.845 3.68 29.423zm13.103-9.726l3.47-2.082a4.5 4.5 0 10-1.03-1.714l-3.546 2.127a4 4 0 100 5.945L20 26.566a3.5 3.5 0 10.573-1.989l-3.791-2.274c.14-.409.217-.848.217-1.304 0-.456-.076-.895-.217-1.303zM23.5 12a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM11 21a2 2 0 114 0 2 2 0 01-4 0zm12.5 4a1.5 1.5 0 100 3 1.5 1.5 0 000-3z"
+          fill="currentColor"
         />
-        <path
-          d="M3.18 10.289L20 .577l16.82 9.712V29.71L20 39.423 3.18 29.71V10.29z"
-          stroke="#7DD5F9"
-        />
-        <path d="M16 19l5-3" stroke="#7DD5F9" strokeWidth="2" />
-        <path
-          d="M23.5 18a3.5 3.5 0 100-7 3.5 3.5 0 000 7z"
-          stroke="#7DD5F9"
-          strokeWidth="2"
-        />
-        <path
-          d="M13 24a3 3 0 100-6 3 3 0 000 6z"
-          stroke="#7DD5F9"
-          strokeWidth="2"
-        />
-        <path
-          d="M23.5 29a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"
-          stroke="#7DD5F9"
-          strokeWidth="2"
-        />
-        <path d="M21 26l-5-3" stroke="#7DD5F9" strokeWidth="2" />
       </svg>
     </svg>
   );
@@ -46,11 +28,6 @@ const IconXsoulShare40 = props => {
 IconXsoulShare40.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconXsoulShare40.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconXsoulShare40;

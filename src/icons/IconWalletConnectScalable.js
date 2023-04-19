@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 const IconWalletConnectScalable = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
       <svg
@@ -19,8 +20,8 @@ const IconWalletConnectScalable = props => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          fillRule="evenodd"
-          clipRule="evenodd"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
           d="M12 1.8c5.634 0 10.2 4.566 10.2 10.2 0 5.634-4.566 10.2-10.2 10.2-5.634 0-10.2-4.566-10.2-10.2C1.8 6.366 6.366 1.8 12 1.8z"
           fill="url(#paint0_radial_222_892)"
         />
@@ -37,8 +38,8 @@ const IconWalletConnectScalable = props => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="matrix(20.4 0 0 20.4 1.8 12)"
           >
-            <stop stopColor="#5D9DF6" />
-            <stop offset="1" stopColor="#006FFF" />
+            <stop stop-color="#5D9DF6" />
+            <stop offset="1" stop-color="#006FFF" />
           </radialGradient>
         </defs>
       </svg>
@@ -49,11 +50,6 @@ const IconWalletConnectScalable = props => {
 IconWalletConnectScalable.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconWalletConnectScalable.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconWalletConnectScalable;

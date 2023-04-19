@@ -3,29 +3,23 @@ import PropTypes from 'prop-types';
 
 const IconWalletConnected24 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
-      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+      <svg>
         <path
-          d="M19.1 5.8H4.9v12.7h14.2V5.8z"
-          stroke="#FEFEFE"
-          strokeWidth="2"
-          strokeLinecap="round"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M3.9 4.8h16.2V19.5H3.9V4.8zm14.2 2v1.9h-5.2v6.9h5.2v1.9H5.9V6.8h12.2zm0 3.9v2.9h-3.2v-2.9h3.2zm-.7.7h-2.1v1.5h1.8l.3-1.5z"
+          fill="currentColor"
         />
-        <path
-          d="M19.1 9.7h-5.2v4.9h5.2V9.7z"
-          stroke="#FEFEFE"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-        <path d="M15.3 11.4h2.1l-.3 1.5h-1.8v-1.5z" />
       </svg>
     </svg>
   );
@@ -34,11 +28,6 @@ const IconWalletConnected24 = props => {
 IconWalletConnected24.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconWalletConnected24.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconWalletConnected24;

@@ -45,7 +45,7 @@ const generateIconsIndex = () => {
 
 // generate attributes code
 const attrsToString = (attrs, style) => {
-  console.log("style: ", style);
+  //   console.log("style: ", style);
   return Object.keys(attrs)
     .map((key) => {
       // should distinguish fill or stroke
@@ -61,21 +61,24 @@ const attrsToString = (attrs, style) => {
 };
 
 // generate icon code separately
-const generateIconCode = async ({ name:_name, width, height }) => {
+const generateIconCode = async ({ name: _name, width, height }) => {
   const { type, size, name, componentName: ComponentName, style } = parseName(
     _name,
     defaultStyle
   );
-  console.log(name, ComponentName);
+  //   console.log(name, ComponentName);
   const location = path.join(rootDir, "src/svg", `${name}.svg`);
   const destination = path.join(rootDir, "src/icons", `${ComponentName}.js`);
   const code = fs.readFileSync(location);
-  const svgCode = await processSvg(code, type, size);
+  const { svgCode, originFill } = await processSvg(code, type, size);
   const element = await getElementCode(
     ComponentName,
     attrsToString(getAttrs(style), style),
     svgCode,
-    width, height
+    width,
+    height,
+    type,
+    originFill
   );
   const component = format({
     text: element,
@@ -91,7 +94,7 @@ const generateIconCode = async ({ name:_name, width, height }) => {
 
   fs.writeFileSync(destination, component, "utf-8");
 
-  console.log("Successfully built", ComponentName);
+  //   console.log("Successfully built", ComponentName);
   return { ComponentName, name };
 };
 
@@ -114,10 +117,22 @@ const appendToIconsIndex = ({ ComponentName, name }) => {
 
 generateIconsIndex();
 
+let ComponentNameToWidth = {};
+
 Object.keys(icons)
   .map((key) => icons[key])
   .forEach(({ name, width, height }) => {
-    generateIconCode({ name, width, height }).then(({ ComponentName, name }) => {
-      appendToIconsIndex({ ComponentName, name });
-    });
+    generateIconCode({ name, width, height }).then(
+      ({ ComponentName, name }) => {
+        appendToIconsIndex({ ComponentName, name });
+        ComponentNameToWidth[ComponentName] = width;
+        fs.writeFileSync(
+          path.join(rootDir, "src", "config.js"),
+          `export const ComponentNameToWidth = ${JSON.stringify(
+            ComponentNameToWidth
+          )}`,
+          "utf-8"
+        );
+      }
+    );
   });

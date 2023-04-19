@@ -3,21 +3,22 @@ import PropTypes from 'prop-types';
 
 const IconChecked16 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="16"
-      height="16"
+      style={{ color }}
+      width={size || '16'}
+      height={size || '16'}
       viewBox="0 0 16 16"
     >
-      <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+      <svg>
         <path
-          d="M3 7.5l4 4L13.5 5"
-          stroke="#7DD5F9"
-          strokeWidth="2"
-          strokeLinejoin="round"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M14.207 5.707l-6.5 6.5a1 1 0 01-1.414 0l-4-4 1.414-1.414L7 10.086l5.793-5.793 1.414 1.414z"
+          fill="currentColor"
         />
       </svg>
     </svg>
@@ -27,11 +28,6 @@ const IconChecked16 = props => {
 IconChecked16.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconChecked16.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconChecked16;

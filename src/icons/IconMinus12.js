@@ -3,18 +3,23 @@ import PropTypes from 'prop-types';
 
 const IconMinus12 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="12"
-      height="12"
+      style={{ color }}
+      width={size || '12'}
+      height={size || '12'}
       viewBox="0 0 12 12"
     >
-      <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg">
-        <path d="M10 5H2v2h8V5z" />
-        <path d="M10 7H9l1-2v2z" />
+      <svg>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M2 5h8L9 7H2V5z"
+          fill="currentColor"
+        />
       </svg>
     </svg>
   );
@@ -23,11 +28,6 @@ const IconMinus12 = props => {
 IconMinus12.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconMinus12.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconMinus12;

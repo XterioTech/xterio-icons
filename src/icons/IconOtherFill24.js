@@ -3,26 +3,23 @@ import PropTypes from 'prop-types';
 
 const IconOtherFill24 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
-      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+      <svg>
         <path
-          d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
-          stroke="#FEFEFE"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M3 12a9 9 0 1118 0 9 9 0 01-18 0zm9-11C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zM8.5 12a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm3.5 1.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm6.5-1.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+          fill="currentColor"
         />
-        <path d="M7 13.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-        <path d="M12 13.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-        <path d="M17 13.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
       </svg>
     </svg>
   );
@@ -31,11 +28,6 @@ const IconOtherFill24 = props => {
 IconOtherFill24.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconOtherFill24.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconOtherFill24;

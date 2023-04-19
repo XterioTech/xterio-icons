@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 const IconGoogleScalable = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
       <svg
@@ -18,86 +19,30 @@ const IconGoogleScalable = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <mask
-          id="a"
-          style={{maskType: 'alpha'}}
-          maskUnits="userSpaceOnUse"
-          x="5"
-          y="4"
-          width="15"
-          height="15"
-        >
-          <path
-            d="M18.882 10.527H12.36v2.705h3.755c-.35 1.718-1.814 2.704-3.755 2.704A4.128 4.128 0 018.223 11.8a4.128 4.128 0 014.136-4.136c.987 0 1.878.35 2.578.922l2.036-2.036c-1.24-1.082-2.832-1.75-4.614-1.75a6.98 6.98 0 00-7 7c0 3.882 3.119 7 7 7 3.5 0 6.682-2.545 6.682-7 0-.414-.063-.86-.159-1.273z"
-            fill="#fff"
-          />
-        </mask>
-        <g mask="url(#a)">
-          <path
-            d="M4.723 15.936V7.664l5.409 4.136-5.41 4.136z"
-            fill="#FBBC05"
-          />
-        </g>
-        <mask
-          id="b"
-          style={{maskType: 'alpha'}}
-          maskUnits="userSpaceOnUse"
-          x="5"
-          y="4"
-          width="15"
-          height="15"
-        >
-          <path
-            d="M18.882 10.527H12.36v2.705h3.755c-.35 1.718-1.814 2.704-3.755 2.704A4.128 4.128 0 018.223 11.8a4.128 4.128 0 014.136-4.136c.987 0 1.878.35 2.578.922l2.036-2.036c-1.24-1.082-2.832-1.75-4.614-1.75a6.98 6.98 0 00-7 7c0 3.882 3.119 7 7 7 3.5 0 6.682-2.545 6.682-7 0-.414-.063-.86-.159-1.273z"
-            fill="#fff"
-          />
-        </mask>
-        <g mask="url(#b)">
-          <path
-            d="M4.723 7.664l5.409 4.136 2.227-1.941 7.636-1.24V4.163H4.723v3.5z"
-            fill="#EA4335"
-          />
-        </g>
-        <mask
-          id="c"
-          style={{maskType: 'alpha'}}
-          maskUnits="userSpaceOnUse"
-          x="5"
-          y="4"
-          width="15"
-          height="15"
-        >
-          <path
-            d="M18.882 10.527H12.36v2.705h3.755c-.35 1.718-1.814 2.704-3.755 2.704A4.128 4.128 0 018.223 11.8a4.128 4.128 0 014.136-4.136c.987 0 1.878.35 2.578.922l2.036-2.036c-1.24-1.082-2.832-1.75-4.614-1.75a6.98 6.98 0 00-7 7c0 3.882 3.119 7 7 7 3.5 0 6.682-2.545 6.682-7 0-.414-.063-.86-.159-1.273z"
-            fill="#fff"
-          />
-        </mask>
-        <g mask="url(#c)">
-          <path
-            d="M4.723 15.936l9.545-7.318 2.514.318 3.213-4.772v15.272H4.723v-3.5z"
-            fill="#34A853"
-          />
-        </g>
-        <mask
-          id="d"
-          style={{maskType: 'alpha'}}
-          maskUnits="userSpaceOnUse"
-          x="5"
-          y="4"
-          width="15"
-          height="15"
-        >
-          <path
-            d="M18.882 10.527H12.36v2.705h3.755c-.35 1.718-1.814 2.704-3.755 2.704A4.128 4.128 0 018.223 11.8a4.128 4.128 0 014.136-4.136c.987 0 1.878.35 2.578.922l2.036-2.036c-1.24-1.082-2.832-1.75-4.614-1.75a6.98 6.98 0 00-7 7c0 3.882 3.119 7 7 7 3.5 0 6.682-2.545 6.682-7 0-.414-.063-.86-.159-1.273z"
-            fill="#fff"
-          />
-        </mask>
-        <g mask="url(#d)">
-          <path
-            d="M19.995 19.436L10.13 11.8l-1.273-.954 11.137-3.182v11.772z"
-            fill="#4285F4"
-          />
-        </g>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M6.076 14.901l2.354-1.8a4.154 4.154 0 01-.207-1.301c0-.455.073-.892.207-1.301l-2.354-1.8a7.006 7.006 0 00-.717 3.101c0 1.115.258 2.168.717 3.101z"
+          fill="#FBBC05"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M8.431 10.499a4.128 4.128 0 013.93-2.835c.986 0 1.877.35 2.577.922l2.036-2.036c-1.24-1.082-2.832-1.75-4.614-1.75A6.98 6.98 0 006.077 8.7l2.354 1.8z"
+          fill="#EA4335"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M6.076 14.9a6.98 6.98 0 006.285 3.9c3.5 0 6.681-2.545 6.681-7 0-.414-.063-.859-.159-1.273h-6.522v2.705h3.754c-.35 1.718-1.813 2.704-3.754 2.704a4.128 4.128 0 01-3.931-2.84l-2.354 1.803z"
+          fill="#34A853"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M12.36 10.527h6.523c.096.414.16.86.16 1.273 0 2.282-.836 4.063-2.12 5.257l-2.236-1.73c.731-.461 1.24-1.173 1.428-2.095H12.36v-2.705z"
+          fill="#4285F4"
+        />
       </svg>
     </svg>
   );
@@ -106,11 +51,6 @@ const IconGoogleScalable = props => {
 IconGoogleScalable.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconGoogleScalable.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconGoogleScalable;

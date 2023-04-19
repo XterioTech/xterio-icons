@@ -3,25 +3,22 @@ import PropTypes from 'prop-types';
 
 const IconShow24 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
-      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+      <svg>
         <path
-          d="M20.959 12a10.613 10.613 0 01-.319.865c-.29.695-.752 1.618-1.44 2.535-1.363 1.818-3.592 3.6-7.2 3.6-3.607 0-5.836-1.782-7.2-3.6A11.893 11.893 0 013.042 12a10.62 10.62 0 01.319-.865c.29-.695.752-1.618 1.44-2.535C6.163 6.782 8.392 5 12 5c3.607 0 5.836 1.782 7.2 3.6a11.892 11.892 0 011.758 3.4z"
-          stroke="#FEFEFE"
-          strokeWidth="2"
-        />
-        <path
-          d="M12 15a3 3 0 100-6 3 3 0 000 6z"
-          stroke="#FEFEFE"
-          strokeWidth="2"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M12 4C4 4 2 12 2 12s2 8 10 8 10-8 10-8-2-8-10-8zm-7.716 7.52c-.076.18-.137.342-.187.48A10.894 10.894 0 005.6 14.8C6.827 16.436 8.786 18 12 18c3.214 0 5.173-1.564 6.4-3.2a10.89 10.89 0 001.503-2.8A10.89 10.89 0 0018.4 9.2C17.173 7.564 15.214 6 12 6 8.786 6 6.827 7.564 5.6 9.2c-.626.834-1.05 1.68-1.316 2.32zM14 12a2 2 0 11-4 0 2 2 0 014 0zm2 0a4 4 0 11-8 0 4 4 0 018 0z"
+          fill="currentColor"
         />
       </svg>
     </svg>
@@ -31,11 +28,6 @@ const IconShow24 = props => {
 IconShow24.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconShow24.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconShow24;

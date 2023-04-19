@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 const IconListing64 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="64"
-      height="64"
+      style={{ color }}
+      width={size || '64'}
+      height={size || '64'}
       viewBox="0 0 64 64"
     >
       <svg
@@ -23,17 +24,10 @@ const IconListing64 = props => {
           fill="url(#paint0_linear_222_860)"
         />
         <path
-          d="M38.046 29.244L36.795 27.1l-1.317 2.106-.35.562a3.687 3.687 0 01-6.254 0l-.352-.562-1.316-2.106-1.251 2.145-.244.418a3.705 3.705 0 01-3.2 1.838c-2.587 0-4.377-2.584-3.469-5.006L22.04 18.5h19.92l2.999 7.994c.908 2.422-.882 5.006-3.47 5.006-1.317 0-2.535-.7-3.2-1.838l-.243-.418z"
-          stroke="#0A1161"
-          strokeWidth="3"
-        />
-        <path d="M21 31v12h11.5" stroke="#0A1161" strokeWidth="3" />
-        <path d="M18 43h15" stroke="#0A1161" strokeWidth="3" />
-        <path
-          d="M37 38.182L39 40l4-4"
-          stroke="#0A1161"
-          strokeWidth="3"
-          strokeLinecap="square"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M43 17H21l-3.363 8.968c-.875 2.334.033 4.774 1.863 6.077V41.5H18v3h15v-3H22.5V33h.01a5.205 5.205 0 004.496-2.582L27.25 30l.351.562a5.187 5.187 0 008.797 0L36.75 30l.243.418A5.205 5.205 0 0041.49 33c3.634 0 6.15-3.63 4.874-7.032L43 17zM20.446 27.021L23.079 20H40.92l2.633 7.021a2.205 2.205 0 01-3.97 1.885l-.243-.418-2.503-4.29-2.632 4.212-.352.562a2.187 2.187 0 01-3.709 0l-2.984-4.774-2.503 4.29-.243.418a2.205 2.205 0 01-3.97-1.885zm18.603 15.051L45.121 36 43 33.879l-4.05 4.049-2.051-1.865-2.018 2.22 4.168 3.789z"
+          fill="#0A1161"
         />
         <defs>
           <linearGradient
@@ -44,8 +38,8 @@ const IconListing64 = props => {
             y2="32.828"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#9EE6FC" />
-            <stop offset="1" stopColor="#EBB9E7" />
+            <stop stop-color="#9EE6FC" />
+            <stop offset="1" stop-color="#EBB9E7" />
           </linearGradient>
         </defs>
       </svg>
@@ -56,11 +50,6 @@ const IconListing64 = props => {
 IconListing64.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconListing64.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconListing64;

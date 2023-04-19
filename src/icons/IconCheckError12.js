@@ -3,18 +3,23 @@ import PropTypes from 'prop-types';
 
 const IconCheckError12 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="12"
-      height="12"
+      style={{ color }}
+      width={size || '12'}
+      height={size || '12'}
       viewBox="0 0 12 12"
     >
-      <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg">
-        <path d="M10 10L2 2" stroke="#FEFEFE" />
-        <path d="M2 10l8-8" stroke="#FEFEFE" />
+      <svg>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M6 5.293L2.354 1.646l-.708.708L5.293 6 1.646 9.646l.708.708L6 6.707l3.646 3.647.708-.708L6.707 6l3.647-3.646-.708-.708L6 5.293z"
+          fill="currentColor"
+        />
       </svg>
     </svg>
   );
@@ -23,11 +28,6 @@ const IconCheckError12 = props => {
 IconCheckError12.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconCheckError12.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconCheckError12;

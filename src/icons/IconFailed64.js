@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 const IconFailed64 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="64"
-      height="64"
+      style={{ color }}
+      width={size || '64'}
+      height={size || '64'}
       viewBox="0 0 64 64"
     >
       <svg
@@ -23,16 +24,10 @@ const IconFailed64 = props => {
           fill="#E6B1F7"
         />
         <path
-          d="M40 24L24 40"
-          stroke="#FEFEFE"
-          strokeWidth="5"
-          strokeLinecap="square"
-        />
-        <path
-          d="M24 24l16 16"
-          stroke="#FEFEFE"
-          strokeWidth="5"
-          strokeLinecap="square"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M35.536 32l8-8L40 20.464l-8 8-8-8L20.465 24l8 8-8 8L24 43.535l8-8 8 8L43.536 40l-8-8z"
+          fill="#FEFEFE"
         />
       </svg>
     </svg>
@@ -42,11 +37,6 @@ const IconFailed64 = props => {
 IconFailed64.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconFailed64.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconFailed64;

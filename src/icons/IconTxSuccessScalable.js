@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 const IconTxSuccessScalable = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
       <svg
@@ -23,11 +24,10 @@ const IconTxSuccessScalable = props => {
           fill="url(#paint0_linear_222_899)"
         />
         <path
-          d="M8.625 12l2.25 2.25 4.5-4.5"
-          stroke="#0A1161"
-          strokeWidth="1.875"
-          strokeLinecap="square"
-          strokeLinejoin="round"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M16.7 9.75l-5.162 5.163a.938.938 0 01-1.326 0L7.299 12l1.326-1.326 2.25 2.25 4.5-4.5L16.7 9.75z"
+          fill="#0A1161"
         />
         <defs>
           <linearGradient
@@ -38,8 +38,8 @@ const IconTxSuccessScalable = props => {
             y2="12.31"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#9EE6FC" />
-            <stop offset="1" stopColor="#EBB9E7" />
+            <stop stop-color="#9EE6FC" />
+            <stop offset="1" stop-color="#EBB9E7" />
           </linearGradient>
         </defs>
       </svg>
@@ -50,11 +50,6 @@ const IconTxSuccessScalable = props => {
 IconTxSuccessScalable.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconTxSuccessScalable.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconTxSuccessScalable;

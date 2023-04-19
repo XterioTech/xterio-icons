@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 const IconFailed24 = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
       <svg
@@ -18,27 +19,21 @@ const IconFailed24 = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clipPath="url(#clip0_222_840)">
+        <g clip-path="url(#clip0_222_840)">
           <path
             d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
             fill="#E6B1F7"
           />
           <path
-            d="M15.84 8.156l-7.68 7.68"
-            stroke="#FEFEFE"
-            strokeWidth="2"
-            strokeLinecap="square"
-          />
-          <path
-            d="M8.16 8.156l7.68 7.68"
-            stroke="#FEFEFE"
-            strokeWidth="2"
-            strokeLinecap="square"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M13.415 11.996l3.84-3.84-1.415-1.414-3.84 3.84-3.84-3.84-1.414 1.414 3.84 3.84-3.84 3.84L8.16 17.25 12 13.41l3.84 3.84 1.415-1.414-3.84-3.84z"
+            fill="#FEFEFE"
           />
         </g>
         <defs>
           <clipPath id="clip0_222_840">
-            <rect width="24" height="24" fill="#fff" />
+            <path fill="#fff" d="M0 0h24v24H0z" />
           </clipPath>
         </defs>
       </svg>
@@ -49,11 +44,6 @@ const IconFailed24 = props => {
 IconFailed24.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconFailed24.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconFailed24;

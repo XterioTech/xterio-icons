@@ -3,13 +3,14 @@ import PropTypes from 'prop-types';
 
 const IconChainEthereumScalable = props => {
   const { color, size, ...otherProps } = props;
+
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={color}
       {...otherProps}
-      width="24"
-      height="24"
+      style={{ color }}
+      width={size || '24'}
+      height={size || '24'}
       viewBox="0 0 24 24"
     >
       <svg
@@ -18,7 +19,7 @@ const IconChainEthereumScalable = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clipPath="url(#clip0_222_886)">
+        <g clip-path="url(#clip0_222_886)">
           <path
             d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
             fill="#6284F5"
@@ -28,7 +29,7 @@ const IconChainEthereumScalable = props => {
         </g>
         <defs>
           <clipPath id="clip0_222_886">
-            <rect width="24" height="24" fill="#fff" />
+            <path fill="#fff" d="M0 0h24v24H0z" />
           </clipPath>
         </defs>
       </svg>
@@ -39,11 +40,6 @@ const IconChainEthereumScalable = props => {
 IconChainEthereumScalable.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-};
-
-IconChainEthereumScalable.defaultProps = {
-  color: 'currentColor',
-  size: '24'
 };
 
 export default IconChainEthereumScalable;
