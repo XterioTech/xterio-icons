@@ -61,9 +61,9 @@ const attrsToString = (attrs, style) => {
 };
 
 // generate icon code separately
-const generateIconCode = async ({ name: _name, width, height }) => {
-  const { type, size, name, componentName: ComponentName, style } = parseName(
-    _name,
+const generateIconCode = async ({ name, width, height }) => {
+  const { type, size, componentName: ComponentName, style } = parseName(
+    name,
     defaultStyle
   );
   //   console.log(name, ComponentName);
@@ -119,7 +119,6 @@ generateIconsIndex();
 
 let ComponentNameToWidth = {};
 
-console.log('icons', JSON.stringify(icons))
 
 Object.keys(icons)
   .map((key) => icons[key])
