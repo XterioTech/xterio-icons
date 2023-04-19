@@ -68,6 +68,7 @@ class List extends React.Component {
     super(props);
     this.state = { color: "#fefefe" };
   }
+  
   render() {
     const { color = "#fefefe" } = this.state;
     return (
