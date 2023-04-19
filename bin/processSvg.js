@@ -1,6 +1,5 @@
 const Svgo = require("svgo");
 const cheerio = require("cheerio");
-const { transform } = require("@svgr/core");
 /**
  * Convert string to CamelCase.
  * @param {string} str - A string.
