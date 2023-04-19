@@ -18,7 +18,6 @@ jobs:
       with:
         node-version: '10.x'
     - run: yarn install
-
     - name: Figma Action
       uses: primer/figma-action@v1.0.0-alpha.2
       with:
@@ -33,7 +32,6 @@ jobs:
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
     - run: yarn build
-
     - name: GitHub Pages
       uses: crazy-max/ghaction-github-pages@v1.2.5
       with:
