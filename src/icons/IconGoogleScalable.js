@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = 'colorful';
-
 const IconGoogleScalable = props => {
   const { color, size, ...otherProps } = props;
 

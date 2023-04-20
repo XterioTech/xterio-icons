@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = 'normal';
-
 const IconNftAmount16 = props => {
   const { color, size, ...otherProps } = props;
 

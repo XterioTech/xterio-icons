@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = 'colorful';
-
 const IconTokenBnbScalable = props => {
   const { color, size, ...otherProps } = props;
 

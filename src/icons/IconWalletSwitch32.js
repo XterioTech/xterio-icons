@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = 'normal';
-
 const IconWalletSwitch32 = props => {
   const { color, size, ...otherProps } = props;
 

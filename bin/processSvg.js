@@ -15,7 +15,7 @@ function CamelCase(str) {
  * @returns {Promise<string>}
  */
 function optimize(svg, type) {
-  const originFill = [];
+  const _originFill = [];
 
   const svgo = new Svgo({
     plugins: [
@@ -50,8 +50,8 @@ function optimize(svg, type) {
                     ["path", "g"].includes(item.elem) &&
                     attr.value.includes("url(")
                   ) {
-                    originFill.push(attr.value);
-                    attr.value = `{{color || originFill[${originFill.length -
+                    _originFill.push(attr.value);
+                    attr.value = `{{color || _originFill[${_originFill.length -
                       1}]}}`;
                   }
                 }
@@ -65,7 +65,7 @@ function optimize(svg, type) {
 
   return new Promise((resolve) => {
     svgo.optimize(svg).then(({ data }) => {
-      resolve({ data, originFill });
+      resolve({ data, _originFill });
     });
   });
 }
@@ -88,7 +88,7 @@ function removeSVGElement(svg) {
  * @param {Promise<string>}
  */
 async function processSvg(svg, type, size) {
-  const { data, originFill } = await optimize(svg, type);
+  const { data, _originFill } = await optimize(svg, type);
   // remove semicolon inserted by prettier
   // because prettier thinks it's formatting JSX not HTML
   // .then(svg => svg.replace(/;/g, ''))
@@ -96,7 +96,7 @@ async function processSvg(svg, type, size) {
 //   .then(svg => svg.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`))
 
   return {
-    originFill,
+    _originFill,
     svgCode: data
       .replaceAll('style="mask-type:alpha"', `style={{maskType: 'alpha'}}`)
       .replaceAll(

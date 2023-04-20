@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = 'normal';
-
 const IconTokenEthScalable = props => {
   const { color, size, ...otherProps } = props;
 

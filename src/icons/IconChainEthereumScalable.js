@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = 'colorful';
-
 const IconChainEthereumScalable = props => {
   const { color, size, ...otherProps } = props;
 
