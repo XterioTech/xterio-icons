@@ -30,7 +30,6 @@ const getElementCode = (
   svgCode,
   width,
   height,
-  type,
   originFill
 ) => `
   import React from 'react';
@@ -42,7 +41,7 @@ const getElementCode = (
     const { color, size, ...otherProps } = props;
    
     return (
-      <svg ${attrs} style={{color}} width={size || '${width}'} height={size || '${height}'} viewBox='0 0 ${width} ${height}'>
+      <svg style={{color}} width={size || '${width}'} height={size || '${height}'} viewBox='0 0 ${width} ${height}' ${attrs}>
         ${svgCode}
       </svg>
     )

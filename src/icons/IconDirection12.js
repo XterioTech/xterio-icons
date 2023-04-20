@@ -1,20 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const originFill = 'normal';
+
 const IconDirection12 = props => {
   const { color, size, ...otherProps } = props;
 
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      {...otherProps}
       style={{ color }}
       width={size || '12'}
       height={size || '12'}
       viewBox="0 0 12 12"
+      xmlns="http://www.w3.org/2000/svg"
+      {...otherProps}
     >
       <svg>
-        <g clip-path="url(#clip0_222_780)">
+        <g clipPath="url(#clip0_222_780)">
           <mask
             id="a"
             style={{ maskType: 'alpha' }}
@@ -28,8 +30,8 @@ const IconDirection12 = props => {
           </mask>
           <g mask="url(#a)">
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M6.5 11.043l4.95-4.95-1.415-1.414-3.243 3.243V.851h-2v7.071L1.55 4.679.136 6.094l4.95 4.95a1 1 0 001.413 0z"
               fill="currentColor"
             />

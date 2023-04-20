@@ -1,19 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = ['url(#paint0_linear_222_905)'];
+const originFill = 'normal';
 
 const IconDiscordScalable = props => {
   const { color, size, ...otherProps } = props;
 
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      {...otherProps}
       style={{ color }}
       width={size || '24'}
       height={size || '24'}
       viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      {...otherProps}
     >
       <svg>
         <path
@@ -29,8 +29,8 @@ const IconDiscordScalable = props => {
             y2="12.017"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#9EE6FC" />
-            <stop offset="1" stop-color="#EBB9E7" />
+            <stop stopColor="#9EE6FC" />
+            <stop offset="1" stopColor="#EBB9E7" />
           </linearGradient>
         </defs>
       </svg>

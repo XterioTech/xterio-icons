@@ -1,17 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const originFill = 'colorful';
+
 const IconWalletConnectScalable = props => {
   const { color, size, ...otherProps } = props;
 
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      {...otherProps}
       style={{ color }}
       width={size || '24'}
       height={size || '24'}
       viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      {...otherProps}
     >
       <svg
         width="24"
@@ -20,8 +22,8 @@ const IconWalletConnectScalable = props => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M12 1.8c5.634 0 10.2 4.566 10.2 10.2 0 5.634-4.566 10.2-10.2 10.2-5.634 0-10.2-4.566-10.2-10.2C1.8 6.366 6.366 1.8 12 1.8z"
           fill="url(#paint0_radial_222_892)"
         />
@@ -38,8 +40,8 @@ const IconWalletConnectScalable = props => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="matrix(20.4 0 0 20.4 1.8 12)"
           >
-            <stop stop-color="#5D9DF6" />
-            <stop offset="1" stop-color="#006FFF" />
+            <stop stopColor="#5D9DF6" />
+            <stop offset="1" stopColor="#006FFF" />
           </radialGradient>
         </defs>
       </svg>

@@ -1,23 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const originFill = 'normal';
+
 const IconLinkedWallet12 = props => {
   const { color, size, ...otherProps } = props;
 
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      {...otherProps}
       style={{ color }}
       width={size || '12'}
       height={size || '12'}
       viewBox="0 0 12 12"
+      xmlns="http://www.w3.org/2000/svg"
+      {...otherProps}
     >
       <svg>
         <g
-          clip-path="url(#clip0_222_774)"
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          clipPath="url(#clip0_222_774)"
+          fillRule="evenodd"
+          clipRule="evenodd"
           fill="currentColor"
         >
           <path d="M9.81 8.25H3.75V6h1.5v.75h3.94l.56-.56V2.25H5.81l-.56.56V3h-.19l-.03.03L5 3H3.75v-.81L5.19.75h6.06v6.06L9.81 8.25z" />

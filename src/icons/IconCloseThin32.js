@@ -1,22 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const originFill = 'normal';
+
 const IconCloseThin32 = props => {
   const { color, size, ...otherProps } = props;
 
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      {...otherProps}
       style={{ color }}
       width={size || '32'}
       height={size || '32'}
       viewBox="0 0 32 32"
+      xmlns="http://www.w3.org/2000/svg"
+      {...otherProps}
     >
       <svg>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M16 14.586l-8-8L6.586 8l8 8-8 8L8 25.414l8-8 8 8L25.414 24l-8-8 8-8L24 6.586l-8 8z"
           fill="currentColor"
         />

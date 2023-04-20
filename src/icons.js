@@ -131,3 +131,4 @@ export { default as IconLoadingBarScalable } from './icons/IconLoadingBarScalabl
 export { default as IconTxProcessingScalable } from './icons/IconTxProcessingScalable';
 export { default as IconSuccess16 } from './icons/IconSuccess16';
 export { default as IconDirection16 } from './icons/IconDirection16';
+export { default as IconEdit12 } from './icons/IconEdit12';

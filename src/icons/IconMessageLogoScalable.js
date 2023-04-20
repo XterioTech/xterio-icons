@@ -1,20 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const originFill = 'normal';
+
 const IconMessageLogoScalable = props => {
   const { color, size, ...otherProps } = props;
 
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      {...otherProps}
       style={{ color }}
       width={size || '24'}
       height={size || '24'}
       viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      {...otherProps}
     >
       <svg>
-        <g clip-path="url(#clip0_222_917)">
+        <g clipPath="url(#clip0_222_917)">
           <path
             d="M24 12c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z"
             fill="#7DD5F9"

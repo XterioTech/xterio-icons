@@ -1,17 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const originFill = 'colorful';
+
 const IconSuccess24 = props => {
   const { color, size, ...otherProps } = props;
 
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      {...otherProps}
       style={{ color }}
       width={size || '24'}
       height={size || '24'}
       viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      {...otherProps}
     >
       <svg
         width="24"
@@ -19,14 +21,14 @@ const IconSuccess24 = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_222_841)">
+        <g clipPath="url(#clip0_222_841)">
           <path
             d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
             fill="url(#paint0_linear_222_841)"
           />
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M18.622 10l-7.061 7.06a1.5 1.5 0 01-2.121 0L5.379 13 7.5 10.879l3 3 6-6L18.622 10z"
             fill="#0A1161"
           />
@@ -40,8 +42,8 @@ const IconSuccess24 = props => {
             y2="12.414"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#9EE6FC" />
-            <stop offset="1" stop-color="#EBB9E7" />
+            <stop stopColor="#9EE6FC" />
+            <stop offset="1" stopColor="#EBB9E7" />
           </linearGradient>
           <clipPath id="clip0_222_841">
             <path fill="#fff" d="M0 0h24v24H0z" />

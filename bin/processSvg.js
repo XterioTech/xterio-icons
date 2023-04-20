@@ -93,7 +93,7 @@ async function processSvg(svg, type, size) {
   // because prettier thinks it's formatting JSX not HTML
   // .then(svg => svg.replace(/;/g, ''))
   // .then(removeSVGElement)
-  // .then(svg => svg.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`))
+//   .then(svg => svg.replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`))
 
   return {
     originFill,
@@ -104,7 +104,7 @@ async function processSvg(svg, type, size) {
         `style={{maskType: 'luminance'}}`
       )
       .replaceAll(`"{{`, "{")
-      .replaceAll('}}"', "}"),
+      .replaceAll('}}"', "}").replace(/([a-z]+)-([a-z]+)=/g, (_, a, b) => `${a}${CamelCase(b)}=`).replace(/;/g, ''),
   };
 }
 

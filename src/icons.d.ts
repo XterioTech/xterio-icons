@@ -140,3 +140,4 @@ export const IconLoadingBarScalable: Icon;
 export const IconTxProcessingScalable: Icon;
 export const IconSuccess16: Icon;
 export const IconDirection16: Icon;
+export const IconEdit12: Icon;
