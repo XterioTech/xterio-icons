@@ -70,14 +70,14 @@ const generateIconCode = async ({ name, width, height }) => {
   const location = path.join(rootDir, "src/svg", `${name}.svg`);
   const destination = path.join(rootDir, "src/icons", `${ComponentName}.js`);
   const code = fs.readFileSync(location);
-  const { svgCode, _originFill } = await processSvg(code, type, size);
+  const { svgCode, originFill } = await processSvg(code, type, size);
   const element = await getElementCode(
     ComponentName,
     attrsToString(getAttrs(style), style),
     svgCode,
     width,
     height,
-    _originFill
+    originFill
   );
   const component = format({
     text: element,
