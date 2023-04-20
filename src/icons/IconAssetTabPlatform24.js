@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const IconAssetTabPlatform = props => {
+const IconAssetTabPlatform24 = props => {
   const { color, size, ...otherProps } = props;
 
   return (
@@ -32,9 +32,9 @@ const IconAssetTabPlatform = props => {
   );
 };
 
-IconAssetTabPlatform.propTypes = {
+IconAssetTabPlatform24.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-export default IconAssetTabPlatform;
+export default IconAssetTabPlatform24;

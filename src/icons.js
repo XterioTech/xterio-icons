@@ -45,7 +45,7 @@ export { default as IconResetPassword24 } from './icons/IconResetPassword24';
 export { default as IconRandom24 } from './icons/IconRandom24';
 export { default as IconSettings24 } from './icons/IconSettings24';
 export { default as IconGame24 } from './icons/IconGame24';
-export { default as IconAssetTabPlatform } from './icons/IconAssetTabPlatform';
+export { default as IconAssetTabPlatform24 } from './icons/IconAssetTabPlatform24';
 export { default as IconConnect24 } from './icons/IconConnect24';
 export { default as IconSuccess24 } from './icons/IconSuccess24';
 export { default as IconOtherFill24 } from './icons/IconOtherFill24';

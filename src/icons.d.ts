@@ -54,7 +54,7 @@ export const IconResetPassword24: Icon;
 export const IconRandom24: Icon;
 export const IconSettings24: Icon;
 export const IconGame24: Icon;
-export const IconAssetTabPlatform: Icon;
+export const IconAssetTabPlatform24: Icon;
 export const IconConnect24: Icon;
 export const IconSuccess24: Icon;
 export const IconOtherFill24: Icon;
