@@ -13,14 +13,12 @@ const IconClose32 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M16.5 17.621l-8.44 8.44-2.12-2.122 8.439-8.44-7.44-7.438 2.122-2.122 7.44 7.44 7.438-7.44 2.122 2.122-7.44 7.439 8.44 8.44-2.122 2.12-8.439-8.439z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M16.5 17.621l-8.44 8.44-2.12-2.122 8.439-8.44-7.44-7.438 2.122-2.122 7.44 7.44 7.438-7.44 2.122 2.122-7.44 7.439 8.44 8.44-2.122 2.12-8.439-8.439z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

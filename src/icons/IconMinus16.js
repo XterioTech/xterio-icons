@@ -13,9 +13,7 @@ const IconMinus16 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path d="M2 7h12l-1 2H2V7z" fill="currentColor" />
-      </svg>
+      <path d="M2 7h12l-1 2H2V7z" fill="currentColor" />
     </svg>
   );
 };

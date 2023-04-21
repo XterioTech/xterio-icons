@@ -52,7 +52,7 @@ const getElementCode = (
     size: PropTypes.oneOfType([
       PropTypes.string,
       PropTypes.number
-    ]),
+    ])
   }
 
   export default ${ComponentName}

@@ -110,7 +110,6 @@ export const IconMacScalable: Icon;
 export const IconSteamScalable: Icon;
 export const IconWebScalable: Icon;
 export const IconWindowsScalable: Icon;
-export const IconXsoulShare40: Icon;
 export const IconChainBscScalable: Icon;
 export const IconChainPolygonScalable: Icon;
 export const IconMediumScalable: Icon;

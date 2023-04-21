@@ -13,14 +13,12 @@ const IconNftAmount16 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M8 1.728l5.5 3.142v6.26L8 14.271 2.5 11.13V4.87L8 1.728zM15 4v8l-7 4-7-4V4l7-4 7 4zm-7-.798L4.8 5.011 8 6.82l3.2-1.81L8 3.203z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M8 1.728l5.5 3.142v6.26L8 14.271 2.5 11.13V4.87L8 1.728zM15 4v8l-7 4-7-4V4l7-4 7 4zm-7-.798L4.8 5.011 8 6.82l3.2-1.81L8 3.203z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

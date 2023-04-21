@@ -13,14 +13,12 @@ const IconCheckError12 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M6 5.293L2.354 1.646l-.708.708L5.293 6 1.646 9.646l.708.708L6 6.707l3.646 3.647.708-.708L6.707 6l3.647-3.646-.708-.708L6 5.293z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M6 5.293L2.354 1.646l-.708.708L5.293 6 1.646 9.646l.708.708L6 6.707l3.646 3.647.708-.708L6.707 6l3.647-3.646-.708-.708L6 5.293z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

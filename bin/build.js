@@ -79,20 +79,24 @@ const generateIconCode = async ({ name, width, height }) => {
     height,
     originFill
   );
-  const component = format({
-    text: element,
-    eslintConfig: {
-      extends: "airbnb",
-    },
-    prettierOptions: {
-      bracketSpacing: true,
-      singleQuote: true,
-      parser: "flow",
-    },
-  });
-
-  fs.writeFileSync(destination, component, "utf-8");
-
+ try {
+    const component = format({
+        text: element,
+        eslintConfig: {
+          extends: "airbnb",
+        },
+        prettierOptions: {
+          bracketSpacing: true,
+          singleQuote: true,
+          parser: "flow",
+        },
+      });
+    
+      fs.writeFileSync(destination, component, "utf-8");
+    
+ } catch (error) {
+    console.log(type)
+ }
   //   console.log("Successfully built", ComponentName);
   return { ComponentName, name };
 };

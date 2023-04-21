@@ -13,14 +13,12 @@ const IconCloseThin32 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M16 14.586l-8-8L6.586 8l8 8-8 8L8 25.414l8-8 8 8L25.414 24l-8-8 8-8L24 6.586l-8 8z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M16 14.586l-8-8L6.586 8l8 8-8 8L8 25.414l8-8 8 8L25.414 24l-8-8 8-8L24 6.586l-8 8z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

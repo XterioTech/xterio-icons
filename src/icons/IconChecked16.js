@@ -13,14 +13,12 @@ const IconChecked16 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M14.207 5.707l-6.5 6.5a1 1 0 01-1.414 0l-4-4 1.414-1.414L7 10.086l5.793-5.793 1.414 1.414z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M14.207 5.707l-6.5 6.5a1 1 0 01-1.414 0l-4-4 1.414-1.414L7 10.086l5.793-5.793 1.414 1.414z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

@@ -13,14 +13,12 @@ const IconPublishTime16 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M3 8a5 5 0 1110 0A5 5 0 013 8zm5-7a7 7 0 100 14A7 7 0 008 1zM7 5v3a1 1 0 001 1h3V7H9V5H7z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M3 8a5 5 0 1110 0A5 5 0 013 8zm5-7a7 7 0 100 14A7 7 0 008 1zM7 5v3a1 1 0 001 1h3V7H9V5H7z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

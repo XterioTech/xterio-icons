@@ -101,7 +101,6 @@ export { default as IconMacScalable } from './icons/IconMacScalable';
 export { default as IconSteamScalable } from './icons/IconSteamScalable';
 export { default as IconWebScalable } from './icons/IconWebScalable';
 export { default as IconWindowsScalable } from './icons/IconWindowsScalable';
-export { default as IconXsoulShare40 } from './icons/IconXsoulShare40';
 export { default as IconChainBscScalable } from './icons/IconChainBscScalable';
 export { default as IconChainPolygonScalable } from './icons/IconChainPolygonScalable';
 export { default as IconMediumScalable } from './icons/IconMediumScalable';

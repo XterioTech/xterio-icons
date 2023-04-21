@@ -13,14 +13,12 @@ const IconPlus12 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M5 2v3H2v2h3v3h2V7h3V5H8L7 7V2H5z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M5 2v3H2v2h3v3h2V7h3V5H8L7 7V2H5z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

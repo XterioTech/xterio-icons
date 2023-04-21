@@ -13,14 +13,12 @@ const IconArrow24 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12.707 15.707a1 1 0 01-1.414 0L4.586 9 6 7.586l6 6 6-6L19.414 9l-6.707 6.707z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M12.707 15.707a1 1 0 01-1.414 0L4.586 9 6 7.586l6 6 6-6L19.414 9l-6.707 6.707z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

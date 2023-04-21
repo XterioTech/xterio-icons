@@ -13,14 +13,12 @@ const IconWalletConnected16 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12.5 3.5h-9v8h9v-1.25H7.25v-5.5h5.25V3.5zm0 2.75v2.5H8.75v-2.5h3.75zM2 2v11h12V2H2zm9.5 4.75h-2v1.5H11l.5-1.5z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M12.5 3.5h-9v8h9v-1.25H7.25v-5.5h5.25V3.5zm0 2.75v2.5H8.75v-2.5h3.75zM2 2v11h12V2H2zm9.5 4.75h-2v1.5H11l.5-1.5z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

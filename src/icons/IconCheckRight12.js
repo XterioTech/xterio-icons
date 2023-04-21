@@ -13,14 +13,12 @@ const IconCheckRight12 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M10.354 4.354l-5 5a.5.5 0 01-.708 0l-3-3 .708-.708L5 8.293l4.646-4.647.708.708z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M10.354 4.354l-5 5a.5.5 0 01-.708 0l-3-3 .708-.708L5 8.293l4.646-4.647.708.708z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

@@ -13,14 +13,12 @@ const IconFilter16 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M1 1h14v5l-4 3v4.554l-3.257 1.303L5 15.954V9L1.8 6.6 1 6V1zm12 2H3v2l4 3v5l2-.8V8l4-3V3z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M1 1h14v5l-4 3v4.554l-3.257 1.303L5 15.954V9L1.8 6.6 1 6V1zm12 2H3v2l4 3v5l2-.8V8l4-3V3z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

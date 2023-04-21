@@ -13,14 +13,12 @@ const IconH5Menu32 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <svg>
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M28 7H4v2h24V7zm0 8H4v2h24v-2zM4 23h24v2H4v-2z"
-          fill="currentColor"
-        />
-      </svg>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M28 7H4v2h24V7zm0 8H4v2h24v-2zM4 23h24v2H4v-2z"
+        fill="currentColor"
+      />
     </svg>
   );
 };
