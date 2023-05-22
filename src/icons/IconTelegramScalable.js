@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = ['url(#paint0_linear_222_911)'];
+const originFill = ['url(#paint0_linear_375_15)'];
 
-const IconFacebookScalable = props => {
+const IconTelegramScalable = props => {
   const { color, size, ...otherProps } = props;
 
   return (
@@ -16,16 +16,16 @@ const IconFacebookScalable = props => {
       {...otherProps}
     >
       <path
-        d="M12.78 12.677h2.932l.46-2.977H12.78V8.072c0-1.236.404-2.333 1.561-2.333h1.86V3.14C15.874 3.097 15.183 3 13.877 3c-2.726 0-4.324 1.44-4.324 4.719v1.98H6.751v2.978h2.802v8.183c.555.083 1.117.14 1.694.14.522 0 1.031-.048 1.534-.116v-8.207z"
+        d="M9.772 18.19l.28-4.224 7.67-6.91c.339-.31-.07-.46-.52-.19l-9.468 5.982-4.094-1.299c-.88-.25-.89-.859.2-1.298l15.948-6.152c.73-.33 1.429.18 1.149 1.298L18.221 18.19c-.19.91-.74 1.129-1.498.71l-4.135-3.056L10.6 17.77c-.23.23-.42.42-.83.42z"
         fill={color || originFill[0]}
       />
       <defs>
         <linearGradient
-          id="paint0_linear_222_911"
-          x1="6.751"
-          y1="12.31"
-          x2="16.201"
-          y2="12.31"
+          id="paint0_linear_375_15"
+          x1="3"
+          y1="11.813"
+          x2="21"
+          y2="11.813"
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="#9EE6FC" />
@@ -36,9 +36,9 @@ const IconFacebookScalable = props => {
   );
 };
 
-IconFacebookScalable.propTypes = {
+IconTelegramScalable.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-export default IconFacebookScalable;
+export default IconTelegramScalable;

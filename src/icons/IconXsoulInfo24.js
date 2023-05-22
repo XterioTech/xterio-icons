@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const IconWalletConnected24 = props => {
+const IconXsoulInfo24 = props => {
   const { color, size, ...otherProps } = props;
 
   return (
@@ -16,16 +16,16 @@ const IconWalletConnected24 = props => {
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M19 6H6v12h13v-2h-6V8h6V6zm0 4v4h-4v-4h4zm2 10V4H4v16h17zm-3-9h-2v2h1.5l.5-2z"
-        fill="#fff"
+        d="M14 4a2 2 0 11-4 0 2 2 0 014 0zM9 9h3a1 1 0 011 1v11h2v2H9v-2h2V11H9V9z"
+        fill="currentColor"
       />
     </svg>
   );
 };
 
-IconWalletConnected24.propTypes = {
+IconXsoulInfo24.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-export default IconWalletConnected24;
+export default IconXsoulInfo24;

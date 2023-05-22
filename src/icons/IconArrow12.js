@@ -16,7 +16,7 @@ const IconArrow12 = props => {
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M5.646 8.354l-3-3 .708-.708L6 7.293l2.646-2.647.708.708-3 3a.5.5 0 01-.708 0z"
+        d="M6 7.293l3.646-3.647.707.708-4 4a.5.5 0 01-.707 0l-4-4 .708-.708L6 7.293z"
         fill="currentColor"
       />
     </svg>

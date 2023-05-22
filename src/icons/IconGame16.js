@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const IconWalletConnected16 = props => {
+const IconGame16 = props => {
   const { color, size, ...otherProps } = props;
 
   return (
@@ -16,16 +16,16 @@ const IconWalletConnected16 = props => {
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M13 4H3v9h10v-1H7V5h6V4zm0 3v3H9V7h4zm2 8V2H1v13h14zm-2.333-7.5H10v2h2l.667-2z"
+        d="M10 12H6l-1.333 2h-4l.667-10 1.333-1.333h10.667L14.667 4l.667 10h-4L10 12zm-5.07-2l-1.333 2h-.792l.474-7.117.216-.216h9.01l.216.216.475 7.117h-.792l-1.333-2H4.93zm5.737-2.667a.333.333 0 11.667 0 .333.333 0 01-.667 0zm2 0a1.667 1.667 0 11-3.333 0 1.667 1.667 0 013.333 0zm-6-1h1v2h-1v1h-2v-1h-1v-2h1v-1h2v1z"
         fill="currentColor"
       />
     </svg>
   );
 };
 
-IconWalletConnected16.propTypes = {
+IconGame16.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-export default IconWalletConnected16;
+export default IconGame16;
