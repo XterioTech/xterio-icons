@@ -16,7 +16,7 @@ const IconCheckRight12 = props => {
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M10.354 4.354l-5 5a.5.5 0 01-.708 0l-3-3 .708-.708L5 8.293l4.646-4.647.708.708z"
+        d="M10.707 4.707l-5 5a1 1 0 01-1.414 0l-3-3 1.414-1.414L5 7.586l4.293-4.293 1.414 1.414z"
         fill="currentColor"
       />
     </svg>
