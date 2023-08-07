@@ -29,8 +29,7 @@ export default [
   {
     input: "src/rn-icons.js",
     output: [
-        { file: "dist/xterio-icons-rn.cjs.js", format: "cjs" },
-        { file: "dist/xterio-icons-rn.esm.js", format: "es" },
+        { file: "dist/xterio-icons-rn.js", format: "es" },
     ],
     external: ["react", "prop-types", "react-native-svg"],
     plugins: [

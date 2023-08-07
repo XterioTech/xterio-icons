@@ -1,4 +1,15 @@
-export const IconInfo12: Icon;
+/// <reference types="react" />
+  import { ComponentType } from 'react';
+  import { SvgProps } from 'react-native-svg'
+
+
+  interface Props extends SvgProps {
+    color?: string;
+    size?: string | number;
+  }
+
+  type Icon = ComponentType<Props>;
+  export const IconInfo12: Icon;
 export const IconHelp12: Icon;
 export const IconDirection12: Icon;
 export const IconLinkedWallet12: Icon;
@@ -56,7 +67,6 @@ export const IconShow24: Icon;
 export const IconWalletConnected24: Icon;
 export const IconUser24: Icon;
 export const IconShare24: Icon;
-export const IconNft24: Icon;
 export const IconFailed24: Icon;
 export const IconInfo24: Icon;
 export const IconSearch24: Icon;
@@ -99,7 +109,7 @@ export const IconPolygonScalable: Icon;
 export const IconXterioLogoScalable: Icon;
 export const IconVideoScalable: Icon;
 export const IconAppstoreScalable: Icon;
-export const IconGoogleplayScalable: Icon;
+export const IconAndroidScalable: Icon;
 export const IconMacScalable: Icon;
 export const IconSteamScalable: Icon;
 export const IconWebScalable: Icon;
@@ -138,3 +148,13 @@ export const IconEdit12: Icon;
 export const IconGame16: Icon;
 export const IconCreditcard32: Icon;
 export const IconFiatcurrency40: Icon;
+export const IconGoogleplayScalable: Icon;
+export const IconQuiz16: Icon;
+export const IconQuiz24: Icon;
+export const IconLink24: Icon;
+export const IconNft24: Icon;
+export const IconTrustwalletScalable: Icon;
+export const IconSafepaScalable: Icon;
+export const IconDeposit24: Icon;
+export const IconWhitepaperScalable: Icon;
+export const IconSuccess64: Icon;

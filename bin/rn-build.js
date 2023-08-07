@@ -25,9 +25,11 @@ const generateIconsIndex = () => {
   }
 
   const initialTypeDefinitions = `/// <reference types="react" />
-  import { ComponentType, SVGAttributes } from 'react';
+  import { ComponentType } from 'react';
+  import { SvgProps } from 'react-native-svg'
 
-  interface Props extends SVGAttributes<SVGElement> {
+
+  interface Props extends SvgProps {
     color?: string;
     size?: string | number;
   }
@@ -37,7 +39,7 @@ const generateIconsIndex = () => {
 
   fs.writeFileSync(path.join(rootDir, "src", "rn-icons.js"), "", "utf-8");
   fs.writeFileSync(
-    path.join(rootDir, "src", "icons.d.ts"),
+    path.join(rootDir, "src", "xterio-icons-rn.d.ts"),
     initialTypeDefinitions,
     "utf-8"
   );

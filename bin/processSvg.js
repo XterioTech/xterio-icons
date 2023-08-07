@@ -36,6 +36,9 @@ function optimize(svg, type) {
             }
             if (item.isElem()) {
               item.eachAttr((attr) => {
+                if(`${0}${attr.value}` ===  `${Number(attr.value)}`) {
+                    attr.value = `${Number(attr.value)}`
+                }
                 if (item.elem === "svg") {
                   item.removeAttr(attr.name);
                 }
