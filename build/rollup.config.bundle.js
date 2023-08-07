@@ -9,7 +9,7 @@ const resolveFile = function(filePath) {
 
 export default [
   {
-    input: "src/rn-icons.js",
+    input: "src/icons.js",
     output: [
       { file: pkg.main, format: "cjs" },
       { file: pkg.module, format: "es" },
