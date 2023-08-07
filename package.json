@@ -23,7 +23,7 @@
   "homepage": "https://github.com/XterioTech/xterio-icons#readme",
   "scripts": {
     "fetch": "node bin/fetchSVG.js",
-    "generate": "sudo rm -rf src/icons && node bin/build.js",
+    "generate": "sudo rm -rf src/icons && node bin/build.js && node bin/rn-build.js",
     "build:bundle": "sudo rm -rf dist && node_modules/.bin/rollup --c ./build/rollup.config.bundle.js",
     "dev": "rollup -w -c ./build/rollup.config.dev.js",
     "build": "rollup -c ./build/rollup.config.prod.js"
@@ -34,8 +34,8 @@
   "license": "MIT",
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
