@@ -1,6 +1,6 @@
 {
   "name": "xterio-icons",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "xterio platform icon components",
   "main": "dist/xterio-icons.cjs.js",
   "module": "dist/xterio-icons.esm.js",
@@ -34,6 +34,7 @@
   "license": "MIT",
   "dependencies": {
     "normalize.css": "^8.0.1",
+    "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "styled-components": "^5.1.1"
