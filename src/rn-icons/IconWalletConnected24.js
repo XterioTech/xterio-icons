@@ -17,7 +17,7 @@ const IconWalletConnected24 = props => {
         fillRule="evenodd"
         clipRule="evenodd"
         d="M19 6H6v12h13v-2h-6V8h6V6zm0 4v4h-4v-4h4zm2 10V4H4v16h17zm-3-9h-2v2h1.5l.5-2z"
-        fill="#fff"
+        fill="currentColor"
       />
     </Svg>
   );

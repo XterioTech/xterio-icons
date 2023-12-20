@@ -13,26 +13,16 @@ const IconTokenEthScalable = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <path
-        d="M11.696 1.5l6.446 10.727-6.446 3.827-6.446-3.827L11.696 1.5z"
-        fill="currentColor"
-        fillOpacity="0.3"
-      />
-      <path
-        d="M11.696 1.5L5.25 12.227l6.446 3.827V1.5z"
-        fill="currentColor"
-        fillOpacity="0.3"
-      />
-      <path
-        d="M11.696 22.5l6.446-9.065-6.446 3.777-6.446-3.777 6.446 9.065z"
-        fill="currentColor"
-        fillOpacity="0.3"
-      />
-      <path
-        d="M11.696 22.5L5.25 13.435l6.446 3.777V22.5zM11.696 9.255l6.446 2.972-6.446 3.827-6.446-3.827 6.446-2.972z"
-        fill="currentColor"
-        fillOpacity="0.3"
-      />
+      <g opacity="0.7" fill="#fff">
+        <path
+          opacity="0.6"
+          d="M11.945 9.265L5.5 12.195l6.445 3.81 6.447-3.81-6.447-2.93z"
+        />
+        <path opacity="0.45" d="M5.502 12.195l6.445 3.81V1.5L5.502 12.195z" />
+        <path opacity="0.8" d="M11.947 1.5V16.005l6.445-3.81L11.947 1.5z" />
+        <path opacity="0.45" d="M5.5 13.417l6.445 9.083v-5.275L5.5 13.417z" />
+        <path opacity="0.8" d="M11.945 17.225V22.5l6.45-9.083-6.45 3.808z" />
+      </g>
     </svg>
   );
 };

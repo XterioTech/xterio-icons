@@ -19,16 +19,39 @@ const IconChainEthereumScalable = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <G clipPath="url(#clip0_222_886)">
+        <G clipPath="url(#clip0_960_109)">
           <Path
             d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
             fill="#6284F5"
           />
-          <Path d="M8 12l4-7 4 7-4 2-4-2z" fill="#fff" />
-          <Path d="M8 13l4 6 4-6-4 2-4-2z" fill="#fff" />
+          <Path
+            opacity=".6"
+            d="M12.01 9.916L7.1 12.148l4.91 2.903 4.912-2.903-4.911-2.232z"
+            fill="#fff"
+          />
+          <Path
+            opacity=".45"
+            d="M7.103 12.148l4.91 2.903V4l-4.91 8.148z"
+            fill="#fff"
+          />
+          <Path
+            opacity=".8"
+            d="M12.013 4v11.051l4.91-2.903L12.013 4z"
+            fill="#fff"
+          />
+          <Path
+            opacity=".45"
+            d="M7.1 13.08L12.012 20v-4.02l-4.91-2.9z"
+            fill="#fff"
+          />
+          <Path
+            opacity=".8"
+            d="M12.012 15.98V20l4.914-6.92-4.914 2.9z"
+            fill="#fff"
+          />
         </G>
         <Defs>
-          <ClipPath id="clip0_222_886">
+          <ClipPath id="clip0_960_109">
             <Path fill="#fff" d="M0 0h24v24H0z" />
           </ClipPath>
         </Defs>

@@ -8,9 +8,9 @@ const IconPolygonScalable = props => {
   return (
     <Svg
       color={color}
-      width={size || '21.3330078125'}
+      width={size || '21.33333396911621'}
       height={size || '24'}
-      viewBox="0 0 21.3330078125 24"
+      viewBox="0 0 21.33333396911621 24"
       {...otherProps}
     >
       <Path

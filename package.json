@@ -1,13 +1,13 @@
 {
-  "name": "xterio-icons",
-  "version": "0.0.49",
-  "description": "xterio platform icon components",
-  "main": "dist/xterio-icons.cjs.js",
-  "module": "dist/xterio-icons.esm.js",
-  "typings": "dist/icons.d.ts",
-  "files": [
-    "dist"
-  ],
+    "name": "xterio-icons",
+    "version": "0.0.60",
+    "description": "xterio platform icon components",
+    "main": "dist/xterio-icons.cjs.js",
+    "module": "dist/xterio-icons.esm.js",
+    "typings": "dist/icons.d.ts",
+    "files": [
+      "dist"
+    ],
   "repository": "https://github.com/XterioTech/xterio-icons.git",
   "author": "XterioTech",
   "keywords": [

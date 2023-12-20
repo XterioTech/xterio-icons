@@ -3,6 +3,10 @@ node_modules
 .env
 
 dist
+/src/icons
+/src/rn-icons
+/src/svg
+
 # docs
 yarn-error.log
 .DS_Store

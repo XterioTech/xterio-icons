@@ -14,26 +14,27 @@ const rootDir = path.join(__dirname, "..");
 // where icons code in
 const srcDir = path.join(rootDir, "src");
 const iconsDir = path.join(rootDir, "src/icons");
+const iconsTypesDir = path.join(rootDir, "src//icons/types");
 
 // generate icons.js and icons.d.ts file
 const generateIconsIndex = () => {
   if (!fs.existsSync(srcDir)) {
     fs.mkdirSync(srcDir);
     fs.mkdirSync(iconsDir);
+    fs.mkdirSync(iconsTypesDir);
   } else if (!fs.existsSync(iconsDir)) {
     fs.mkdirSync(iconsDir);
+    fs.mkdirSync(iconsTypesDir);
   }
 
-  const initialTypeDefinitions = `/// <reference types="react" />
-  import { ComponentType, SVGAttributes } from 'react';
-
-  interface Props extends SVGAttributes<SVGElement> {
+const initialTypeDefinitions = 
+`/// <reference types="react" />
+import { ComponentType, SVGAttributes } from 'react';
+interface Props extends SVGAttributes<SVGElement> {
     color?: string;
     size?: string | number;
-  }
-
-  type Icon = ComponentType<Props>;
-  `;
+}
+export type Icon = ComponentType<Props>;\n`;
 
   fs.writeFileSync(path.join(rootDir, "src", "icons.js"), "", "utf-8");
   fs.writeFileSync(
@@ -110,12 +111,25 @@ const appendToIconsIndex = ({ ComponentName, name }) => {
     "utf-8"
   );
 
-  const exportTypeString = `export const ${ComponentName}: Icon;\n`;
-  fs.appendFileSync(
-    path.join(rootDir, "src", "icons.d.ts"),
-    exportTypeString,
-    "utf-8"
-  );
+const exportTypeString = `
+import ${ComponentName} from './lib/${ComponentName}.js';
+export const ${ComponentName}: Icon;
+`;
+
+fs.appendFileSync(
+path.join(rootDir, "src", "icons.d.ts"),
+exportTypeString,
+"utf-8"
+);
+//   const exportItemTypeString = `
+// /// <reference types="react" />
+// import { ComponentType, SVGAttributes } from 'react';
+// interface Props extends SVGAttributes<SVGElement> {
+//     color?: string;
+//     size?: string | number;
+// }
+// export default ComponentType<Props>;\n`;
+//   fs.writeFileSync(path.join(rootDir, "src", `/icons/types/${ComponentName}.ts`), exportItemTypeString, "utf-8");
 };
 
 generateIconsIndex();

@@ -24,17 +24,14 @@ const IconHelp12 = props => {
       >
         <path fill="#D9D9D9" d="M0 0h12v12H0z" />
       </mask>
-      <g mask="url(#a)">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M6 10a4 4 0 100-8 4 4 0 000 8zm0 1A5 5 0 106 1a5 5 0 000 10z"
-          fill="currentColor"
-        />
-        <path
-          d="M4.5 5l.75-.75a1.06 1.06 0 011.5 0v0a1.06 1.06 0 010 1.5L6 6.5v1M6 8v1"
-          stroke="#FEFEFE"
-        />
+      <g
+        mask="url(#a)"
+        fillRule="evenodd"
+        clipRule="evenodd"
+        fill="currentColor"
+      >
+        <path d="M6 10a4 4 0 100-8 4 4 0 000 8zm0 1A5 5 0 106 1a5 5 0 000 10z" />
+        <path d="M6.396 4.604a.56.56 0 00-.792 0l-.75.75-.708-.707.75-.75a1.56 1.56 0 112.208 2.207l-.604.603V7.5h-1V6.293l.896-.896a.56.56 0 000-.793zM5.5 9V8h1v1h-1z" />
       </g>
     </svg>
   );

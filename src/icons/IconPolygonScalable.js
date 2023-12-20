@@ -7,9 +7,9 @@ const IconPolygonScalable = props => {
   return (
     <svg
       style={{ color }}
-      width={size || '21.3330078125'}
+      width={size || '21.33333396911621'}
       height={size || '24'}
-      viewBox="0 0 21.3330078125 24"
+      viewBox="0 0 21.33333396911621 24"
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
