@@ -6,8 +6,8 @@ const PQueue = require('p-queue')
 require('dotenv').config()
 // const {FIGMA_TOKEN, FIGMA_FILE_URL} = process.env
 
-const FIGMA_TOKEN = 'figd_KeaZ7Zs1GnrFhhefPq9jkw0wqkFMMg91mwlCRylC'
-const FIGMA_FILE_URL = 'https://www.figma.com/file/FjP8l8a1p48ycrHP6UP8fW/%E5%9B%BE%E6%A0%87?node-id=226-2&t=7yiMdaXE80bmjPUV-0'
+const FIGMA_TOKEN = 'figd_omsiCjIDU9YOJoKBdVyQRJ6D7cCnGrzkvJwTTO8n'
+const FIGMA_FILE_URL = 'https://www.figma.com/file/zmZ4chIhprRnRn8MIH2Yb7/icon?node-id=0-1&t=Y997sBdX7x8GtMC9-0'
 
 const options = {
   format: 'svg',
