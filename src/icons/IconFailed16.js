@@ -19,7 +19,7 @@ const IconFailed16 = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clipPath="url(#clip0_222_815)">
+        <g clipPath="url(#clip0_1_94)">
           <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -28,7 +28,7 @@ const IconFailed16 = props => {
           />
         </g>
         <defs>
-          <clipPath id="clip0_222_815">
+          <clipPath id="clip0_1_94">
             <path fill="#fff" d="M0 0h16v16H0z" />
           </clipPath>
         </defs>

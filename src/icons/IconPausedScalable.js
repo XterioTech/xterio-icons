@@ -19,10 +19,10 @@ const IconPausedScalable = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clipPath="url(#clip0_222_906)">
+        <g clipPath="url(#clip0_1_454)">
           <path
             d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
-            fill="url(#paint0_linear_222_906)"
+            fill="url(#paint0_linear_1_454)"
           />
           <path
             d="M10.875 7.875h-2.25v8.25h2.25v-8.25zM15.375 7.875h-2.25v8.25h2.25v-8.25z"
@@ -31,7 +31,7 @@ const IconPausedScalable = props => {
         </g>
         <defs>
           <linearGradient
-            id="paint0_linear_222_906"
+            id="paint0_linear_1_454"
             x1="0"
             y1="12"
             x2="24"
@@ -41,7 +41,7 @@ const IconPausedScalable = props => {
             <stop stopColor="#85E0FB" />
             <stop offset=".99" stopColor="#EAA5E6" />
           </linearGradient>
-          <clipPath id="clip0_222_906">
+          <clipPath id="clip0_1_454">
             <path fill="#fff" d="M0 0h24v24H0z" />
           </clipPath>
         </defs>

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = ['url(#paint0_linear_222_919)'];
+const originFill = ['url(#paint0_linear_1_370)'];
 
 const IconMediumScalable = props => {
   const { color, size, ...otherProps } = props;
@@ -21,7 +21,7 @@ const IconMediumScalable = props => {
       />
       <defs>
         <linearGradient
-          id="paint0_linear_222_919"
+          id="paint0_linear_1_370"
           x1="3"
           y1="12.288"
           x2="21"

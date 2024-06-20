@@ -1,7 +1,9 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.696 1.5L18.142 12.2267L11.696 16.054L5.25 12.2267L11.696 1.5Z" fill="#FEFEFE" fill-opacity="0.3"/>
-<path d="M11.696 1.5L5.25 12.2267L11.696 16.054V1.5Z" fill="#FEFEFE" fill-opacity="0.3"/>
-<path d="M11.696 22.5L18.142 13.4353L11.696 17.2122L5.25 13.4353L11.696 22.5Z" fill="#FEFEFE" fill-opacity="0.3"/>
-<path d="M11.696 22.5L5.25 13.4353L11.696 17.2122V22.5Z" fill="#FEFEFE" fill-opacity="0.3"/>
-<path d="M11.696 9.25537L18.142 12.2266L11.696 16.054L5.25 12.2266L11.696 9.25537Z" fill="#FEFEFE" fill-opacity="0.3"/>
+<g opacity="0.7">
+<path opacity="0.6" d="M11.9452 9.26456L5.5 12.1946L11.9452 16.0047L18.3916 12.1946L11.9452 9.26456Z" fill="white"/>
+<path opacity="0.45" d="M5.50195 12.1946L11.9471 16.0047V9.26455V1.5L5.50195 12.1946Z" fill="white"/>
+<path opacity="0.8" d="M11.9473 1.5V9.26455V16.0047L18.3925 12.1946L11.9473 1.5Z" fill="white"/>
+<path opacity="0.45" d="M5.5 13.4173L11.9452 22.5V17.225L5.5 13.4173Z" fill="white"/>
+<path opacity="0.8" d="M11.9452 17.225V22.5L18.3952 13.4173L11.9452 17.225Z" fill="white"/>
+</g>
 </svg>

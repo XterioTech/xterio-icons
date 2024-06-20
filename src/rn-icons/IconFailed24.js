@@ -19,7 +19,7 @@ const IconFailed24 = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <G clipPath="url(#clip0_222_840)">
+        <G clipPath="url(#clip0_1_194)">
           <Path
             d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
             fill="#E6B1F7"
@@ -32,7 +32,7 @@ const IconFailed24 = props => {
           />
         </G>
         <Defs>
-          <ClipPath id="clip0_222_840">
+          <ClipPath id="clip0_1_194">
             <Path fill="#fff" d="M0 0h24v24H0z" />
           </ClipPath>
         </Defs>

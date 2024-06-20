@@ -19,7 +19,7 @@ const IconTokenBnbScalable = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clipPath="url(#clip0_222_889)">
+        <g clipPath="url(#clip0_1_372)">
           <path
             d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z"
             fill="#F0B90B"
@@ -30,7 +30,7 @@ const IconTokenBnbScalable = props => {
           />
         </g>
         <defs>
-          <clipPath id="clip0_222_889">
+          <clipPath id="clip0_1_372">
             <path fill="#fff" d="M0 0h24v24H0z" />
           </clipPath>
         </defs>

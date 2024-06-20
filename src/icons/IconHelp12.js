@@ -13,29 +13,18 @@ const IconHelp12 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <mask
-        id="a"
-        style={{ maskType: 'alpha' }}
-        maskUnits="userSpaceOnUse"
-        x="0"
-        y="0"
-        width="12"
-        height="12"
-      >
-        <path fill="#D9D9D9" d="M0 0h12v12H0z" />
-      </mask>
-      <g mask="url(#a)">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M6 10a4 4 0 100-8 4 4 0 000 8zm0 1A5 5 0 106 1a5 5 0 000 10z"
-          fill="currentColor"
-        />
-        <path
-          d="M4.5 5l.75-.75a1.06 1.06 0 011.5 0v0a1.06 1.06 0 010 1.5L6 6.5v1M6 8v1"
-          stroke="#FEFEFE"
-        />
-      </g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M6 10a4 4 0 100-8 4 4 0 000 8zm0 1A5 5 0 106 1a5 5 0 000 10z"
+        fill="currentColor"
+      />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M6.396 4.604a.56.56 0 00-.792 0l-.75.75-.708-.708.75-.75a1.56 1.56 0 112.208 2.208l-.604.603V7.5h-1V6.293l.896-.897a.56.56 0 000-.792zM5.5 9V8h1v1h-1z"
+        fill="currentColor"
+      />
     </svg>
   );
 };

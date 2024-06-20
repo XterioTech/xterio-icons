@@ -13,25 +13,12 @@ const IconWalletInfo12 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <mask
-        id="a"
-        style={{ maskType: 'alpha' }}
-        maskUnits="userSpaceOnUse"
-        x="0"
-        y="0"
-        width="12"
-        height="12"
-      >
-        <path d="M11.5.5H.5v11h11V.5z" fill="#D9D9D9" stroke="#FEFEFE" />
-      </mask>
-      <g mask="url(#a)">
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M6 10a4 4 0 100-8 4 4 0 000 8zm0 1A5 5 0 106 1a5 5 0 000 10zm-.5-2.5v-1h1v1h-1zm0-5v3h1v-3h-1z"
-          fill="currentColor"
-        />
-      </g>
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M6 10a4 4 0 100-8 4 4 0 000 8zm0 1A5 5 0 106 1a5 5 0 000 10zm-.5-2.5v-1h1v1h-1zm0-5v3h1v-3h-1z"
+        fill="currentColor"
+      />
     </svg>
   );
 };
