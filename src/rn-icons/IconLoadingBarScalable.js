@@ -23,11 +23,11 @@ const IconLoadingBarScalable = props => {
           fillRule="evenodd"
           clipRule="evenodd"
           d="M31.5.5H34C52.502.5 67.5 15.498 67.5 34v2.5h-5V34C62.5 18.26 49.74 5.5 34 5.5h-2.5v-5z"
-          fill="url(#paint0_linear_222_896)"
+          fill="url(#paint0_linear_1_475)"
         />
         <Defs>
           <LinearGradient
-            id="paint0_linear_222_896"
+            id="paint0_linear_1_475"
             x1="31.5"
             y1="19.121"
             x2="67.5"

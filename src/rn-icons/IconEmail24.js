@@ -16,7 +16,7 @@ const IconEmail24 = props => {
       <Path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M3.334 6h17.333v12H3.334V6zm-2 14V4h21.333v16H1.334zM6.83 8.164L5.97 9.97 12 12.84l6.03-2.87-.86-1.806L12 10.626 6.83 8.164z"
+        d="M3.333 6h17.334v12H3.333V6zm-2 14V4h21.334v16H1.333zM6.83 8.164L5.97 9.97 12 12.84l6.03-2.87-.86-1.806L12 10.626 6.83 8.164z"
         fill="currentColor"
       />
     </Svg>

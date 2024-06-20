@@ -21,17 +21,17 @@ const IconTxSuccessScalable = props => {
       >
         <path
           d="M12 21a9 9 0 100-18 9 9 0 000 18z"
-          fill="url(#paint0_linear_222_899)"
+          fill="url(#paint0_linear_1_466)"
         />
         <path
           fillRule="evenodd"
           clipRule="evenodd"
-          d="M16.7 9.75l-5.162 5.163a.938.938 0 01-1.326 0L7.299 12l1.326-1.326 2.25 2.25 4.5-4.5L16.7 9.75z"
+          d="M16.7 9.75l-5.162 5.163a.937.937 0 01-1.326 0L7.3 12l1.326-1.326 2.25 2.25 4.5-4.5 1.326 1.326z"
           fill="#0A1161"
         />
         <defs>
           <linearGradient
-            id="paint0_linear_222_899"
+            id="paint0_linear_1_466"
             x1="3"
             y1="12.31"
             x2="21"

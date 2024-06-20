@@ -13,7 +13,7 @@ const IconUser40 = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <g clipPath="url(#clip0_222_923)">
+      <g clipPath="url(#clip0_1_240)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -22,7 +22,7 @@ const IconUser40 = props => {
         />
       </g>
       <defs>
-        <clipPath id="clip0_222_923">
+        <clipPath id="clip0_1_240">
           <path fill="#fff" d="M0 0h40v40H0z" />
         </clipPath>
       </defs>

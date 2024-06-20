@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const originFill = ['url(#paint0_linear_222_903)'];
+const originFill = ['url(#paint0_linear_1_462)'];
 
 const IconInstagramScalable = props => {
   const { color, size, ...otherProps } = props;
@@ -23,7 +23,7 @@ const IconInstagramScalable = props => {
       />
       <defs>
         <linearGradient
-          id="paint0_linear_222_903"
+          id="paint0_linear_1_462"
           x1="3"
           y1="12.31"
           x2="21"

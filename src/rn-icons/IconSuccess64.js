@@ -26,16 +26,16 @@ const IconSuccess64 = props => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <Circle cx="32" cy="32" r="24" fill="url(#paint0_linear_774_7)" />
+        <Circle cx="32" cy="32" r="24" fill="url(#paint0_linear_1_542)" />
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
-          d="M44.536 26L29 41.535 19.465 32 23 28.464l6 6 12-12L44.536 26z"
+          d="M44.535 26L29 41.535 19.465 32 23 28.465l6 6 12-12L44.535 26z"
           fill="#0A1161"
         />
         <Defs>
           <LinearGradient
-            id="paint0_linear_774_7"
+            id="paint0_linear_1_542"
             x1="8"
             y1="32.828"
             x2="56"

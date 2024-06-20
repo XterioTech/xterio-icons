@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Svg, Path, Defs, LinearGradient, Stop } from 'react-native-svg';
 
-const originFill = ['url(#paint0_linear_222_911)'];
+const originFill = ['url(#paint0_linear_1_392)'];
 
 const IconFacebookScalable = props => {
   const { color, size, ...otherProps } = props;
@@ -21,7 +21,7 @@ const IconFacebookScalable = props => {
       />
       <Defs>
         <LinearGradient
-          id="paint0_linear_222_911"
+          id="paint0_linear_1_392"
           x1="6.751"
           y1="12.31"
           x2="16.201"

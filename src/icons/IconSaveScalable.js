@@ -13,7 +13,7 @@ const IconSaveScalable = props => {
       xmlns="http://www.w3.org/2000/svg"
       {...otherProps}
     >
-      <g clipPath="url(#clip0_222_915)">
+      <g clipPath="url(#clip0_1_384)">
         <path
           d="M0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z"
           fill="#7DD5F9"
@@ -26,7 +26,7 @@ const IconSaveScalable = props => {
         />
       </g>
       <defs>
-        <clipPath id="clip0_222_915">
+        <clipPath id="clip0_1_384">
           <path fill="#fff" d="M0 0h24v24H0z" />
         </clipPath>
       </defs>

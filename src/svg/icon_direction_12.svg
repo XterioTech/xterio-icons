@@ -1,14 +1,9 @@
 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_222_780)">
-<mask id="mask0_222_780" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="12" height="12">
-<path d="M12 12L12 0L0 0L0 12L12 12Z" fill="#D9D9D9"/>
-</mask>
-<g mask="url(#mask0_222_780)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M6.49947 11.0434L11.4492 6.09364L10.035 4.67943L6.79232 7.92211L6.79232 0.85083L4.79232 0.85083L4.79232 7.92203L1.54973 4.67943L0.135529 6.09364L5.08526 11.0434C5.47578 11.4339 6.10895 11.4339 6.49947 11.0434Z" fill="#FEFEFE"/>
-</g>
+<g clip-path="url(#clip0_1_13)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.49983 11.0435L11.4496 6.09377L10.0354 4.67956L6.79268 7.92224L6.79268 0.850952L4.79268 0.850952L4.79268 7.92216L1.5501 4.67956L0.135895 6.09377L5.08562 11.0435C5.47614 11.434 6.10931 11.434 6.49983 11.0435Z" fill="#FEFEFE"/>
 </g>
 <defs>
-<clipPath id="clip0_222_780">
+<clipPath id="clip0_1_13">
 <rect width="12" height="12" fill="white" transform="matrix(-1 0 0 -1 12 12)"/>
 </clipPath>
 </defs>

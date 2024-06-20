@@ -13,7 +13,7 @@ const IconPnWalletEntry24 = props => {
       viewBox="0 0 24 24"
       {...otherProps}
     >
-      <G clipPath="url(#clip0_222_843)">
+      <G clipPath="url(#clip0_1_156)">
         <Path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -22,7 +22,7 @@ const IconPnWalletEntry24 = props => {
         />
       </G>
       <Defs>
-        <ClipPath id="clip0_222_843">
+        <ClipPath id="clip0_1_156">
           <Path fill="#fff" d="M0 0h24v24H0z" />
         </ClipPath>
       </Defs>

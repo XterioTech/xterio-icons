@@ -21,7 +21,7 @@ const IconListing64 = props => {
       >
         <Path
           d="M32 56c13.255 0 24-10.745 24-24S45.255 8 32 8 8 18.745 8 32s10.745 24 24 24z"
-          fill="url(#paint0_linear_222_860)"
+          fill="url(#paint0_linear_1_244)"
         />
         <Path
           fillRule="evenodd"
@@ -31,7 +31,7 @@ const IconListing64 = props => {
         />
         <Defs>
           <LinearGradient
-            id="paint0_linear_222_860"
+            id="paint0_linear_1_244"
             x1="8"
             y1="32.828"
             x2="56"

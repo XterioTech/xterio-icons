@@ -13,7 +13,7 @@ const IconCopyScalable = props => {
       viewBox="0 0 24 24"
       {...otherProps}
     >
-      <G clipPath="url(#clip0_222_916)">
+      <G clipPath="url(#clip0_1_380)">
         <Path
           d="M0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z"
           fill="#E6B1F7"
@@ -26,7 +26,7 @@ const IconCopyScalable = props => {
         />
       </G>
       <Defs>
-        <ClipPath id="clip0_222_916">
+        <ClipPath id="clip0_1_380">
           <Path fill="#fff" d="M0 0h24v24H0z" />
         </ClipPath>
       </Defs>

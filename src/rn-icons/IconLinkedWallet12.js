@@ -14,7 +14,7 @@ const IconLinkedWallet12 = props => {
       {...otherProps}
     >
       <G
-        clipPath="url(#clip0_222_774)"
+        clipPath="url(#clip0_1_15)"
         fillRule="evenodd"
         clipRule="evenodd"
         fill="currentColor"
@@ -23,7 +23,7 @@ const IconLinkedWallet12 = props => {
         <Path d="M2.19 3.75h6.06V6h-1.5v-.75H2.81l-.56.56v3.94h3.94l.56-.56V9h.19l.03-.03L7 9h1.25v.81l-1.44 1.44H.75V5.19l1.44-1.44z" />
       </G>
       <Defs>
-        <ClipPath id="clip0_222_774">
+        <ClipPath id="clip0_1_15">
           <Path fill="#fff" d="M0 0h12v12H0z" />
         </ClipPath>
       </Defs>

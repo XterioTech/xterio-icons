@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Svg, Path, Defs, LinearGradient, Stop } from 'react-native-svg';
 
-const originFill = ['url(#paint0_linear_375_15)'];
+const originFill = ['url(#paint0_linear_1_318)'];
 
 const IconTelegramScalable = props => {
   const { color, size, ...otherProps } = props;
@@ -21,7 +21,7 @@ const IconTelegramScalable = props => {
       />
       <Defs>
         <LinearGradient
-          id="paint0_linear_375_15"
+          id="paint0_linear_1_318"
           x1="3"
           y1="11.813"
           x2="21"
