@@ -1,6 +1,6 @@
 {
   "name": "xterio-icons",
-  "version": "0.1.30",
+  "version": "0.1.31",
   "description": "xterio platform icon components",
   "main": "dist/xterio-icons.cjs.js",
   "module": "dist/xterio-icons.esm.js",
