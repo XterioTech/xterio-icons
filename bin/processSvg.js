@@ -90,7 +90,7 @@ function removeSVGElement(svg) {
  * @param {string} svg - An SVG string.
  * @param {Promise<string>}
  */
-async function processSvg(svg, type, size) {
+async function processSvg(svg, type) {
   const { data, originFill } = await optimize(svg, type);
   // remove semicolon inserted by prettier
   // because prettier thinks it's formatting JSX not HTML

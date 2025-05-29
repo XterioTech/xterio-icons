@@ -9444,2605 +9444,11 @@
 	});
 
 	var _excluded = ["color", "size"];
-	var IconInfo12 = function IconInfo12(props) {
+	var originFill = ['url(#paint0_linear_0_324)'];
+	var IconTelegram = function IconTelegram(props) {
 	  var color = props.color,
 	    size = props.size,
 	    otherProps = _objectWithoutProperties(props, _excluded);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("mask", {
-	    id: "a",
-	    style: {
-	      maskType: 'alpha'
-	    },
-	    maskUnits: "userSpaceOnUse",
-	    x: "0",
-	    y: "0",
-	    width: "12",
-	    height: "12"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#D9D9D9",
-	    d: "M0 0h12v12H0z"
-	  })), /*#__PURE__*/react.createElement("g", {
-	    mask: "url(#a)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M6 10a4 4 0 100-8 4 4 0 000 8zm0 1A5 5 0 106 1a5 5 0 000 10zm-.5-7V3h1v1h-1zm1 1.5a.5.5 0 00-.676-.468l-1 .375.351.936.325-.122V8.5a.5.5 0 00.675.468l1-.375-.35-.936-.325.122V5.5z",
-	    fill: "currentColor"
-	  })));
-	};
-	IconInfo12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1 = ["color", "size"];
-	var IconHelp12 = function IconHelp12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("mask", {
-	    id: "a",
-	    style: {
-	      maskType: 'alpha'
-	    },
-	    maskUnits: "userSpaceOnUse",
-	    x: "0",
-	    y: "0",
-	    width: "12",
-	    height: "12"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#D9D9D9",
-	    d: "M0 0h12v12H0z"
-	  })), /*#__PURE__*/react.createElement("g", {
-	    mask: "url(#a)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M6 10a4 4 0 100-8 4 4 0 000 8zm0 1A5 5 0 106 1a5 5 0 000 10z",
-	    fill: "currentColor"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M4.5 5l.75-.75a1.06 1.06 0 011.5 0v0a1.06 1.06 0 010 1.5L6 6.5v1M6 8v1",
-	    stroke: "#FEFEFE"
-	  })));
-	};
-	IconHelp12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$2 = ["color", "size"];
-	var IconDirection12 = function IconDirection12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$2);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_780)"
-	  }, /*#__PURE__*/react.createElement("mask", {
-	    id: "a",
-	    style: {
-	      maskType: 'alpha'
-	    },
-	    maskUnits: "userSpaceOnUse",
-	    x: "0",
-	    y: "0",
-	    width: "12",
-	    height: "12"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M12 12V0H0v12h12z",
-	    fill: "#D9D9D9"
-	  })), /*#__PURE__*/react.createElement("g", {
-	    mask: "url(#a)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M6.5 11.043l4.95-4.95-1.415-1.414-3.243 3.243V.851h-2v7.071L1.55 4.679.136 6.094l4.95 4.95a1 1 0 001.413 0z",
-	    fill: "currentColor"
-	  }))), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_780"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    transform: "rotate(180 6 6)",
-	    d: "M0 0h12v12H0z"
-	  }))));
-	};
-	IconDirection12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$3 = ["color", "size"];
-	var IconLinkedWallet12 = function IconLinkedWallet12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$3);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_774)",
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    fill: "currentColor"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M9.81 8.25H3.75V6h1.5v.75h3.94l.56-.56V2.25H5.81l-.56.56V3h-.19l-.03.03L5 3H3.75v-.81L5.19.75h6.06v6.06L9.81 8.25z"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M2.19 3.75h6.06V6h-1.5v-.75H2.81l-.56.56v3.94h3.94l.56-.56V9h.19l.03-.03L7 9h1.25v.81l-1.44 1.44H.75V5.19l1.44-1.44z"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_774"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h12v12H0z"
-	  }))));
-	};
-	IconLinkedWallet12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$4 = ["color", "size"];
-	var IconWalletInfo12 = function IconWalletInfo12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$4);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("mask", {
-	    id: "a",
-	    style: {
-	      maskType: 'alpha'
-	    },
-	    maskUnits: "userSpaceOnUse",
-	    x: "0",
-	    y: "0",
-	    width: "12",
-	    height: "12"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M11.5.5H.5v11h11V.5z",
-	    fill: "#D9D9D9",
-	    stroke: "#FEFEFE"
-	  })), /*#__PURE__*/react.createElement("g", {
-	    mask: "url(#a)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M6 10a4 4 0 100-8 4 4 0 000 8zm0 1A5 5 0 106 1a5 5 0 000 10zm-.5-2.5v-1h1v1h-1zm0-5v3h1v-3h-1z",
-	    fill: "currentColor"
-	  })));
-	};
-	IconWalletInfo12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$5 = ["color", "size"];
-	var IconWalletConnect12 = function IconWalletConnect12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$5);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_775)"
-	  }, /*#__PURE__*/react.createElement("mask", {
-	    id: "a",
-	    style: {
-	      maskType: 'alpha'
-	    },
-	    maskUnits: "userSpaceOnUse",
-	    x: "0",
-	    y: "0",
-	    width: "12",
-	    height: "12"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M11.25.75H.75v10.5h10.5V.75z",
-	    fill: "#D9D9D9",
-	    stroke: "#FEFEFE",
-	    strokeWidth: "1.5"
-	  })), /*#__PURE__*/react.createElement("g", {
-	    mask: "url(#a)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M4.707 6.702l3.736.163.65-.651a2.25 2.25 0 00-3.181-3.182l-.354.353-1.06-1.06.353-.354a3.75 3.75 0 115.304 5.303L9.037 8.392l-4.395-.191.065-1.499zm2.796-1.33H3.571l-.665.665A2.25 2.25 0 106.088 9.22l.354-.353 1.06 1.06-.353.354a3.75 3.75 0 01-5.304-5.303L2.95 3.872h4.553v1.5z",
-	    fill: "currentColor"
-	  }))), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_775"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h12v12H0z"
-	  }))));
-	};
-	IconWalletConnect12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$6 = ["color", "size"];
-	var IconWalletConnected12 = function IconWalletConnected12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$6);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M9.5 2.5h-8v7h8V8.25H5.25v-4.5H9.5V2.5zm0 2.75v1.5H6.75v-1.5H9.5zM0 1v10h11V1H0zm9 4.5H7.5v1h1l.5-1z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconWalletConnected12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$7 = ["color", "size"];
-	var IconWalletDisConnect12 = function IconWalletDisConnect12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$7);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_777)"
-	  }, /*#__PURE__*/react.createElement("mask", {
-	    id: "a",
-	    style: {
-	      maskType: 'alpha'
-	    },
-	    maskUnits: "userSpaceOnUse",
-	    x: "0",
-	    y: "0",
-	    width: "12",
-	    height: "12"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M11.25.75H.75v10.5h10.5V.75z",
-	    fill: "#D9D9D9",
-	    stroke: "#FEFEFE",
-	    strokeWidth: "1.5"
-	  })), /*#__PURE__*/react.createElement("g", {
-	    mask: "url(#a)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M4.928 1.785l-1.06 1.06 1.06 1.061 1.06-1.06A2.25 2.25 0 119.17 6.028l-1.06 1.06 1.06 1.06 1.061-1.06a3.75 3.75 0 10-5.303-5.303zM2.083 4.629L.996 3.542l1.06-1.06 7.425 7.424-1.06 1.06-1.035-1.033-.337.337a3.75 3.75 0 11-5.303-5.303l.337-.338zm4.243 4.243l-.338.338a2.25 2.25 0 11-3.182-3.182l.338-.338 3.182 3.182z",
-	    fill: "currentColor"
-	  }))), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_777"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h12v12H0z"
-	  }))));
-	};
-	IconWalletDisConnect12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$8 = ["color", "size"];
-	var IconLinkedWalletThin12 = function IconLinkedWalletThin12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$8);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M9.707 8H4V6h1v1h4.293L10 6.293V2H5.707L5 2.707V3H4v-.707L5.293 1H11v5.707L9.707 8z",
-	    fill: "currentColor"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M2.293 4H8v2H7V5H2.707L2 5.707V10h4.293L7 9.293V9h1v.707L6.707 11H1V5.293L2.293 4z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconLinkedWalletThin12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$9 = ["color", "size"];
-	var IconUnLinkedWalletThin12 = function IconUnLinkedWalletThin12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$9);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M11 1H5.293L4 2.293V3h1v-.293L5.707 2H10v4.293L9.293 7H7.56l-1 1h3.146L11 6.707V1zM3.97 8.47l4.5-4.5-.574-.574L7.293 4h-5L1 5.293V11h5.707L8 9.707V9H7v.293L6.293 10H2V5.707L2.707 5h3.586L5 6.293V6H4v1.293l-.604.603.574.574z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconUnLinkedWalletThin12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$a = ["color", "size"];
-	var IconCheckError12 = function IconCheckError12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$a);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M6 5.293L2.354 1.646l-.708.708L5.293 6 1.646 9.646l.708.708L6 6.707l3.646 3.647.708-.708L6.707 6l3.647-3.646-.708-.708L6 5.293z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconCheckError12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$b = ["color", "size"];
-	var IconCheckRight12 = function IconCheckRight12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$b);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M10.707 4.707l-5 5a1 1 0 01-1.414 0l-3-3 1.414-1.414L5 7.586l4.293-4.293 1.414 1.414z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconCheckRight12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$c = ["color", "size"];
-	var IconMinus12 = function IconMinus12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$c);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M2 5h8L9 7H2V5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconMinus12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$d = ["color", "size"];
-	var IconPlus12 = function IconPlus12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$d);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M5 2v3H2v2h3v3h2V7h3V5H8L7 7V2H5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconPlus12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$e = ["color", "size"];
-	var IconArrow12 = function IconArrow12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$e);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M6 7.293l3.646-3.647.707.708-4 4a.5.5 0 01-.707 0l-4-4 .708-.708L6 7.293z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconArrow12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$f = ["color", "size"];
-	var IconMinus16 = function IconMinus16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$f);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    d: "M2 7h12l-1 2H2V7z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconMinus16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$g = ["color", "size"];
-	var IconPlus16 = function IconPlus16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$g);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M7 2h2v12H7V9H2V7h5V2zm3 7h4V7h-3l-1 2z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconPlus16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$h = ["color", "size"];
-	var IconEmailChange16 = function IconEmailChange16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$h);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M3 5h10v2.066l2-2V3H1v11h5.066l2-2H3V5zm.895 2.978l.86-1.806 3.244 1.546 3.246-1.546.86 1.806-4.106 1.955-4.104-1.955zm11.469 2.436L13.95 9l-4.243 4.243v1.414h1.414l4.243-4.243z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconEmailChange16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$i = ["color", "size"];
-	var IconDeposit16 = function IconDeposit16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$i);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M9 1v6.586l2.293-2.293 1.414 1.414-4 4a1 1 0 01-1.414 0l-4-4 1.414-1.414L7 7.586V2l2-1zM4 9H1v6h14V9h-3v2h1v2H3v-2h1V9z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconDeposit16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$j = ["color", "size"];
-	var IconPublishTime16 = function IconPublishTime16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$j);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M3 8a5 5 0 1110 0A5 5 0 013 8zm5-7a7 7 0 100 14A7 7 0 008 1zM7 5v3a1 1 0 001 1h3V7H9V5H7z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconPublishTime16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$k = ["color", "size"];
-	var IconMessageClear16 = function IconMessageClear16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$k);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M6 5H2v4h1v5h8.667L13 12.667V9h1V5h-4V2H6v3zm7 3H3V6h4V3h2v3h4v2zm-9 5V9h8v3.252l-.748.748H9v-3l-1 1v2H4z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconMessageClear16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$l = ["color", "size"];
-	var IconUnLinkedWallet16 = function IconUnLinkedWallet16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$l);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M5 8h1.586l1-1H3.748L3 7.748V13h5.252L9 12.252V12h.252l.04-.04.041.04H11v1.08L9.08 15H1V6.92L2.92 5h6.666l.707-.707L11 5l.293.293-6 6L5 11l-.707-.707L5 9.586V8zm3.414 3h4.667L15 9.08V1H6.92L5 2.92V4h1.667l.04.04.04-.04H7v-.252L7.748 3H13v5.252L12.252 9h-1.838l-2 2z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconUnLinkedWallet16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$m = ["color", "size"];
-	var IconNftAmount16 = function IconNftAmount16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$m);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M8 1.728l5.5 3.142v6.26L8 14.271 2.5 11.13V4.87L8 1.728zM15 4v8l-7 4-7-4V4l7-4 7 4zm-7-.798L4.8 5.011 8 6.82l3.2-1.81L8 3.203z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconNftAmount16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$n = ["color", "size"];
-	var IconWalletDisConnect16 = function IconWalletDisConnect16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$n);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_797)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M6.571 2.38L5.157 3.794 6.571 5.21l1.414-1.415a3 3 0 014.243 4.243l-1.414 1.414 1.414 1.415 1.414-1.415a5 5 0 00-7.07-7.07zM2.78 6.173l-1.45-1.45 1.414-1.415 9.9 9.9-1.415 1.414-1.378-1.378-.45.45a5 5 0 01-7.071-7.071l.45-.45zm5.657 5.656l-.45.45a3 3 0 11-4.243-4.242l.45-.45 4.243 4.242z",
-	    fill: "currentColor"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_797"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h16v16H0z"
-	  }))));
-	};
-	IconWalletDisConnect16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$o = ["color", "size"];
-	var IconLinkedWallet16 = function IconLinkedWallet16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$o);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M5 11h8.08L15 9.08V1H6.92L5 2.92V4h1.667l.04.04.04-.04H7v-.252L7.748 3H13v5.252L12.252 9H7V8H5v3zm6-6H2.92L1 6.92V15h8.08L11 13.08V12H9.333l-.04-.04-.04.04H9v.252L8.252 13H3V7.748L3.748 7H9v1h2V5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconLinkedWallet16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$p = ["color", "size"];
-	var IconFailed16 = function IconFailed16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$p);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "16",
-	    height: "16",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_815)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M16 8A8 8 0 110 8a8 8 0 0116 0zm-4.293-2.293L9.414 8l2.293 2.293-1.414 1.414L8 9.414l-2.293 2.293-1.414-1.414L6.586 8 4.293 5.707l1.414-1.414L8 6.586l2.293-2.293 1.414 1.414z",
-	    fill: "#E6B1F7"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_815"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h16v16H0z"
-	  })))));
-	};
-	IconFailed16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$q = ["color", "size"];
-	var IconWalletConnected16 = function IconWalletConnected16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$q);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M13 4H3v9h10v-1H7V5h6V4zm0 3v3H9V7h4zm2 8V2H1v13h14zm-2.333-7.5H10v2h2l.667-2z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconWalletConnected16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$r = ["color", "size"];
-	var IconClose16 = function IconClose16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$r);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M8 6.586l-4-4L2.586 4l4 4-4 4L4 13.414l4-4 4 4L13.414 12l-4-4 4-4L12 2.586l-4 4z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconClose16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$s = ["color", "size"];
-	var IconInfo16 = function IconInfo16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$s);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "16",
-	    height: "16",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_816)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M8 16A8 8 0 108 0a8 8 0 000 16z",
-	    fill: "#FEFEFE"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M9 10H7v2h2v-2zM9 4H7v5h2V4z",
-	    fill: "#E6B1F7"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_816"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h16v16H0z"
-	  })))));
-	};
-	IconInfo16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$t = ["color", "size"];
-	var IconOwners16 = function IconOwners16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$t);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M9.062 3.11A2 2 0 0112.5 4.5v.254c0 .452-.18.885-.499 1.204l-.295.296a1.84 1.84 0 00-.54 1.301c0 1.076.632 2.052 1.613 2.494l2.016.907.41-.912-2.016-.907a1.734 1.734 0 01-1.022-1.582.84.84 0 01.246-.594l.295-.295a2.703 2.703 0 00.792-1.912V4.5a3 3 0 00-5.277-1.953c.3.158.58.347.84.563zm-5.34 3.668a2.278 2.278 0 014.556 0v.282c0 .517-.205 1.012-.57 1.378l-.329.328a1.99 1.99 0 00-.583 1.407c0 1.173.689 2.238 1.759 2.72l2.24 1.007.41-.912-2.24-1.008a1.982 1.982 0 01-1.169-1.807.99.99 0 01.29-.7l.328-.328a2.948 2.948 0 00.864-2.085v-.282a3.278 3.278 0 10-6.556 0v.282c0 .782.31 1.532.864 2.085l.328.328a.99.99 0 01.29.7c0 .78-.458 1.487-1.17 1.807l-2.24 1.008.411.912 2.24-1.008a2.983 2.983 0 001.759-2.72 1.99 1.99 0 00-.583-1.406l-.328-.328a1.948 1.948 0 01-.57-1.378v-.282z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconOwners16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$u = ["color", "size"];
-	var IconNft16 = function IconNft16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$u);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M13 4.618l-5-2.5-5 2.5v6.764l5 2.5 5-2.5V4.618zM14 12V4L8 1 2 4v8l6 3 6-3zM4.723 6.416l.554-.832L8 7.399l2.723-1.815.554.832L8.5 8.268V11h-1V8.268L4.723 6.416z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconNft16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$v = ["color", "size"];
-	var IconUser16 = function IconUser16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$v);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M8 2.5a2.833 2.833 0 00-2.833 2.833v.34c0 .646.257 1.266.714 1.723l.394.394c.429.429.67 1.01.67 1.617a3.48 3.48 0 01-2.052 3.173l-2.688 1.21-.41-.913 2.688-1.21a2.48 2.48 0 001.462-2.26c0-.341-.136-.669-.378-.91l-.393-.394a3.438 3.438 0 01-1.007-2.43v-.34a3.833 3.833 0 017.666 0v.34c0 .91-.362 1.785-1.006 2.43l-.394.394a1.288 1.288 0 00-.377.91c0 .976.572 1.86 1.461 2.26l2.688 1.21-.41.912-2.688-1.21a3.48 3.48 0 01-2.051-3.172c0-.607.24-1.188.67-1.617l.393-.394a2.438 2.438 0 00.714-1.724v-.339A2.833 2.833 0 008 2.5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconUser16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$w = ["color", "size"];
-	var IconArrow16 = function IconArrow16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$w);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M7.293 10.707a1 1 0 001.414 0L13.414 6 12 4.586l-4 4-4-4L2.586 6l4.707 4.707z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconArrow16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$x = ["color", "size"];
-	var IconChecked16 = function IconChecked16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$x);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M14.207 5.707l-6.5 6.5a1 1 0 01-1.414 0l-4-4 1.414-1.414L7 10.086l5.793-5.793 1.414 1.414z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconChecked16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$y = ["color", "size"];
-	var IconFilter16 = function IconFilter16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$y);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M1 1h14v5l-4 3v4.554l-3.257 1.303L5 15.954V9L1.8 6.6 1 6V1zm12 2H3v2l4 3v5l2-.8V8l4-3V3z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconFilter16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$z = ["color", "size"];
-	var IconEmail24 = function IconEmail24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$z);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M3.334 6h17.333v12H3.334V6zm-2 14V4h21.333v16H1.334zM6.83 8.164L5.97 9.97 12 12.84l6.03-2.87-.86-1.806L12 10.626 6.83 8.164z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconEmail24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$A = ["color", "size"];
-	var IconMessageUnread24 = function IconMessageUnread24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$A);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M10.378 2.082L8.705 3.565l.529 1.974a7.001 7.001 0 00-4.003 8.246l1.043 3.89-.571 3.26 16.217-4.346-2.123-2.537-1.043-3.89a7.002 7.002 0 00-7.589-5.14l-.787-2.94zm-.358 5.296l.666-.284.718-.087a5.002 5.002 0 015.419 3.672l1.156 4.317.395.472-10.16 2.723.106-.606-1.157-4.317a5.001 5.001 0 012.857-5.89zm5.504 12.219L10.287 21l-.71 2.002 5.238-1.403.709-2.002z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconMessageUnread24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$B = ["color", "size"];
-	var IconMessage24 = function IconMessage24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$B);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M13 2l-2 1v2.044a7.001 7.001 0 00-6 6.929V16l-1.395 3h16.79L19 16v-4.027a7.002 7.002 0 00-6-6.93V2zm-1.717 5.024L12 6.92l.717.102A5.002 5.002 0 0117 11.973v4.47l.26.557H6.74l.26-.558v-4.47a5.001 5.001 0 014.283-4.948zm5.155 13.226H8.016L6.813 22h8.422l1.203-1.75z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconMessage24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$C = ["color", "size"];
-	var IconCopy24 = function IconCopy24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$C);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M15.25 5H7.086L4.25 7.836V16h2V8.664L7.914 7h7.336V5zm1.5 12.5h-6.5v-6.172l.328-.328h6.172v6.5zm-8.5-7L9.75 9h9v10.5H8.25v-9z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconCopy24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$D = ["color", "size"];
-	var IconXsoulShare24 = function IconXsoulShare24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$D);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M21 6.5a4.5 4.5 0 01-7.748 3.115l-3.47 2.082a3.993 3.993 0 010 2.607l3.792 2.274A3.5 3.5 0 1113 18.566l-4.323-2.594a4 4 0 110-5.945L12.222 7.9A4.5 4.5 0 1121 6.5zM16.5 9a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 13a2 2 0 11-4 0 2 2 0 014 0zm8.5 7a1.5 1.5 0 100-3 1.5 1.5 0 000 3z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconXsoulShare24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$E = ["color", "size"];
-	var IconXsoulInfo24 = function IconXsoulInfo24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$E);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M14 4a2 2 0 11-4 0 2 2 0 014 0zM9 9h3a1 1 0 011 1v11h2v2H9v-2h2V11H9V9z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconXsoulInfo24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$F = ["color", "size"];
-	var IconSignOut24 = function IconSignOut24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$F);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M13.423 2.102a10 10 0 015.101 2.32L17.21 5.948a7.984 7.984 0 10-.117 12.2l1.285 1.553a10 10 0 11-4.954-17.6zM21 11H9v2h9.586l-2 2L18 16.414l3.707-3.707A1 1 0 0021 11z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconSignOut24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$G = ["color", "size"];
-	var IconArrow24 = function IconArrow24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$G);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M12.707 15.707a1 1 0 01-1.414 0L4.586 9 6 7.586l6 6 6-6L19.414 9l-6.707 6.707z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconArrow24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$H = ["color", "size"];
-	var IconClose24 = function IconClose24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$H);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M13.414 12l6-6L18 4.586l-6 6-6-6L4.586 6l6 6-6 6L6 19.414l6-6 6 6L19.414 18l-6-6z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconClose24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$I = ["color", "size"];
-	var IconPnWalletEntry24 = function IconPnWalletEntry24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$I);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_843)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M24 0H0v24h16l8-8V0zM1 23V1h22v14.586L15.586 23H1zM9.646 8.354L13.293 12l-3.647 3.646.708.708L14.707 12l-4.353-4.354-.708.708z",
-	    fill: "currentColor"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_843"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h24v24H0z"
-	  }))));
-	};
-	IconPnWalletEntry24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$J = ["color", "size"];
-	var IconResetPassword24 = function IconResetPassword24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$J);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M6 6a6 6 0 1112 0v2.083a9.924 9.924 0 00-2-1.178V6a4 4 0 00-8 0V9.07a8 8 0 11-2 1.638V6zm0 10a6 6 0 1112 0 6 6 0 01-12 0zm6-2a2 2 0 00-1 3.732V19l2-.5v-.768A2 2 0 0012 14z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconResetPassword24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$K = ["color", "size"];
-	var IconRandom24 = function IconRandom24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$K);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M18 9.25l-5 3.125v6.642l5-3.125V9.25zm-12 0l5 3.125v6.642l-5-3.125V9.25zM4 8l8-5 8 5v9l-8 5-8-5V8zm3.774 0L12 10.642 16.226 8 12 5.359 7.774 8zM15 15a1 1 0 100-2 1 1 0 000 2zm-6-2a1 1 0 11-2 0 1 1 0 012 0zm0 4a1 1 0 100-2 1 1 0 000 2z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconRandom24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$L = ["color", "size"];
-	var IconSettings24 = function IconSettings24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$L);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M1.126 11.514a1 1 0 000 .972l5 9A1 1 0 007 22h10a1 1 0 00.874-.514l5-9a1 1 0 000-.972l-5-9A1 1 0 0017 2H7a1 1 0 00-.874.514l-5 9zm19.73.486l-4.444 8H7.588l-4.444-8 4.444-8h8.824l4.444 8zM10 12a2 2 0 114 0 2 2 0 01-4 0zm2-4a4 4 0 100 8 4 4 0 000-8z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconSettings24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$M = ["color", "size"];
-	var IconGame24 = function IconGame24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$M);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M15 18H9l-2 3H1L2 6l2-2h16l2 2 1 15h-6l-2-3zm-7.07-2l-2 3H3.138l.808-12.117L4.828 6h14.344l.882.883L20.862 19H18.07l-2-3H7.93zM17 11a.5.5 0 11-1 0 .5.5 0 011 0zm2 0a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm-9.5-1H11v2H9.5v1.5h-2V12H6v-2h1.5V8.5h2V10z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconGame24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$N = ["color", "size"];
-	var IconAssetTabPlatform24 = function IconAssetTabPlatform24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$N);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_822)",
-	    fill: "currentColor"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M21 12a9 9 0 11-18 0 9 9 0 0118 0zm2 0c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11zM7.404 8.003a1.309 1.309 0 10.405 2.516s.338-.136.748.104l.05.03c.455.263 1.426.827 1.363 2.004a4.296 4.296 0 101.595-2.94v-.004c-.995.737-1.993.212-2.456-.032l-.03-.015c-.42-.221-.482-.588-.482-.588a1.31 1.31 0 00-1.193-1.075zm6.046 7.111a2.165 2.165 0 111.558-4.038 2.165 2.165 0 01-1.558 4.038z"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M7.809 10.519l.049.01.02-.093-.088.036.019.047zm0 0l-.05-.01-.02.092.089-.035-.019-.047zm2.161 2.138l.05.005v-.002l-.05-.003zm1.595-2.94h-.05v.105l.082-.066-.032-.039zm0-.004h.05v-.1l-.08.06.03.04zm-2.967-.635l.049-.008-.016-.093-.068.065.035.036zm0 0l-.05.01.017.09.067-.063-.034-.037zM12 21.05A9.05 9.05 0 0021.05 12h-.1A8.95 8.95 0 0112 20.95v.1zM2.95 12A9.05 9.05 0 0012 21.05v-.1A8.95 8.95 0 013.05 12h-.1zM12 2.95A9.05 9.05 0 002.95 12h.1A8.95 8.95 0 0112 3.05v-.1zM21.05 12A9.05 9.05 0 0012 2.95v.1A8.95 8.95 0 0120.95 12h.1zM12 23.05c6.103 0 11.05-4.947 11.05-11.05h-.1c0 6.047-4.902 10.95-10.95 10.95v.1zM.95 12c0 6.103 4.948 11.05 11.05 11.05v-.1C5.953 22.95 1.05 18.048 1.05 12h-.1zM12 .95C5.898.95.95 5.897.95 12h.1C1.05 5.953 5.953 1.05 12 1.05v-.1zM23.05 12C23.05 5.897 18.103.95 12 .95v.1c6.048 0 10.95 4.903 10.95 10.95h.1zM6.688 8.214c.216-.123.465-.179.713-.16l.007-.1a1.36 1.36 0 00-.77.173l.05.087zm-.504.53c.112-.223.287-.407.504-.53l-.05-.087a1.36 1.36 0 00-.543.572l.09.045zm-.124.72c-.03-.247.013-.498.124-.72l-.09-.045c-.12.24-.167.51-.133.777l.1-.012zm.297.668a1.26 1.26 0 01-.297-.668l-.1.012c.034.267.145.518.32.721l.077-.065zm.617.39a1.26 1.26 0 01-.617-.39l-.076.066c.176.203.408.35.667.421l.026-.097zm.731-.018c-.236.078-.49.085-.73.018l-.027.097c.259.072.533.065.789-.02l-.032-.095zm.085-.032a1.25 1.25 0 01-.085.032l.032.095c.03-.01.06-.02.09-.033l-.037-.094zm.793.108a1.032 1.032 0 00-.555-.149.865.865 0 00-.22.035l-.012.005-.004.001H7.79l.019.047.019.047.002-.001.01-.003a.765.765 0 01.191-.03.933.933 0 01.502.135l.05-.087zm.05.029l-.05-.029-.05.087.049.029.05-.087zm1.387 2.051c.066-1.211-.935-1.789-1.388-2.051l-.05.087c.459.266 1.4.815 1.338 1.959l.1.005zm-.017.573a4.296 4.296 0 01.017-.57l-.1-.01a4.383 4.383 0 00-.017.583l.1-.003zm4.402 4.084a4.246 4.246 0 01-4.402-4.084l-.1.003a4.346 4.346 0 004.505 4.18l-.003-.1zm4.084-4.402a4.246 4.246 0 01-4.085 4.402l.004.1a4.346 4.346 0 004.18-4.505l-.1.003zm-4.402-4.084a4.246 4.246 0 014.402 4.085l.1-.004a4.346 4.346 0 00-4.505-4.18l.004.1zm-2.49.925a4.226 4.226 0 012.49-.925l-.003-.1a4.327 4.327 0 00-2.55.947l.063.078zm-.082-.043v.004h.1v-.003h-.1zm-2.429.013c.46.242 1.487.785 2.51.028l-.06-.08c-.968.715-1.938.208-2.403-.037l-.047.089zm-.03-.016l.03.016.047-.089-.03-.016-.047.09zm-.458-.632c-.05.008-.05.01-.05.01a.186.186 0 00.004.018.867.867 0 00.085.208c.072.126.2.28.42.396l.046-.089a.916.916 0 01-.379-.357.767.767 0 01-.077-.192V9.07l-.05.008zm-.336-.592c.149.173.247.38.286.601l.099-.017a1.362 1.362 0 00-.31-.65l-.075.066zM7.4 8.054c.333.024.642.18.86.432l.076-.065a1.36 1.36 0 00-.929-.467l-.007.1zm4.762 4.244a2.215 2.215 0 001.269 2.863l.036-.093a2.115 2.115 0 01-1.211-2.734l-.094-.036zm2.864-1.27a2.215 2.215 0 00-2.864 1.27l.094.036a2.115 2.115 0 012.734-1.212l.036-.093zm1.269 2.864a2.215 2.215 0 00-1.27-2.863l-.035.093a2.115 2.115 0 011.211 2.734l.094.036zm-2.864 1.27a2.215 2.215 0 002.864-1.27l-.094-.036a2.115 2.115 0 01-2.734 1.212l-.036.093z"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_822"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h24v24H0z"
-	  }))));
-	};
-	IconAssetTabPlatform24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$O = ["color", "size"];
-	var IconConnect24 = function IconConnect24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$O);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M20 5H4v7H1V2h22v20H11v-3h9v-1.5h-9.5v-11H20V5zm-6.5 4.5H20v5h-6.5v-5zM1 14a8 8 0 018 8H6a5 5 0 00-5-5v-3zm0 5a3 3 0 013 3H1v-3zm18-8.5h-4v3h3l1-3z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconConnect24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$P = ["color", "size"];
-	var IconSuccess24 = function IconSuccess24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$P);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "24",
-	    height: "24",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_841)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
-	    fill: "url(#paint0_linear_222_841)"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M18.622 10l-7.061 7.06a1.5 1.5 0 01-2.121 0L5.379 13 7.5 10.879l3 3 6-6L18.622 10z",
-	    fill: "#0A1161"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_841",
-	    x1: "0",
-	    y1: "12.414",
-	    x2: "24",
-	    y2: "12.414",
-	    gradientUnits: "userSpaceOnUse"
-	  }, /*#__PURE__*/react.createElement("stop", {
-	    stopColor: "#9EE6FC"
-	  }), /*#__PURE__*/react.createElement("stop", {
-	    offset: "1",
-	    stopColor: "#EBB9E7"
-	  })), /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_841"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h24v24H0z"
-	  })))));
-	};
-	IconSuccess24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$Q = ["color", "size"];
-	var IconOtherFill24 = function IconOtherFill24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$Q);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M3 12a9 9 0 1118 0 9 9 0 01-18 0zm9-11C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zM8.5 12a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm3.5 1.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm6.5-1.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconOtherFill24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$R = ["color", "size"];
-	var IconHide24 = function IconHide24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$R);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M12 4C4 4 2 12 2 12s1.028 4.113 4.56 6.44L5 20l1.414 1.414 2.023-2.023c1.03.38 2.21.609 3.563.609 8 0 10-8 10-8s-.516-2.066-2.074-4.098l1.488-1.488L20 5l-1.43 1.43C17.052 5.073 14.927 4 12 4zm5.153 3.847C15.948 6.797 14.293 6 12 6 8.786 6 6.827 7.564 5.6 9.2A10.894 10.894 0 004.097 12 10.894 10.894 0 005.6 14.8c.605.807 1.388 1.596 2.411 2.189l9.142-9.142zm-7.11 9.939A8.673 8.673 0 0012 18c3.214 0 5.173-1.564 6.4-3.2a10.89 10.89 0 001.503-2.8 10.946 10.946 0 00-1.406-2.668l-2.5 2.5L16 12a4 4 0 01-4.168 3.996l-1.79 1.79zM12 10c.064 0 .128.003.191.009l1.591-1.591a4 4 0 00-5.364 5.364l1.591-1.591A2 2 0 0112 10z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconHide24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$S = ["color", "size"];
-	var IconShow24 = function IconShow24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$S);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M12 4C4 4 2 12 2 12s2 8 10 8 10-8 10-8-2-8-10-8zm-7.716 7.52c-.076.18-.137.342-.187.48A10.894 10.894 0 005.6 14.8C6.827 16.436 8.786 18 12 18c3.214 0 5.173-1.564 6.4-3.2a10.89 10.89 0 001.503-2.8A10.89 10.89 0 0018.4 9.2C17.173 7.564 15.214 6 12 6 8.786 6 6.827 7.564 5.6 9.2c-.626.834-1.05 1.68-1.316 2.32zM14 12a2 2 0 11-4 0 2 2 0 014 0zm2 0a4 4 0 11-8 0 4 4 0 018 0z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconShow24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$T = ["color", "size"];
-	var IconWalletConnected24 = function IconWalletConnected24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$T);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M19 6H6v12h13v-2h-6V8h6V6zm0 4v4h-4v-4h4zm2 10V4H4v16h17zm-3-9h-2v2h1.5l.5-2z",
-	    fill: "#fff"
-	  }));
-	};
-	IconWalletConnected24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$U = ["color", "size"];
-	var IconUser24 = function IconUser24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$U);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M12 6a3 3 0 00-3 3v.263c0 .65.263 1.274.73 1.728l.477.464c.592.576.926 1.366.926 2.192a4.428 4.428 0 01-2.653 4.057l-2.257.987a5.15 5.15 0 00-1.526 1.026l-.717.697-1.394-1.434.717-.697a7.153 7.153 0 012.118-1.424l2.257-.988a2.428 2.428 0 001.455-2.224c0-.286-.115-.559-.32-.758l-.477-.464A4.41 4.41 0 017 9.263V9a5 5 0 0110 0v.263a4.41 4.41 0 01-1.336 3.162l-.477.464c-.205.199-.32.472-.32.758 0 .964.57 1.838 1.455 2.224l2.257.988a7.153 7.153 0 012.118 1.424l.717.697-1.394 1.434-.717-.697a5.15 5.15 0 00-1.526-1.026l-2.257-.987a4.428 4.428 0 01-2.653-4.057c0-.826.334-1.616.926-2.192l.477-.464A2.41 2.41 0 0015 9.263V9a3 3 0 00-3-3z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconUser24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$V = ["color", "size"];
-	var IconShare24 = function IconShare24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$V);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M20.768 5.36a1 1 0 01.146 1.046l-5.334 12a1 1 0 01-1.454.435l-2.667-1.714 1.082-1.682 1.685 1.083 4.036-9.08-12.521 3.018 1.715 2.206a1 1 0 01.185.838l-.282 1.224 5.38-3.967 1.188 1.61-7.556 5.57a1 1 0 01-1.568-1.029l.782-3.394-2.374-3.053a1 1 0 01.555-1.586l16-3.857a1 1 0 011.002.332z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconShare24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$W = ["color", "size"];
-	var IconFailed24 = function IconFailed24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$W);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "24",
-	    height: "24",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_840)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
-	    fill: "#E6B1F7"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M13.415 11.996l3.84-3.84-1.415-1.414-3.84 3.84-3.84-3.84-1.414 1.414 3.84 3.84-3.84 3.84L8.16 17.25 12 13.41l3.84 3.84 1.415-1.414-3.84-3.84z",
-	    fill: "#FEFEFE"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_840"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h24v24H0z"
-	  })))));
-	};
-	IconFailed24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$X = ["color", "size"];
-	var IconInfo24 = function IconInfo24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$X);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_842)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zM0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12zm13 3v2h-2v-2h2zm0-2V7h-2v6h2z",
-	    fill: "currentColor"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_842"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h24v24H0z"
-	  }))));
-	};
-	IconInfo24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$Y = ["color", "size"];
-	var IconSearch24 = function IconSearch24(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$Y);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M17 11a6 6 0 11-12 0 6 6 0 0112 0zm-1.094 6.32a8 8 0 111.414-1.414l3.594 3.594-1.414 1.414-3.594-3.594z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconSearch24.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$Z = ["color", "size"];
-	var IconMessage32 = function IconMessage32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$Z);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M17.316 6.131V3l-2.737 1.368v1.78A9.002 9.002 0 007 15.035V21l-2 4h22l-2-4v-5.964c0-4.525-3.34-8.268-7.684-8.905zm-2.424 1.992l1.066-.17 1.068.157A7.002 7.002 0 0123 15.036v6.436L23.764 23H8.236L9 21.472v-6.436a7.002 7.002 0 015.892-6.913zM21 27h-9.625L10 29h9.625L21 27z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconMessage32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$_ = ["color", "size"];
-	var IconClose32 = function IconClose32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$_);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M16.5 17.621l-8.44 8.44-2.12-2.122 8.439-8.44-7.44-7.438 2.122-2.122 7.44 7.44 7.438-7.44 2.122 2.122-7.44 7.439 8.44 8.44-2.122 2.12-8.439-8.439z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconClose32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$$ = ["color", "size"];
-	var IconWalletConnected32 = function IconWalletConnected32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$$);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M24.134 9.067H7.867v14.266h16.267V20.8H17.2v-9.2h6.934V9.067zm0 5.2v3.866h-4.267v-3.866h4.267zM26.8 26V6.4H5.2V26h21.6zm-3.6-10.8h-2.8v2h2.4l.4-2z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconWalletConnected32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$10 = ["color", "size"];
-	var IconMore32 = function IconMore32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$10);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M18 8a2 2 0 11-4 0 2 2 0 014 0zm0 8a2 2 0 11-4 0 2 2 0 014 0zm-2 10a2 2 0 100-4 2 2 0 000 4z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconMore32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$11 = ["color", "size"];
-	var IconWalletSwitch32 = function IconWalletSwitch32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$11);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M14.307 7.707L10.414 11.6H24v2H8a1 1 0 01-.707-1.707l5.6-5.6 1.414 1.414zm3.386 16.586l3.893-3.893H8v-2h16a1 1 0 01.707 1.707l-5.6 5.6-1.414-1.414z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconWalletSwitch32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$12 = ["color", "size"];
-	var IconArrow32 = function IconArrow32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$12);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M15.293 20.707l-8-8 1.414-1.414L16 18.586l7.293-7.293 1.414 1.414-8 8a1 1 0 01-1.414 0z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconArrow32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$13 = ["color", "size"];
-	var IconUser32 = function IconUser32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$13);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '34',
-	    height: size || '32',
-	    viewBox: "0 0 34 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M16.976 9.8c-1.698 0-3.075 1.343-3.075 3v.406c0 .67.272 1.313.758 1.786l.484.473c.605.59.944 1.39.944 2.224 0 1.8-1.082 3.433-2.765 4.171l-2.248.988a5.306 5.306 0 00-1.573 1.06l-.725.706-1.45-1.414.725-.707a7.358 7.358 0 012.182-1.47l2.248-.986a2.573 2.573 0 001.556-2.348c0-.304-.123-.595-.343-.81l-.485-.473a4.47 4.47 0 01-1.358-3.2V12.8c0-2.761 2.294-5 5.125-5 2.83 0 5.125 2.239 5.125 5v.406a4.47 4.47 0 01-1.359 3.2l-.484.473c-.22.215-.344.506-.344.81 0 1.013.61 1.932 1.556 2.348l2.249.987a7.358 7.358 0 012.181 1.469l.725.707-1.45 1.414-.724-.707a5.307 5.307 0 00-1.573-1.06l-2.249-.987c-1.683-.738-2.765-2.371-2.765-4.171 0-.835.34-1.634.944-2.224l.485-.473a2.494 2.494 0 00.758-1.786V12.8c0-1.657-1.377-3-3.075-3z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconUser32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$14 = ["color", "size"];
-	var IconLang32 = function IconLang32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$14);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M19.828 25.241A10.008 10.008 0 0025.95 17H21.98c-.137 3.31-.945 6.24-2.152 8.241zM16 28c6.627 0 12-5.373 12-12S22.627 4 16 4 4 9.373 4 16s5.373 12 12 12zM12.172 6.759A10.009 10.009 0 006.05 15h3.971c.137-3.31.945-6.24 2.152-8.241zM12.022 15c.12-2.651.706-4.954 1.524-6.59C14.526 6.45 15.51 6 16 6c.491 0 1.474.45 2.454 2.41.818 1.636 1.404 3.939 1.524 6.59h-7.956zm0 2c.12 2.651.706 4.954 1.524 6.59C14.526 25.55 15.51 26 16 26c.491 0 1.474-.45 2.454-2.41.818-1.636 1.404-3.939 1.524-6.59h-7.956zm-2.002 0c.137 3.31.945 6.24 2.152 8.241A10.009 10.009 0 016.05 17h3.971zm11.96-2c-.137-3.31-.945-6.24-2.152-8.241A10.008 10.008 0 0125.95 15H21.98z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconLang32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$15 = ["color", "size"];
-	var IconCloseThin32 = function IconCloseThin32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$15);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M16 14.586l-8-8L6.586 8l8 8-8 8L8 25.414l8-8 8 8L25.414 24l-8-8 8-8L24 6.586l-8 8z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconCloseThin32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$16 = ["color", "size"];
-	var IconH5Menu32 = function IconH5Menu32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$16);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M28 7H4v2h24V7zm0 8H4v2h24v-2zM4 23h24v2H4v-2z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconH5Menu32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$17 = ["color", "size"];
-	var IconMessageClear40 = function IconMessageClear40(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$17);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '40',
-	    height: size || '40',
-	    viewBox: "0 0 40 40",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M16 16h-5v6h2v7h12l2-2v-5h2v-6h-5v-5h-8v5zm11 4H13v-2h5v-5h4v5h5v2zm-12 7v-5h10v4.172l-.828.828H22v-4l-2 1v3h-5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconMessageClear40.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$18 = ["color", "size"];
-	var IconWalletConnected40 = function IconWalletConnected40(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$18);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '40',
-	    height: size || '40',
-	    viewBox: "0 0 40 40",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M31.364 9.636H8.636v19.728h22.728V26H21V13h10.364V9.636zm0 6v7.728h-7.728v-7.728h7.728zM34 32V7H6v25h28zm-4.258-13.97h-3.69v2.636h3.163l.527-2.636z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconWalletConnected40.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$19 = ["color", "size"];
-	var IconUser40 = function IconUser40(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$19);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '40',
-	    height: size || '40',
-	    viewBox: "0 0 40 40",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_923)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M20 12a4 4 0 00-4 4v.508c0 .904.359 1.77.998 2.409l.59.59a3.68 3.68 0 011.079 2.604 5.469 5.469 0 01-3.225 4.987L12.7 28.332c-.742.334-1.417.8-1.993 1.375l-.707.707L8.586 29l.707-.707a8.717 8.717 0 012.586-1.785l2.742-1.234a3.469 3.469 0 002.046-3.163c0-.446-.177-.874-.493-1.19l-.59-.59A5.407 5.407 0 0114 16.508V16a6 6 0 1112 0v.508c0 1.434-.57 2.81-1.583 3.823l-.591.59a1.681 1.681 0 00-.492 1.19c0 1.365.8 2.603 2.045 3.163l2.742 1.234a8.718 8.718 0 012.586 1.785l.707.707L30 30.414l-.707-.707a6.714 6.714 0 00-1.993-1.375l-2.742-1.234a5.469 5.469 0 01-3.224-4.987 3.68 3.68 0 011.078-2.603l.59-.591A3.406 3.406 0 0024 16.508V16a4 4 0 00-4-4z",
-	    fill: "currentColor"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_923"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h40v40H0z"
-	  }))));
-	};
-	IconUser40.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1a = ["color", "size"];
-	var IconListing64 = function IconListing64(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1a);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "64",
-	    height: "64",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M32 56c13.255 0 24-10.745 24-24S45.255 8 32 8 8 18.745 8 32s10.745 24 24 24z",
-	    fill: "url(#paint0_linear_222_860)"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M43 17H21l-3.363 8.968c-.875 2.334.033 4.774 1.863 6.077V41.5H18v3h15v-3H22.5V33h.01a5.205 5.205 0 004.496-2.582L27.25 30l.351.562a5.187 5.187 0 008.797 0L36.75 30l.243.418A5.205 5.205 0 0041.49 33c3.634 0 6.15-3.63 4.874-7.032L43 17zM20.446 27.021L23.079 20H40.92l2.633 7.021a2.205 2.205 0 01-3.97 1.885l-.243-.418-2.503-4.29-2.632 4.212-.352.562a2.187 2.187 0 01-3.709 0l-2.984-4.774-2.503 4.29-.243.418a2.205 2.205 0 01-3.97-1.885zm18.603 15.051L45.121 36 43 33.879l-4.05 4.049-2.051-1.865-2.018 2.22 4.168 3.789z",
-	    fill: "#0A1161"
-	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_860",
-	    x1: "8",
-	    y1: "32.828",
-	    x2: "56",
-	    y2: "32.828",
-	    gradientUnits: "userSpaceOnUse"
-	  }, /*#__PURE__*/react.createElement("stop", {
-	    stopColor: "#9EE6FC"
-	  }), /*#__PURE__*/react.createElement("stop", {
-	    offset: "1",
-	    stopColor: "#EBB9E7"
-	  })))));
-	};
-	IconListing64.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1b = ["color", "size"];
-	var IconBindEmail64 = function IconBindEmail64(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1b);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M10 17h44v14h5V12H5v40h22v-5H10V17zm32 38.5a9.5 9.5 0 010-19h3l-2 5h-1a4.5 4.5 0 100 9h3v5h-3zm11-19a9.5 9.5 0 010 19h-3l2-5h1a4.5 4.5 0 100-9h-3v-5h3zm-10 12h9v-5h-9v5zM19.075 22.743l-2.15 4.514L32 34.436l15.075-7.179-2.15-4.514L32 28.898l-12.925-6.155z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconBindEmail64.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1c = ["color", "size"];
-	var IconOrderGame64 = function IconOrderGame64(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1c);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M20 6h5v3h14V6h5v3h12v10h-5v-5h-7v3h-5v-3H25v3h-5v-3h-7v36h7v5H8V9h12V6zm22 48c7.18 0 13-5.82 13-13s-5.82-13-13-13-13 5.82-13 13 5.82 13 13 13zm0 5c9.941 0 18-8.059 18-18s-8.059-18-18-18-18 8.059-18 18 8.059 18 18 18zm.768-13.232L50.535 38 47 34.465l-6 6-3-3L34.465 41l4.767 4.768a2.5 2.5 0 003.536 0z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconOrderGame64.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1d = ["color", "size"];
-	var IconOpenBlindBox64 = function IconOpenBlindBox64(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1d);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M28.412 10.842l-1.5-5.5-4.824 1.315 1.5 5.5 4.824-1.315zM10 6.5l6 8-4 3-6-8 4-3zm44 0l-6 8 4 3 6-8-4-3zM38.075 5.394l-1.5 6 4.85 1.212 1.5-6-4.85-1.212zM12 34h28v18H12V34zm28 23H7V30.59L.955 18.5h32.58l9.215 9.214 9.214-9.214h11.228l-4.2 10.5H59v28H40zm5-5h9V34h-9v18zm-11.5-8.5H25v-5h8.5v5zm-21.955-15l-2.5-5h22.42l5 5h-24.92zm44.262-5l-2 5h-4.772l5-5h1.772z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconOpenBlindBox64.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1e = ["color", "size"];
-	var IconLandscapeSpan64 = function IconLandscapeSpan64(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1e);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M53 14H35v36h18V14zm3 15V11H32v42h24V29zM40 44h8v3h-8v-3zM27 29v3H11v18h16v3H8V29h19zm-12.5-3c0-5.617 4.027-10.294 9.352-11.3l-1.275 3.826 2.846.948 2.658-7.974H26c-8.008 0-14.5 6.492-14.5 14.5h3z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconLandscapeSpan64.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1f = ["color", "size"];
-	var IconListingCancel64 = function IconListingCancel64(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1f);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M16.258 10h31.088l4.765 12.707c1.873 4.993-1.818 10.32-7.15 10.32a7.637 7.637 0 01-6.585-3.768l-.118.189a7.613 7.613 0 01-12.911 0l-.119-.19a7.637 7.637 0 01-6.257 3.761v11.598H33.412v5H12.235v-5h1.736V31.436c-2.512-1.953-3.72-5.414-2.478-8.727L16.258 10zm3.465 5l-3.548 9.463a2.637 2.637 0 004.747 2.255l.338-.58 3.82-6.55 4.507 7.21a2.613 2.613 0 004.43 0l.488-.78 4.019-6.43 3.82 6.55.339.58a2.637 2.637 0 004.747-2.255L43.88 15H19.723zm20.045 26.232l2.549 2.55V36h5v8.148l2.915-2.916 3.536 3.536L45 53.535l-8.768-8.767 3.536-3.536z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconListingCancel64.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1g = ["color", "size"];
-	var IconFailed64 = function IconFailed64(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1g);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "64",
-	    height: "64",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M32 56c13.255 0 24-10.745 24-24S45.255 8 32 8 8 18.745 8 32s10.745 24 24 24z",
-	    fill: "#E6B1F7"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M35.536 32l8-8L40 20.464l-8 8-8-8L20.465 24l8 8-8 8L24 43.535l8-8 8 8L43.536 40l-8-8z",
-	    fill: "#FEFEFE"
-	  })));
-	};
-	IconFailed64.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1h = ["color", "size"];
-	var IconSubmitTransaction64 = function IconSubmitTransaction64(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1h);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M8.5 9.5h45v16.733h-5V14.5h-35v32.794l4.63-3.127h12.212v5H19.66L8.5 56.706V9.5zM45 34a1 1 0 100 2 1 1 0 000-2zm-6 1a6 6 0 1112 0 6 6 0 01-12 0zm-.324 17.113l.698-2.327c.012-.027.037-.08.079-.151.1-.172.295-.45.637-.748.642-.559 2.038-1.387 4.91-1.387 2.871 0 4.267.828 4.91 1.386.342.298.536.577.637.749.041.071.066.124.078.151l.699 2.327 4.789-1.437c-.083-.276-.16-.555-.237-.834-.258-.94-.517-1.881-1.01-2.727a8.029 8.029 0 00-1.676-2.002C51.532 43.672 48.928 42.5 45 42.5c-3.929 0-6.532 1.172-8.19 2.614a8.026 8.026 0 00-1.676 2.001c-.169.289-.29.543-.373.742-.268.635-.452 1.305-.635 1.972-.078.284-.155.567-.24.847l4.79 1.437zM20.5 22.5h21v5h-21v-5zm9 10h-9v5h9v-5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconSubmitTransaction64.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1i = ["color", "size"];
-	var IconUnlockCurrency64 = function IconUnlockCurrency64(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1i);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M13.525 14.848c-.422.37-.508.591-.523.652.015.06.101.281.523.652.575.504 1.55 1.073 2.971 1.6C19.32 18.803 23.386 19.5 28 19.5s8.681-.699 11.504-1.747c1.42-.528 2.396-1.097 2.971-1.601.422-.37.508-.592.523-.652-.015-.06-.101-.281-.523-.652-.575-.504-1.55-1.073-2.971-1.6C36.68 12.197 32.614 11.5 28 11.5s-8.681.699-11.504 1.747c-1.42.528-2.396 1.097-2.971 1.601zm29.475.66v.007l.001.002v-.008zm0-.017l.001-.008v.008zm-30 0a.031.031 0 01-.001-.008v.008zM28 6.5c-5.05 0-9.734.756-13.245 2.06-1.746.649-3.333 1.48-4.53 2.531C9.035 12.138 8 13.621 8 15.5v15.465L7.965 31l.035.035V43.11c0 .867.322 1.721.934 2.38.99 1.063 2.587 2.63 5.495 3.89C17.292 50.62 21.277 51.5 27 51.5h2.5v-5H27c-5.22 0-8.495-.804-10.583-1.709-1.694-.733-2.705-1.574-3.417-2.286v-7.504c.934.475 1.994.923 3.154 1.32 2.964 1.015 6.774 1.767 11.258 1.767 4.74 0 10.409-.446 13.933-1.97l2.295-.991-1.983-4.59-2.295.992c-2.49 1.075-7.227 1.56-11.95 1.56-3.928 0-7.191-.66-9.639-1.498-2.515-.862-3.996-1.85-4.505-2.359L13 28.964v-7.27c.56.272 1.148.52 1.755.746C18.266 23.744 22.95 24.5 28 24.5c5.05 0 9.734-.756 13.245-2.06A19.838 19.838 0 0043 21.695V28h5V16h-.025c.017-.163.025-.33.025-.5 0-1.879-1.034-3.362-2.226-4.409-1.196-1.05-2.783-1.882-4.53-2.53C37.735 7.255 33.052 6.5 28 6.5zM50.597 41.138l-1.048 2.247a8.429 8.429 0 11-4.531-2.114l5.171-11.09 4.532 2.114-2.011 4.312 4.629 2.22-2.163 4.508-4.58-2.197zm-5.268 5.38a3.429 3.429 0 10-2.898 6.215 3.429 3.429 0 002.898-6.215z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconUnlockCurrency64.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1j = ["color", "size"];
-	var IconUser72 = function IconUser72(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1j);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '72',
-	    height: size || '72',
-	    viewBox: "0 0 72 72",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M36 12.5c-6.35 0-11.5 5.149-11.5 11.5v1.524a9.72 9.72 0 002.847 6.873l1.772 1.772a11.544 11.544 0 013.382 8.163 16.906 16.906 0 01-9.969 15.417l-8.226 3.702a19.647 19.647 0 00-5.83 4.024L6 67.95 1.05 63l2.475-2.475a26.649 26.649 0 017.907-5.458l8.227-3.702a9.906 9.906 0 005.84-9.033c0-1.205-.478-2.361-1.33-3.213l-1.772-1.772A16.72 16.72 0 0117.5 25.524V24c0-10.217 8.283-18.5 18.5-18.5 10.218 0 18.5 8.283 18.5 18.5v1.524a16.72 16.72 0 01-4.897 11.823l-1.772 1.772a4.544 4.544 0 00-1.33 3.213 9.906 9.906 0 005.84 9.033l8.227 3.702a26.65 26.65 0 017.907 5.458L70.95 63 66 67.95l-2.474-2.475a19.647 19.647 0 00-5.83-4.024l-8.227-3.702a16.906 16.906 0 01-9.968-15.417c0-3.062 1.216-5.998 3.38-8.163l1.773-1.772a9.72 9.72 0 002.846-6.873V24c0-6.351-5.148-11.5-11.5-11.5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconUser72.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1k = ["color", "size"];
-	var IconNodata80 = function IconNodata80(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1k);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '80',
-	    height: size || '80',
-	    viewBox: "0 0 80 80",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M68 24L40 8 12 24v32l28 16 28-16V24zM16 53.679V26.32l24-13.714 24 13.714V53.68L40 67.393 16 53.679zM40 19l-16 9.044 16 9.043 16-9.044L40 19z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconNodata80.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1l = ["color", "size"];
-	var IconMessageEmpty80 = function IconMessageEmpty80(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1l);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '80',
-	    height: size || '80',
-	    viewBox: "0 0 80 80",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M39.919 19.932l-1.656.109C28.624 20.675 21 28.699 21 38.5v15.665L17.287 60h44.426L58 54.165V38.5c0-9.52-7.194-17.365-16.44-18.387l-1.642-.181zM69 64H10l7-11V38.5c0-11.922 9.273-21.679 21-22.45V8l4-1v9.137C53.25 17.381 62 26.92 62 38.5V53l7 11zm-39 4h22l-2 4H28l2-4zm9-38a8 8 0 00-8 8v1l-4 3v-4c0-6.627 5.373-12 12-12v4z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconMessageEmpty80.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1m = ["color", "size"];
-	var IconCongratulate80 = function IconCongratulate80(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1m);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '80',
-	    height: size || '80',
-	    viewBox: "0 0 80 80",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M34.91 19.142c.696 4.005.278 7.813-.354 10.19l-4.832-1.285c.466-1.754.82-4.829.26-8.048-.556-3.189-1.969-6.34-4.86-8.604l3.084-3.936c4.125 3.232 5.999 7.646 6.701 11.683zm15.88-9.32l-.272.581a1.451 1.451 0 01-1.315.838H48.19a3.896 3.896 0 00-1.978 7.252l4.95 2.918.002.002h.001s.002.002.002.005l.001.002v.006l-.002.003-.002.002h-.001l-.002.002a.018.018 0 01-.004 0l-.001.001-.004-.001-3.846-1.446a3.934 3.934 0 00-4.833 5.574l.99 1.807a.602.602 0 01-.867.786l-.933-.64-2.264 3.297.933.64a4.602 4.602 0 006.639-6.007l-.905-1.65 3.678 1.383a4.012 4.012 0 003.45-7.211l-4.62-2.725h.63a5.451 5.451 0 004.94-3.148l.27-.58-3.625-1.691zm3.3 27.55c1.005-1.532 3.152-4.05 6.177-6.299 3.014-2.241 6.77-4.117 11.01-4.588l-.553-4.97c-5.36.596-9.938 2.942-13.44 5.545-3.493 2.597-6.046 5.544-7.374 7.568l4.18 2.744zm-28.007-11.1c.043-.15.433-.928 2.147-1.623.084-1.29.048-2.782-.217-4.307a15.838 15.838 0 00-.17-.839c-3.437 1.018-5.84 2.855-6.567 5.391-.261.913-.291 1.863-.111 2.831l-.03.003 4.921 45.27c.24 2.199 2.94 3.114 4.466 1.515l32.449-33.995-.104-.1c.971-.855 1.654-1.869 1.987-3.028.556-1.94.064-4.052-1.26-6.14-.745.445-1.457.925-2.134 1.428a27.524 27.524 0 00-1.902 1.551c.586 1.049.525 1.659.49 1.783-.057.196-.706 1.464-4.125 2.219-.057.082-.11.162-.16.238l-.237-.155a19.4 19.4 0 01-.18.034c-3.595.67-8.594.44-14.027-1.118-5.432-1.558-9.794-4.01-12.488-6.485-2.94-2.7-2.808-4.265-2.748-4.473zm13.413-2.358a34.712 34.712 0 00-2.227-.243 27.044 27.044 0 00-.419-5.037c1.452.078 2.959.247 4.502.51a6.431 6.431 0 00-1.857 4.77zm16.996 1.247c.071-.101.14-.205.205-.312l.123.078-.328.234zm-3.777 3.137a31.914 31.914 0 00-.76-.412 6.532 6.532 0 001.698-.449c-.323.287-.636.574-.938.861zM39.941 42.036c4.677 1.341 9.221 1.847 13.13 1.61l-6.967 7.301a26.368 26.368 0 01-17.95-4.925l-1.116-10.257c3.299 2.556 7.766 4.798 12.903 6.271zm-11.1 10.306l1.628 14.984 10.837-11.353a31.375 31.375 0 01-12.466-3.631z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconCongratulate80.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1n = ["color", "size"];
-	var IconEmail80 = function IconEmail80(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1n);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '80',
-	    height: size || '80',
-	    viewBox: "0 0 80 80",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M59 25H15v30h32.673c.286 1.78.921 3.48 1.858 5H10V20h54v17.596l-2.5-.933-2.5.933V25zm2.5 22.337l4 1.492v4.002a3.667 3.667 0 01-1.438 2.911L61.5 57.703l-2.562-1.96A3.667 3.667 0 0157.5 52.83v-4.002l4-1.492zm5.601 12.376L61.5 64l-5.601-4.287A8.667 8.667 0 0152.5 52.83v-7.473l9-3.358 9 3.358v7.473a8.667 8.667 0 01-3.399 6.882z",
-	    fill: "currentColor"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M21.926 34.924l2.15-4.515L37 36.564l12.925-6.155 2.15 4.515L37 42.102l-15.075-7.178z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconEmail80.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1o = ["color", "size"];
-	var IconConnect80 = function IconConnect80(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1o);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '80',
-	    height: size || '80',
-	    viewBox: "0 0 80 80",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M62 21H18v21h-5V16h54v49H36v-5h26v-8H43V29h19v-8zm0 13v13H48V34h14zm-3 4h-7v5h6l1-5zM13 52v-5c9.941 0 18 8.059 18 18h-5c0-7.18-5.82-13-13-13zm0 8a5 5 0 015 5h-5v-5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconConnect80.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1p = ["color", "size"];
-	var IconExpect80 = function IconExpect80(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1p);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '80',
-	    height: size || '80',
-	    viewBox: "0 0 80 80",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M62 21H18v21.258l-5 3.683V16h54v49H31.466l-4.579-8.058-3.716-6.438-7.467 5.436 5.674 1.52-2.625 9.61-4.823-1.317 1.3-4.763-10.933-2.93L24.72 43.19l6.505 11.267L34.376 60h27.623v-8H43V29h19v-8zm0 13v13H48V34h14zm-3 4h-7v5h6l1-5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconExpect80.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1q = ["color", "size"];
-	var IconLinkedWallet80 = function IconLinkedWallet80(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1q);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '80',
-	    height: size || '80',
-	    viewBox: "0 0 80 80",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M30.5 49.5h25.536l9.464-9.465V14.5H35.965L30.5 19.965V26h5v-3.965l2.536-2.535H60.5v18.465L53.965 44.5H35.5V40h-5v9.5zm19-19H23.963L14.5 39.965V65.5h29.535l5.465-5.465V54h-5v3.965L41.963 60.5H19.5V42.035l6.535-6.535H44.5V40h5v-9.5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconLinkedWallet80.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1r = ["color", "size"];
-	var IconResetPassword80 = function IconResetPassword80(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1r);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '80',
-	    height: size || '80',
-	    viewBox: "0 0 80 80",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M40 12.833c-8.008 0-14.5 6.492-14.5 14.5v10.51a18.421 18.421 0 00-4 11.49c0 10.218 8.283 18.5 18.5 18.5s18.5-8.282 18.5-18.5c0-10.217-8.283-18.5-18.5-18.5-3.473 0-6.723.958-9.5 2.623v-6.123a9.5 9.5 0 0119 0v1.048a23.007 23.007 0 015 3.098v-4.146c0-8.008-6.492-14.5-14.5-14.5zm-13.5 36.5c0-7.456 6.044-13.5 13.5-13.5s13.5 6.044 13.5 13.5-6.044 13.5-13.5 13.5-13.5-6.044-13.5-13.5zm7.834 0A5.667 5.667 0 1142.5 54.42v2.67l-5 .91v-3.58a5.667 5.667 0 01-3.166-5.087z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconResetPassword80.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1s = ["color", "size"];
-	var IconWalletConnected80 = function IconWalletConnected80(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1s);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '80',
-	    height: size || '80',
-	    viewBox: "0 0 80 80",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M13 16h54v49H13V16zm49 5v8H43v23h19v8H18V21h44zm0 13v13H48V34h14zm-4 4h-7v5h5l2-5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconWalletConnected80.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1t = ["color", "size"];
-	var originFill = ['url(#paint0_linear_375_15)'];
-	var IconTelegramScalable = function IconTelegramScalable(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1t);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12055,7 +9461,7 @@
 	    d: "M9.772 18.19l.28-4.224 7.67-6.91c.339-.31-.07-.46-.52-.19l-9.468 5.982-4.094-1.299c-.88-.25-.89-.859.2-1.298l15.948-6.152c.73-.33 1.429.18 1.149 1.298L18.221 18.19c-.19.91-.74 1.129-1.498.71l-4.135-3.056L10.6 17.77c-.23.23-.42.42-.83.42z",
 	    fill: color || originFill[0]
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_375_15",
+	    id: "paint0_linear_0_324",
 	    x1: "3",
 	    y1: "11.813",
 	    x2: "21",
@@ -12068,119 +9474,69 @@
 	    stopColor: "#EBB9E7"
 	  }))));
 	};
-	IconTelegramScalable.propTypes = {
+	IconTelegram.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1u = ["color", "size"];
-	var IconEmail120 = function IconEmail120(props) {
+	var _excluded$1 = ["color", "size"];
+	var IconPolygon = function IconPolygon(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1u);
+	    otherProps = _objectWithoutProperties(props, _excluded$1);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
 	    },
-	    width: size || '120',
-	    height: size || '120',
-	    viewBox: "0 0 120 120",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M22 37h66v21.82l3.5-1.26 3.5 1.26V30H15v60h57.587a19.992 19.992 0 01-1.997-7H22V37zm62.5 37.958v6.146a6 6 0 002.437 4.828L91.5 89.3l4.563-3.368a6 6 0 002.437-4.828v-6.146l-7-2.519-7 2.519zM91.5 98l8.72-6.436a13.001 13.001 0 005.28-10.46V70.037L91.5 65l-14 5.037v11.067a13 13 0 005.28 10.46L91.5 98zM35.506 45.84l-3.01 6.32 22.505 10.717L77.506 52.16l-3.01-6.32-19.495 9.283-19.495-9.283z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconEmail120.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1v = ["color", "size"];
-	var IconResetPassword120 = function IconResetPassword120(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1v);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '120',
-	    height: size || '120',
-	    viewBox: "0 0 120 120",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M38.5 41c0-11.874 9.626-21.5 21.5-21.5S81.5 29.126 81.5 41v5.38a34.991 34.991 0 00-7-4.245V41c0-8.008-6.492-14.5-14.5-14.5S45.5 32.992 45.5 41v9.629A27.371 27.371 0 0160 46.5c15.188 0 27.5 12.312 27.5 27.5S75.188 101.5 60 101.5 32.5 89.188 32.5 74a27.384 27.384 0 016-17.148V41zm1 33c0-11.322 9.178-20.5 20.5-20.5S80.5 62.678 80.5 74 71.322 94.5 60 94.5 39.5 85.322 39.5 74zM60 65.5a8.5 8.5 0 00-3.5 16.248V87l7-1.867v-3.385A8.5 8.5 0 0060 65.5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconResetPassword120.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1w = ["color", "size"];
-	var IconPolygonScalable = function IconPolygonScalable(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1w);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '21.3330078125',
+	    width: size || '21.33333396911621',
 	    height: size || '24',
-	    viewBox: "0 0 21.3330078125 24",
+	    viewBox: "0 0 21.33333396911621 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M10.667.92l9.595 5.54v11.08l-9.595 5.54-9.595-5.54V6.46L10.667.92zM17.595 8l-6.928-4L3.74 8v8l6.928 4 6.928-4V8z",
+	    d: "M10.667.92l9.595 5.54v11.08l-9.595 5.54-9.595-5.54V6.46L10.667.92zM17.595 8l-6.928-4-6.928 4v8l6.928 4 6.928-4V8z",
 	    fill: "#141430"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M10.666 4l6.929 4v8l-6.928 4-6.929-4V8l6.928-4z",
+	    d: "M10.667 4l6.928 4v8l-6.928 4-6.928-4V8l6.928-4z",
 	    fill: "#7DD5F9"
 	  }));
 	};
-	IconPolygonScalable.propTypes = {
+	IconPolygon.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1x = ["color", "size"];
-	var originFill$1 = ['url(#paint0_linear_222_921)'];
-	var IconXterioLogoScalable = function IconXterioLogoScalable(props) {
+	var _excluded$2 = ["color", "size"];
+	var originFill$1 = ['url(#paint0_linear_0_335)'];
+	var IconXterioLogo = function IconXterioLogo(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1x);
+	    otherProps = _objectWithoutProperties(props, _excluded$2);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
 	    },
-	    width: size || '116.36328125',
+	    width: size || '116.36363983154297',
 	    height: size || '24',
-	    viewBox: "0 0 116.36328125 24",
+	    viewBox: "0 0 116.36363983154297 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_921)",
+	    clipPath: "url(#clip0_0_335)",
 	    fillRule: "evenodd",
 	    clipRule: "evenodd"
 	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M28.032 3.485a.225.225 0 00.024.067c.006.355.014.709.027 1.073a5591.187 5591.187 0 01.07 8.931c.005.666.008 1.333.014 1.999-.002.18.01.36.035.538.324 1.904 1.251 3.422 2.9 4.466 1.121.71 2.364 1.104 3.659 1.347a20.98 20.98 0 005.865.214c.113-.01.121-.06.121-.152-.005-1.454-.005-2.91 0-4.37 0-.117-.036-.137-.143-.137a10.497 10.497 0 01-2.263-.267c-1-.246-1.918-.646-2.642-1.403-.68-.713-1.061-1.553-1.055-2.554a283.16 283.16 0 000-3.71c-.001-.165.05-.19.2-.19h4.781c.113 0 .15-.023.15-.145a531.922 531.922 0 010-4.265c0-.131-.037-.15-.158-.15-1.634.005-3.278.005-4.917.005-.132 0-.177-.023-.177-.168V.77l-.007-.001.005-.003.006-.039h-6.495v2.758zM1.286 21.519c-.186.187-.372.375-.558.566-.004.064.033.059.066.054.01-.001.02-.003.029-.002h7.892a.235.235 0 00.182-.084l2.242-2.3c.649-.667 1.297-1.335 1.945-2.004l.004-.003c.044-.045.075-.075.138-.009.321.342.647.676.972 1.01l.09.093a897.029 897.029 0 013.104 3.22.245.245 0 00.197.08h7.863l.025.002c.03.005.062.01.084-.03l-.013-.015-.025-.028-2.455-2.536a8385.97 8385.97 0 01-3.906-4.037c-.607-.63-1.217-1.26-1.83-1.887-.08-.088-.111-.148 0-.243.108-.098.21-.201.305-.311.92-.948 1.84-1.898 2.758-2.848l4.35-4.5.85-.886h-7.951a.377.377 0 00-.298.13c-.421.446-.846.885-1.271 1.324v.001l-.366.377-.657.679c-.596.613-1.192 1.227-1.784 1.85-.092.093-.129.088-.214 0l-.679-.706-.004-.004V8.47l-.963-1c-.82-.842-1.638-1.687-2.455-2.533a.307.307 0 00-.243-.108H.89c-.01 0-.022-.003-.035-.006-.04-.008-.082-.016-.1.047.603.61 1.2 1.221 1.792 1.836l3.874 4.005c.868.9 1.737 1.801 2.609 2.702.058.058.054.087 0 .142-.14.137-.275.277-.41.417l-.146.152-4.32 4.45-2.363 2.431c-.168.173-.337.343-.506.513zM77.165 6.506c-.66.369-1.29.79-1.882 1.259a1.134 1.134 0 00-.004-.069l-.002-.015V4.933c.002-.117-.016-.158-.15-.158-1.733.005-3.467.005-5.2 0-.127 0-.155.035-.155.157v17.143c-.001.129.038.152.16.152 1.728-.006 3.457-.006 5.186 0 .14 0 .16-.046.16-.168v-6.981c-.001-.085.011-.17.036-.25.254-.8.686-1.533 1.262-2.144.851-.934 1.901-1.6 3.04-2.134a16.102 16.102 0 013.838-1.233c.096-.018.13-.048.13-.152V4.916c0-.088 0-.155-.122-.144-.082.006-.166.007-.25.007-.066 0-.133.001-.2.004-2.057.11-4.06.7-5.847 1.723zm14.31 9.27v6.29c0 .14-.038.162-.166.162h-4.992c-.121 0-.157-.027-.157-.154V9.429c0-.122.036-.156.157-.156h4.992c.13 0 .166.03.166.163-.003 2.114-.003 4.227 0 6.34zm-34.051-.8h-9.638c-.09 0-.135 0-.155.022-.02.023-.013.069 0 .161.18 1.25 1.014 2.09 2.266 2.25.37.03.74.036 1.11.02h3.76l1.308.003 1.308.003c.71 0 1.422 0 2.133-.015.495-.01.932-.218 1.355-.449.307-.169.6-.363.875-.581a.149.149 0 01.196-.018 860.27 860.27 0 003.97 2.217c.1.054.098.091.05.179-.84 1.486-2.1 2.473-3.669 3.096-.33.132-.67.237-1.016.316a1.412 1.412 0 01-.327.037l-4.1-.001c-2.733-.002-5.466-.004-8.2.001a5.605 5.605 0 01-2.927-.815c-1.294-.768-2.142-1.905-2.686-3.283a10.58 10.58 0 01-.663-3.005 14.45 14.45 0 01.057-3.143c.243-1.83.851-3.504 2.116-4.89a7.379 7.379 0 013.852-2.258c.092-.02.187-.03.282-.029 1.156 0 2.311-.001 3.467-.003 3.004-.003 6.009-.007 9.013.014 1.276.009 2.396.522 3.34 1.384.902.823 1.479 1.856 1.896 2.987a14.19 14.19 0 01.758 3.432c.08.736.112 1.477.097 2.217 0 .131-.042.15-.16.15h-9.668zm-2.529-3.56h-7.126c-.088 0-.133 0-.153-.023-.02-.022-.016-.069-.005-.162.09-.788.571-1.285 1.233-1.646.302-.169.642-.255.988-.252 3.486.01 6.974.01 10.464 0a1.493 1.493 0 011.241.608c.306.41.525.877.646 1.374.018.07.012.107-.072.097a1.014 1.014 0 00-.104 0l-7.112.004z",
+	    d: "M28.032 3.485a.225.225 0 00.024.067c.006.355.014.709.027 1.073a6374.818 6374.818 0 01.06 7.432l.01 1.5c.004.665.008 1.331.014 1.998-.003.18.01.36.035.538.323 1.904 1.251 3.422 2.9 4.466 1.12.71 2.363 1.104 3.658 1.347 1.936.346 3.91.418 5.866.214.113-.01.121-.06.121-.152-.005-1.454-.005-2.91 0-4.37 0-.117-.036-.137-.143-.137a10.495 10.495 0 01-2.263-.267c-1-.246-1.919-.646-2.642-1.403-.68-.713-1.061-1.553-1.055-2.554a283.15 283.15 0 000-3.71c-.002-.165.05-.19.199-.19h4.782c.113 0 .15-.023.15-.145a531.922 531.922 0 010-4.265c0-.131-.037-.15-.159-.15-1.634.005-3.278.005-4.916.005-.132 0-.177-.023-.177-.168V.77l-.008-.001.006-.003.006-.039h-6.495v2.758zM1.285 21.519c-.185.187-.372.375-.557.566-.004.064.033.059.066.054.01-.001.02-.003.028-.002h7.892a.236.236 0 00.183-.084l2.242-2.3 1.945-2.004.004-.003c.044-.045.075-.075.137-.009.322.342.648.676.973 1.01l.09.093a897 897 0 013.104 3.22.243.243 0 00.197.08h7.863c.008 0 .016 0 .025.002.03.005.062.01.084-.03l-.013-.015c-.009-.01-.017-.02-.026-.028l-2.454-2.536-3.906-4.037a368.6 368.6 0 00-1.83-1.887c-.08-.089-.111-.148 0-.243.108-.098.21-.202.304-.311l2.76-2.848 4.348-4.5.851-.886h-7.951a.376.376 0 00-.298.13c-.422.446-.847.885-1.271 1.324v.001l-.366.377-.658.679c-.596.613-1.191 1.227-1.783 1.85-.093.093-.13.088-.214 0l-.679-.706-.004-.004V8.47l-.963-1c-.82-.842-1.638-1.687-2.455-2.533a.307.307 0 00-.243-.108H.892c-.011 0-.024-.003-.036-.006-.04-.008-.082-.016-.1.047.603.61 1.2 1.221 1.792 1.836l3.873 4.005c.868.9 1.738 1.8 2.61 2.701.058.059.054.088 0 .143-.14.137-.275.277-.41.417l-.146.152-4.32 4.45-2.364 2.431c-.168.172-.337.343-.506.513zm75.88-15.013c-.66.369-1.29.79-1.882 1.259a1.16 1.16 0 00-.004-.069l-.002-.015V4.933c.002-.117-.017-.158-.15-.158-1.733.005-3.467.005-5.2 0-.127 0-.155.035-.155.157v17.143c-.001.129.037.152.16.152 1.728-.006 3.457-.006 5.186 0 .14 0 .16-.046.16-.168v-6.981c-.002-.085.01-.17.035-.25.255-.8.686-1.534 1.262-2.144.852-.934 1.902-1.6 3.04-2.134a16.104 16.104 0 013.839-1.233c.096-.018.13-.048.13-.152V4.916c0-.088 0-.155-.122-.144-.082.006-.166.007-.25.007-.067 0-.133.001-.2.004-2.057.11-4.06.7-5.848 1.723zm14.31 9.27v6.29c0 .14-.038.162-.167.162h-4.99c-.122 0-.159-.027-.159-.154V9.429c0-.122.037-.156.158-.156h4.992c.13 0 .166.03.166.163a2309.67 2309.67 0 000 6.34zm-34.051-.8h-9.638c-.09 0-.136 0-.155.022-.02.023-.013.069 0 .161.18 1.25 1.014 2.09 2.265 2.25.37.03.741.036 1.112.02h3.759l1.308.003c.436.002.871.003 1.307.003.712 0 1.423 0 2.134-.015.495-.01.931-.218 1.355-.449.307-.169.6-.363.875-.581a.148.148 0 01.196-.018c1.32.742 2.645 1.481 3.97 2.217.1.054.098.091.05.179-.84 1.486-2.1 2.473-3.669 3.096-.33.132-.67.237-1.016.316a1.418 1.418 0 01-.327.037l-4.1-.001c-2.733-.002-5.467-.004-8.2.001a5.604 5.604 0 01-2.928-.816c-1.293-.767-2.14-1.904-2.686-3.282a10.58 10.58 0 01-.662-3.005 14.45 14.45 0 01.057-3.143c.243-1.83.851-3.504 2.116-4.89a7.38 7.38 0 013.851-2.258c.093-.02.188-.03.282-.029l3.468-.003c3.004-.003 6.008-.007 9.013.014 1.276.009 2.395.522 3.34 1.384.902.823 1.479 1.856 1.896 2.987.394 1.108.649 2.261.758 3.432.08.736.112 1.477.096 2.217 0 .131-.041.15-.159.15h-9.668zm-2.53-3.56H47.77c-.088 0-.133 0-.153-.023-.021-.022-.016-.069-.005-.162.09-.788.571-1.285 1.233-1.646.302-.169.642-.255.988-.252 3.485.01 6.973.01 10.464 0a1.492 1.492 0 011.241.608c.306.41.525.877.646 1.374.018.07.012.107-.072.097a.96.96 0 00-.105 0l-7.111.004z",
 	    fill: "currentColor"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M113.607 20.397a10.452 10.452 0 002.561-6.844 10.513 10.513 0 00-.412-2.902c-1.695-5.954-8.221-9.124-13.981-6.796-.983.397-1.863.964-2.714 1.589-1.028.764-2.2.992-3.46.764-.972-.175-1.84-.587-2.674-1.073a2.05 2.05 0 01-.91-1.102 2.726 2.726 0 01-.086-.312 3.19 3.19 0 00-5.396-1.542 3.187 3.187 0 00-.894 1.974c-.191 2.29 2.084 4.035 4.247 3.246a2.173 2.173 0 011.839.132c.612.316 1.191.692 1.729 1.123 1.325 1.087 1.976 2.451 1.823 4.187a9.747 9.747 0 00.4 3.637 10.457 10.457 0 0011.511 7.414 10.455 10.455 0 006.417-3.495zm-12.321-9.728a5.271 5.271 0 109.552 1.905 5.271 5.271 0 00-9.552-1.905z",
+	    d: "M113.607 20.397a10.451 10.451 0 002.149-9.746c-1.696-5.954-8.221-9.124-13.981-6.796-.984.397-1.863.964-2.714 1.589-1.028.765-2.2.992-3.46.765-.973-.176-1.84-.588-2.674-1.074a2.051 2.051 0 01-.91-1.101 2.726 2.726 0 01-.086-.313 3.19 3.19 0 00-5.396-1.542 3.187 3.187 0 00-.894 1.974c-.192 2.29 2.083 4.035 4.246 3.246a2.172 2.172 0 011.84.132 10.35 10.35 0 011.728 1.124c1.325 1.086 1.977 2.45 1.824 4.187a9.748 9.748 0 00.399 3.636 10.456 10.456 0 0017.929 3.919zm-12.321-9.728a5.272 5.272 0 00-.889 2.928 5.281 5.281 0 005.264 5.272 5.274 5.274 0 004.874-3.25 5.271 5.271 0 00-9.249-4.95z",
 	    fill: color || originFill$1[0]
 	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_921",
+	    id: "paint0_linear_0_335",
 	    x1: "85.629",
 	    y1: "1.216",
-	    x2: "116.168",
-	    y2: "24.119",
+	    x2: "116.167",
+	    y2: "24.12",
 	    gradientUnits: "userSpaceOnUse"
 	  }, /*#__PURE__*/react.createElement("stop", {
 	    stopColor: "#CBF2FE"
@@ -12194,22 +9550,22 @@
 	    offset: "1",
 	    stopColor: "#E1DFA2"
 	  })), /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_921"
+	    id: "clip0_0_335"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fill: "#fff",
 	    d: "M0 0h116.364v24H0z"
 	  }))));
 	};
-	IconXterioLogoScalable.propTypes = {
+	IconXterioLogo.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1y = ["color", "size"];
-	var IconVideoScalable = function IconVideoScalable(props) {
+	var _excluded$3 = ["color", "size"];
+	var IconVideo = function IconVideo(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1y);
+	    otherProps = _objectWithoutProperties(props, _excluded$3);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12224,15 +9580,15 @@
 	    fill: "none",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_920)"
+	    clipPath: "url(#clip0_0_339)"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
-	    fill: "url(#paint0_linear_222_920)"
+	    fill: "url(#paint0_linear_0_339)"
 	  }), /*#__PURE__*/react.createElement("path", {
 	    d: "M16.8 12l-7.2 4.157V7.843L16.8 12z",
 	    fill: "#141430"
 	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_920",
+	    id: "paint0_linear_0_339",
 	    x1: "0",
 	    y1: "12",
 	    x2: "24",
@@ -12244,22 +9600,22 @@
 	    offset: ".99",
 	    stopColor: "#EAA5E6"
 	  })), /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_920"
+	    id: "clip0_0_339"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fill: "#fff",
 	    d: "M0 0h24v24H0z"
 	  })))));
 	};
-	IconVideoScalable.propTypes = {
+	IconVideo.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1z = ["color", "size"];
-	var IconAppstoreScalable = function IconAppstoreScalable(props) {
+	var _excluded$4 = ["color", "size"];
+	var IconAppstore = function IconAppstore(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1z);
+	    otherProps = _objectWithoutProperties(props, _excluded$4);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12276,16 +9632,16 @@
 	    fill: "currentColor"
 	  }));
 	};
-	IconAppstoreScalable.propTypes = {
+	IconAppstore.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1A = ["color", "size"];
-	var IconAndroidScalable = function IconAndroidScalable(props) {
+	var _excluded$5 = ["color", "size"];
+	var IconAndroid = function IconAndroid(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1A);
+	    otherProps = _objectWithoutProperties(props, _excluded$5);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12299,16 +9655,16 @@
 	    fill: "currentColor"
 	  }));
 	};
-	IconAndroidScalable.propTypes = {
+	IconAndroid.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1B = ["color", "size"];
-	var IconMacScalable = function IconMacScalable(props) {
+	var _excluded$6 = ["color", "size"];
+	var IconMac = function IconMac(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1B);
+	    otherProps = _objectWithoutProperties(props, _excluded$6);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12318,20 +9674,20 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    d: "M21 4.2v16H3v-16h18zm-1.556 1.778H11.92c-.613 1.757-.92 4.128-.92 7.11h2.667c-.103.819-.134 1.67-.095 2.558 1.09-.187 2.403-.69 3.58-1.52l1.008 1.48c-1.46.973-2.936 1.582-4.423 1.816.046.33.1.662.163 1h5.544V5.978zm-11.95 8.15l-.987 1.478c1.917 1.278 3.864 1.927 5.826 1.927v-1.778c-1.593 0-3.201-.536-4.84-1.628zm9.284-6.373a.889.889 0 01.889.89v.888a.888.888 0 11-1.778 0v-.889a.89.89 0 01.889-.889zm-8.89 0a.892.892 0 00-.888.89v.888a.888.888 0 101.778 0v-.889a.89.89 0 00-.89-.889z",
+	    d: "M21 4.2v16H3v-16h18zm-1.556 1.778H11.92c-.613 1.757-.92 4.128-.92 7.11h2.667c-.103.819-.134 1.67-.095 2.558 1.09-.187 2.403-.69 3.58-1.52l1.008 1.48c-1.46.974-2.936 1.582-4.423 1.816.046.33.1.662.163 1h5.544V5.978zm-11.95 8.15l-.987 1.478c1.917 1.278 3.864 1.927 5.826 1.927v-1.777c-1.593 0-3.201-.536-4.84-1.629zm9.284-6.372a.889.889 0 01.889.888v.89a.888.888 0 11-1.778 0v-.89a.89.89 0 01.889-.888zm-8.89 0A.892.892 0 007 8.644v.89a.889.889 0 001.778 0v-.89a.89.89 0 00-.89-.888z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconMacScalable.propTypes = {
+	IconMac.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1C = ["color", "size"];
-	var IconSteamScalable = function IconSteamScalable(props) {
+	var _excluded$7 = ["color", "size"];
+	var IconSteam = function IconSteam(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1C);
+	    otherProps = _objectWithoutProperties(props, _excluded$7);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12344,20 +9700,20 @@
 	    d: "M11.97 2.4c-5.01 0-9.18 3.9-9.54 8.82l5.13 2.13c.45-.3.96-.45 1.53-.45h.15l2.28-3.33v-.03c0-1.98 1.62-3.63 3.63-3.63s3.63 1.62 3.63 3.63-1.62 3.63-3.63 3.63h-.09l-3.27 2.34v.12c0 1.5-1.23 2.73-2.73 2.73-1.32 0-2.43-.96-2.67-2.19l-3.66-1.56c1.14 4.02 4.86 6.99 9.24 6.99 5.31 0 9.6-4.29 9.6-9.6s-4.29-9.6-9.6-9.6z",
 	    fill: "currentColor"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M8.43 16.98l-1.17-.48c.21.45.57.81 1.05.99 1.02.45 2.22-.06 2.67-1.08.21-.51.21-1.05 0-1.56s-.6-.9-1.08-1.11c-.48-.21-1.02-.18-1.5-.03l1.23.51c.75.33 1.14 1.2.81 1.95-.36.75-1.23 1.11-2.01.81zm9.12-7.47a2.44 2.44 0 00-2.43-2.43 2.44 2.44 0 00-2.43 2.43 2.44 2.44 0 002.43 2.43 2.44 2.44 0 002.43-2.43zm-4.2 0c0-1.02.81-1.8 1.8-1.8 1.02 0 1.8.81 1.8 1.8 0 1.02-.81 1.8-1.8 1.8-.99.03-1.8-.78-1.8-1.8z",
+	    d: "M8.431 16.98l-1.17-.48c.21.45.57.81 1.05.99 1.02.45 2.22-.06 2.67-1.08.21-.51.21-1.05 0-1.56s-.6-.9-1.08-1.11c-.48-.21-1.02-.18-1.5-.03l1.23.51c.75.33 1.14 1.2.81 1.95-.36.75-1.23 1.11-2.01.81zm9.12-7.47a2.44 2.44 0 00-2.43-2.43 2.44 2.44 0 00-2.43 2.43 2.44 2.44 0 002.43 2.43 2.44 2.44 0 002.43-2.43zm-4.2 0c0-1.02.81-1.8 1.8-1.8 1.02 0 1.8.81 1.8 1.8 0 1.02-.81 1.8-1.8 1.8-.99.03-1.8-.78-1.8-1.8z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconSteamScalable.propTypes = {
+	IconSteam.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1D = ["color", "size"];
-	var IconWebScalable = function IconWebScalable(props) {
+	var _excluded$8 = ["color", "size"];
+	var IconWeb = function IconWeb(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1D);
+	    otherProps = _objectWithoutProperties(props, _excluded$8);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12367,20 +9723,22 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    d: "M9.83 10.905a2.98 2.98 0 015.942 0H9.83zm9.092-3.073a7.522 7.522 0 00-3.09-2.547c1.392-.544 2.436-.552 2.971 0 .535.551.518 1.35.12 2.547zM5.831 14.903a7.53 7.53 0 002.903 3.524 5.944 5.944 0 01-1.893.51 1.698 1.698 0 01-1.333-.383c-.62-.62-.5-1.944.323-3.65zm13.473-6.486a6.113 6.113 0 00.433-2.351 2.64 2.64 0 00-.713-1.8c-.849-.85-3.158-.722-5.68.39h-.543a7.497 7.497 0 00-7.276 5.646l-.136.552.349-.45a10.425 10.425 0 012.98-2.7l-.493.493a17.35 17.35 0 00-2.513 3.15 15.222 15.222 0 00-1.494 3.2 8.55 8.55 0 00-.476 2.683 2.496 2.496 0 00.56 1.757 2.681 2.681 0 001.987.722 7.504 7.504 0 003.176-.85 7.378 7.378 0 003.345.782 7.488 7.488 0 007.088-5.094l.051-.162h-4.245v.06a3.125 3.125 0 01-5.492 0 3.15 3.15 0 01-.4-1.4h10.41v-.111a7.84 7.84 0 00.041-.85c0-1.284-.33-2.547-.959-3.667z",
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M15.163 15.844c-.234 1.274-.577 2.4-.993 3.313-.86 1.89-1.74 2.343-2.17 2.343-.43 0-1.31-.453-2.17-2.343-.416-.914-.76-2.039-.993-3.313a52.922 52.922 0 016.326 0zm1.504.112c-.436 2.484-1.269 4.533-2.328 5.769a10.02 10.02 0 006.575-5.189 37.94 37.94 0 00-1.77-.294c-.706-.1-1.538-.202-2.477-.286zm4.836-.833a38.124 38.124 0 00-2.147-.366 48.899 48.899 0 00-2.482-.288c.082-.794.126-1.62.126-2.469 0-.849-.044-1.675-.126-2.469.937-.085 1.77-.187 2.482-.288.89-.128 1.591-.255 2.072-.351l.075-.015A9.99 9.99 0 0122 12a9.99 9.99 0 01-.497 3.123zm-6.126-.768a54.442 54.442 0 00-6.754 0c-.08-.751-.123-1.54-.123-2.355 0-.816.043-1.604.123-2.354a54.415 54.415 0 006.754 0c.08.75.123 1.538.123 2.354 0 .816-.043 1.604-.123 2.354zm-8.25.114A23.85 23.85 0 017 12c0-.849.044-1.675.126-2.469a48.88 48.88 0 01-2.482-.288 38.188 38.188 0 01-2.072-.351l-.075-.015A9.991 9.991 0 002 12c0 1.09.175 2.14.497 3.123l.075-.015a38.115 38.115 0 012.072-.35 48.901 48.901 0 012.482-.29zm-4.041 2.067a10.02 10.02 0 006.575 5.189c-1.06-1.236-1.892-3.285-2.328-5.769-.94.084-1.77.186-2.477.286-.731.105-1.328.21-1.77.294zM12 8.25c-1.131 0-2.19-.036-3.163-.094.234-1.274.577-2.4.993-3.313C10.69 2.953 11.57 2.5 12 2.5c.43 0 1.31.453 2.17 2.343.416.914.76 2.039.993 3.313-.973.058-2.032.094-3.163.094zm7.144-.492a37.808 37.808 0 001.77-.294 10.02 10.02 0 00-6.575-5.189c1.06 1.236 1.893 3.285 2.328 5.769.94-.084 1.77-.185 2.477-.286zm-14.288 0c.706.1 1.538.202 2.477.286C7.77 5.56 8.602 3.51 9.661 2.275a10.02 10.02 0 00-6.575 5.189c.442.085 1.039.19 1.77.294z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconWebScalable.propTypes = {
+	IconWeb.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1E = ["color", "size"];
-	var IconWindowsScalable = function IconWindowsScalable(props) {
+	var _excluded$9 = ["color", "size"];
+	var IconWindows = function IconWindows(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1E);
+	    otherProps = _objectWithoutProperties(props, _excluded$9);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12390,20 +9748,20 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    d: "M19.2 11.64V4.8c-2.633.36-5.243.72-7.875 1.148v5.76l7.875-.068zM4.8 6.915v4.837c1.935 0 3.915-.022 5.85-.022V6.105c-1.935.27-3.915.518-5.85.81zm0 5.4v4.838c1.935.27 3.915.517 5.85.787v-5.603c-1.935 0-3.915-.022-5.85-.022zm6.57.113c.022 1.89.022 3.78.022 5.67 2.61.36 5.198.72 7.808 1.102v-6.772h-7.83z",
+	    d: "M19.2 11.64V4.8c-2.633.36-5.242.72-7.875 1.147v5.76l7.875-.067zM4.8 6.915v4.837c1.935 0 3.915-.022 5.85-.022V6.105c-1.935.27-3.915.517-5.85.81zm0 5.4v4.838c1.935.27 3.915.517 5.85.787v-5.603c-1.935 0-3.915-.022-5.85-.022zm6.57.113c.023 1.89.023 3.78.023 5.67 2.61.36 5.197.72 7.807 1.102v-6.772h-7.83z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconWindowsScalable.propTypes = {
+	IconWindows.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1F = ["color", "size"];
-	var IconChainBscScalable = function IconChainBscScalable(props) {
+	var _excluded$a = ["color", "size"];
+	var IconChainBsc = function IconChainBsc(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1F);
+	    otherProps = _objectWithoutProperties(props, _excluded$a);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12418,30 +9776,30 @@
 	    fill: "none",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_888)"
+	    clipPath: "url(#clip0_0_360)"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
 	    fill: "#0B0E11"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M7.725 6.477l4.227-2.46 4.227 2.46-1.554.91-2.673-1.552L9.28 7.386l-1.554-.909zm8.454 3.104l-1.554-.91-2.673 1.552L9.28 8.672l-1.554.909v1.818l2.673 1.55v3.104l1.554.91 1.554-.91V12.95l2.673-1.55V9.58zm0 4.92v-1.818l-1.554.909v1.818l1.554-.91zm1.104.643l-2.673 1.551v1.818l4.227-2.46v-4.92l-1.554.908v3.103zM15.73 8.028l1.554.91v1.817l1.554-.909V8.028l-1.554-.909-1.554.91zm-5.33 9.327v1.818l1.553.91 1.554-.91v-1.818l-1.554.91-1.554-.91zm-2.674-2.854l1.554.909v-1.818l-1.554-.91v1.819zm2.673-6.473l1.554.91 1.554-.91-1.554-.909-1.554.91zm-3.775.91l1.554-.91-1.554-.909-1.556.91v1.817l1.556.91V8.936zm0 3.104l-1.556-.912v4.92l4.227 2.462v-1.817l-2.671-1.55v-3.103z",
+	    d: "M7.725 6.477l4.227-2.46 4.227 2.46-1.554.909-2.673-1.551-2.673 1.551-1.554-.909zm8.454 3.104l-1.554-.911-2.673 1.553L9.279 8.67l-1.554.91v1.818l2.673 1.55v3.104l1.554.909 1.554-.909v-3.104l2.673-1.549V9.58zm0 4.92v-1.819l-1.554.91v1.817l1.554-.909zm1.104.643l-2.673 1.551v1.818l4.227-2.46v-4.92l-1.554.908v3.103zm-1.554-7.116l1.554.909v1.818l1.554-.909V8.028l-1.554-.909-1.554.909zm-5.331 9.327v1.818l1.554.909 1.554-.909v-1.818l-1.554.909-1.554-.909zm-2.673-2.854l1.554.909V13.59l-1.554-.909v1.819zm2.673-6.473l1.554.909 1.554-.909-1.554-.909-1.554.909zm-3.776.909l1.555-.909-1.554-.909-1.556.909v1.818l1.555.909V8.937zm0 3.105l-1.555-.912v4.92l4.227 2.462v-1.817l-2.672-1.551v-3.102z",
 	    fill: "#F1B90C"
 	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_888"
+	    id: "clip0_0_360"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fill: "#fff",
 	    d: "M0 0h24v24H0z"
 	  })))));
 	};
-	IconChainBscScalable.propTypes = {
+	IconChainBsc.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1G = ["color", "size"];
-	var IconChainPolygonScalable = function IconChainPolygonScalable(props) {
+	var _excluded$b = ["color", "size"];
+	var IconChainBase = function IconChainBase(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1G);
+	    otherProps = _objectWithoutProperties(props, _excluded$b);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12456,31 +9814,115 @@
 	    fill: "none",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_887)"
+	    clipPath: "url(#clip0_0_363)"
 	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
-	    fill: "#8247E5"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M15.789 9.65a.913.913 0 00-.86 0l-2.006 1.183-1.361.752-1.97 1.182a.913.913 0 01-.86 0l-1.54-.931a.873.873 0 01-.43-.753v-1.79c0-.287.143-.574.43-.753l1.54-.895a.913.913 0 01.86 0l1.54.93c.25.144.43.43.43.753v1.182l1.36-.788V8.504a.884.884 0 00-.43-.752L9.628 6.068a.913.913 0 00-.86 0L5.83 7.788a.788.788 0 00-.43.716v3.367c0 .287.144.573.43.753l2.902 1.683c.25.143.573.143.86 0l1.97-1.146 1.36-.788 1.97-1.146a.913.913 0 01.86 0l1.54.895c.252.143.43.43.43.752v1.791a.884.884 0 01-.43.753l-1.504.895a.913.913 0 01-.86 0l-1.54-.895a.873.873 0 01-.43-.753V13.52l-1.36.788v1.182c0 .287.143.573.43.752l2.9 1.684c.252.143.574.143.86 0l2.902-1.684c.25-.143.43-.43.43-.752v-3.403a.883.883 0 00-.43-.752L15.788 9.65z",
-	    fill: "#fff"
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M17.94 17.94A8.4 8.4 0 013.686 13.2H16.8v-2.4H3.686a8.4 8.4 0 1114.254 7.14zM24 12c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12z",
+	    fill: "#0052FF"
 	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_887"
+	    id: "clip0_0_363"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fill: "#fff",
 	    d: "M0 0h24v24H0z"
 	  })))));
 	};
-	IconChainPolygonScalable.propTypes = {
+	IconChainBase.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1H = ["color", "size"];
-	var originFill$2 = ['url(#paint0_linear_222_919)'];
-	var IconMediumScalable = function IconMediumScalable(props) {
+	var _excluded$c = ["color", "size"];
+	var IconChainArbitrum = function IconChainArbitrum(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1H);
+	    otherProps = _objectWithoutProperties(props, _excluded$c);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_367)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M2.17 7.295v9.41c0 .6.321 1.155.841 1.455l8.15 4.706c.52.299 1.16.299 1.68 0l8.15-4.706c.52-.3.842-.855.842-1.456V7.295c0-.6-.321-1.156-.841-1.455l-8.15-4.706c-.52-.299-1.16-.299-1.68 0L3.008 5.84c-.52.3-.84.855-.84 1.455z",
+	    fill: "#213147"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M13.78 13.825l-1.163 3.187a.408.408 0 000 .273l2 5.484 2.313-1.335-2.776-7.61a.199.199 0 00-.374 0zM16.11 8.465a.199.199 0 00-.374 0l-1.163 3.187a.408.408 0 000 .274l3.277 8.978 2.313-1.336L16.11 8.465z",
+	    fill: "#12AAFF"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 1.487c.058 0 .115.016.166.043l8.82 5.092c.102.059.166.17.166.286v10.18a.33.33 0 01-.166.286l-8.82 5.092a.326.326 0 01-.165.043.351.351 0 01-.166-.043l-8.82-5.088a.331.331 0 01-.165-.286V6.91a.33.33 0 01.165-.285l8.82-5.092a.332.332 0 01.166-.045zM12 0c-.313 0-.628.08-.91.244l-8.818 5.09c-.563.325-.91.926-.91 1.575v10.182c0 .65.347 1.25.91 1.575l8.82 5.092a1.814 1.814 0 001.82 0l8.82-5.092c.564-.325.91-.926.91-1.575V6.909c0-.65-.346-1.25-.91-1.575L12.912.244A1.814 1.814 0 0012 0z",
+	    fill: "#9DCCED"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M6.167 20.915l.812-2.221 1.633 1.357-1.527 1.394-.918-.53z",
+	    fill: "#213147"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M11.257 6.18H9.021a.398.398 0 00-.374.263L3.854 19.58l2.312 1.336 5.278-14.467a.198.198 0 00-.187-.268zM15.17 6.18h-2.236a.398.398 0 00-.374.263l-5.473 15L9.4 22.78l5.957-16.33a.2.2 0 00-.187-.268z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_367"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconChainArbitrum.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$d = ["color", "size"];
+	var IconTokenBnb = function IconTokenBnb(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$d);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_378)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: "#F0B90B"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M7.724 6.476l4.227-2.46 4.227 2.46-1.554.909-2.673-1.551-2.673 1.55-1.554-.908zm8.454 3.103l-1.554-.91-2.673 1.552-2.673-1.55-1.554.908v1.818l2.673 1.551v3.104l1.554.909 1.554-.91v-3.103l2.673-1.55V9.58zm0 4.92v-1.818l-1.554.91v1.817l1.554-.909zm1.104.644l-2.673 1.55v1.819l4.227-2.46v-4.92l-1.554.907v3.104zm-1.554-7.116l1.554.909v1.818l1.554-.91V8.028l-1.554-.91-1.554.91zm-5.33 9.327v1.818l1.553.909 1.554-.91v-1.817l-1.554.909-1.554-.91zm-2.674-2.855l1.554.91V13.59l-1.554-.909V14.5zm2.673-6.472l1.554.909 1.554-.91-1.554-.908-1.554.909zm-3.775.909l1.554-.91-1.554-.908-1.556.909v1.818l1.556.909V8.936zm0 3.105l-1.556-.912v4.92l4.227 2.461v-1.816l-2.671-1.551V12.04z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_378"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconTokenBnb.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$e = ["color", "size"];
+	var originFill$2 = ['url(#paint0_linear_0_376)'];
+	var IconMedium = function IconMedium(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$e);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12493,7 +9935,7 @@
 	    d: "M13.153 12.112c0 2.822-2.273 5.11-5.076 5.11-2.804 0-5.077-2.288-5.077-5.11C3 9.289 5.273 7 8.077 7c2.803 0 5.076 2.289 5.076 5.112zm5.57 0c0 2.657-1.137 4.812-2.54 4.812-1.401 0-2.537-2.155-2.537-4.812 0-2.658 1.136-4.813 2.538-4.813 1.401 0 2.538 2.155 2.538 4.813zm2.277 0c0 2.38-.4 4.31-.893 4.31s-.892-1.93-.892-4.31c0-2.381.4-4.311.892-4.311.493 0 .893 1.93.893 4.31z",
 	    fill: color || originFill$2[0]
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_919",
+	    id: "paint0_linear_0_376",
 	    x1: "3",
 	    y1: "12.288",
 	    x2: "21",
@@ -12506,54 +9948,16 @@
 	    stopColor: "#EBB9E7"
 	  }))));
 	};
-	IconMediumScalable.propTypes = {
+	IconMedium.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1I = ["color", "size"];
-	var IconTokenBnbScalable = function IconTokenBnbScalable(props) {
+	var _excluded$f = ["color", "size"];
+	var IconMessageLogo = function IconMessageLogo(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1I);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "24",
-	    height: "24",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_889)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
-	    fill: "#F0B90B"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M7.724 6.476l4.227-2.46 4.227 2.46-1.554.909-2.673-1.551-2.673 1.55-1.554-.908zm8.454 3.103l-1.554-.91-2.673 1.552-2.673-1.55-1.554.908v1.818l2.673 1.551v3.104l1.554.909 1.554-.91v-3.103l2.673-1.55V9.58zm0 4.92v-1.818l-1.554.91v1.817l1.554-.909zm1.104.644l-2.673 1.55v1.819l4.227-2.46v-4.92l-1.554.907v3.104zm-1.554-7.116l1.554.909v1.818l1.554-.91V8.028l-1.554-.91-1.554.91zm-5.33 9.327v1.818l1.553.909 1.554-.91v-1.817l-1.554.909-1.554-.91zm-2.674-2.855l1.554.91V13.59l-1.554-.909V14.5zm2.673-6.472l1.554.909 1.554-.91-1.554-.908-1.554.909zm-3.775.909l1.554-.91-1.554-.908-1.556.909v1.818l1.556.909V8.936zm0 3.105l-1.556-.912v4.92l4.227 2.461v-1.816l-2.671-1.551V12.04z",
-	    fill: "#fff"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_889"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h24v24H0z"
-	  })))));
-	};
-	IconTokenBnbScalable.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1J = ["color", "size"];
-	var IconMessageLogoScalable = function IconMessageLogoScalable(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1J);
+	    otherProps = _objectWithoutProperties(props, _excluded$f);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12563,33 +9967,33 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_917)"
+	    clipPath: "url(#clip0_0_381)"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    d: "M24 12c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12z",
 	    fill: "#7DD5F9"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M8.402 12.126a3.6 3.6 0 016.955-1.864l.62 2.319 1.626 1.428-9.273 2.484.693-2.049-.621-2.318z",
+	    d: "M8.401 12.126a3.6 3.6 0 016.955-1.864l.621 2.319 1.625 1.428-9.273 2.484.694-2.049-.622-2.318z",
 	    fill: "currentColor"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M10.212 7.293l1.004-.89.466 1.738-1.16.31-.31-1.159zM10.803 16.452l2.898-.777-.27 1.315-2.897.776.27-1.314z",
+	    d: "M10.212 7.293l1.004-.89.466 1.738-1.16.31-.31-1.158zM10.803 16.452l2.898-.777-.27 1.315-2.897.776.269-1.314z",
 	    fill: "currentColor"
 	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_917"
+	    id: "clip0_0_381"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fill: "#fff",
 	    d: "M0 0h24v24H0z"
 	  }))));
 	};
-	IconMessageLogoScalable.propTypes = {
+	IconMessageLogo.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1K = ["color", "size"];
-	var IconCopyScalable = function IconCopyScalable(props) {
+	var _excluded$g = ["color", "size"];
+	var IconShareCopy = function IconShareCopy(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1K);
+	    otherProps = _objectWithoutProperties(props, _excluded$g);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12599,7 +10003,7 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_916)"
+	    clipPath: "url(#clip0_0_386)"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    d: "M0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z",
 	    fill: "#E6B1F7"
@@ -12609,22 +10013,22 @@
 	    d: "M10.25 10.5V13h1.5v-2.19l1.78-1.78a1.371 1.371 0 011.94 1.94l-.5.5 1.06 1.06.5-.5a2.871 2.871 0 00-4.06-4.06l-2 2a.75.75 0 00-.22.53zm4 3.5v-2.5h-1.5v2.19l-1.78 1.78a1.371 1.371 0 11-1.94-1.94l.5-.5-1.06-1.06-.5.5a2.871 2.871 0 104.06 4.06l2-2a.75.75 0 00.22-.53z",
 	    fill: "currentColor"
 	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_916"
+	    id: "clip0_0_386"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fill: "#fff",
 	    d: "M0 0h24v24H0z"
 	  }))));
 	};
-	IconCopyScalable.propTypes = {
+	IconShareCopy.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1L = ["color", "size"];
-	var IconSaveScalable = function IconSaveScalable(props) {
+	var _excluded$h = ["color", "size"];
+	var IconSave = function IconSave(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1L);
+	    otherProps = _objectWithoutProperties(props, _excluded$h);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12634,7 +10038,7 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_915)"
+	    clipPath: "url(#clip0_0_390)"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    d: "M0 12C0 5.373 5.373 0 12 0s12 5.373 12 12-5.373 12-12 12S0 18.627 0 12z",
 	    fill: "#7DD5F9"
@@ -12644,22 +10048,23 @@
 	    d: "M13 7.5h-2v4H9l3 3 3-3h-2v-4zM7.25 14h1.5v1.75h6.5V14h1.5v3.25h-9.5V14z",
 	    fill: "currentColor"
 	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_915"
+	    id: "clip0_0_390"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fill: "#fff",
 	    d: "M0 0h24v24H0z"
 	  }))));
 	};
-	IconSaveScalable.propTypes = {
+	IconSave.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1M = ["color", "size"];
-	var IconTokenEthScalable = function IconTokenEthScalable(props) {
+	var _excluded$i = ["color", "size"];
+	var originFill$3 = ['url(#paint0_linear_0_394)'];
+	var IconTwitter = function IconTwitter(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1M);
+	    otherProps = _objectWithoutProperties(props, _excluded$i);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12669,33 +10074,32 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    d: "M11.696 1.5l6.446 10.727-6.446 3.827-6.446-3.827L11.696 1.5z",
-	    fill: "currentColor",
-	    fillOpacity: "0.3"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M11.696 1.5L5.25 12.227l6.446 3.827V1.5z",
-	    fill: "currentColor",
-	    fillOpacity: "0.3"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M11.696 22.5l6.446-9.065-6.446 3.777-6.446-3.777 6.446 9.065z",
-	    fill: "currentColor",
-	    fillOpacity: "0.3"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M11.696 22.5L5.25 13.435l6.446 3.777V22.5zM11.696 9.255l6.446 2.972-6.446 3.827-6.446-3.827 6.446-2.972z",
-	    fill: "currentColor",
-	    fillOpacity: "0.3"
-	  }));
+	    d: "M13.332 11.102l5.212-6.058h-1.235l-4.526 5.26-3.614-5.26H5l5.466 7.955L5 19.352h1.235l4.78-5.556 3.816 5.556H19l-5.668-8.25zM11.64 13.07l-.554-.793L6.68 5.975h1.897l3.556 5.086.554.792 4.622 6.612h-1.897L11.64 13.07z",
+	    fill: color || originFill$3[0]
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_394",
+	    x1: "5",
+	    y1: "12.444",
+	    x2: "19",
+	    y2: "12.444",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#9EE6FC"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#EBB9E7"
+	  }))));
 	};
-	IconTokenEthScalable.propTypes = {
+	IconTwitter.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1N = ["color", "size"];
-	var IconYoutubeScalable = function IconYoutubeScalable(props) {
+	var _excluded$j = ["color", "size"];
+	var IconYoutube = function IconYoutube(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1N);
+	    otherProps = _objectWithoutProperties(props, _excluded$j);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12705,21 +10109,21 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    d: "M20.624 7.55a2.256 2.256 0 00-1.59-1.593C17.628 5.579 12 5.579 12 5.579s-5.629 0-7.033.376a2.252 2.252 0 00-1.591 1.593C3 8.954 3 11.888 3 11.888s0 2.932.376 4.337a2.256 2.256 0 001.59 1.593c1.405.377 7.034.377 7.034.377s5.629 0 7.033-.377a2.252 2.252 0 001.591-1.593C21 14.82 21 11.887 21 11.887s0-2.933-.376-4.337zm-10.412 7.03V9.194l4.66 2.672-4.66 2.712z",
+	    d: "M20.624 7.55a2.256 2.256 0 00-1.591-1.593c-1.405-.378-7.034-.378-7.034-.378s-5.629 0-7.033.376a2.252 2.252 0 00-1.59 1.593C3 8.954 3 11.888 3 11.888s0 2.932.375 4.337a2.256 2.256 0 001.591 1.593c1.404.377 7.033.377 7.033.377s5.63 0 7.034-.377a2.252 2.252 0 001.59-1.593C21 14.82 21 11.887 21 11.887s0-2.933-.376-4.337zm-10.412 7.03V9.194l4.66 2.672-4.66 2.712z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconYoutubeScalable.propTypes = {
+	IconYoutube.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1O = ["color", "size"];
-	var originFill$3 = ['url(#paint0_linear_222_911)'];
-	var IconFacebookScalable = function IconFacebookScalable(props) {
+	var _excluded$k = ["color", "size"];
+	var originFill$4 = ['url(#paint0_linear_0_398)'];
+	var IconFacebook = function IconFacebook(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1O);
+	    otherProps = _objectWithoutProperties(props, _excluded$k);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12730,9 +10134,9 @@
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
 	    d: "M12.78 12.677h2.932l.46-2.977H12.78V8.072c0-1.236.404-2.333 1.561-2.333h1.86V3.14C15.874 3.097 15.183 3 13.877 3c-2.726 0-4.324 1.44-4.324 4.719v1.98H6.751v2.978h2.802v8.183c.555.083 1.117.14 1.694.14.522 0 1.031-.048 1.534-.116v-8.207z",
-	    fill: color || originFill$3[0]
+	    fill: color || originFill$4[0]
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_911",
+	    id: "paint0_linear_0_398",
 	    x1: "6.751",
 	    y1: "12.31",
 	    x2: "16.201",
@@ -12745,16 +10149,16 @@
 	    stopColor: "#EBB9E7"
 	  }))));
 	};
-	IconFacebookScalable.propTypes = {
+	IconFacebook.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1P = ["color", "size"];
-	var IconGoogleScalable = function IconGoogleScalable(props) {
+	var _excluded$l = ["color", "size"];
+	var IconGoogle = function IconGoogle(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1P);
+	    otherProps = _objectWithoutProperties(props, _excluded$l);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12771,12 +10175,12 @@
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M4.59 15.654l2.925-2.237a5.162 5.162 0 01-.258-1.616c0-.566.09-1.11.258-1.617L4.59 7.947a8.706 8.706 0 00-.89 3.854c0 1.386.32 2.693.89 3.853z",
+	    d: "M4.59 15.654l2.925-2.237a5.161 5.161 0 01-.258-1.616c0-.566.09-1.109.258-1.617L4.59 7.947a8.706 8.706 0 00-.89 3.854c0 1.386.32 2.693.89 3.853z",
 	    fill: "#FBBC05"
 	  }), /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M7.516 10.184a5.129 5.129 0 014.881-3.523c1.226 0 2.333.435 3.202 1.147l2.53-2.53c-1.541-1.345-3.518-2.175-5.732-2.175a8.671 8.671 0 00-7.806 4.844l2.925 2.237z",
+	    d: "M7.516 10.184a5.13 5.13 0 014.882-3.523c1.225 0 2.332.435 3.202 1.147l2.53-2.53c-1.542-1.345-3.519-2.175-5.732-2.175A8.671 8.671 0 004.59 7.947l2.925 2.237z",
 	    fill: "#EA4335"
 	  }), /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
@@ -12786,20 +10190,20 @@
 	  }), /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M12.398 10.22h8.104c.119.513.198 1.067.198 1.58 0 2.835-1.037 5.048-2.633 6.532l-2.777-2.15c.908-.573 1.54-1.457 1.773-2.602h-4.665v-3.36z",
+	    d: "M12.398 10.22h8.104c.119.513.198 1.067.198 1.58 0 2.835-1.037 5.048-2.634 6.532l-2.776-2.15c.908-.573 1.54-1.457 1.773-2.602h-4.665v-3.36z",
 	    fill: "#4285F4"
 	  })));
 	};
-	IconGoogleScalable.propTypes = {
+	IconGoogle.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1Q = ["color", "size"];
-	var IconSoldOutScalable = function IconSoldOutScalable(props) {
+	var _excluded$m = ["color", "size"];
+	var IconSoldOut = function IconSoldOut(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1Q);
+	    otherProps = _objectWithoutProperties(props, _excluded$m);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12816,10 +10220,10 @@
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M25.525 46.425L195.892.775l7.753 28.934-13.596 20.255-34.411 9.22-.518-1.932 33.687-9.026 12.671-18.877-7-26.124L26.772 48.162 8.777 75.192l5.318 19.848L65.29 81.322l.518 1.932L12.681 97.49l-6.07-22.653 18.914-28.411zM41.14 64.7l.089-.016c5.427-.982 9.462-.945 10.462 2.787.894 3.338-1.58 6.436-7.468 8.014-4.173 1.118-7.978.92-11.075-.436l1.698-3.586c2.359 1.107 5.267 1.297 8.513.427 2.782-.745 4.036-1.628 3.75-2.694-.28-1.043-1.67-1.043-5.084-.427-4.933.875-9.6.982-10.57-2.634-.931-3.478 2.315-6.385 7.461-7.764 3.478-.931 6.9-.954 9.548.026l-1.599 3.584c-2.15-.79-4.465-.717-6.998-.063-1.901.51-4.115 1.426-3.805 2.585.29 1.079 2.169.733 5.078.197zM73.775 58.3c1.472 5.494-1.856 9.765-8.277 11.485-6.422 1.721-11.416-.32-12.888-5.814-1.472-5.494 1.833-9.759 8.254-11.48 6.421-1.72 11.439.314 12.911 5.809zm-16.367 4.385c.82 3.06 3.489 4.209 7.059 3.252 3.57-.956 5.306-3.285 4.486-6.345-.82-3.06-3.488-4.209-7.058-3.252-3.547.95-5.306 3.285-4.487 6.345zm25.128-2.111l-3.33-12.426-4.729 1.267 4.349 16.228 15.648-4.193-1.02-3.802-10.918 2.926zm9.894-15.97l9.064-2.428c6.236-1.67 11.008.28 12.374 5.38 1.367 5.1-1.79 9.177-8.026 10.848l-9.064 2.428-4.348-16.227zm8.071 11.206l3.964-1.063c3.477-.931 5.352-3.024 4.581-5.898-.77-2.875-3.439-3.75-6.917-2.818l-3.964 1.062 2.336 8.717zm34.249-4.58c6.422-1.721 9.75-5.992 8.277-11.486-1.472-5.495-6.489-7.53-12.911-5.809-6.421 1.721-9.726 5.986-8.254 11.48 1.472 5.494 6.467 7.535 12.888 5.814zm-1.031-3.849c-3.57.957-6.238-.192-7.058-3.252-.82-3.06.939-5.395 4.486-6.345 3.57-.957 6.239.192 7.058 3.252.82 3.06-.916 5.388-4.486 6.345zm26.049-12.024l-2.199-8.206 4.729-1.267 2.299 8.577c1.323 4.938-1.169 9.084-7.219 10.705-6.051 1.621-10.305-.717-11.628-5.655l-2.299-8.577 4.729-1.267 2.199 8.206c.758 2.828 2.825 4.237 5.955 3.399 3.13-.839 4.192-3.087 3.434-5.915zm22.702-14.878l-18.175 4.87 1.013 3.778 6.699-1.795 3.336 12.449 4.729-1.267-3.336-12.449 6.746-1.808-1.012-3.778zM74.647 80.127c.313 1.165 1.317 1.576 2.569 1.24.817-.219 1.369-.664 1.62-1.43l1.73.374c-.324 1.047-1.364 2.071-3.007 2.511-2.295.615-4.162-.161-4.711-2.213-.55-2.051.678-3.657 3.043-4.29 1.573-.422 2.981-.035 3.762.687l-1.32 1.192c-.568-.518-1.264-.648-2.081-.43-1.252.336-1.917 1.194-1.605 2.359zm13.889-3.721c.552 2.06-.696 3.661-3.104 4.307-2.408.645-4.281-.12-4.833-2.18-.552-2.061.687-3.66 3.095-4.305 2.408-.646 4.29.117 4.842 2.178zm-6.138 1.644c.308 1.148 1.308 1.578 2.647 1.22 1.339-.36 1.99-1.232 1.683-2.38-.308-1.147-1.308-1.578-2.647-1.22-1.33.357-1.99 1.233-1.683 2.38zm12.93-6.725l-1.521 3.538-3.07-2.308-1.938.519 1.63 6.085 1.713-.459-1.041-3.886 3.222 2.324.087-.024 1.629-3.623 1.041 3.886 1.765-.472-1.63-6.086-1.887.506zm3.31-.888l4.225-1.132c1.661-.445 2.96-.01 3.335 1.39.38 1.417-.533 2.425-2.193 2.87l-2.452.657.489 1.826-1.773.475-1.63-6.085zm2.57 2.498l2.304-.617c.661-.177 1.059-.498.896-1.106-.165-.618-.671-.697-1.331-.52l-2.304.618.435 1.625zm8.373-.435l-1.248-4.66-1.774.475 1.631 6.085 5.868-1.572-.382-1.426-4.095 1.098zm6.436-2.806l.289 1.078 4.746-1.272.364 1.356-6.494 1.74-1.631-6.085 6.399-1.714.363 1.356-4.651 1.246.268 1 3.834-1.027.347 1.295-3.834 1.027zm11.08-6.882l-6.815 1.826.38 1.417 2.512-.673 1.251 4.668 1.773-.475-1.251-4.668 2.53-.678-.38-1.417zm3.573 2.956l.289 1.078 4.746-1.272.364 1.356-6.494 1.74-1.631-6.085 6.399-1.715.363 1.357-4.651 1.246.268 1 3.834-1.028.347 1.296-3.834 1.027zm7.861-1.025l-1.249-4.66-1.773.475 1.63 6.086 5.868-1.573-.382-1.426-4.094 1.098zm5.723-2.205l-3.941-3.267 1.982-.531 2.477 2.15 1.061-3.098 1.974-.53-1.779 4.8.549 2.053-1.773.475-.55-2.052z",
-	    fill: "url(#paint0_linear_222_909)"
+	    d: "M25.525 46.425L195.892.775l7.753 28.934-13.596 20.255-34.411 9.22-.518-1.932 33.687-9.026 12.671-18.877-7-26.124L26.771 48.162 8.778 75.192l5.318 19.848L65.29 81.322l.518 1.932L12.68 97.49 6.61 74.836l18.914-28.41zM41.14 64.7l.089-.016c5.427-.982 9.462-.945 10.462 2.787.894 3.338-1.58 6.436-7.469 8.014-4.172 1.118-7.977.92-11.074-.436l1.698-3.586c2.359 1.107 5.267 1.297 8.513.427 2.781-.745 4.036-1.628 3.75-2.694-.28-1.043-1.671-1.043-5.084-.427-4.933.875-9.6.982-10.57-2.634-.931-3.477 2.315-6.385 7.461-7.764 3.478-.931 6.9-.954 9.548.026l-1.599 3.584c-2.15-.79-4.465-.717-6.998-.063-1.901.51-4.116 1.426-3.805 2.585.289 1.079 2.169.733 5.078.197zM73.775 58.3c1.472 5.494-1.856 9.765-8.277 11.485-6.422 1.721-11.416-.32-12.888-5.814-1.472-5.494 1.832-9.759 8.254-11.48 6.421-1.72 11.439.315 12.911 5.809zm-16.367 4.385c.82 3.06 3.489 4.209 7.058 3.252 3.57-.956 5.307-3.285 4.487-6.345-.82-3.06-3.488-4.209-7.058-3.252-3.547.95-5.307 3.285-4.487 6.345zm25.128-2.111l-3.33-12.426-4.729 1.267 4.348 16.228 15.648-4.193-1.018-3.802-10.92 2.926zm9.894-15.97l9.064-2.428c6.236-1.67 11.008.28 12.374 5.38 1.367 5.1-1.79 9.177-8.026 10.848l-9.064 2.428-4.348-16.227zM100.5 55.81l3.964-1.062c3.477-.932 5.352-3.025 4.581-5.9-.77-2.874-3.439-3.749-6.917-2.817l-3.964 1.062 2.336 8.717zm34.249-4.58c6.422-1.721 9.75-5.992 8.277-11.486-1.472-5.495-6.489-7.53-12.911-5.809-6.421 1.721-9.726 5.986-8.254 11.48 1.472 5.494 6.467 7.535 12.888 5.814zm-1.031-3.849c-3.57.957-6.238-.192-7.058-3.252-.82-3.06.939-5.395 4.486-6.345 3.57-.957 6.239.192 7.058 3.252.82 3.06-.916 5.389-4.486 6.345zm26.049-12.024l-2.199-8.206 4.729-1.267 2.299 8.577c1.323 4.938-1.169 9.084-7.219 10.705-6.051 1.622-10.305-.717-11.628-5.655l-2.299-8.577 4.729-1.267 2.199 8.206c.758 2.828 2.825 4.237 5.955 3.399 3.13-.839 4.192-3.086 3.434-5.915zm22.702-14.878l-18.175 4.87 1.013 3.778 6.699-1.795 3.336 12.45 4.729-1.268-3.336-12.449 6.746-1.808-1.012-3.778zM74.647 80.128c.312 1.164 1.317 1.575 2.569 1.24.817-.22 1.368-.665 1.62-1.431l1.73.374c-.325 1.047-1.364 2.071-3.007 2.511-2.295.615-4.162-.161-4.711-2.213-.55-2.051.678-3.657 3.043-4.29 1.573-.422 2.981-.035 3.762.687l-1.32 1.193c-.568-.52-1.264-.65-2.082-.43-1.252.335-1.916 1.193-1.604 2.358zm13.889-3.722c.552 2.06-.696 3.662-3.104 4.307-2.408.645-4.281-.12-4.833-2.18-.553-2.06.687-3.66 3.095-4.305 2.408-.646 4.29.117 4.842 2.178zm-6.138 1.644c.308 1.148 1.308 1.579 2.647 1.22 1.339-.359 1.99-1.232 1.682-2.38-.307-1.147-1.308-1.578-2.646-1.22-1.33.357-1.99 1.233-1.683 2.38zm12.93-6.725l-1.521 3.538-3.07-2.308-1.938.52 1.63 6.084 1.713-.459-1.041-3.885 3.222 2.323.087-.023 1.629-3.623 1.04 3.885 1.766-.472-1.63-6.086-1.887.506zm3.31-.887l4.225-1.133c1.661-.444 2.96-.01 3.335 1.39.38 1.417-.533 2.425-2.193 2.87l-2.452.657.489 1.826-1.773.475-1.63-6.085zm2.57 2.498l2.304-.618c.661-.177 1.059-.498.896-1.106-.165-.618-.671-.697-1.331-.52l-2.304.618.435 1.626zm8.373-.436l-1.248-4.66-1.774.475 1.631 6.086 5.868-1.573-.382-1.425-4.095 1.097zm6.436-2.806l.289 1.078 4.746-1.272.364 1.357-6.494 1.74-1.631-6.086 6.399-1.714.363 1.356-4.651 1.246.268 1 3.834-1.027.347 1.295-3.834 1.027zm11.08-6.882l-6.815 1.826.38 1.417 2.512-.673 1.251 4.668 1.773-.475-1.251-4.668 2.53-.678-.38-1.417zm3.573 2.956l.289 1.078 4.746-1.272.364 1.356-6.494 1.74-1.631-6.085 6.399-1.714.363 1.356-4.651 1.246.268 1 3.834-1.027.347 1.295-3.834 1.027zm7.861-1.025l-1.249-4.66-1.773.475 1.63 6.086 5.868-1.573-.382-1.425-4.094 1.097zm5.723-2.205l-3.941-3.267 1.982-.531 2.477 2.15 1.061-3.098 1.974-.53-1.779 4.801.549 2.052-1.773.475-.55-2.052z",
+	    fill: "url(#paint0_linear_0_418)"
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_909",
+	    id: "paint0_linear_0_418",
 	    x1: "7.285",
 	    y1: "77.35",
 	    x2: "202.402",
@@ -12832,17 +10236,53 @@
 	    stopColor: "#EBB9E7"
 	  })))));
 	};
-	IconSoldOutScalable.propTypes = {
+	IconSoldOut.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1R = ["color", "size"];
-	var originFill$4 = ['url(#paint0_linear_222_908)'];
-	var IconLogoScalable = function IconLogoScalable(props) {
+	var _excluded$n = ["color", "size"];
+	var originFill$5 = ['url(#paint0_linear_0_420)'];
+	var IconTiktok = function IconTiktok(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1R);
+	    otherProps = _objectWithoutProperties(props, _excluded$n);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M18.314 10.623a6.056 6.056 0 01-3.639-1.215v5.505c0 2.81-2.166 5.087-4.838 5.087C7.167 20 5 17.723 5 14.912c0-2.81 2.166-5.087 4.838-5.087.267 0 .526.023.78.067v2.916a2.074 2.074 0 00-.76-.144c-1.192 0-2.16 1.016-2.16 2.27s.968 2.27 2.16 2.27c1.19 0 2.158-1.017 2.158-2.27V4h2.698c0 2.102 1.62 3.805 3.619 3.805v2.817l-.019.001z",
+	    fill: color || originFill$5[0]
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_420",
+	    x1: "5",
+	    y1: "12.276",
+	    x2: "18.333",
+	    y2: "12.276",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#9EE6FC"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#EBB9E7"
+	  }))));
+	};
+	IconTiktok.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$o = ["color", "size"];
+	var originFill$6 = ['url(#paint0_linear_0_422)'];
+	var IconLogo = function IconLogo(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$o);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12854,10 +10294,10 @@
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M20.352 17.219a6.933 6.933 0 001.698-4.538c-.001-.651-.093-1.3-.274-1.925-1.123-3.947-5.45-6.05-9.27-4.506-.652.264-1.235.64-1.8 1.054-.682.507-1.459.657-2.294.507-.645-.116-1.22-.39-1.773-.712a1.36 1.36 0 01-.603-.73 1.8 1.8 0 01-.057-.208 2.114 2.114 0 00-4.171.286C1.68 7.967 3.188 9.123 4.622 8.6a1.44 1.44 0 011.22.088c.406.21.79.459 1.146.745.879.72 1.311 1.625 1.21 2.776a6.463 6.463 0 00.264 2.411 6.933 6.933 0 0011.889 2.599zm-8.17-6.451a3.496 3.496 0 00-.59 1.942 3.5 3.5 0 003.491 3.495 3.494 3.494 0 10-2.901-5.437z",
-	    fill: color || originFill$4[0]
+	    d: "M20.352 17.219a6.933 6.933 0 001.698-4.538c0-.651-.093-1.3-.273-1.925-1.124-3.947-5.451-6.05-9.271-4.506-.652.264-1.235.64-1.8 1.054-.681.507-1.459.657-2.294.507-.645-.116-1.22-.39-1.773-.712a1.36 1.36 0 01-.603-.73 1.8 1.8 0 01-.057-.208c-.012-.05-.023-.099-.038-.147a2.114 2.114 0 00-4.134.433C1.681 7.967 3.19 9.123 4.623 8.6a1.44 1.44 0 011.22.088c.406.21.79.459 1.146.745.88.72 1.311 1.625 1.21 2.776a6.463 6.463 0 00.264 2.411 6.933 6.933 0 0011.889 2.599zm-8.17-6.451a3.494 3.494 0 105.809 3.884 3.494 3.494 0 00-5.809-3.884z",
+	    fill: color || originFill$6[0]
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_908",
+	    id: "paint0_linear_0_422",
 	    x1: "1.8",
 	    y1: "4.5",
 	    x2: "22.05",
@@ -12876,16 +10316,41 @@
 	    stopColor: "#E1DFA2"
 	  }))));
 	};
-	IconLogoScalable.propTypes = {
+	IconLogo.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1S = ["color", "size"];
-	var IconCoinbaseScalable = function IconCoinbaseScalable(props) {
+	var _excluded$p = ["color", "size"];
+	var IconLogoMonochrome = function IconLogoMonochrome(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1S);
+	    otherProps = _objectWithoutProperties(props, _excluded$p);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M20.352 17.219a6.933 6.933 0 001.698-4.538c0-.651-.093-1.3-.273-1.925-1.124-3.947-5.451-6.05-9.271-4.506-.652.264-1.235.64-1.8 1.054-.681.507-1.459.657-2.294.507-.645-.116-1.22-.39-1.773-.712a1.36 1.36 0 01-.603-.73 1.8 1.8 0 01-.057-.208c-.012-.05-.023-.099-.038-.147a2.114 2.114 0 00-4.134.433C1.681 7.967 3.19 9.123 4.623 8.6a1.44 1.44 0 011.22.088c.406.21.79.459 1.146.745.88.72 1.311 1.625 1.21 2.776a6.463 6.463 0 00.264 2.411 6.933 6.933 0 0011.889 2.599zm-8.17-6.451a3.494 3.494 0 105.809 3.884 3.494 3.494 0 00-5.809-3.884z",
+	    fill: "#fff"
+	  }));
+	};
+	IconLogoMonochrome.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$q = ["color", "size"];
+	var IconCoinbase = function IconCoinbase(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$q);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12907,16 +10372,16 @@
 	    fill: "#fff"
 	  })));
 	};
-	IconCoinbaseScalable.propTypes = {
+	IconCoinbase.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1T = ["color", "size"];
-	var IconMetamaskScalable = function IconMetamaskScalable(props) {
+	var _excluded$r = ["color", "size"];
+	var IconMetamask = function IconMetamask(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1T);
+	    otherProps = _objectWithoutProperties(props, _excluded$r);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -12938,49 +10403,49 @@
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M4.43 4.245l6.502 4.914L9.78 6.241 4.43 4.245zM17.203 15.53l-1.746 2.675 3.736 1.027 1.073-3.643-3.063-.06zM3.738 15.59l1.068 3.642 3.735-1.027-1.746-2.675-3.057.06z",
+	    d: "M4.43 4.245l6.502 4.914L9.78 6.241 4.43 4.245zM17.203 15.53l-1.746 2.675 3.736 1.027 1.073-3.643-3.063-.06zM3.738 15.589l1.068 3.643 3.735-1.027-1.746-2.675-3.057.059z",
 	    fill: "#E4761B",
 	    stroke: "#E4761B",
 	    strokeWidth: ".11",
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M8.33 11.012l-1.04 1.575 3.708.165-.131-3.986-2.537 2.246zM15.665 11.009l-2.57-2.293-.085 4.032 3.702-.164-1.047-1.575zM8.541 18.206l2.227-1.087-1.924-1.502-.303 2.589zM13.226 17.119l2.233 1.087-.31-2.59-1.923 1.503z",
+	    d: "M8.33 11.012l-1.041 1.575 3.71.165-.133-3.986-2.536 2.246zM15.665 11.01l-2.57-2.294-.085 4.032 3.703-.164-1.048-1.575zM8.54 18.206l2.227-1.087-1.923-1.503-.303 2.59zM13.226 17.119l2.233 1.087-.31-2.59-1.923 1.503z",
 	    fill: "#E4761B",
 	    stroke: "#E4761B",
 	    strokeWidth: ".11",
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M15.457 18.208l-2.233-1.087.178 1.456-.02.613 2.075-.982zM8.538 18.208l2.075.982-.013-.613.165-1.456-2.227 1.087z",
+	    d: "M15.457 18.208l-2.234-1.087.178 1.456-.02.613 2.076-.982zM8.538 18.208l2.076.982-.014-.613.165-1.456-2.227 1.087z",
 	    fill: "#D7C1B3",
 	    stroke: "#D7C1B3",
 	    strokeWidth: ".11",
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M10.649 14.653l-1.858-.546 1.311-.6.547 1.146zM13.343 14.653l.547-1.146 1.317.6-1.864.546z",
+	    d: "M10.65 14.653l-1.859-.546 1.311-.6.547 1.146zM13.343 14.653l.547-1.146 1.317.6-1.864.546z",
 	    fill: "#233447",
 	    stroke: "#233447",
 	    strokeWidth: ".11",
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M8.543 18.205l.316-2.675-2.062.06 1.746 2.615zM15.143 15.53l.316 2.675 1.746-2.616-2.062-.06zM16.71 12.584l-3.702.164.342 1.904.547-1.146 1.318.6 1.495-1.522zM8.793 14.106l1.318-.6.54 1.146.35-1.904-3.71-.164 1.502 1.522z",
+	    d: "M8.543 18.205l.316-2.675-2.062.059 1.746 2.616zM15.143 15.53l.316 2.675 1.746-2.616-2.062-.06zM16.71 12.584l-3.702.164.342 1.904.547-1.146 1.318.6 1.495-1.522zM8.794 14.105l1.317-.6.54 1.147.35-1.904-3.71-.164 1.503 1.521z",
 	    fill: "#CD6116",
 	    stroke: "#CD6116",
 	    strokeWidth: ".11",
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M7.29 12.584l1.554 3.03-.053-1.508-1.502-1.522zM15.216 14.106l-.066 1.508 1.562-3.03-1.496 1.522zM10.997 12.748l-.35 1.904.435 2.246.1-2.958-.185-1.192zM13.008 12.748l-.178 1.186.08 2.964.44-2.246-.342-1.904z",
+	    d: "M7.289 12.584l1.555 3.03-.053-1.509-1.502-1.521zM15.216 14.105l-.066 1.51 1.561-3.031-1.495 1.521zM10.997 12.748l-.35 1.904.435 2.246.1-2.958-.185-1.192zM13.008 12.748l-.178 1.186.079 2.964.441-2.246-.342-1.904z",
 	    fill: "#E4751F",
 	    stroke: "#E4751F",
 	    strokeWidth: ".11",
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M13.35 14.654l-.44 2.246.315.218 1.924-1.502.066-1.51-1.864.548zM8.791 14.107l.053 1.509 1.924 1.502.316-.218-.435-2.246-1.858-.547z",
+	    d: "M13.35 14.654l-.44 2.246.316.218 1.923-1.502.066-1.509-1.864.547zM8.791 14.107l.053 1.509 1.924 1.502.316-.218-.435-2.246-1.858-.547z",
 	    fill: "#F6851B",
 	    stroke: "#F6851B",
 	    strokeWidth: ".11",
@@ -12994,21 +10459,21 @@
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M13.226 17.118l-.317-.217h-1.825l-.316.217-.165 1.456.152-.145h2.484l.164.145-.177-1.456z",
+	    d: "M13.225 17.118l-.316-.217h-1.825l-.316.217-.165 1.456.152-.145h2.483l.165.145-.178-1.456z",
 	    fill: "#161616",
 	    stroke: "#161616",
 	    strokeWidth: ".11",
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M19.84 9.43l.56-2.688-.837-2.497-6.337 4.704 2.437 2.062 3.446 1.008.764-.89-.33-.237.528-.48-.409-.317.527-.402-.349-.263zM3.6 6.742l.56 2.688-.356.263.527.402-.402.316.527.481-.33.237.758.89L8.33 11.01l2.438-2.062L4.43 4.245 3.6 6.742z",
+	    d: "M19.84 9.43l.56-2.689-.836-2.496-6.338 4.704 2.437 2.062 3.446 1.008.764-.89-.33-.237.528-.48-.409-.317.527-.402-.349-.264zM3.6 6.741l.56 2.688-.356.264.527.402-.402.316.527.481-.329.237.758.89L8.33 11.01l2.438-2.062L4.43 4.245 3.6 6.74z",
 	    fill: "#763D16",
 	    stroke: "#763D16",
 	    strokeWidth: ".11",
 	    strokeLinecap: "round",
 	    strokeLinejoin: "round"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M19.11 12.019l-3.446-1.008 1.048 1.575-1.562 3.03 2.056-.026h3.064l-1.16-3.571zM8.33 11.011l-3.445 1.008-1.147 3.57h3.057l2.05.027-1.556-3.03L8.33 11.01zM13.007 12.75l.217-3.8 1.001-2.709H9.778l.989 2.708.23 3.802.08 1.199.006 2.951h1.825l.013-2.951.086-1.2z",
+	    d: "M19.11 12.019l-3.446-1.008 1.047 1.575-1.561 3.03 2.056-.026h3.063l-1.16-3.571zM8.33 11.011l-3.445 1.008-1.147 3.57h3.057l2.05.027-1.556-3.03L8.33 11.01zM13.006 12.75l.218-3.8 1.001-2.709H9.778l.988 2.708.23 3.802.08 1.199.007 2.951h1.825l.013-2.951.085-1.2z",
 	    fill: "#F6851B",
 	    stroke: "#F6851B",
 	    strokeWidth: ".11",
@@ -13016,16 +10481,16 @@
 	    strokeLinejoin: "round"
 	  })));
 	};
-	IconMetamaskScalable.propTypes = {
+	IconMetamask.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1U = ["color", "size"];
-	var IconWalletConnectScalable = function IconWalletConnectScalable(props) {
+	var _excluded$s = ["color", "size"];
+	var IconWalletConnect = function IconWalletConnect(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1U);
+	    otherProps = _objectWithoutProperties(props, _excluded$s);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13043,12 +10508,12 @@
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
 	    d: "M12 1.8c5.634 0 10.2 4.566 10.2 10.2 0 5.634-4.566 10.2-10.2 10.2-5.634 0-10.2-4.566-10.2-10.2C1.8 6.366 6.366 1.8 12 1.8z",
-	    fill: "url(#paint0_radial_222_892)"
+	    fill: "url(#paint0_radial_0_457)"
 	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M8.282 9.678c2.052-2.004 5.383-2.004 7.435 0l.247.243a.25.25 0 010 .363l-.845.825a.132.132 0 01-.187 0l-.339-.331a3.731 3.731 0 00-5.187 0l-.363.354a.132.132 0 01-.187 0l-.845-.824a.25.25 0 010-.363l.271-.267zm9.184 1.705l.753.734a.25.25 0 010 .362l-3.39 3.311c-.104.1-.272.1-.371 0l-2.407-2.35a.067.067 0 00-.091 0l-2.407 2.35c-.104.1-.27.1-.37 0L5.78 12.48a.25.25 0 010-.363l.753-.734c.103-.1.27-.1.37 0l2.407 2.351a.067.067 0 00.092 0l2.406-2.35c.104-.1.271-.1.37 0l2.407 2.35a.067.067 0 00.092 0l2.407-2.35c.111-.1.278-.1.382 0z",
+	    d: "M8.282 9.678c2.052-2.004 5.383-2.004 7.435 0l.247.243a.25.25 0 010 .363l-.845.824a.132.132 0 01-.187 0l-.338-.33a3.732 3.732 0 00-5.188 0l-.363.354a.132.132 0 01-.187 0l-.845-.824a.25.25 0 010-.363l.271-.267zm9.184 1.705l.753.734a.25.25 0 010 .362l-3.39 3.311c-.104.1-.271.1-.371 0l-2.407-2.35a.068.068 0 00-.091 0l-2.407 2.35c-.103.1-.27.1-.37 0L5.78 12.48a.25.25 0 010-.364l.753-.733c.104-.1.271-.1.37 0l2.407 2.351a.067.067 0 00.092 0l2.406-2.35c.104-.1.271-.1.37 0l2.407 2.35a.067.067 0 00.092 0l2.407-2.35c.111-.1.279-.1.382 0z",
 	    fill: "#fff"
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("radialGradient", {
-	    id: "paint0_radial_222_892",
+	    id: "paint0_radial_0_457",
 	    cx: "0",
 	    cy: "0",
 	    r: "1",
@@ -13061,16 +10526,16 @@
 	    stopColor: "#006FFF"
 	  })))));
 	};
-	IconWalletConnectScalable.propTypes = {
+	IconWalletConnect.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1V = ["color", "size"];
-	var IconChainEthereumScalable = function IconChainEthereumScalable(props) {
+	var _excluded$t = ["color", "size"];
+	var IconPaused = function IconPaused(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1V);
+	    otherProps = _objectWithoutProperties(props, _excluded$t);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13085,56 +10550,15 @@
 	    fill: "none",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_886)"
+	    clipPath: "url(#clip0_0_460)"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
-	    fill: "#6284F5"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M8 12l4-7 4 7-4 2-4-2z",
-	    fill: "#fff"
-	  }), /*#__PURE__*/react.createElement("path", {
-	    d: "M8 13l4 6 4-6-4 2-4-2z",
-	    fill: "#fff"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_886"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h24v24H0z"
-	  })))));
-	};
-	IconChainEthereumScalable.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$1W = ["color", "size"];
-	var IconPausedScalable = function IconPausedScalable(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1W);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "24",
-	    height: "24",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_906)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
-	    fill: "url(#paint0_linear_222_906)"
+	    fill: "url(#paint0_linear_0_460)"
 	  }), /*#__PURE__*/react.createElement("path", {
 	    d: "M10.875 7.875h-2.25v8.25h2.25v-8.25zM15.375 7.875h-2.25v8.25h2.25v-8.25z",
 	    fill: "#141430"
 	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_906",
+	    id: "paint0_linear_0_460",
 	    x1: "0",
 	    y1: "12",
 	    x2: "24",
@@ -13146,22 +10570,22 @@
 	    offset: ".99",
 	    stopColor: "#EAA5E6"
 	  })), /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_906"
+	    id: "clip0_0_460"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fill: "#fff",
 	    d: "M0 0h24v24H0z"
 	  })))));
 	};
-	IconPausedScalable.propTypes = {
+	IconPaused.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1X = ["color", "size"];
-	var IconBinanceScalable = function IconBinanceScalable(props) {
+	var _excluded$u = ["color", "size"];
+	var IconBinance = function IconBinance(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1X);
+	    otherProps = _objectWithoutProperties(props, _excluded$u);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13176,21 +10600,21 @@
 	    fill: "none",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, /*#__PURE__*/react.createElement("path", {
-	    d: "M7.39 12l-1.886 1.887L3.6 12l1.903-1.903L7.389 12zM12 7.39l3.248 3.248 1.904-1.903L12 3.6 6.848 8.752l1.904 1.903L12 7.39zm6.496 2.707L16.61 12l1.903 1.903L20.416 12l-1.92-1.903zM12 16.61l-3.248-3.264-1.904 1.903L12 20.4l5.152-5.152-1.904-1.902L12 16.61zm0-2.723l1.903-1.904L12 10.097 10.096 12 12 13.887z",
+	    d: "M3.79 12.4l-1.886 1.886L0 12.4l1.903-1.903L3.79 12.4zM8.4 7.79l3.248 3.248 1.904-1.903L8.4 4 3.248 9.152l1.904 1.903L8.4 7.79zm6.497 2.707L13.01 12.4l1.904 1.903 1.902-1.903-1.92-1.903zM8.4 17.01l-3.248-3.265-1.904 1.904L8.4 20.8l5.152-5.152-1.904-1.903L8.4 17.01zm0-2.723l1.903-1.904L8.4 10.497 6.497 12.4 8.4 14.286v.001z",
 	    fill: "#F6D658"
 	  })));
 	};
-	IconBinanceScalable.propTypes = {
+	IconBinance.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1Y = ["color", "size"];
-	var originFill$5 = ['url(#paint0_linear_222_905)'];
-	var IconDiscordScalable = function IconDiscordScalable(props) {
+	var _excluded$v = ["color", "size"];
+	var originFill$7 = ['url(#paint0_linear_0_466)'];
+	var IconDiscord = function IconDiscord(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1Y);
+	    otherProps = _objectWithoutProperties(props, _excluded$v);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13201,9 +10625,9 @@
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
 	    d: "M18.261 6.158a.046.046 0 00-.023-.021A14.846 14.846 0 0014.574 5a.055.055 0 00-.059.028c-.168.304-.32.617-.456.936a13.712 13.712 0 00-4.115 0 9.477 9.477 0 00-.463-.936A.057.057 0 009.42 5c-1.265.218-2.496.6-3.663 1.136a.052.052 0 00-.024.02C3.4 9.643 2.76 13.042 3.074 16.399a.061.061 0 00.024.043 14.93 14.93 0 004.494 2.27.058.058 0 00.064-.02c.347-.472.654-.972.92-1.495a.057.057 0 00-.032-.08 9.827 9.827 0 01-1.404-.668.058.058 0 01-.006-.096c.095-.07.188-.144.279-.219a.056.056 0 01.058-.007c2.946 1.344 6.135 1.344 9.046 0a.056.056 0 01.059.007c.091.075.184.148.28.219a.058.058 0 01.014.076.058.058 0 01-.02.02 9.227 9.227 0 01-1.404.668.058.058 0 00-.033.033.056.056 0 00.002.047c.27.52.577 1.02.919 1.494a.057.057 0 00.063.022A14.882 14.882 0 0020.9 16.44a.059.059 0 00.023-.042c.376-3.88-.628-7.252-2.66-10.24zm-9.246 8.196c-.887 0-1.618-.813-1.618-1.813s.717-1.814 1.618-1.814c.908 0 1.632.822 1.618 1.814 0 1-.717 1.813-1.618 1.813zm5.981 0c-.887 0-1.618-.813-1.618-1.813s.717-1.814 1.618-1.814c.908 0 1.632.822 1.618 1.814 0 1-.71 1.813-1.618 1.813z",
-	    fill: color || originFill$5[0]
+	    fill: color || originFill$7[0]
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_905",
+	    id: "paint0_linear_0_466",
 	    x1: "3",
 	    y1: "12.094",
 	    x2: "21",
@@ -13216,17 +10640,17 @@
 	    stopColor: "#EBB9E7"
 	  }))));
 	};
-	IconDiscordScalable.propTypes = {
+	IconDiscord.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1Z = ["color", "size"];
-	var originFill$6 = ['url(#paint0_linear_222_903)'];
-	var IconInstagramScalable = function IconInstagramScalable(props) {
+	var _excluded$w = ["color", "size"];
+	var originFill$8 = ['url(#paint0_linear_0_468)'];
+	var IconInstagram = function IconInstagram(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1Z);
+	    otherProps = _objectWithoutProperties(props, _excluded$w);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13239,9 +10663,9 @@
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
 	    d: "M16.09 4.636H7.91A3.273 3.273 0 004.635 7.91v8.182a3.273 3.273 0 003.273 3.273h8.182a3.273 3.273 0 003.273-3.273V7.909a3.273 3.273 0 00-3.273-3.273zM7.91 3A4.91 4.91 0 003 7.91v8.18A4.91 4.91 0 007.91 21h8.18A4.91 4.91 0 0021 16.09V7.91A4.91 4.91 0 0016.09 3H7.91zM12 15.273a3.273 3.273 0 100-6.546 3.273 3.273 0 000 6.546zm0 1.636a4.91 4.91 0 100-9.818 4.91 4.91 0 000 9.818zm4.91-9a.818.818 0 100-1.636.818.818 0 000 1.636z",
-	    fill: color || originFill$6[0]
+	    fill: color || originFill$8[0]
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_903",
+	    id: "paint0_linear_0_468",
 	    x1: "3",
 	    y1: "12.31",
 	    x2: "21",
@@ -13254,17 +10678,17 @@
 	    stopColor: "#EBB9E7"
 	  }))));
 	};
-	IconInstagramScalable.propTypes = {
+	IconInstagram.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1_ = ["color", "size"];
-	var originFill$7 = ['url(#paint0_linear_444_20)'];
-	var IconLinkedinScalable = function IconLinkedinScalable(props) {
+	var _excluded$x = ["color", "size"];
+	var originFill$9 = ['url(#paint0_linear_0_470)'];
+	var IconLinkedin = function IconLinkedin(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1_);
+	    otherProps = _objectWithoutProperties(props, _excluded$x);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13275,9 +10699,9 @@
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
 	    d: "M20 5.176v13.647A1.176 1.176 0 0118.823 20H5.176A1.176 1.176 0 014 18.823V5.176A1.176 1.176 0 015.176 4h13.647A1.176 1.176 0 0120 5.176zM8.706 10.118H6.353v7.53h2.353v-7.53zm.212-2.589a1.355 1.355 0 00-1.346-1.364h-.043a1.365 1.365 0 100 2.73 1.355 1.355 0 001.389-1.323v-.043zm8.73 5.544c0-2.264-1.44-3.144-2.871-3.144a2.682 2.682 0 00-2.382 1.214h-.066v-1.025h-2.211v7.53h2.353v-4.006a1.562 1.562 0 011.411-1.684h.09c.748 0 1.303.47 1.303 1.656v4.033h2.353l.02-4.574z",
-	    fill: color || originFill$7[0]
+	    fill: color || originFill$9[0]
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_444_20",
+	    id: "paint0_linear_0_470",
 	    x1: "4",
 	    y1: "12.276",
 	    x2: "20",
@@ -13290,52 +10714,16 @@
 	    stopColor: "#EBB9E7"
 	  }))));
 	};
-	IconLinkedinScalable.propTypes = {
+	IconLinkedin.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$1$ = ["color", "size"];
-	var originFill$8 = ['url(#paint0_linear_222_900)'];
-	var IconTwitterScalable = function IconTwitterScalable(props) {
+	var _excluded$y = ["color", "size"];
+	var IconTxSuccess = function IconTxSuccess(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$1$);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '24',
-	    height: size || '24',
-	    viewBox: "0 0 24 24",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    d: "M20.616 6.928c-.647.323-1.293.43-2.047.538.754-.43 1.293-1.077 1.508-1.938-.646.43-1.4.646-2.262.861a3.76 3.76 0 00-2.584-1.077c-1.83 0-3.446 1.616-3.446 3.554 0 .323 0 .539.107.754-2.907-.107-5.6-1.507-7.323-3.661-.323.538-.43 1.077-.43 1.83 0 1.185.646 2.262 1.615 2.908-.538 0-1.077-.215-1.615-.43 0 1.722 1.184 3.122 2.8 3.446-.323.107-.647.107-.97.107-.215 0-.43 0-.646-.107.431 1.4 1.723 2.476 3.339 2.476-1.185.97-2.693 1.508-4.416 1.508h-.861c1.615.97 3.446 1.616 5.384 1.616 6.462 0 10.016-5.385 10.016-10.016v-.43c.754-.54 1.4-1.185 1.83-1.94z",
-	    fill: color || originFill$8[0]
-	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_900",
-	    x1: "3.385",
-	    y1: "12.554",
-	    x2: "20.616",
-	    y2: "12.554",
-	    gradientUnits: "userSpaceOnUse"
-	  }, /*#__PURE__*/react.createElement("stop", {
-	    stopColor: "#9EE6FC"
-	  }), /*#__PURE__*/react.createElement("stop", {
-	    offset: "1",
-	    stopColor: "#EBB9E7"
-	  }))));
-	};
-	IconTwitterScalable.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$20 = ["color", "size"];
-	var IconTxSuccessScalable = function IconTxSuccessScalable(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$20);
+	    otherProps = _objectWithoutProperties(props, _excluded$y);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13351,14 +10739,14 @@
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    d: "M12 21a9 9 0 100-18 9 9 0 000 18z",
-	    fill: "url(#paint0_linear_222_899)"
+	    fill: "url(#paint0_linear_0_472)"
 	  }), /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M16.7 9.75l-5.162 5.163a.938.938 0 01-1.326 0L7.299 12l1.326-1.326 2.25 2.25 4.5-4.5L16.7 9.75z",
+	    d: "M16.7 9.75l-5.162 5.163a.937.937 0 01-1.326 0L7.3 12l1.326-1.326 2.25 2.25 4.5-4.5 1.326 1.326z",
 	    fill: "#0A1161"
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_899",
+	    id: "paint0_linear_0_472",
 	    x1: "3",
 	    y1: "12.31",
 	    x2: "21",
@@ -13371,16 +10759,16 @@
 	    stopColor: "#EBB9E7"
 	  })))));
 	};
-	IconTxSuccessScalable.propTypes = {
+	IconTxSuccess.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$21 = ["color", "size"];
-	var IconUniswapScalable = function IconUniswapScalable(props) {
+	var _excluded$z = ["color", "size"];
+	var IconUniswap = function IconUniswap(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$21);
+	    otherProps = _objectWithoutProperties(props, _excluded$z);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13397,20 +10785,20 @@
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M3.367 2.26c2.49 3.022 6.33 7.729 6.52 7.992.158.218.099.413-.17.566-.15.086-.46.172-.613.172a.785.785 0 01-.515-.22c-.101-.096-.51-.706-1.453-2.17a159.247 159.247 0 00-1.342-2.063c-.038-.036-.037-.035 1.269 2.301.82 1.468 1.096 1.986 1.096 2.056 0 .14-.038.215-.212.41-.29.323-.42.687-.514 1.44-.105.843-.4 1.44-1.218 2.46-.479.597-.557.706-.678.947-.152.303-.194.473-.21.855-.019.405.016.666.14 1.053.108.34.221.563.51 1.01.25.386.393.673.393.785 0 .09.017.09.403.003.924-.21 1.675-.576 2.097-1.026.261-.279.323-.432.325-.814 0-.25-.008-.302-.075-.445-.11-.234-.31-.428-.75-.73-.578-.394-.825-.712-.893-1.15-.056-.358.009-.61.328-1.28.331-.693.413-.989.468-1.687.036-.451.086-.63.215-.772.136-.15.257-.2.592-.245.546-.075.893-.216 1.179-.48.247-.227.351-.447.367-.779l.012-.25-.138-.162C9.998 9.452 3.03 1.8 3 1.8c-.006 0 .159.207.367.46zM6.65 17.464a.444.444 0 00-.136-.585c-.18-.119-.458-.063-.458.093 0 .047.026.081.085.112.1.051.107.108.029.226-.08.12-.073.224.018.295.146.115.354.052.462-.14zm3.413-10.947c-.224-.035-.234-.039-.128-.055.201-.031.678.011 1.006.09.766.181 1.463.648 2.208 1.477l.197.22.283-.046c1.192-.191 2.404-.04 3.418.43.279.128.719.385.774.45.017.022.05.157.071.301.075.5.038.882-.115 1.168-.083.155-.088.205-.032.338a.327.327 0 00.292.184c.252 0 .523-.407.649-.974l.05-.225.099.112c.542.614.968 1.452 1.041 2.049l.02.155-.092-.141a1.746 1.746 0 00-.516-.543c-.364-.24-.749-.322-1.768-.376-.92-.049-1.441-.127-1.958-.296-.878-.286-1.321-.668-2.365-2.037-.464-.608-.75-.945-1.036-1.216-.647-.616-1.284-.939-2.098-1.065zm7.963 1.359c.023-.408.078-.677.19-.922a.99.99 0 01.091-.177.611.611 0 01-.042.16c-.081.238-.094.563-.039.943.07.48.111.55.62 1.07.238.244.516.551.616.683l.183.24-.183-.171c-.224-.21-.738-.62-.851-.678-.077-.039-.088-.038-.135.009-.043.043-.052.107-.058.414-.01.477-.075.783-.232 1.09-.085.165-.098.13-.021-.058.057-.14.063-.2.063-.662-.001-.928-.111-1.152-.758-1.534a7.111 7.111 0 00-.599-.31 2.277 2.277 0 01-.293-.143c.018-.018.649.166.902.263.377.145.44.164.485.147.031-.012.046-.101.061-.364zm-8.203-.713c-.06.717.22 1.675.674 2.3.352.485.898.862 1.3.898.264.024.344-.059.224-.233-.165-.242-.369-.615-.423-.774a8.414 8.414 0 01-.162-.65c-.189-.883-.375-1.227-.805-1.488a2.596 2.596 0 00-.686-.255l-.103-.02-.019.222zm7.653 6.953c-2.122-.854-2.869-1.596-2.869-2.847 0-.184.006-.335.014-.335s.09.06.183.135c.43.345.912.493 2.246.687.785.115 1.226.207 1.634.342 1.295.43 2.096 1.302 2.287 2.489.056.345.023.992-.067 1.333-.07.27-.288.754-.345.773-.016.005-.032-.056-.036-.139-.022-.446-.247-.88-.625-1.205-.43-.37-1.008-.664-2.422-1.233zm-1.59-.094c.03.089.076.29.102.45.17 1.01-.36 1.828-1.393 2.144-.11.034-.54.118-.957.188-.845.14-1.222.24-1.6.422-.269.13-.594.323-.574.343.006.006.067-.009.136-.033.477-.168 1.008-.254 1.816-.296a16 16 0 00.81-.06c.718-.09 1.217-.308 1.604-.703.216-.22.345-.424.448-.712.066-.183.075-.251.075-.575 0-.33-.007-.39-.078-.594a1.81 1.81 0 00-.342-.622l-.101-.113.054.161zm1.074 2.176c-.282-.606-.347-1.191-.193-1.737.017-.058.043-.106.06-.106.015 0 .082.036.147.08.13.088.39.235 1.085.613.866.473 1.36.838 1.696 1.256.294.366.476.783.564 1.291.05.288.02.98-.054 1.27-.232.914-.774 1.632-1.546 2.051a1.993 1.993 0 01-.226.112c-.01 0 .03-.104.092-.233.26-.543.29-1.07.093-1.659-.12-.36-.365-.799-.86-1.54-.576-.864-.717-1.093-.858-1.398zm-5.31 1.989c-.893.145-1.872.617-2.66 1.282l-.234.198.206.032c1.075.168 1.365.317 2.11 1.085.43.442.574.54.93.631.523.134 1.039-.112 1.215-.578.08-.209.069-.553-.022-.727-.215-.412-.843-.546-1.147-.244-.253.252-.18.631.135.697.072.015.07.012-.018-.028-.138-.063-.197-.149-.198-.286-.002-.322.367-.503.71-.348.25.113.35.26.35.52 0 .4-.34.7-.736.652a1.081 1.081 0 01-.609-.319c-.349-.395-.213-1.017.275-1.256.37-.182.864-.137 1.246.113.44.288.626.55 1.005 1.414.123.281.282.597.352.703.359.537.788.8 1.306.8.285 0 .5-.052.77-.187.2-.1.485-.29.464-.311a.736.736 0 00-.185.057c-.565.22-1.139.205-1.472-.039-.21-.153-.38-.46-.467-.842a18.21 18.21 0 01-.11-.65c-.116-.74-.228-1.072-.487-1.453-.266-.39-.777-.717-1.348-.863-.356-.091-.996-.116-1.381-.053zM10.4 12.474c.077-.285.326-.556.582-.635.163-.05.5-.018.658.063.306.155.53.51.48.767-.058.313-.565.563-1.148.567-.298.002-.408-.038-.522-.19-.07-.094-.097-.398-.05-.572zm1.162-.461c.152.093.192.232.102.36-.062.087-.254.17-.394.17-.21 0-.44-.148-.44-.286 0-.275.44-.422.732-.244z",
+	    d: "M3.367 2.26c2.49 3.022 6.33 7.729 6.52 7.992.158.218.099.413-.17.566-.15.086-.46.172-.613.172a.786.786 0 01-.515-.22c-.101-.096-.51-.706-1.453-2.17a159.372 159.372 0 00-1.342-2.064c-.038-.036-.037-.034 1.269 2.302.82 1.468 1.096 1.986 1.096 2.056 0 .14-.038.215-.212.409-.29.324-.42.687-.514 1.44-.105.844-.4 1.44-1.218 2.46-.479.598-.557.707-.678.948-.152.303-.194.473-.21.855-.019.405.016.666.14 1.053.108.34.221.563.51 1.01.25.386.393.673.393.785 0 .09.017.09.403.003.924-.21 1.675-.576 2.097-1.026.261-.279.323-.433.325-.814 0-.25-.008-.302-.075-.445-.11-.234-.31-.429-.75-.73-.578-.394-.825-.712-.893-1.15-.056-.358.009-.61.328-1.28.331-.693.413-.989.468-1.687.036-.451.086-.63.215-.772.136-.15.257-.2.592-.245.546-.075.893-.216 1.179-.48.247-.228.351-.447.367-.779l.012-.25-.138-.162C9.998 9.452 3.03 1.8 3 1.8c-.006 0 .159.207.367.46zM6.65 17.463a.444.444 0 00-.136-.585c-.18-.119-.458-.063-.458.093 0 .047.026.081.085.112.1.051.107.108.029.226-.08.12-.073.224.018.295.146.114.354.052.462-.14zm3.413-10.947c-.224-.035-.234-.039-.128-.055.201-.031.678.011 1.006.09.766.181 1.463.648 2.208 1.476l.197.22.283-.045c1.192-.191 2.404-.04 3.418.43.279.128.719.385.774.45.017.021.05.157.071.301.075.5.038.882-.115 1.168-.083.155-.088.204-.032.338a.326.326 0 00.292.184c.252 0 .523-.408.649-.974l.05-.225.099.112c.542.614.968 1.452 1.041 2.049l.02.155-.092-.141a1.744 1.744 0 00-.516-.543c-.364-.24-.749-.322-1.768-.376-.92-.049-1.441-.127-1.958-.296-.878-.286-1.321-.668-2.365-2.037-.464-.608-.75-.945-1.036-1.216-.647-.616-1.284-.939-2.098-1.065zm7.963 1.359c.023-.408.078-.677.19-.922a.99.99 0 01.091-.177.611.611 0 01-.042.16c-.081.237-.094.563-.039.943.07.48.111.55.62 1.07.238.244.516.551.616.683l.183.24-.183-.171c-.224-.21-.738-.62-.851-.678-.077-.039-.088-.038-.135.009-.043.043-.052.107-.058.414-.01.477-.075.783-.232 1.089-.085.166-.098.13-.021-.057.057-.14.063-.2.063-.662-.001-.928-.111-1.152-.758-1.534a7.111 7.111 0 00-.599-.31 2.277 2.277 0 01-.293-.143c.018-.018.649.166.902.263.377.145.44.164.485.147.031-.012.046-.102.061-.364zm-8.203-.713c-.06.717.22 1.675.674 2.3.352.485.898.862 1.3.898.264.024.344-.059.224-.233-.165-.242-.369-.615-.423-.774a8.414 8.414 0 01-.162-.65c-.189-.883-.375-1.227-.805-1.488a2.596 2.596 0 00-.686-.256l-.103-.018-.019.221zm7.653 6.953c-2.122-.854-2.869-1.596-2.869-2.847 0-.184.006-.335.014-.335s.09.06.183.135c.43.345.912.493 2.246.687.785.115 1.226.207 1.634.342 1.295.43 2.096 1.301 2.287 2.489.056.345.023.992-.067 1.333-.07.269-.288.754-.345.773-.016.005-.032-.056-.036-.14-.022-.445-.247-.879-.625-1.204-.43-.37-1.008-.664-2.422-1.233zm-1.59-.094c.03.089.076.29.102.449.17 1.012-.36 1.829-1.393 2.145-.11.034-.54.118-.957.188-.845.14-1.222.24-1.6.422-.269.13-.594.323-.574.343a.381.381 0 00.136-.033c.477-.168 1.008-.255 1.816-.296.32-.017.684-.044.81-.06.718-.09 1.217-.308 1.604-.703.216-.22.345-.424.448-.712.066-.183.075-.251.075-.575 0-.33-.007-.39-.078-.594a1.81 1.81 0 00-.342-.622l-.101-.113.054.161zm1.074 2.176c-.282-.606-.347-1.191-.193-1.737.017-.058.043-.106.06-.106.015 0 .082.036.147.08.13.088.39.235 1.085.613.866.473 1.36.838 1.696 1.256.294.366.476.783.564 1.29.05.289.02.981-.054 1.271-.232.914-.774 1.632-1.546 2.051a2.013 2.013 0 01-.226.112c-.01 0 .03-.104.092-.233.26-.543.29-1.07.093-1.659-.12-.36-.365-.799-.86-1.541-.576-.863-.717-1.093-.858-1.397zm-5.31 1.989c-.893.144-1.872.617-2.66 1.282l-.234.198.206.032c1.075.168 1.365.317 2.11 1.085.43.442.574.54.93.631.523.134 1.039-.112 1.215-.578.08-.209.069-.554-.022-.727-.215-.412-.843-.546-1.147-.244-.253.252-.18.631.135.697.072.015.07.012-.018-.029-.138-.062-.197-.148-.198-.285-.002-.322.367-.503.71-.349.25.114.35.262.35.521 0 .4-.34.7-.736.652a1.081 1.081 0 01-.609-.319c-.349-.395-.213-1.017.275-1.256.37-.182.864-.137 1.246.113.44.288.626.55 1.005 1.414.123.28.282.597.352.703.359.537.788.8 1.306.8.285 0 .5-.052.77-.187.2-.1.485-.29.464-.311a.73.73 0 00-.185.057c-.565.22-1.139.205-1.472-.039-.21-.153-.38-.46-.467-.842a18.167 18.167 0 01-.11-.65c-.116-.74-.228-1.072-.487-1.453-.266-.39-.777-.717-1.348-.863-.356-.091-.996-.116-1.381-.053zM10.4 12.474c.077-.285.326-.556.582-.635.163-.05.5-.018.658.062.306.156.53.512.48.768-.058.313-.565.563-1.148.567-.298.002-.408-.038-.522-.19-.07-.094-.097-.399-.05-.572zm1.162-.461c.152.093.192.231.102.36-.062.087-.254.17-.394.17-.21 0-.44-.149-.44-.286 0-.275.44-.422.732-.244z",
 	    fill: "#FEFEFE"
 	  })));
 	};
-	IconUniswapScalable.propTypes = {
+	IconUniswap.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$22 = ["color", "size"];
-	var IconXterioScalable = function IconXterioScalable(props) {
+	var _excluded$A = ["color", "size"];
+	var IconXterio = function IconXterio(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$22);
+	    otherProps = _objectWithoutProperties(props, _excluded$A);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13425,7 +10813,7 @@
 	    fill: "none",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_898)"
+	    clipPath: "url(#clip0_0_477)"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
 	    fill: "#FEFEFE"
@@ -13435,22 +10823,22 @@
 	    d: "M18.658 16.05a5.478 5.478 0 00-6.199-8.667c-.515.208-.976.505-1.422.832-.539.4-1.153.52-1.812.4-.51-.09-.964-.307-1.402-.562a1.074 1.074 0 01-.521-.74 1.67 1.67 0 00-3.296.226c-.1 1.2 1.092 2.114 2.225 1.7a1.139 1.139 0 01.964.07c.32.165.624.362.905.588.695.57 1.036 1.284.956 2.194-.051.643.02 1.289.209 1.905a5.478 5.478 0 009.393 2.053zm-6.455-5.097a2.761 2.761 0 104.591 3.07 2.761 2.761 0 00-4.59-3.07z",
 	    fill: "#0A1161"
 	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_898"
+	    id: "clip0_0_477"
 	  }, /*#__PURE__*/react.createElement("path", {
 	    fill: "#fff",
 	    d: "M0 0h24v24H0z"
 	  })))));
 	};
-	IconXterioScalable.propTypes = {
+	IconXterio.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$23 = ["color", "size"];
-	var IconLoadingBarScalable = function IconLoadingBarScalable(props) {
+	var _excluded$B = ["color", "size"];
+	var IconLoadingBar = function IconLoadingBar(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$23);
+	    otherProps = _objectWithoutProperties(props, _excluded$B);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13468,9 +10856,9 @@
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
 	    d: "M31.5.5H34C52.502.5 67.5 15.498 67.5 34v2.5h-5V34C62.5 18.26 49.74 5.5 34 5.5h-2.5v-5z",
-	    fill: "url(#paint0_linear_222_896)"
+	    fill: "url(#paint0_linear_0_481)"
 	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_222_896",
+	    id: "paint0_linear_0_481",
 	    x1: "31.5",
 	    y1: "19.121",
 	    x2: "67.5",
@@ -13483,16 +10871,16 @@
 	    stopColor: "#EBB9E7"
 	  })))));
 	};
-	IconLoadingBarScalable.propTypes = {
+	IconLoadingBar.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$24 = ["color", "size"];
-	var IconTxProcessingScalable = function IconTxProcessingScalable(props) {
+	var _excluded$C = ["color", "size"];
+	var IconTxProcessing = function IconTxProcessing(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$24);
+	    otherProps = _objectWithoutProperties(props, _excluded$C);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13514,176 +10902,16 @@
 	    fill: "#0A1161"
 	  }));
 	};
-	IconTxProcessingScalable.propTypes = {
+	IconTxProcessing.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$25 = ["color", "size"];
-	var IconSuccess16 = function IconSuccess16(props) {
+	var _excluded$D = ["color", "size"];
+	var IconGoogleplay = function IconGoogleplay(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$25);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "16",
-	    height: "16",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("g", {
-	    clipPath: "url(#clip0_222_817)"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M16 8A8 8 0 110 8a8 8 0 0116 0zm-8.293 3.707l5-5-1.414-1.414L7 9.586 4.707 7.293 3.293 8.707l3 3a1 1 0 001.414 0z",
-	    fill: "#6CDF8C"
-	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
-	    id: "clip0_222_817"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fill: "#fff",
-	    d: "M0 0h16v16H0z"
-	  })))));
-	};
-	IconSuccess16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$26 = ["color", "size"];
-	var IconDirection16 = function IconDirection16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$26);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M9.071 14.657l6.364-6.364-1.414-1.414-4.657 4.657v-9.9h-2v9.9L2.707 6.879 1.293 8.293l6.364 6.364a1 1 0 001.414 0z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconDirection16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$27 = ["color", "size"];
-	var IconEdit12 = function IconEdit12(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$27);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '12',
-	    height: size || '12',
-	    viewBox: "0 0 12 12",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M8.464 3.732l-1.732-1-3.086 5.345.366 1.366 1.366-.366 3.086-5.345zm-1.768 7.062l-4.098 1.098L1.5 7.794 6 0l5.196 3-4.5 7.794z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconEdit12.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$28 = ["color", "size"];
-	var IconGame16 = function IconGame16(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$28);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M10 12H6l-1.333 2h-4l.667-10 1.333-1.333h10.667L14.667 4l.667 10h-4L10 12zm-5.07-2l-1.333 2h-.792l.474-7.117.216-.216h9.01l.216.216.475 7.117h-.792l-1.333-2H4.93zm5.737-2.667a.333.333 0 11.667 0 .333.333 0 01-.667 0zm2 0a1.667 1.667 0 11-3.333 0 1.667 1.667 0 013.333 0zm-6-1h1v2h-1v1h-2v-1h-1v-2h1v-1h2v1z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconGame16.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$29 = ["color", "size"];
-	var IconCreditcard32 = function IconCreditcard32(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$29);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '32',
-	    height: size || '32',
-	    viewBox: "0 0 32 32",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M26 9H6v3h20V9zM6 23v-8h20v4l3 1V6H3v20h12l-2-3H6zm8-6H8v3h4l2-3zm9.333 0L18 25h3.333l-.666 5L26 22h-3.333l.666-5z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconCreditcard32.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$2a = ["color", "size"];
-	var IconFiatcurrency40 = function IconFiatcurrency40(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$2a);
-	  return /*#__PURE__*/react.createElement("svg", _extends({
-	    style: {
-	      color: color
-	    },
-	    width: size || '40',
-	    height: size || '40',
-	    viewBox: "0 0 40 40",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    d: "M7.968 25.044l7.27 4.853 6.405-2.902.016-1.117-6.52 3.052-6.554-4.136-.617.25zM28.28 13.07c.1.067.2.134.317.217-.2.083-.417.183-.617.284-.2.083-.4.183-.617.266-.1-.066-.217-.15-.317-.216-.35.1-.667.133-.934.1-.267-.017-.5-.1-.7-.25-.334-.234-.65-.467-.984-.7.183-.084.383-.184.567-.268.183-.083.383-.183.567-.267.333.234.667.467 1.017.717.1.067.233.067.4 0 .15-.066.184-.133.084-.216-.184-.117-.367-.25-.534-.367-.117-.083-.284-.134-.5-.15a4.666 4.666 0 00-.634-.034c-.3-.016-.7-.016-1.2-.033-.485-.017-.835-.117-1.018-.25-.15-.117-.3-.217-.45-.334-.2-.15-.3-.3-.3-.45 0-.15.116-.317.333-.483-.083-.067-.184-.134-.267-.2.184-.084.35-.184.534-.284.183-.1.367-.184.534-.284.1.067.183.134.283.2.284-.1.55-.133.784-.116.233.016.45.083.65.217l.75.5c-.2.1-.383.183-.583.283-.183.1-.384.184-.567.284-.267-.184-.517-.35-.784-.534-.083-.05-.183-.05-.3 0-.134.067-.117.167.033.267.1.067.2.117.3.184.15.1.467.166.968.183.5.017.917.017 1.234.033.317.017.55.034.683.05.267.034.5.117.684.234l.6.4c.25.167.384.333.367.517.017.15-.116.333-.383.5zm-10.223 4.787c.117.083.217.15.334.233-.217.1-.45.2-.667.3-.217.1-.434.2-.65.284-.118-.084-.218-.15-.334-.234-.384.1-.717.134-1 .117-.284-.034-.534-.117-.735-.267l-1.05-.75c.2-.1.4-.184.6-.284.2-.1.4-.2.617-.283.35.25.717.5 1.084.75.117.083.25.083.417 0 .167-.067.2-.15.083-.233-.183-.134-.383-.267-.567-.4-.116-.084-.3-.134-.533-.167a9.455 9.455 0 00-.667-.05c-.317-.017-.75-.017-1.268-.034-.517-.016-.884-.116-1.084-.267-.167-.116-.317-.233-.483-.35-.217-.15-.317-.317-.317-.484.017-.166.133-.333.367-.516l-.3-.2c.183-.1.383-.2.566-.3.184-.1.384-.2.584-.3l.3.2c.3-.1.584-.134.834-.117.25.016.484.1.7.233.267.183.534.35.801.534-.2.1-.417.2-.617.3l-.6.3c-.284-.184-.55-.384-.834-.567-.083-.067-.2-.067-.317 0-.15.067-.133.167.033.283.1.067.217.117.317.184.167.117.5.183 1.034.2.534.017.967.017 1.318.033.35.017.583.034.733.05.284.034.534.117.718.25.216.134.416.284.633.418.267.183.4.366.4.55-.033.217-.183.4-.45.584zm8.739 6.787l5.07-2.301-1.201-.701-3.853 1.818-.016 1.184zm-5.087-3.402l-.016 1.084-6.454 2.935-7.271-4.853.567-.25 6.587 4.152 6.587-3.068zm5.17-1.268l.017-1.15 3.802-1.785 1.167.667-4.986 2.268zm.083-4.636l4.903-2.234-7.487-4.336-4.97 2.134 7.554 4.436zM17.69 9.902l6.42-2.752.368-.15.35.2L34 12.52l-.067 3.018-1.467.684 1.534.884-.067 3.018-1.517.7 1.567.918-.066 3.019-18.778 8.788-9.006-5.67L6 24.16l.95-.4-.817-.517L6 19.524l.917-.4-.784-.5L6 14.904l7.054-3.034-.083-.067 4.636-1.985.083.084zm-3.068 3.052l-6.654 2.851 7.27 4.853 6.505-2.952-7.121-4.752z",
-	    fill: "currentColor"
-	  }));
-	};
-	IconFiatcurrency40.propTypes = {
-	  color: propTypes.string,
-	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
-	};
-
-	var _excluded$2b = ["color", "size"];
-	var IconGoogleplayScalable = function IconGoogleplayScalable(props) {
-	  var color = props.color,
-	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$2b);
+	    otherProps = _objectWithoutProperties(props, _excluded$D);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13697,13 +10925,3348 @@
 	    fill: "currentColor"
 	  }));
 	};
-	IconGoogleplayScalable.propTypes = {
+	IconGoogleplay.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$E = ["color", "size"];
+	var IconTrustwallet = function IconTrustwallet(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$E);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M3.054 5.676C2.4 6.96 2.4 8.64 2.4 12s0 5.04.654 6.324a6.017 6.017 0 002.622 2.622C6.96 21.6 8.64 21.6 12 21.6s5.04 0 6.324-.654a6.017 6.017 0 002.622-2.622C21.6 17.04 21.6 15.36 21.6 12s0-5.04-.654-6.324a6.017 6.017 0 00-2.622-2.622C17.04 2.4 15.36 2.4 12 2.4s-5.04 0-6.324.654a6.017 6.017 0 00-2.622 2.622zm13.737 1.902a.63.63 0 01.624.633c-.03 1.788-.099 3.156-.228 4.239-.126 1.083-.315 1.887-.6 2.538a4.017 4.017 0 01-.708 1.101c-.375.405-.804.699-1.272.978-.2.12-.408.238-.626.362-.466.264-.978.555-1.558.943a.62.62 0 01-.693 0 24.307 24.307 0 00-1.578-.953 76.27 76.27 0 01-.306-.175c-.549-.318-1.044-.621-1.476-1.059a3.764 3.764 0 01-.735-1.056c-.27-.558-.453-1.233-.588-2.106-.18-1.167-.27-2.694-.303-4.812a.625.625 0 01.177-.447.636.636 0 01.447-.186h.258c.795.003 2.55-.075 4.068-1.257a.626.626 0 01.765 0c1.518 1.182 3.273 1.26 4.071 1.257h.261zm-1.395 7.011c.195-.402.357-.957.48-1.755.147-.954.237-2.25.279-4.014-.936-.027-2.544-.207-4.077-1.239C10.545 8.61 8.937 8.79 8.004 8.82c.033 1.458.099 2.592.204 3.483.12 1.014.291 1.701.504 2.184.141.321.297.552.483.756.249.273.564.498.993.756.178.107.374.218.588.339.38.215.816.462 1.302.771.477-.304.907-.548 1.283-.762l.325-.186c.528-.303.918-.555 1.209-.849.195-.201.354-.42.501-.723z",
+	    fill: "#3375BB"
+	  })));
+	};
+	IconTrustwallet.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$F = ["color", "size"];
+	var IconSafepa = function IconSafepa(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$F);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M9.468 4.031a1.928 1.928 0 011.363-.564h9.435L16.22 7.51H8.398a.888.888 0 00-.888.89v6.59L3.79 11.268a1.099 1.099 0 010-1.558l5.679-5.68zm5.863 12.191h-7.82l-4.045 4.044h9.435c.511 0 1.002-.203 1.363-.564l5.68-5.68a1.098 1.098 0 000-1.557L16.22 8.743v6.589a.89.89 0 01-.89.89z",
+	    fill: "#4A21EF"
+	  })));
+	};
+	IconSafepa.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$G = ["color", "size"];
+	var originFill$a = ['url(#paint0_linear_0_542)'];
+	var IconWhitepaper = function IconWhitepaper(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$G);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M20 5h-4a4 4 0 00-4 4V8a3 3 0 00-3-3H4v13h4l1.222.204c1.134.189 2.14.839 2.778 1.796a4.161 4.161 0 012.778-1.796L16 18h4V5z",
+	    fill: color || originFill$a[0]
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_542",
+	    x1: "20",
+	    y1: "12.759",
+	    x2: "4",
+	    y2: "12.759",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#9EE6FC"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#EBB9E7"
+	  }))));
+	};
+	IconWhitepaper.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$H = ["color", "size"];
+	var originFill$b = ['url(#paint0_linear_0_632)'];
+	var IconTokenPolygonMatic = function IconTokenPolygonMatic(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$H);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_632)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: color || originFill$b[0]
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M15.894 14.267l3.321-1.912a.57.57 0 00.285-.492V8.038a.57.57 0 00-.285-.492l-3.32-1.912a.573.573 0 00-.57 0l-3.32 1.912a.57.57 0 00-.286.492v6.834l-2.328 1.34-2.329-1.34V12.19l2.329-1.34 1.536.884V9.935l-1.251-.72a.573.573 0 00-.57 0l-3.321 1.912a.57.57 0 00-.285.492v3.824c0 .203.11.391.285.493l3.32 1.912a.574.574 0 00.57 0l3.32-1.912a.57.57 0 00.286-.492V8.61l.042-.024 2.286-1.316 2.329 1.34v2.682l-2.329 1.34-1.533-.883v1.8l1.248.719a.573.573 0 00.57 0v-.001z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_632",
+	    x1: "0",
+	    y1: "0",
+	    x2: "20.859",
+	    y2: "26.475",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#A726C1"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "0.88",
+	    stopColor: "#803BDF"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#7B3FE4"
+	  })), /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_632"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  }))));
+	};
+	IconTokenPolygonMatic.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$I = ["color", "size"];
+	var IconChainPolygon = function IconChainPolygon(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$I);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_635)"
+	  }, /*#__PURE__*/react.createElement("circle", {
+	    cx: "12",
+	    cy: "12",
+	    r: "12",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M15.894 14.267l3.321-1.912a.57.57 0 00.285-.492V8.038a.57.57 0 00-.285-.492l-3.32-1.912a.573.573 0 00-.57 0l-3.32 1.912a.57.57 0 00-.286.492v6.834l-2.328 1.34-2.329-1.34V12.19l2.329-1.34 1.536.884V9.935l-1.251-.72a.573.573 0 00-.57 0l-3.321 1.912a.57.57 0 00-.285.492v3.824c0 .203.11.391.285.493l3.32 1.912a.574.574 0 00.57 0l3.32-1.912a.57.57 0 00.286-.492V8.61l.042-.024 2.286-1.316 2.329 1.34v2.682l-2.329 1.34-1.533-.883v1.8l1.248.719a.573.573 0 00.57 0v-.001z",
+	    fill: "url(#paint0_linear_0_635)"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_635",
+	    x1: "6.69",
+	    y1: "15.966",
+	    x2: "18.7",
+	    y2: "7.185",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#A726C1"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".88",
+	    stopColor: "#803BDF"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#7B3FE4"
+	  })), /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_635"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconChainPolygon.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$J = ["color", "size"];
+	var IconTokenArbitrumEth = function IconTokenArbitrumEth(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$J);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_638)"
+	  }, /*#__PURE__*/react.createElement("circle", {
+	    cx: "12",
+	    cy: "12",
+	    r: "12",
+	    fill: "#ECEFF0"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M11.696 4l4.911 8.173-4.91 2.916-4.912-2.916L11.696 4z",
+	    fill: "#2F3030"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M11.696 4l-4.911 8.173 4.911 2.916V4z",
+	    fill: "#828384"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M11.696 20l4.912-6.906-4.912 2.877-4.91-2.877L11.695 20z",
+	    fill: "#2F3030"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M11.696 20l-4.91-6.906 4.91 2.877V20z",
+	    fill: "#828384"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: "0.6",
+	    d: "M11.696 9.909l4.912 2.263-4.912 2.917-4.91-2.917 4.91-2.263z",
+	    fill: "#000"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_638"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  }))));
+	};
+	IconTokenArbitrumEth.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$K = ["color", "size"];
+	var IconChainEthereum = function IconChainEthereum(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$K);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_646)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: "#6284F5"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".6",
+	    d: "M12.01 9.916L7.1 12.148l4.91 2.903 4.912-2.903-4.911-2.232z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".45",
+	    d: "M7.103 12.148l4.91 2.903V4l-4.91 8.148z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".8",
+	    d: "M12.013 4v11.051l4.91-2.903L12.013 4z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".45",
+	    d: "M7.1 13.08L12.012 20v-4.02l-4.91-2.9z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".8",
+	    d: "M12.012 15.98V20l4.914-6.92-4.914 2.9z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_646"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconChainEthereum.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$L = ["color", "size"];
+	var IconTokenEth = function IconTokenEth(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$L);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("g", {
+	    opacity: "0.7",
+	    fill: "#fff"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    opacity: "0.6",
+	    d: "M11.945 9.265L5.5 12.195l6.445 3.81 6.447-3.81-6.447-2.93z"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: "0.45",
+	    d: "M5.502 12.195l6.445 3.81V1.5L5.502 12.195z"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: "0.8",
+	    d: "M11.947 1.5V16.005l6.445-3.81L11.947 1.5z"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: "0.45",
+	    d: "M5.5 13.417l6.445 9.083v-5.275L5.5 13.417z"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: "0.8",
+	    d: "M11.945 17.225V22.5l6.45-9.083-6.45 3.808z"
+	  })));
+	};
+	IconTokenEth.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$M = ["color", "size"];
+	var IconOpenSea = function IconOpenSea(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$M);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_669)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12.096.12C5.472.072.072 5.472.12 12.096c.048 6.456 5.328 11.712 11.784 11.784 6.648.048 12.048-5.352 11.976-11.976C23.832 5.448 18.552.168 12.096.12z",
+	    fill: "#2081E2"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M8.544 6.216A5.43 5.43 0 019.72 9.624a5.572 5.572 0 01-.888 3H4.848l3.696-6.408z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M20.712 14.04a.132.132 0 01-.072.12c-.264.12-1.152.528-1.536 1.056-.96 1.32-1.68 3.432-3.312 3.432h-6.84c-2.424 0-4.44-1.92-4.416-4.464 0-.072.048-.12.12-.12h3.216a.19.19 0 01.192.192v.624c0 .336.264.6.6.6h2.448v-1.416h-1.68a7.161 7.161 0 001.536-4.44 7.12 7.12 0 00-1.896-4.848c.72.072 1.392.216 2.016.408v-.408c0-.408.336-.744.744-.744s.744.336.744.744v.96c2.28 1.056 3.792 2.832 3.792 4.848 0 1.176-.504 2.28-1.392 3.192a.927.927 0 01-.648.264H12.6v1.416h2.16c.456 0 1.296-.888 1.704-1.416 0 0 .024-.024.072-.048.048-.024 3.984-.912 3.984-.912.072-.024.168.048.168.12l.024.84z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_669"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconOpenSea.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$N = ["color", "size"];
+	var IconReservoir = function IconReservoir(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$N);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_674)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12.096.12C5.472.072.072 5.472.12 12.096c.048 6.456 5.328 11.712 11.784 11.784 6.648.048 12.048-5.352 11.976-11.976C23.832 5.448 18.552.168 12.096.12z",
+	    fill: "#000"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M18.177 15.357L11.94 11.76v-7.2l6.237 3.603v7.194z",
+	    fill: "#80D8FF"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M5.703 15.357l6.237-3.597v-7.2L5.703 8.163v7.194z",
+	    fill: "#7ACFFF"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M11.94 15.357l6.237-3.597-6.237-3.597-6.237 3.597 6.237 3.597z",
+	    fill: "url(#paint0_linear_0_674)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".3",
+	    d: "M11.94 18.96l-6.237-3.603V8.163l6.237 3.597v7.2z",
+	    fill: "#E4F0FE"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M5.703 15.357l6.237 3.603v-3.603L5.703 11.76v3.597z",
+	    fill: "url(#paint1_linear_0_674)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".3",
+	    d: "M11.94 18.96l6.237-3.603V8.163L11.94 11.76v7.2z",
+	    fill: "#D0E6FF"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M18.177 15.357L11.94 18.96v-3.603l6.237-3.597v3.597z",
+	    fill: "url(#paint2_linear_0_674)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".3",
+	    d: "M11.94 11.76l6.237-3.597L11.94 4.56 5.703 8.163l6.237 3.597z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_674",
+	    x1: "5.938",
+	    y1: "13.102",
+	    x2: "18.108",
+	    y2: "10.382",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#C132CE"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#425AFA"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint1_linear_0_674",
+	    x1: "8.102",
+	    y1: "12.965",
+	    x2: "9.897",
+	    y2: "18.935",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#425AFA"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".16",
+	    stopColor: "#5A52F2"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".55",
+	    stopColor: "#9241DE"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".84",
+	    stopColor: "#B436D3"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#C132CE"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint2_linear_0_674",
+	    x1: "13.044",
+	    y1: "17.83",
+	    x2: "17.021",
+	    y2: "12.951",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#C132CE"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".1",
+	    stopColor: "#AB39D6"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".28",
+	    stopColor: "#8545E3"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".47",
+	    stopColor: "#684EED"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".65",
+	    stopColor: "#5355F4"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".83",
+	    stopColor: "#4659F9"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#425AFA"
+	  })), /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_674"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconReservoir.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$O = ["color", "size"];
+	var IconChainXterio = function IconChainXterio(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$O);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: "url(#paint0_linear_0_685)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M18.658 16.05a5.478 5.478 0 00-6.199-8.667c-.515.208-.976.505-1.422.832-.539.4-1.153.52-1.812.4-.51-.09-.964-.307-1.402-.562a1.074 1.074 0 01-.521-.74 1.67 1.67 0 00-3.296.226c-.1 1.2 1.092 2.114 2.225 1.7a1.139 1.139 0 01.964.07c.32.165.624.362.905.588.695.57 1.036 1.284.956 2.194-.051.643.02 1.289.209 1.905a5.478 5.478 0 009.393 2.053zm-6.455-5.097a2.761 2.761 0 104.591 3.07 2.761 2.761 0 00-4.59-3.07z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_685",
+	    x1: "0",
+	    y1: "0",
+	    x2: "24",
+	    y2: "24",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#180F3E"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#6221EB"
+	  })))));
+	};
+	IconChainXterio.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$P = ["color", "size"];
+	var IconLooksrare = function IconLooksrare(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$P);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_688)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: "#0CE466"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M12 13.297a2.487 2.487 0 110-4.973 2.487 2.487 0 010 4.973zm-1.081-2.486a1.081 1.081 0 102.162 0 1.081 1.081 0 00-2.162 0z",
+	    fill: "#000"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M4 10.814l4.757-4.76h6.486L20 10.814l-8 7.997-8-7.997zm11.676-1.733a5.198 5.198 0 00-7.352 0l-1.73 1.73 1.73 1.73a5.198 5.198 0 007.352 0l1.73-1.73-1.73-1.73z",
+	    fill: "#000"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_688"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconLooksrare.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$Q = ["color", "size"];
+	var IconX2y2 = function IconX2y2(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$Q);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_692)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M24 12c0-6.628-5.372-12-12-12S0 5.372 0 12s5.372 12 12 12 12-5.372 12-12z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M19.622 6.163a8.16 8.16 0 100 11.674A9.584 9.584 0 0112 21.6 9.6 9.6 0 012.4 12a9.6 9.6 0 0117.222-5.837z",
+	    fill: "url(#paint0_linear_0_692)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M7.822 16.67a6.528 6.528 0 100-9.338 7.668 7.668 0 016.098-3.012A7.68 7.68 0 0121.6 12a7.68 7.68 0 01-13.778 4.67z",
+	    fill: "url(#paint1_linear_0_692)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M17.76 12a5.761 5.761 0 01-9.833 4.073A5.761 5.761 0 1117.76 12zm-1.92 0a3.84 3.84 0 11-7.68 0 3.84 3.84 0 017.68 0z",
+	    fill: "url(#paint2_linear_0_692)"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_692",
+	    x1: "2.4",
+	    y1: "11.669",
+	    x2: "21.6",
+	    y2: "11.669",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#00E0FF"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#562EC8"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint1_linear_0_692",
+	    x1: "2.4",
+	    y1: "11.669",
+	    x2: "21.6",
+	    y2: "11.669",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#00E0FF"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#562EC8"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint2_linear_0_692",
+	    x1: "2.4",
+	    y1: "11.669",
+	    x2: "21.6",
+	    y2: "11.669",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#00E0FF"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#562EC8"
+	  })), /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_692"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconX2y2.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$R = ["color", "size"];
+	var IconElement = function IconElement(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$R);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_697)",
+	    fillRule: "evenodd",
+	    clipRule: "evenodd"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M17.215 14.705V7.223l4.94-2.628v7.364l-4.94 2.746z",
+	    fill: "url(#paint0_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M14.045 17.378l.053 6.323-.177.098-6.647-3.652v-2.768h6.771z",
+	    fill: "url(#paint1_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M17.215 18.262v3.71L13.922 23.8v-5.537h3.293z",
+	    fill: "url(#paint2_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M10.688 12.807l.002.002-.123 3.71 1.693.94-6.634 3.689-.098-.056-.026-7.308 6.77-3.817v1.902l-1.585.938z",
+	    fill: "url(#paint3_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M5.629 13.78L.75 11.075v-3.71l5.008 2.655-.13 3.76z",
+	    fill: "url(#paint4_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M23.801 12.841l-6.586 3.533v3.83l6.586-3.652v-3.71z",
+	    fill: "url(#paint5_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M2.335 11.9l3.294 1.885v7.364l-3.294-1.885V11.9z",
+	    fill: "#29F6A8"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M10.568 16.52v-3.71l.045-.03 6.601 3.596v3.83l-6.646-3.686z",
+	    fill: "url(#paint6_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M7.4 10.983L.75 7.364 7.4 3.746v7.237z",
+	    fill: "url(#paint7_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M23.803 12.841l-6.586 3.653-6.65-3.688 1.71-.952-.013.007 1.659.92 3.262-1.815.032-1.777 6.586 3.652z",
+	    fill: "url(#paint8_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M12.275 10.088h.002l-.08.044-3.266-1.78-1.656.964V1.827l.22-.122 6.551 3.774-.043 7.297-.08.067-1.659-.98.012-1.775z",
+	    fill: "url(#paint9_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M13.924 12.82V5.479l-.072-.04 3.333-1.804.03.017v7.336l-3.292 1.832z",
+	    fill: "url(#paint10_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M12.277 10.088l-6.65 3.697-3.292-1.886L8.93 8.232l3.345 1.856z",
+	    fill: "url(#paint11_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M17.215 7.341V3.653l1.647-.942 3.293 1.885-4.94 2.745z",
+	    fill: "url(#paint12_linear_0_697)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M7.275 1.827l6.646 3.652 3.294-1.827L10.568 0 7.275 1.827z",
+	    fill: "#76FF0B"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_697",
+	    x1: "19.53",
+	    y1: "5.666",
+	    x2: "19.823",
+	    y2: "13.789",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#00B368"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#004A4D"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint1_linear_0_697",
+	    x1: "7.274",
+	    y1: "20.589",
+	    x2: "14.099",
+	    y2: "20.589",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#0ECD59"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#16DE3E"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint2_linear_0_697",
+	    x1: "15.569",
+	    y1: "17.793",
+	    x2: "15.569",
+	    y2: "23.561",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#003A4A"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#007649"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint3_linear_0_697",
+	    x1: "14.195",
+	    y1: "14.863",
+	    x2: "8.114",
+	    y2: "15.727",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#00AE85"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".994",
+	    stopColor: "#007258"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint4_linear_0_697",
+	    x1: "3.223",
+	    y1: "8.686",
+	    x2: "3.296",
+	    y2: "13.317",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#12C951"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#009256"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint5_linear_0_697",
+	    x1: "17.214",
+	    y1: "16.524",
+	    x2: "23.8",
+	    y2: "16.524",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#005255"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#008147"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint6_linear_0_697",
+	    x1: "14.441",
+	    y1: "13.692",
+	    x2: "13.642",
+	    y2: "18.079",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#44E28D"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#10E2AA"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint7_linear_0_697",
+	    x1: ".75",
+	    y1: "7.364",
+	    x2: "7.399",
+	    y2: "7.364",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#91FF3C"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#64F562"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint8_linear_0_697",
+	    x1: "10.566",
+	    y1: "12.842",
+	    x2: "23.802",
+	    y2: "12.842",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#91FF3C"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#0DE2AC"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint9_linear_0_697",
+	    x1: "10.62",
+	    y1: "3.583",
+	    x2: "10.694",
+	    y2: "10.988",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#03E168"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#05C35E"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint10_linear_0_697",
+	    x1: "14.158",
+	    y1: "5.167",
+	    x2: "16.39",
+	    y2: "10.367",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#00837B"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#03824D"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint11_linear_0_697",
+	    x1: "4.03",
+	    y1: "12.901",
+	    x2: "10.117",
+	    y2: "9.103",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#91FF3C"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#52F171"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint12_linear_0_697",
+	    x1: "17.099",
+	    y1: "6.059",
+	    x2: "20.16",
+	    y2: "3.603",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#11E2AA"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".638",
+	    stopColor: "#8DFE40"
+	  })), /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_697"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconElement.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$S = ["color", "size"];
+	var IconBlur = function IconBlur(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$S);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_713)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: "#080404"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M12.429 6h1.428v4.136l.509.475h3.062v1.198h-3.901l-.969-1.073-.13-.118V6zm-4.93 1.937v-.812h2.445l.269.298v.616l-.269.257H7.498v-.36zm-1.356 0V6h4.401l.688.745h.004l.065.074.27.293h-.011l.011.013v1.171l-.559.53.56.631v1.161l-.004.003h.003l-1.085 1.19H6.143V7.936zm1.355 2.234v.447h2.446l.269-.262v-.591l-.269-.308H7.498v.714zM6 15.535v-2.831h1.429v4.136l.521.565h1.671l.522-.603v-4.098h1.428V17.405l-.92 1.117H6.947L6 17.405v-1.871zm10.609-.772v-.122h.005v-.473l-.285-.254h-2.472v1.157h2.466l.286-.308zm-4.18-2.059V18.514h1.428v-2.282h2.472l.285.256v2.026H18v-2.282l-.592-.53.592-.63v-1.158l-.017-.016h.008l-1.078-1.194h-4.484z",
+	    fill: "#FF8700"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_713"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconBlur.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$T = ["color", "size"];
+	var IconMagiceden = function IconMagiceden(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$T);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_744)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: "#0B070A"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M15.003 9.853l.843.991c.097.112.183.203.217.255.252.25.394.59.393.943-.023.416-.295.7-.546 1.003l-.59.693-.308.36a.084.084 0 00-.013.091.085.085 0 00.08.048h3.077c.47 0 1.062.395 1.028.995a1.025 1.025 0 01-.307.726c-.196.193-.46.301-.737.303H13.32c-.316 0-1.169.034-1.408-.693a.851.851 0 01-.02-.47c.07-.23.18-.447.325-.64.242-.359.504-.718.763-1.066.333-.456.676-.898 1.013-1.363a.085.085 0 000-.106l-1.224-1.436a.085.085 0 00-.069-.034.086.086 0 00-.068.034c-.328.436-1.763 2.368-2.07 2.76-.305.39-1.06.412-1.477 0l-1.914-1.895a.087.087 0 00-.096-.018.087.087 0 00-.054.08v3.642c.005.258-.073.512-.222.725a1.254 1.254 0 01-.608.461 1.06 1.06 0 01-.95-.132 1.038 1.038 0 01-.442-.84V8.72c.011-.235.097-.462.246-.647.15-.185.354-.319.585-.383a1.179 1.179 0 011.125.302L9.7 10.896a.085.085 0 00.068.025.087.087 0 00.063-.035l2.091-2.853a1.042 1.042 0 01.795-.375h5.44a1.06 1.06 0 01.785.352 1.027 1.027 0 01.249.815 1.05 1.05 0 01-.366.647 1.079 1.079 0 01-.707.25h-3.046a.086.086 0 00-.074.046.083.083 0 00.005.085z",
+	    fill: "#E42575"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_744"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconMagiceden.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$U = ["color", "size"];
+	var IconLogo2 = function IconLogo2(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$U);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_0_747)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: "url(#paint0_linear_0_747)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M18.658 16.05a5.478 5.478 0 00-6.199-8.667c-.515.208-.976.505-1.422.832-.539.4-1.153.52-1.812.4-.51-.09-.964-.307-1.402-.562a1.074 1.074 0 01-.521-.74 1.67 1.67 0 00-3.296.226c-.1 1.2 1.092 2.114 2.225 1.7a1.139 1.139 0 01.964.07c.32.165.624.362.905.588.695.57 1.036 1.284.956 2.194-.051.643.02 1.289.209 1.905a5.478 5.478 0 009.393 2.053zm-6.455-5.097a2.761 2.761 0 104.591 3.07 2.761 2.761 0 00-4.59-3.07z",
+	    fill: "#0A1161"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_747",
+	    x1: "0",
+	    y1: "12.414",
+	    x2: "24",
+	    y2: "12.414",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#9EE6FC"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#EBB9E7"
+	  })), /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_0_747"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  })))));
+	};
+	IconLogo2.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$V = ["color", "size"];
+	var IconOthers = function IconOthers(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$V);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '32',
+	    height: size || '32',
+	    viewBox: "0 0 32 32",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "32",
+	    height: "32",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "url(#paint0_linear_0_801)",
+	    d: "M0 0h32v32H0z"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M8.527 22.667V19.15h1.7l1.722-2.941-1.652-2.59H8.773v-3.516h6.235l2.027 3.14 1.512-3.14h3.633v3.516h-1.582l-1.582 2.695 1.828 2.836h1.582v3.516h-6.352l-2.086-3.27-1.582 3.27H8.527z",
+	    fill: "#0A1161"
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_801",
+	    x1: "0",
+	    y1: "0",
+	    x2: "38.08",
+	    y2: "21.305",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#CBF2FE"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".391",
+	    stopColor: "#7DD5F9"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: ".735",
+	    stopColor: "#E6B1F7"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#E1DFA2"
+	  })))));
+	};
+	IconOthers.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$W = ["color", "size"];
+	var IconOkx = function IconOkx(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$W);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M18.65 2.5H5.35A2.85 2.85 0 002.5 5.35v13.3a2.85 2.85 0 002.85 2.85h13.3a2.85 2.85 0 002.85-2.85V5.35a2.85 2.85 0 00-2.85-2.85z",
+	    fill: "#000"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M13.619 10.214h-3.07a.237.237 0 00-.236.235v3.07c0 .13.106.236.235.236h3.07c.13 0 .236-.106.236-.235v-3.07a.237.237 0 00-.235-.236zM10.07 6.672H6.998a.237.237 0 00-.236.236v3.07c0 .13.107.236.236.236h3.07c.13 0 .236-.107.236-.236v-3.07a.237.237 0 00-.236-.236zM17.168 6.672h-3.07a.237.237 0 00-.236.236v3.07c0 .13.107.236.236.236h3.07c.13 0 .236-.107.236-.236v-3.07a.237.237 0 00-.236-.236zM10.07 13.763H6.998a.237.237 0 00-.236.236v3.07c0 .13.107.236.236.236h3.07c.13 0 .236-.107.236-.236v-3.07a.237.237 0 00-.236-.236zM17.168 13.763h-3.07a.237.237 0 00-.236.236v3.07c0 .13.107.236.236.236h3.07c.13 0 .236-.107.236-.236V14a.237.237 0 00-.236-.236z",
+	    fill: "#fff"
+	  })));
+	};
+	IconOkx.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$X = ["color", "size"];
+	var IconChainXterioBsc = function IconChainXterioBsc(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$X);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M23.587 15.132c.27-.998.413-2.048.413-3.132 0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12c1.084 0 2.134-.144 3.132-.413a6 6 0 118.455-8.455z",
+	    fill: "url(#paint0_linear_0_853)"
+	  }), /*#__PURE__*/react.createElement("mask", {
+	    id: "a",
+	    style: {
+	      maskType: 'alpha'
+	    },
+	    maskUnits: "userSpaceOnUse",
+	    x: "0",
+	    y: "0",
+	    width: "24",
+	    height: "24"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M23.587 15.132c.27-.998.413-2.048.413-3.132 0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12c1.084 0 2.134-.144 3.132-.413a6 6 0 118.455-8.455z",
+	    fill: "url(#paint1_linear_0_853)"
+	  })), /*#__PURE__*/react.createElement("g", {
+	    mask: "url(#a)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M18.658 16.05a5.478 5.478 0 00-6.199-8.667c-.515.208-.976.505-1.422.832-.539.4-1.153.52-1.812.4-.51-.09-.964-.307-1.402-.562a1.074 1.074 0 01-.521-.74 1.67 1.67 0 00-3.296.226c-.1 1.2 1.092 2.114 2.225 1.7a1.139 1.139 0 01.964.07c.32.165.624.362.905.588.695.57 1.036 1.284.956 2.194-.051.643.02 1.289.209 1.905a5.478 5.478 0 009.393 2.053zm-6.455-5.097a2.761 2.761 0 104.591 3.07 2.761 2.761 0 00-4.59-3.07z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("circle", {
+	    cx: "19",
+	    cy: "19",
+	    r: "5",
+	    fill: "#D9D9D9"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M19 24a5 5 0 100-10 5 5 0 000 10z",
+	    fill: "#0B0E11"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M17.219 16.699l1.761-1.025 1.761 1.025-.647.378-1.114-.646-1.114.646-.647-.378zm3.522 1.293l-.647-.38-1.114.647-1.114-.646-.647.379v.757l1.113.647v1.293l.648.378.648-.378v-1.293l1.113-.646v-.758zm0 2.05v-.758l-.647.38v.757l.647-.38zm.46.268l-1.114.646v.758l1.762-1.025v-2.05l-.648.378v1.293zm-.647-2.965l.647.379v.757l.648-.379v-.757l-.648-.379-.647.379zm-2.221 3.886v.758l.647.378.648-.378v-.758l-.648.379-.648-.379zm-1.114-1.19l.647.38v-.758l-.647-.379v.758zm1.113-2.696l.648.379.648-.379-.648-.379-.648.379zm-1.573.379l.648-.379-.648-.379-.648.379v.758l.648.378v-.757zm0 1.293l-.648-.38v2.05l1.761 1.026v-.757l-1.113-.646v-1.293z",
+	    fill: "#F1B90C"
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_853",
+	    x1: "0",
+	    y1: "0",
+	    x2: "24",
+	    y2: "24",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#180F3E"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#6221EB"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint1_linear_0_853",
+	    x1: "0",
+	    y1: "0",
+	    x2: "24",
+	    y2: "24",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#180F3E"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#6221EB"
+	  })))));
+	};
+	IconChainXterioBsc.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$Y = ["color", "size"];
+	var IconChainXterioEth = function IconChainXterioEth(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$Y);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24.000072479248047',
+	    height: size || '24.0001163482666',
+	    viewBox: "0 0 24.000072479248047 24.0001163482666",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M23.587 15.132c.27-.998.413-2.048.413-3.132 0-6.627-5.372-12-12-12C5.373 0 0 5.373 0 12s5.373 12 12 12c1.084 0 2.134-.144 3.132-.413a6 6 0 118.455-8.455z",
+	    fill: "url(#paint0_linear_0_867)"
+	  }), /*#__PURE__*/react.createElement("mask", {
+	    id: "a",
+	    style: {
+	      maskType: 'alpha'
+	    },
+	    maskUnits: "userSpaceOnUse",
+	    x: "0",
+	    y: "0",
+	    width: "24",
+	    height: "24"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M23.587 15.132c.27-.998.413-2.048.413-3.132 0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12c1.084 0 2.134-.144 3.132-.413a6 6 0 118.455-8.455z",
+	    fill: "url(#paint1_linear_0_867)"
+	  })), /*#__PURE__*/react.createElement("g", {
+	    mask: "url(#a)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M18.658 16.05a5.478 5.478 0 00-6.199-8.667c-.515.208-.976.505-1.422.832-.539.4-1.153.52-1.812.4-.51-.091-.964-.307-1.402-.562a1.074 1.074 0 01-.521-.74 1.67 1.67 0 00-3.296.226c-.1 1.2 1.092 2.114 2.225 1.7a1.139 1.139 0 01.964.07c.32.165.624.362.905.588.695.57 1.036 1.284.956 2.194-.051.642.02 1.289.209 1.905a5.478 5.478 0 009.393 2.053zm-6.455-5.097a2.761 2.761 0 104.59 3.07 2.761 2.761 0 00-4.59-3.07z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("circle", {
+	    cx: "19",
+	    cy: "19",
+	    r: "5",
+	    fill: "#D9D9D9"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M19 24a5 5 0 100-10 5 5 0 000 10z",
+	    fill: "#6284F5"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".6",
+	    d: "M19.005 18.131l-2.046.93 2.046 1.21 2.046-1.21-2.046-.93z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".45",
+	    d: "M16.96 19.062l2.046 1.21v-4.605l-2.046 3.395z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".8",
+	    d: "M19.006 15.667v4.605l2.046-1.21-2.046-3.395z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".45",
+	    d: "M16.959 19.45l2.046 2.883V20.66l-2.046-1.21z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    opacity: ".8",
+	    d: "M19.005 20.659v1.674l2.047-2.883-2.047 1.209z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_0_867",
+	    x1: "0",
+	    y1: "0",
+	    x2: "24",
+	    y2: "24",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#180F3E"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#6221EB"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint1_linear_0_867",
+	    x1: "0",
+	    y1: "0",
+	    x2: "24",
+	    y2: "24",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#180F3E"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#6221EB"
+	  })))));
+	};
+	IconChainXterioEth.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$Z = ["color", "size"];
+	var IconTokenUsdt = function IconTokenUsdt(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$Z);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("circle", {
+	    cx: "12",
+	    cy: "12",
+	    r: "12",
+	    fill: "#4F9F7D"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M6.419 5.86v2.698h4.046v1.814c-1.488-.046-5.619.558-5.72 1.442-.14 1.21 4.092 1.674 5.72 1.674v5.721h2.931v-5.674c1.674-.031 5.58-.512 5.813-1.535.231-1.016-3.558-1.589-5.767-1.673V8.558l4.046.047V5.86H6.418zm7.023 4.698v1.954c-1.005.186-2.403.077-2.977 0v-1.934c-2.069.04-4.763.39-5.023 1.096-.38 1.032 4.232 1.396 6.744 1.396 1.752.062 5.442-.186 6.233-1.07.784-.877-2.965-1.433-4.977-1.442z",
+	    fill: "#fff"
+	  }));
+	};
+	IconTokenUsdt.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$_ = ["color", "size"];
+	var originFill$c = ['url(#paint0_linear_26_40)', 'url(#paint1_linear_26_40)', 'url(#paint2_linear_26_40)', 'url(#paint3_linear_26_40)', 'url(#paint4_linear_26_40)'];
+	var IconLine = function IconLine(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$_);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M16.393 4H7.607A3.607 3.607 0 004 7.607v8.786A3.607 3.607 0 007.607 20h8.786A3.607 3.607 0 0020 16.393V7.607A3.607 3.607 0 0016.393 4z",
+	    fill: color || originFill$c[0]
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M17.333 11.246c0-2.387-2.393-4.329-5.334-4.329-2.942 0-5.335 1.942-5.335 4.329 0 2.14 1.9 3.932 4.461 4.271.174.038.41.115.47.263.054.135.035.347.018.482l-.076.457c-.024.135-.108.527.461.288.57-.24 3.072-1.809 4.191-3.098.773-.847 1.144-1.709 1.144-2.663z",
+	    fill: "#141430"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M15.558 12.624h-1.5a.1.1 0 01-.1-.1v-2.327a.1.1 0 01.1-.1h1.5a.1.1 0 01.1.1v.379a.1.1 0 01-.1.1H14.54v.392h1.018a.1.1 0 01.1.1v.382a.1.1 0 01-.1.1H14.54v.393h1.018a.1.1 0 01.1.1v.378a.1.1 0 01-.06.096.101.101 0 01-.04.007z",
+	    fill: color || originFill$c[1]
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M10.014 12.624a.1.1 0 00.1-.1v-.377a.1.1 0 00-.1-.1H8.996v-1.85a.1.1 0 00-.1-.1h-.38a.1.1 0 00-.1.1v2.326a.1.1 0 00.1.1h1.5l-.002.002z",
+	    fill: color || originFill$c[2]
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M10.916 10.092h-.377a.102.102 0 00-.102.102v2.329c0 .056.045.101.102.101h.377a.102.102 0 00.102-.101v-2.329a.102.102 0 00-.102-.102z",
+	    fill: color || originFill$c[3]
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M13.492 10.092h-.378a.1.1 0 00-.1.1v1.383l-1.065-1.438a.061.061 0 00-.008-.01l-.007-.007-.005-.004h-.003l-.005-.004h-.003l-.006-.003h-.424a.1.1 0 00-.1.1v2.328a.1.1 0 00.1.1h.379a.1.1 0 00.1-.1V11.14l1.066 1.44a.1.1 0 00.027.027l.005.004h.004l.004.002h.016a.117.117 0 00.027.004h.376a.1.1 0 00.1-.1v-2.322a.1.1 0 00-.1-.103z",
+	    fill: color || originFill$c[4]
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_26_40",
+	    x1: "4",
+	    y1: "12",
+	    x2: "20",
+	    y2: "12",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#9EE6FC"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#EBB9E7"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint1_linear_26_40",
+	    x1: "13.958",
+	    y1: "11.361",
+	    x2: "15.658",
+	    y2: "11.361",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#9EE6FC"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#EBB9E7"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint2_linear_26_40",
+	    x1: "8.416",
+	    y1: "11.361",
+	    x2: "10.114",
+	    y2: "11.361",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#9EE6FC"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#EBB9E7"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint3_linear_26_40",
+	    x1: "10.437",
+	    y1: "11.358",
+	    x2: "11.018",
+	    y2: "11.358",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#9EE6FC"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#EBB9E7"
+	  })), /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint4_linear_26_40",
+	    x1: "11.389",
+	    y1: "11.365",
+	    x2: "13.592",
+	    y2: "11.365",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#9EE6FC"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#EBB9E7"
+	  }))));
+	};
+	IconLine.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$$ = ["color", "size"];
+	var IconTokenUsdc = function IconTokenUsdc(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$$);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_60_38)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.65 0 12-5.35 12-12S18.65 0 12 0 0 5.35 0 12s5.35 12 12 12z",
+	    fill: "#2775CA"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M15.3 13.9c0-1.75-1.05-2.35-3.15-2.6-1.5-.2-1.8-.6-1.8-1.3 0-.7.5-1.15 1.5-1.15.9 0 1.4.3 1.65 1.05.05.15.2.25.35.25h.8c.2 0 .35-.15.35-.35v-.05c-.2-1.1-1.1-1.95-2.25-2.05V6.5c0-.2-.15-.35-.4-.4h-.75c-.2 0-.35.15-.4.4v1.15c-1.5.2-2.45 1.2-2.45 2.45 0 1.65 1 2.3 3.1 2.55 1.4.25 1.85.55 1.85 1.35s-.7 1.35-1.65 1.35c-1.3 0-1.75-.55-1.9-1.3-.05-.2-.2-.3-.35-.3h-.85c-.2 0-.35.15-.35.35v.05c.2 1.25 1 2.15 2.65 2.4v1.2c0 .2.15.35.4.4h.75c.2 0 .35-.15.4-.4v-1.2c1.5-.25 2.5-1.3 2.5-2.65z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M9.45 19.15c-3.9-1.4-5.9-5.75-4.45-9.6.75-2.1 2.4-3.7 4.45-4.45.2-.1.3-.25.3-.5v-.7c0-.2-.1-.35-.3-.4-.05 0-.15 0-.2.05C4.5 5.05 1.9 10.1 3.4 14.85c.9 2.8 3.05 4.95 5.85 5.85.2.1.4 0 .45-.2.05-.05.05-.1.05-.2v-.7c0-.15-.15-.35-.3-.45zm5.3-15.6c-.2-.1-.4 0-.45.2-.05.05-.05.1-.05.2v.7c0 .2.15.4.3.5 3.9 1.4 5.9 5.75 4.45 9.6-.75 2.1-2.4 3.7-4.45 4.45-.2.1-.3.25-.3.5v.7c0 .2.1.35.3.4.05 0 .15 0 .2-.05 4.75-1.5 7.35-6.55 5.85-11.3-.9-2.85-3.1-5-5.85-5.9z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_60_38"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  }))));
+	};
+	IconTokenUsdc.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$10 = ["color", "size"];
+	var IconPc = function IconPc(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$10);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M4 5v10.957h7.385v1.826H7.077V19h9.846v-1.217h-4.308v-1.827H20V5H4z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconPc.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$11 = ["color", "size"];
+	var IconSend = function IconSend(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$11);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M3.009 19.5L21 12 3.009 4.5 3 10.333 15.857 12 3 13.667l.009 5.833z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSend.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$12 = ["color", "size"];
+	var IconBybit = function IconBybit(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$12);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_307_44)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M2.5 6.537A4.037 4.037 0 016.537 2.5h10.925A4.038 4.038 0 0121.5 6.537v10.925a4.038 4.038 0 01-4.038 4.038H6.537A4.038 4.038 0 012.5 17.462V6.537z",
+	    fill: "#404347"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M4.136 8.288c-.171-.59.194-1.2.794-1.327l10.008-2.125c.475-.101.958.135 1.17.572l4.495 9.284-12.667 6.702-3.8-13.106z",
+	    fill: "url(#paint0_linear_307_44)"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M4.267 9.012a1.056 1.056 0 01.878-1.34l13.265-1.72a1.056 1.056 0 011.17.842l1.92 9.692-13.67 4.856-3.563-12.33z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M2.5 9.889c0-1.166.945-2.111 2.111-2.111h12.667A4.222 4.222 0 0121.5 12v5.278a4.222 4.222 0 01-4.222 4.222H6.722A4.222 4.222 0 012.5 17.278v-7.39z",
+	    fill: "#000"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M15.07 15.713v-3.956h.772v3.956h-.772z",
+	    fill: "#F7A600"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M6.265 16.893H4.611v-3.955H6.2c.771 0 1.221.433 1.221 1.11a.915.915 0 01-.488.818c.238.11.544.36.544.888 0 .74-.506 1.14-1.21 1.14zm-.127-3.266h-.755v.911h.755c.327 0 .51-.183.51-.456 0-.272-.183-.455-.51-.455zm.05 1.605h-.805v.972h.805c.35 0 .516-.222.516-.488 0-.267-.167-.484-.516-.484zM9.602 15.271v1.622h-.766v-1.622l-1.188-2.333h.838l.738 1.594.727-1.594h.838L9.602 15.27zM12.985 16.893h-1.654v-3.955h1.588c.771 0 1.22.433 1.22 1.11a.915.915 0 01-.487.818c.238.11.544.36.544.888 0 .74-.506 1.14-1.21 1.14zm-.127-3.266h-.755v.911h.755c.327 0 .51-.183.51-.456 0-.272-.183-.455-.51-.455zm.05 1.605h-.805v.972h.805c.35 0 .516-.222.516-.488 0-.267-.167-.484-.516-.484zM18.356 13.627v3.266h-.771v-3.266h-1.033v-.69h2.837v.69h-1.033z",
+	    fill: "#fff"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_307_44",
+	    x1: "4.083",
+	    y1: "8.026",
+	    x2: "20.774",
+	    y2: "7.19",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    stopColor: "#FFD748"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#F7A600"
+	  })), /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_307_44"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    transform: "translate(2.5 2.5)",
+	    d: "M0 0h19v19H0z"
+	  })))));
+	};
+	IconBybit.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$13 = ["color", "size"];
+	var IconGateio = function IconGateio(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$13);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
+	    width: "24",
+	    height: "24",
+	    fill: "none",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M12 17.5a5.5 5.5 0 110-11V2C6.477 2 2 6.477 2 12c0 5.522 4.477 10 10 10 5.522 0 10-4.477 10-10h-4.5a5.5 5.5 0 01-5.5 5.5z",
+	    fill: "#2354E6"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M12 13h5.5V7.5H12V13z",
+	    fill: "#17E6A1"
+	  })));
+	};
+	IconGateio.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$14 = ["color", "size"];
+	var originFill$d = ['url(#paint0_linear_552_45)'];
+	var IconFiat = function IconFiat(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$14);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: color || originFill$d[0]
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M11.177 16.366a4.388 4.388 0 01-1.768-.781c-.491-.385-.884-.91-1.177-1.577l.922-.942c.268.593.578 1.067.93 1.422.354.348.812.58 1.373.699.323.068.644.084.961.05a1.85 1.85 0 00.819-.3 1.11 1.11 0 00.437-.7.783.783 0 00-.048-.509 1.03 1.03 0 00-.32-.399 2.528 2.528 0 00-.487-.333 4.995 4.995 0 00-.546-.255 5.241 5.241 0 00-.497-.194 6.239 6.239 0 01-1.37-.762c-.372-.292-.636-.628-.79-1.01-.145-.388-.165-.83-.06-1.328.082-.391.229-.726.44-1.005.216-.278.48-.495.788-.651a2.915 2.915 0 011.046-.303c.38-.04.779-.015 1.194.073.667.14 1.217.393 1.65.757.44.365.751.818.933 1.359l-.913.803a3.228 3.228 0 00-.738-1.113c-.32-.315-.723-.523-1.212-.626a2.637 2.637 0 00-.931-.044 1.573 1.573 0 00-.722.282.944.944 0 00-.361.588c-.043.204-.035.393.025.567.06.175.164.333.313.475.151.134.34.264.57.389.23.116.491.235.783.356.375.148.727.311 1.054.49.336.174.62.375.855.603.243.221.412.483.507.784.103.294.112.645.026 1.052-.115.546-.345 1-.69 1.362a2.64 2.64 0 01-1.283.738c-.508.123-1.08.117-1.713-.017zm-.971.83l1.171-5.551.954.623-1.086 5.147-1.039-.219zm2.521-4.845l-.954-.623 1.08-5.123 1.04.22-1.166 5.526z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M11.221 2.212A9.82 9.82 0 002.232 11H3.54a8.521 8.521 0 017.681-7.483V2.212zM20.461 11a8.523 8.523 0 00-7.24-7.431V2.257A9.822 9.822 0 0121.768 11H20.46zm-7.24 9.431c3.8-.545 6.791-3.6 7.24-7.431h1.307a9.822 9.822 0 01-8.547 8.743v-1.312zM3.54 13a8.521 8.521 0 007.681 7.483v1.305A9.82 9.82 0 012.232 13H3.54z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_552_45",
+	    x1: "0",
+	    y1: "0",
+	    x2: "24",
+	    y2: "24",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#6221EB"
+	  }))));
+	};
+	IconFiat.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$15 = ["color", "size"];
+	var originFill$e = ['url(#paint0_linear_605_29)'];
+	var IconTokenXter = function IconTokenXter(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$15);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12z",
+	    fill: color || originFill$e[0]
+	  }), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M18.658 16.05a5.478 5.478 0 00-6.199-8.667c-.515.208-.976.505-1.422.832-.539.4-1.153.52-1.812.4-.51-.09-.964-.307-1.402-.562a1.074 1.074 0 01-.521-.74 1.67 1.67 0 00-3.296.226c-.1 1.2 1.092 2.114 2.225 1.7a1.139 1.139 0 01.964.07c.32.165.624.362.905.588.695.57 1.036 1.284.956 2.194-.051.643.02 1.289.209 1.905a5.478 5.478 0 009.393 2.053zm-6.455-5.097a2.761 2.761 0 104.591 3.07 2.761 2.761 0 00-4.59-3.07z",
+	    fill: "#fff"
+	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
+	    id: "paint0_linear_605_29",
+	    x1: "0",
+	    y1: "0",
+	    x2: "24",
+	    y2: "24",
+	    gradientUnits: "userSpaceOnUse"
+	  }, /*#__PURE__*/react.createElement("stop", {
+	    offset: "0.035",
+	    stopColor: "#180F3E"
+	  }), /*#__PURE__*/react.createElement("stop", {
+	    offset: "1",
+	    stopColor: "#6221EB"
+	  }))));
+	};
+	IconTokenXter.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$16 = ["color", "size"];
+	var IconLinkedWallet = function IconLinkedWallet(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$16);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M17.657 14.828l-1.415-1.414L17.657 12A4 4 0 1012 6.343l-1.414 1.414L9.17 6.343l1.415-1.414a6 6 0 018.485 8.485l-1.414 1.414zm-2.829 2.829l-1.414 1.414a6 6 0 01-8.485-8.485l1.414-1.414 1.414 1.414L6.343 12A4 4 0 0012 17.657l1.414-1.415 1.414 1.415zm0-9.9l1.415 1.415-7.072 7.07-1.414-1.414 7.071-7.07z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconLinkedWallet.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$17 = ["color", "size"];
+	var IconWalletDisConnect = function IconWalletDisConnect(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$17);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M17.657 14.828l-1.414-1.414L17.657 12A4 4 0 1012 6.343l-1.414 1.414-1.414-1.414 1.414-1.414a6 6 0 018.485 8.485l-1.414 1.414zm-2.828 2.829l-1.415 1.414a6 6 0 01-8.485-8.485l1.414-1.414 1.414 1.414L6.343 12A4 4 0 0012 17.657l1.414-1.414 1.415 1.414zm0-9.9l1.414 1.415-7.071 7.07-1.415-1.414 7.072-7.07zM5.775 2.293l1.932-.518L8.743 5.64l-1.932.518-1.036-3.864zm9.483 16.068l1.932-.518 1.035 3.864-1.932.518-1.035-3.864zM2.293 5.775l3.864 1.036-.518 1.931-3.864-1.035.518-1.932zm16.068 9.483l3.864 1.035-.518 1.932-3.864-1.036.518-1.931z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconWalletDisConnect.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$18 = ["color", "size"];
+	var IconPlus = function IconPlus(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$18);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2h6z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconPlus.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$19 = ["color", "size"];
+	var IconMinus = function IconMinus(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$19);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M5 11v2h14v-2H5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconMinus.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1a = ["color", "size"];
+	var IconDirection = function IconDirection(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1a);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 100-16 8 8 0 000 16zm-5-8.5L16 8l-3.5 9.002L11 13l-4-1.5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconDirection.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1b = ["color", "size"];
+	var IconEdit = function IconEdit(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1b);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M6.414 15.89L16.556 5.748l-1.414-1.414L5 14.476v1.414h1.414zm.829 2H3v-4.243L14.435 2.212a1 1 0 011.414 0l2.829 2.829a1 1 0 010 1.414L7.243 17.89zM3 19.89h18v2H3v-2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconEdit.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1c = ["color", "size"];
+	var IconCheckRight = function IconCheckRight(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1c);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M10 15.17l9.192-9.191 1.414 1.414L10 17.999l-6.364-6.364 1.414-1.414 4.95 4.95z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconCheckRight.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1d = ["color", "size"];
+	var IconCheckError = function IconCheckError(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1d);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 10.586l4.95-4.95 1.414 1.415-4.95 4.95 4.95 4.95-1.415 1.414-4.95-4.95-4.949 4.95-1.414-1.415 4.95-4.95-4.95-4.95L7.05 5.638l4.95 4.95z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconCheckError.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1e = ["color", "size"];
+	var IconArrow = function IconArrow(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1e);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 13.171l4.95-4.95 1.414 1.415L12 16 5.636 9.636 7.05 8.222l4.95 4.95z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconArrow.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1f = ["color", "size"];
+	var IconWalletInfo = function IconWalletInfo(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1f);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 100-16 8 8 0 000 16zM11 7h2v2h-2V7zm0 4h2v6h-2v-6z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconWalletInfo.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1g = ["color", "size"];
+	var IconHelp = function IconHelp(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1g);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 100-16 8 8 0 000 16zm-1-5h2v2h-2v-2zm2-1.645V14h-2v-1.5a1 1 0 011-1 1.5 1.5 0 10-1.471-1.794l-1.962-.393A3.501 3.501 0 1113 13.355z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconHelp.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1h = ["color", "size"];
+	var IconSad = function IconSad(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1h);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 2c5.523 0 10 4.477 10 10 0 .727-.078 1.435-.225 2.118l-1.782-1.783a8 8 0 10-4.374 6.801 3.998 3.998 0 001.555 1.423A9.955 9.955 0 0112 22C6.477 22 2 17.523 2 12S6.477 2 12 2zm7 12.172l1.414 1.414a2 2 0 11-2.93.11l.102-.11L19 14.172zM12 15c1.466 0 2.785.631 3.7 1.637l-.945.86C13.965 17.182 13.018 17 12 17c-1.018 0-1.965.183-2.755.496l-.945-.86A4.987 4.987 0 0112 15zm-3.5-5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zm7 0a1.5 1.5 0 110 3 1.5 1.5 0 010-3z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSad.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1i = ["color", "size"];
+	var IconCongratulate = function IconCongratulate(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1i);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M14.756 9.05c1.517 1.517 2.76 3.067 3.537 4.362.385.641.684 1.267.827 1.824.125.487.22 1.28-.348 1.848-.337.337-.754.437-1.139.44L2.025 21.78 6.282 6.172c.002-.384.103-.801.44-1.138.568-.568 1.361-.473 1.848-.348.557.143 1.183.442 1.824.827 1.295.777 2.845 2.02 4.362 3.537zm-.046 7.307c-1.21-.782-2.604-1.923-3.971-3.29-1.368-1.368-2.51-2.762-3.291-3.972l-2.724 9.987 9.986-2.725zm-1.293-5.968c-1.441-1.44-2.87-2.576-3.997-3.253-.48-.287-.871-.471-1.165-.57.098.294.283.686.57 1.165.677 1.128 1.812 2.556 3.253 3.997 1.44 1.44 2.869 2.575 3.997 3.252.479.288.87.473 1.164.571-.098-.294-.283-.686-.57-1.165-.677-1.128-1.812-2.557-3.252-3.997zm1.616-6.026h-1.894V1.685h1.894v2.678zm7.086 6.302H19.44V8.772h2.678v1.893zM17.432 7.71l-1.339-1.339 4.017-4.017 1.339 1.34-4.017 4.016z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconCongratulate.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1j = ["color", "size"];
+	var IconGenerate = function IconGenerate(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1j);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M8 5a1 1 0 01.857.485l3.042 5.07 1.244-2.07A1 1 0 0114 8h3.586l-1.293-1.293 1.414-1.414 3 3A1 1 0 0120 10h-5.434l-1.5 2.5 1.5 2.5H20a1 1 0 01.707 1.707l-3 3-1.414-1.414L17.586 17H14a1 1 0 01-.857-.485l-1.244-2.072-3.042 5.072A1 1 0 018 20H3v-2h4.434l3.3-5.5-3.3-5.5H3V5h5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconGenerate.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1k = ["color", "size"];
+	var IconPoints = function IconPoints(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1k);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M19.467 8.694l.246-.566a4.363 4.363 0 012.22-2.25l.759-.339a.53.53 0 000-.963l-.717-.319a4.366 4.366 0 01-2.251-2.326l-.253-.611a.506.506 0 00-.942 0l-.253.61a4.366 4.366 0 01-2.25 2.327l-.718.32a.53.53 0 000 .962l.76.338a4.363 4.363 0 012.219 2.251l.246.566c.18.414.753.414.934 0zM5 6a1 1 0 00-.8.4l-3 4a1 1 0 00.057 1.269l9 10a1 1 0 001.486 0l9-10-1.486-1.338L11 19.505l-7.707-8.563L5.5 8H14V6H5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconPoints.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1l = ["color", "size"];
+	var IconRefresh = function IconRefresh(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1l);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M5.463 4.433A9.961 9.961 0 0112 2c5.523 0 10 4.477 10 10 0 2.136-.67 4.116-1.81 5.74L17 12h3A8 8 0 006.46 6.228l-.997-1.795zm13.074 15.134A9.961 9.961 0 0112 22C6.477 22 2 17.523 2 12c0-2.136.67-4.116 1.81-5.74L7 12H4a8 8 0 0013.54 5.772l.997 1.795z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconRefresh.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1m = ["color", "size"];
+	var IconFilter = function IconFilter(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1m);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M21 4v2h-1l-5 7.5V22H9v-8.5L4 6H3V4h18zM6.404 6L11 12.894V20h2v-7.106L17.596 6H6.404z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconFilter.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1n = ["color", "size"];
+	var IconNoinvite = function IconNoinvite(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1n);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M14 14.252v2.09A6 6 0 006 22H4a8 8 0 0110-7.749zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm7 6.586l2.121-2.121 1.415 1.414L20.413 19l2.121 2.121-1.414 1.415L19 20.413l-2.121 2.121-1.415-1.414L17.587 19l-2.121-2.121 1.414-1.415L19 17.587z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconNoinvite.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1o = ["color", "size"];
+	var IconPublishTime = function IconPublishTime(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1o);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 100-16 8 8 0 000 16zm1-8h4v2h-6V7h2v5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconPublishTime.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1p = ["color", "size"];
+	var IconDeposit = function IconDeposit(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1p);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M13 12.5l2.5-2.5H18l-6 6-6-6h2.5l2.5 2.5V3h2v9.5zM4 19h16v-7h2v8a1 1 0 01-1 1H3a1 1 0 01-1-1v-8h2v7z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconDeposit.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1q = ["color", "size"];
+	var IconGame = function IconGame(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1q);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M17 4a6 6 0 016 6v4a6 6 0 01-6 6H7a6 6 0 01-6-6v-4a6 6 0 016-6h10zm0 2H7a4 4 0 00-3.995 3.8L3 10v4a4 4 0 003.8 3.995L7 18h10a4 4 0 003.995-3.8L21 14v-4a4 4 0 00-3.8-3.995L17 6zm-7 3v2h2v2H9.999L10 15H8l-.001-2H6v-2h2V9h2zm8 4v2h-2v-2h2zm-2-4v2h-2V9h2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconGame.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1r = ["color", "size"];
+	var IconEmailChange = function IconEmailChange(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1r);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M2 4a1 1 0 011-1h11v2H4.505L12 11.662l4.398-3.91 1.329 1.495L12 14.338 4 7.227V19h16v-8h2v9a1 1 0 01-1 1H3a1 1 0 01-1-1V4zM17.757 3l-1.414 1.414 4.243 4.243H22V7.243L17.757 3z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconEmailChange.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1s = ["color", "size"];
+	var IconNftAmount = function IconNftAmount(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1s);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M12 3.375l7.563 4.322v8.606L12 20.625l-7.563-4.322V7.697L12 3.375zM21.625 6.5v11L12 23l-9.625-5.5v-11L12 1l9.625 5.5zM12 5.403L7.6 7.89l4.4 2.487 4.4-2.487L12 5.403z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconNftAmount.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1t = ["color", "size"];
+	var IconChecked = function IconChecked(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1t);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M10 15.17l9.192-9.191 1.414 1.414L10 17.999l-6.364-6.364 1.414-1.414 4.95 4.95z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconChecked.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1u = ["color", "size"];
+	var IconArrowGradient = function IconArrowGradient(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1u);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M15 10.411l-8.607 8.607-1.414-1.415 8.607-8.606H6v-2h11v11h-2V10.41z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconArrowGradient.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1v = ["color", "size"];
+	var IconOwners = function IconOwners(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1v);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M2 22a8 8 0 1116 0h-2a6 6 0 00-12 0H2zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm8.284 3.703A8.002 8.002 0 0123 22h-2a6.001 6.001 0 00-3.537-5.473l.82-1.824zm-.688-11.29A5.5 5.5 0 0121 8.5a5.499 5.499 0 01-5 5.478v-2.013a3.5 3.5 0 001.041-6.609l.555-1.943z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconOwners.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1w = ["color", "size"];
+	var IconUser = function IconUser(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1w);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M4 22a8 8 0 1116 0h-2a6 6 0 00-12 0H4zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconUser.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1x = ["color", "size"];
+	var IconNft = function IconNft(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1x);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M4.5 7.653v8.694l7.5 4.342 7.5-4.342V7.653L12 3.311 4.5 7.653zM12 1l9.5 5.5v11L12 23l-9.5-5.5v-11L12 1zM6.499 9.97L11 12.577v5.049h2v-5.049l4.501-2.605-1.002-1.731L12 10.844 7.501 8.24 6.499 9.97z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconNft.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1y = ["color", "size"];
+	var IconMessageClear = function IconMessageClear(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1y);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M8.667 7H2v6.667h1.667V22H18.11l2.222-2.222v-6.111H22V7h-6.667V2H8.667v5zm11.666 5H3.667V8.667h6.666v-5h3.334v5h6.666V12zm-15 8.333v-6.666h13.334v5.42l-1.246 1.246h-3.754v-5L12 17v3.333H5.333z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconMessageClear.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1z = ["color", "size"];
+	var IconQuiz = function IconQuiz(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1z);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M20 2a1 1 0 011 1v3.757l-2 2V4H5v16h14v-2.758l2-2V21a1 1 0 01-1 1H4a1 1 0 01-1-1V3a1 1 0 011-1h16zm1.778 6.808l1.414 1.414L15.414 18l-1.416-.002.002-1.412 7.778-7.778zM13 12v2H8v-2h5zm3-4v2H8V8h8z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconQuiz.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1A = ["color", "size"];
+	var IconClose = function IconClose(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1A);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 10.586l4.95-4.95 1.414 1.415-4.95 4.95 4.95 4.95-1.415 1.414-4.95-4.95-4.949 4.95-1.414-1.415 4.95-4.95-4.95-4.95L7.05 5.638l4.95 4.95z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconClose.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1B = ["color", "size"];
+	var IconQrcode = function IconQrcode(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1B);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M16 17v-1h-3v-3h3v2h2v2h-1v2h-2v2h-2v-3h2v-1h1zm5 4h-4v-2h2v-2h2v4zM3 3h8v8H3V3zm2 2v4h4V5H5zm8-2h8v8h-8V3zm2 2v4h4V5h-4zM3 13h8v8H3v-8zm2 2v4h4v-4H5zm13-2h3v2h-3v-2zM6 6h2v2H6V6zm0 10h2v2H6v-2zM16 6h2v2h-2V6z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconQrcode.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1C = ["color", "size"];
+	var IconFolder = function IconFolder(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1C);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12.414 5H21a1 1 0 011 1v14a1 1 0 01-1 1H3a1 1 0 01-1-1V4a1 1 0 011-1h7.414l2 2zM20 11H4v8h16v-8zm0-2V7h-8.414l-2-2H4v4h16z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconFolder.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1D = ["color", "size"];
+	var IconEvent = function IconEvent(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1D);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12.382 3a1 1 0 01.894.553L14 5h6a1 1 0 011 1v11a1 1 0 01-1 1h-6.382a1 1 0 01-.894-.553L12 16H5v6H3V3h9.382zm-.618 2H5v9h8.236l1 2H19V7h-6.236l-1-2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconEvent.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1E = ["color", "size"];
+	var IconEmail = function IconEmail(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1E);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M3 3h18a1 1 0 011 1v16a1 1 0 01-1 1H3a1 1 0 01-1-1V4a1 1 0 011-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconEmail.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1F = ["color", "size"];
+	var IconCopy = function IconCopy(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1F);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M7 6V3a1 1 0 011-1h12a1 1 0 011 1v14a1 1 0 01-1 1h-3v3c0 .552-.45 1-1.007 1H4.007A1.001 1.001 0 013 21l.003-14c0-.552.45-1 1.006-1H7zM5.002 8L5 20h10V8H5.002zM9 6h8v10h2V4H9v2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconCopy.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1G = ["color", "size"];
+	var IconDelete = function IconDelete(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1G);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M17 6h5v2h-2v13a1 1 0 01-1 1H5a1 1 0 01-1-1V8H2V6h5V3a1 1 0 011-1h8a1 1 0 011 1v3zm1 2H6v12h12V8zm-4.586 6l1.768 1.768-1.414 1.414L12 15.414l-1.768 1.768-1.414-1.414L10.586 14l-1.768-1.768 1.414-1.414L12 12.586l1.768-1.768 1.414 1.414L13.414 14zM9 4v2h6V4H9z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconDelete.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1H = ["color", "size"];
+	var IconFullscreen = function IconFullscreen(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1H);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M8 3v2H4v4H2V3h6zM2 21v-6h2v4h4v2H2zm20 0h-6v-2h4v-4h2v6zm0-12h-2V5h-4V3h6v6z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconFullscreen.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1I = ["color", "size"];
+	var IconGallery = function IconGallery(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1I);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M20 13c-1.678 0-3.249.46-4.593 1.259A14.984 14.984 0 0118.147 19H20v-6zm-3.996 6C14.044 14.302 9.408 11 4 11v8h12.004zM4 9c3.83 0 7.323 1.435 9.974 3.796A10.949 10.949 0 0120 11V3h1.008c.548 0 .992.445.992.993v16.014a1 1 0 01-.992.993H2.992A.993.993 0 012 20.007V3.993A1 1 0 012.992 3H6V1h2v4H4v4zm14-8v4h-8V3h6V1h2zm-1.5 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconGallery.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1J = ["color", "size"];
+	var IconStaking = function IconStaking(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1J);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 18.499a1.678 1.678 0 110 3.355 1.678 1.678 0 010-3.355zM8.822 5.189a7.334 7.334 0 000 13.221v2.871C4.858 19.953 2 16.212 2 11.801c0-4.412 2.858-8.155 6.822-9.483V5.19zm6.592-2.79A10.005 10.005 0 0122 11.8c0 4.323-2.745 8.005-6.586 9.4V18.29a7.331 7.331 0 000-12.98V2.399zm.826 9.402L12 16.042l-4.241-4.241L12 7.56l4.24 4.24zM12 2a1.678 1.678 0 110 3.356A1.678 1.678 0 0112 2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconStaking.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1K = ["color", "size"];
+	var IconDepositToGame = function IconDepositToGame(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1K);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M18.744 7.463A5.455 5.455 0 0122 12.455v3.636a5.455 5.455 0 01-5.454 5.455H7.454A5.455 5.455 0 012 16.09v-3.636a5.455 5.455 0 013.255-4.992L6.86 8.867a3.638 3.638 0 00-3.039 3.406l-.004.182v3.636a3.638 3.638 0 003.455 3.633l.181.003h9.092a3.637 3.637 0 003.632-3.454l.004-.182v-3.636a3.637 3.637 0 00-3.044-3.588l1.606-1.404zm-8.562 4.31v1.591H12v1.819h-1.82L10.183 17H8.363v-1.817H6.545v-1.819h1.817v-1.818h1.559l.26.227zM17.454 17h-1.817v-1.817h1.817V17zm-1.817-3.636h-1.819v-1.591l.26-.227h1.559v1.818zm-2.78-4.64l2.671-2.597.19-.186.191.186.826.803.201.196-.2.195-4.546 4.42-.19.185-.19-.186-4.546-4.419-.202-.195.202-.196.827-.803.19-.186.19.186 2.672 2.597V2.182h1.713v6.542zm-1.442.645l.001.001V2.454h-.001V9.37z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconDepositToGame.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1L = ["color", "size"];
+	var IconCalendar = function IconCalendar(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1L);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M9 1v2h6V1h2v2h4a1 1 0 011 1v16a1 1 0 01-1 1H3a1 1 0 01-1-1V4a1 1 0 011-1h4V1h2zm11 10H4v8h16v-8zM8 14v2H6v-2h2zm10 0v2h-8v-2h8zM7 5H4v4h16V5h-3v2h-2V5H9v2H7V5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconCalendar.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1M = ["color", "size"];
+	var IconTokenDefault = function IconTokenDefault(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1M);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M5 12.5c0 .313.461.858 1.53 1.393C7.914 14.585 9.877 15 12 15c2.123 0 4.086-.415 5.47-1.107 1.069-.535 1.53-1.08 1.53-1.393v-2.171C17.35 11.349 14.827 12 12 12s-5.35-.652-7-1.671V12.5zm14 2.829C17.35 16.349 14.827 17 12 17s-5.35-.652-7-1.671V17.5c0 .313.461.858 1.53 1.393C7.914 19.585 9.877 20 12 20c2.123 0 4.086-.415 5.47-1.107 1.069-.535 1.53-1.08 1.53-1.393v-2.171zM3 17.5v-10C3 5.015 7.03 3 12 3s9 2.015 9 4.5v10c0 2.485-4.03 4.5-9 4.5s-9-2.015-9-4.5zm9-7.5c2.123 0 4.086-.415 5.47-1.107C18.538 8.358 19 7.813 19 7.5c0-.313-.461-.858-1.53-1.393C16.085 5.415 14.123 5 12 5c-2.123 0-4.086.415-5.47 1.107C5.461 6.642 5 7.187 5 7.5c0 .313.461.858 1.53 1.393C7.914 9.585 9.877 10 12 10z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconTokenDefault.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1N = ["color", "size"];
+	var IconMessageUnread = function IconMessageUnread(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1N);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M6.66 3A8 8 0 0117.59 5.928l3.5 6.062 1.731-1 1 1.733-17.32 10-1-1.733 1.733-1-3.5-6.062A8 8 0 016.66 3zm13.098 16.686l-5.195 3-1-1.732 5.195-3 1 1.732zM15.857 6.928a6 6 0 00-10.393 6l3.5 6.062 10.393-6-3.5-6.062zM12.78 7.94l-.668 2.495 2.495.668-.45 1.68-.483-.13-2.012-.539-.539 2.011-.129.483-1.678-.45.668-2.494-2.495-.669.45-1.678 2.495.668.669-2.494 1.677.45zm-4.678 2.702l2.495.668-.67 2.495.714.191-.712-.191.668-2.495-2.494-.668.19-.712-.191.712z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconMessageUnread.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1O = ["color", "size"];
+	var IconMessage = function IconMessage(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1O);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M20 17h2v2H2v-2h2v-7a8 8 0 1116 0v7zm-2 0v-7a6 6 0 00-12 0v7h12zm-9 4h6v2H9v-2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconMessage.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1P = ["color", "size"];
+	var IconXsoulShare = function IconXsoulShare(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1P);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M13.12 17.023l-4.199-2.29a4 4 0 110-5.465l4.2-2.29a4 4 0 11.958 1.755l-4.2 2.29a4.008 4.008 0 010 1.954l4.2 2.29a4 4 0 11-.959 1.755zM6 14a2 2 0 100-4 2 2 0 000 4zm11-6a2 2 0 100-4 2 2 0 000 4zm0 12a2 2 0 100-4 2 2 0 000 4z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconXsoulShare.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1Q = ["color", "size"];
+	var IconSettings = function IconSettings(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1Q);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 1l9.5 5.5v11L12 23l-9.5-5.5v-11L12 1zm0 2.311L4.5 7.653v8.694l7.5 4.342 7.5-4.342V7.653L12 3.311zM12 16a4 4 0 110-8 4 4 0 010 8zm0-2a2 2 0 100-4 2 2 0 000 4z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSettings.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1R = ["color", "size"];
+	var IconAssetTabPlatform = function IconAssetTabPlatform(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1R);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M20.182 12a8.182 8.182 0 11-16.364 0 8.182 8.182 0 0116.364 0zM22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zM7.822 8.367a1.19 1.19 0 10.368 2.286s.307-.123.68.096l.045.026c.415.24 1.297.752 1.24 1.822a3.905 3.905 0 101.45-2.673v-.003c-.905.67-1.812.192-2.233-.029l-.027-.014c-.383-.201-.438-.534-.438-.534a1.19 1.19 0 00-1.085-.977zm5.496 6.464a1.968 1.968 0 111.417-3.671 1.968 1.968 0 01-1.417 3.671z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconAssetTabPlatform.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1S = ["color", "size"];
+	var IconSignOut = function IconSignOut(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1S);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2a9.985 9.985 0 018 4h-2.71a8 8 0 10.001 12h2.71A9.985 9.985 0 0112 22zm7-6v-3h-8v-2h8V8l5 4-5 4z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSignOut.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1T = ["color", "size"];
+	var IconResetPassword = function IconResetPassword(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1T);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M6 8V7a6 6 0 1112 0v1h2a1 1 0 011 1v12a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1h2zm13 2H5v10h14V10zm-8 5.732A2 2 0 0112 12a2 2 0 011 3.732V18h-2v-2.268zM8 8h8V7a4 4 0 00-8 0v1z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconResetPassword.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1U = ["color", "size"];
+	var IconHide = function IconHide(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1U);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M17.883 19.297A10.949 10.949 0 0112 21c-5.392 0-9.878-3.88-10.818-9A10.982 10.982 0 014.52 5.935L1.394 2.808l1.414-1.414 19.799 19.798-1.414 1.415-3.31-3.31zM5.936 7.35A8.965 8.965 0 003.223 12a9.005 9.005 0 0013.201 5.838l-2.028-2.028A4.5 4.5 0 018.19 9.604L5.936 7.35zm6.978 6.978l-3.242-3.241a2.5 2.5 0 003.241 3.241zm7.893 2.265l-1.431-1.431A8.935 8.935 0 0020.778 12 9.005 9.005 0 009.552 5.338L7.974 3.76C9.221 3.27 10.58 3 12 3c5.392 0 9.878 3.88 10.819 9a10.947 10.947 0 01-2.012 4.593zm-9.084-9.084a4.5 4.5 0 014.769 4.769l-4.77-4.77z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconHide.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1V = ["color", "size"];
+	var IconShow = function IconShow(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1V);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 3c5.392 0 9.878 3.88 10.819 9-.94 5.12-5.427 9-10.819 9-5.392 0-9.878-3.88-10.818-9C2.122 6.88 6.608 3 12 3zm0 16a9.005 9.005 0 008.778-7 9.005 9.005 0 00-17.555 0A9.005 9.005 0 0012 19zm0-2.5a4.5 4.5 0 110-9 4.5 4.5 0 010 9zm0-2a2.5 2.5 0 100-5 2.5 2.5 0 000 5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconShow.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1W = ["color", "size"];
+	var IconRandom = function IconRandom(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1W);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M19.368 8.237l-5.789 3.618v7.69l5.79-3.618v-7.69zm-13.894 0l5.79 3.618v7.69l-5.79-3.618v-7.69zM3.158 6.789L12.42 1l9.263 5.79v10.42L12.421 23l-9.263-5.79V6.79zm4.37 0l4.893 3.06 4.894-3.06-4.894-3.058-4.894 3.058zm8.367 8.106a1.158 1.158 0 100-2.316 1.158 1.158 0 000 2.316zm-6.948-2.316a1.158 1.158 0 11-2.315 0 1.158 1.158 0 012.315 0zm0 4.631a1.158 1.158 0 100-2.315 1.158 1.158 0 000 2.316z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconRandom.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1X = ["color", "size"];
+	var IconNodata = function IconNodata(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1X);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12.248 1.28l9 5.143.252.143v10.867l-.252.143-9 5.144-.248.141-.248-.141-9-5.144-.252-.143V6.566l.252-.143 9-5.144.248-.141.248.141zM4.786 7.892v8.213L12 20.227l7.214-4.122V7.893L12 3.77 4.786 7.893zm12.357.264L12 11.063 6.857 8.157 12 5.25l5.143 2.907z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconNodata.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1Y = ["color", "size"];
+	var IconGameNormal = function IconGameNormal(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1Y);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M17 4a6 6 0 016 6v4a6 6 0 01-6 6H7a6 6 0 01-6-6v-4a6 6 0 016-6h10zm0 2H7a4 4 0 00-3.995 3.8L3 10v4a4 4 0 003.8 3.995L7 18h10a4 4 0 003.995-3.8L21 14v-4a4 4 0 00-3.8-3.995L17 6zm-7 3v2h2v2H9.999L10 15H8l-.001-2H6v-2h2V9h2zm8 4v2h-2v-2h2zm-2-4v2h-2V9h2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconGameNormal.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1Z = ["color", "size"];
+	var IconGameSelect = function IconGameSelect(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1Z);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M17 4a6 6 0 016 6v4a6 6 0 01-6 6H7a6 6 0 01-6-6v-4a6 6 0 016-6h10zm-7 5H8v2H6v2h1.999L8 15h2l-.001-2H12v-2h-2V9zm8 4h-2v2h2v-2zm-2-4h-2v2h2V9z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconGameSelect.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1_ = ["color", "size"];
+	var IconMarketNormal = function IconMarketNormal(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1_);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M21.294 8.803A3.367 3.367 0 0120 12.793V19h1v2H3v-2h1v-6.206a3.367 3.367 0 01-1.294-3.991L4.883 3h14.235l2.176 5.803zm-6.447 2.972a3.355 3.355 0 01-4.493 1.146 3.356 3.356 0 01-1.2-1.146l-.227-.363-.159.27a3.37 3.37 0 01-1.256 1.238A3.364 3.364 0 016 13.348V19h12v-5.652a3.363 3.363 0 01-2.769-1.666l-.158-.27-.226.363zM4.579 9.505a1.367 1.367 0 002.462 1.17l1.826-3.131 1.982 3.172a1.356 1.356 0 002.301 0l1.983-3.172 1.826 3.13a1.368 1.368 0 002.462-1.17L17.73 5H6.268L4.58 9.505z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconMarketNormal.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$1$ = ["color", "size"];
+	var IconMarketSelect = function IconMarketSelect(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$1$);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M6 15.351a5.375 5.375 0 01-2-.325V19H3v2h18v-2h-1v-3.974a5.373 5.373 0 01-2 .325V19H6v-3.649z",
+	    fill: "currentColor"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M4.882 3h14.236l2.176 5.803c.825 2.201-.802 4.55-3.154 4.55a3.368 3.368 0 01-2.909-1.67l-.158-.271-.227.363a3.356 3.356 0 01-5.692 0l-.228-.363-.157.27a3.368 3.368 0 01-2.91 1.67c-2.35 0-3.978-2.348-3.153-4.55L4.882 3z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconMarketSelect.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$20 = ["color", "size"];
+	var IconProfileNormal = function IconProfileNormal(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$20);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm0 2a8 8 0 100 16 8 8 0 000-16zm5 8a5 5 0 01-5 5v-2a3 3 0 003-3h2zm-7-1H8V8h2v3zm4 0h-2V8h2v3z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconProfileNormal.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$21 = ["color", "size"];
+	var IconProfileSelect = function IconProfileSelect(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$21);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM10 8H8v3h2V8zm2 10a6 6 0 006-6h-2a4 4 0 01-4 4v2zm3.316-8.051l-3 1-.632-1.898 3-1 .632 1.898z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconProfileSelect.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$22 = ["color", "size"];
+	var IconMore = function IconMore(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$22);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M4.5 10.5c-.825 0-1.5.675-1.5 1.5s.675 1.5 1.5 1.5S6 12.825 6 12s-.675-1.5-1.5-1.5zm15 0c-.825 0-1.5.675-1.5 1.5s.675 1.5 1.5 1.5S21 12.825 21 12s-.675-1.5-1.5-1.5zm-7.5 0c-.825 0-1.5.675-1.5 1.5s.675 1.5 1.5 1.5 1.5-.675 1.5-1.5-.675-1.5-1.5-1.5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconMore.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$23 = ["color", "size"];
+	var IconGift = function IconGift(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$23);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M15.005 2.003a4 4 0 013.464 6h4.536v2h-2v10a1 1 0 01-1 1h-16a1 1 0 01-1-1v-10h-2v-2H5.54a4 4 0 016.465-4.646 3.983 3.983 0 012.999-1.354zm-4 8h-6v9h6v-9zm8 0h-6v9h6v-9zm-10-6a2 2 0 00-.15 3.994l.15.006h2v-2a2 2 0 00-1.697-1.977l-.154-.018-.15-.005zm6 0a2 2 0 00-1.995 1.85l-.005.15v2h2a2 2 0 001.994-1.85l.006-.15a2 2 0 00-2-2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconGift.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$24 = ["color", "size"];
+	var IconCancelListing = function IconCancelListing(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$24);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 22v-2H5V4h10v4h4v5h2V7l-5-5H3.998A.995.995 0 003 2.992v18.016a1 1 0 00.993.992H12zm9.536-.879L19.414 19l2.122-2.121-1.415-1.415-2.12 2.122-2.122-2.122-1.414 1.415 2.12 2.12-2.12 2.122 1.414 1.414L18 20.415l2.121 2.12 1.415-1.414z",
+	    fill: "currentColor"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M13 15v-2H8v2h5zM16 11V9H8v2h8z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconCancelListing.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$25 = ["color", "size"];
+	var Icon2FApassword = function Icon2FApassword(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$25);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M10.758 11.828l7.849-7.849 1.414 1.414-1.414 1.415 2.474 2.474-1.414 1.415-2.475-2.475-1.414 1.414 2.121 2.121-1.414 1.415-2.121-2.122-2.192 2.192a5.002 5.002 0 01-7.708 6.293 5 5 0 016.294-7.707zm-.637 6.293A3 3 0 105.88 13.88a3 3 0 004.242 4.242z",
+	    fill: "currentColor"
+	  }));
+	};
+	Icon2FApassword.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$26 = ["color", "size"];
+	var IconSecurity = function IconSecurity(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$26);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M3.783 2.826L12 1l8.217 1.826a1 1 0 01.783.976v9.987a6 6 0 01-2.672 4.992L12 23l-6.328-4.219A6 6 0 013 13.79V3.802a1 1 0 01.783-.976zM5 4.604v9.185a4 4 0 001.781 3.328L12 20.597l5.219-3.48A4 4 0 0019 13.79V4.604L12 3.05 5 4.604zM13 10h3l-5 7v-5H8l5-7v5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSecurity.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$27 = ["color", "size"];
+	var IconCreate = function IconCreate(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$27);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 2c5.522 0 10 3.978 10 8.889a5.558 5.558 0 01-5.556 5.555h-1.966c-.922 0-1.667.745-1.667 1.667 0 .422.167.811.422 1.1.267.3.434.689.434 1.122C13.667 21.256 12.9 22 12 22 6.478 22 2 17.522 2 12S6.478 2 12 2zm-1.189 16.111a3.664 3.664 0 013.667-3.667h1.966A3.558 3.558 0 0020 10.89C20 7.139 16.468 4 12 4a8 8 0 00-.676 15.972 3.648 3.648 0 01-.513-1.86zM7.5 12a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm9 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3zM12 9a1.5 1.5 0 110-3 1.5 1.5 0 010 3z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconCreate.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$28 = ["color", "size"];
+	var IconReport = function IconReport(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$28);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 2.6a1 1 0 01.866.5l9 15.6A1 1 0 0121 20.2H3a1 1 0 01-.866-1.5l9-15.6A1 1 0 0112 2.6zM4.732 18.2h14.537L12 5.6 4.732 18.2zM13 17h-2v-2h2v2zm0-3h-2V9h2v5z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconReport.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$29 = ["color", "size"];
+	var IconTakephoto = function IconTakephoto(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$29);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M20.713 8.128l-.246.566a.506.506 0 01-.934 0l-.246-.566a4.363 4.363 0 00-2.22-2.25l-.759-.339a.53.53 0 010-.963l.717-.319a4.366 4.366 0 002.251-2.326l.253-.611a.506.506 0 01.942 0l.253.61a4.366 4.366 0 002.25 2.327l.718.32a.53.53 0 010 .962l-.76.338a4.363 4.363 0 00-2.219 2.251zM9 3h5v2H9.828l-2 2H4v12h16v-8h2v9a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1h4l2-2zm3 15a5.5 5.5 0 110-11 5.5 5.5 0 010 11zm0-2a3.5 3.5 0 100-7 3.5 3.5 0 000 7z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconTakephoto.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2a = ["color", "size"];
+	var IconSupport = function IconSupport(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2a);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M19.938 8H21a2 2 0 012 2v4a2 2 0 01-2 2h-1.062A8.001 8.001 0 0112 23v-2a6 6 0 006-6V9A6 6 0 006 9v7H3a2 2 0 01-2-2v-4a2 2 0 012-2h1.062a8.001 8.001 0 0115.876 0zM3 10v4h1v-4H3zm17 0v4h1v-4h-1zM7.76 15.785l1.06-1.696A5.972 5.972 0 0012 15a5.972 5.972 0 003.18-.911l1.06 1.696A7.963 7.963 0 0112 17a7.962 7.962 0 01-4.24-1.215z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSupport.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2b = ["color", "size"];
+	var IconUnname = function IconUnname(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2b);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M9.026 3.575a15.166 15.166 0 015.948 0l1.389.278a1 1 0 01.765.706L18.66 9.92l3.712 1.485a1 1 0 01-.13 1.898l-3.67.917-1.444 5.055a1 1 0 01-1.384.631l-1.7-.793a4.834 4.834 0 00-4.088 0l-1.7.793a1 1 0 01-1.384-.631L5.427 14.22l-3.67-.917a1 1 0 01-.129-1.899L5.34 9.92 6.872 4.56a1 1 0 01.765-.706l1.389-.278zm7.33 11.118c-.453.077-.908.142-1.363.195a1 1 0 11-1.99.154c-.669.026-1.337.026-2.005 0a.999.999 0 11-1.992-.154c-.455-.053-.91-.118-1.363-.195l.83 2.905.637-.298a6.835 6.835 0 015.78 0l.637.298.829-2.905zm-1.774-9.157a13.17 13.17 0 00-5.165 0l-.79.159-1.499 5.247a1 1 0 01-.59.653l-1.295.518.936.234c3.822.955 7.82.955 11.642 0l.936-.233-1.295-.52a1 1 0 01-.59-.652l-1.5-5.247-.79-.159z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconUnname.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
 	var _excluded$2c = ["color", "size"];
-	var IconQuiz16 = function IconQuiz16(props) {
+	var IconLang = function IconLang(props) {
 	  var color = props.color,
 	    size = props.size,
 	    otherProps = _objectWithoutProperties(props, _excluded$2c);
@@ -13711,24 +14274,22 @@
 	    style: {
 	      color: color
 	    },
-	    width: size || '16',
-	    height: size || '16',
-	    viewBox: "0 0 16 16",
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M15 1H2v14h5v-2H4V3h9v3h2V1zm.07 9.414L13.656 9l-4.525 4.525-.425 1.839 1.839-.424 4.525-4.526zM12 7H5V5h7v2zm-7 4h3V9H5v2z",
+	    d: "M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-2.29-2.333A17.9 17.9 0 018.027 13H4.062a8.008 8.008 0 005.648 6.667zM10.03 13c.151 2.439.848 4.73 1.97 6.752A15.905 15.905 0 0013.97 13h-3.94zm9.908 0h-3.965a17.9 17.9 0 01-1.683 6.667A8.008 8.008 0 0019.938 13zM4.062 11h3.965A17.9 17.9 0 019.71 4.333 8.008 8.008 0 004.062 11zm5.969 0h3.938A15.905 15.905 0 0012 4.248 15.905 15.905 0 0010.03 11zm4.259-6.667A17.9 17.9 0 0115.973 11h3.965a8.008 8.008 0 00-5.648-6.667z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconQuiz16.propTypes = {
+	IconLang.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
 	var _excluded$2d = ["color", "size"];
-	var IconQuiz24 = function IconQuiz24(props) {
+	var IconCreditcard = function IconCreditcard(props) {
 	  var color = props.color,
 	    size = props.size,
 	    otherProps = _objectWithoutProperties(props, _excluded$2d);
@@ -13741,19 +14302,17 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M20 3H4v17h6v-2H6V5h12v3.412h2V3zm.485 10.414L19.071 12l-5.657 5.657-.707 2.121 2.122-.707 5.656-5.657zM16 10H8V8h8v2zm-8 5h2v-2H8v2z",
+	    d: "M3.005 3h18a1 1 0 011 1v16a1 1 0 01-1 1h-18a1 1 0 01-1-1V4a1 1 0 011-1zm17 8h-16v8h16v-8zm0-2V5h-16v4h16zm-6 6h4v2h-4v-2z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconQuiz24.propTypes = {
+	IconCreditcard.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
 	var _excluded$2e = ["color", "size"];
-	var IconLink24 = function IconLink24(props) {
+	var IconPartnerCollection = function IconPartnerCollection(props) {
 	  var color = props.color,
 	    size = props.size,
 	    otherProps = _objectWithoutProperties(props, _excluded$2e);
@@ -13766,19 +14325,17 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M8.858 9v4.286h2V9.414l3.135-3.135a2.636 2.636 0 113.729 3.728l-.857.857 1.414 1.415.857-.858a4.636 4.636 0 10-6.557-6.557L9.15 8.293A1 1 0 008.858 9zm6.284 6v-4.286h-2v3.872l-3.135 3.136a2.636 2.636 0 11-3.729-3.729l.857-.857-1.414-1.414-.857.857a4.637 4.637 0 006.557 6.557l3.429-3.429a1 1 0 00.292-.707z",
+	    d: "M3.161 4.469a6.5 6.5 0 018.84-.328 6.5 6.5 0 019.178 9.154l-7.765 7.79a2 2 0 01-2.719.102l-.11-.101-7.764-7.791a6.5 6.5 0 01.34-8.826zm1.414 1.414a4.5 4.5 0 00-.146 6.21l.146.154L12 19.672l5.303-5.305-3.535-3.534-1.06 1.06a3 3 0 01-4.244-4.242l2.102-2.103a4.501 4.501 0 00-5.837.189l-.154.146zm8.486 2.828a1 1 0 011.414 0l4.242 4.242.708-.706a4.5 4.5 0 00-6.211-6.51l-.153.146-3.182 3.182a1 1 0 00-.078 1.327l.078.087a1 1 0 001.327.078l.087-.078 1.768-1.768z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconLink24.propTypes = {
+	IconPartnerCollection.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
 	var _excluded$2f = ["color", "size"];
-	var IconNft24 = function IconNft24(props) {
+	var IconBindEmail = function IconBindEmail(props) {
 	  var color = props.color,
 	    size = props.size,
 	    otherProps = _objectWithoutProperties(props, _excluded$2f);
@@ -13793,17 +14350,17 @@
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M12 4.288l7 3.889v7.646l-7 3.89-7-3.89V8.177l7-3.89zM21 7v10l-9 5-9-5V7l9-5 9 5zm-9 0L7 9.5l5 2.5 5-2.5L12 7z",
+	    d: "M3.75 6.375h16.5v5.25h1.875V4.5H1.875v15h8.25v-1.875H3.75V6.375zm12 14.438a3.563 3.563 0 010-7.125h1.125l-.75 1.874h-.375a1.687 1.687 0 100 3.376h1.125v1.875H15.75zm4.125-7.125a3.563 3.563 0 010 7.124H18.75l.75-1.875h.375a1.687 1.687 0 100-3.375H18.75v-1.874h1.125zm-3.75 4.5H19.5v-1.875h-3.375v1.875zm-8.972-9.66l-.806 1.693L12 12.913l5.653-2.692-.806-1.692L12 10.837 7.153 8.529z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconNft24.propTypes = {
+	IconBindEmail.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
 	var _excluded$2g = ["color", "size"];
-	var IconTrustwalletScalable = function IconTrustwalletScalable(props) {
+	var IconH5Menu = function IconH5Menu(props) {
 	  var color = props.color,
 	    size = props.size,
 	    otherProps = _objectWithoutProperties(props, _excluded$2g);
@@ -13815,25 +14372,18 @@
 	    height: size || '24',
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "24",
-	    height: "24",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M3.054 5.676C2.4 6.96 2.4 8.64 2.4 12s0 5.04.654 6.324a6.017 6.017 0 002.622 2.622C6.96 21.6 8.64 21.6 12 21.6s5.04 0 6.324-.654a6.017 6.017 0 002.622-2.622C21.6 17.04 21.6 15.36 21.6 12s0-5.04-.654-6.324a6.017 6.017 0 00-2.622-2.622C17.04 2.4 15.36 2.4 12 2.4s-5.04 0-6.324.654a6.017 6.017 0 00-2.622 2.622zm13.737 1.902a.63.63 0 01.624.633c-.03 1.788-.099 3.156-.228 4.239-.126 1.083-.315 1.887-.6 2.538a4.017 4.017 0 01-.708 1.1c-.375.406-.804.7-1.272.979-.2.12-.408.238-.626.362-.466.264-.977.555-1.558.943a.62.62 0 01-.693 0 24.307 24.307 0 00-1.577-.954l-.307-.174c-.549-.318-1.044-.621-1.476-1.06a3.764 3.764 0 01-.735-1.055c-.27-.558-.453-1.233-.588-2.106-.18-1.167-.27-2.694-.303-4.812a.625.625 0 01.177-.447.636.636 0 01.447-.186h.258c.795.003 2.55-.075 4.068-1.257a.626.626 0 01.765 0c1.518 1.182 3.273 1.26 4.071 1.257h.261zm-1.395 7.01c.195-.401.357-.956.48-1.754.147-.954.237-2.25.28-4.014-.937-.027-2.545-.207-4.078-1.24-1.533 1.03-3.14 1.21-4.074 1.24.033 1.458.1 2.592.204 3.483.12 1.014.291 1.7.504 2.184.141.32.297.552.483.756.25.273.564.498.993.756.178.107.375.218.588.339.38.215.816.461 1.302.77.478-.303.907-.547 1.283-.761l.325-.186c.528-.303.918-.555 1.21-.85.194-.2.353-.42.5-.722z",
-	    fill: "#3375BB"
-	  })));
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z",
+	    fill: "currentColor"
+	  }));
 	};
-	IconTrustwalletScalable.propTypes = {
+	IconH5Menu.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
 	var _excluded$2h = ["color", "size"];
-	var IconSafepaScalable = function IconSafepaScalable(props) {
+	var IconWalletSwitch = function IconWalletSwitch(props) {
 	  var color = props.color,
 	    size = props.size,
 	    otherProps = _objectWithoutProperties(props, _excluded$2h);
@@ -13845,25 +14395,18 @@
 	    height: size || '24',
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "24",
-	    height: "24",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M9.468 4.031a1.928 1.928 0 011.363-.564h9.435L16.22 7.51H8.397a.888.888 0 00-.887.89v6.59l-3.722-3.723a1.098 1.098 0 010-1.557l5.68-5.68zm5.863 12.191H7.51l-4.045 4.044H12.9c.51 0 1.001-.203 1.363-.564l5.679-5.68a1.098 1.098 0 000-1.557l-3.722-3.722v6.589a.89.89 0 01-.89.89z",
-	    fill: "#4A21EF"
-	  })));
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M16.05 12.05L21 17l-4.95 4.95-1.414-1.415L17.172 18H4v-2h13.172l-2.536-2.535 1.414-1.414zm-8.1-10l1.414 1.414-2.536 2.535H20v2H6.828l2.536 2.536L7.95 11.95 3 7l4.95-4.95z",
+	    fill: "currentColor"
+	  }));
 	};
-	IconSafepaScalable.propTypes = {
+	IconWalletSwitch.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
 	var _excluded$2i = ["color", "size"];
-	var IconDeposit24 = function IconDeposit24(props) {
+	var IconFiatcurrency = function IconFiatcurrency(props) {
 	  var color = props.color,
 	    size = props.size,
 	    otherProps = _objectWithoutProperties(props, _excluded$2i);
@@ -13876,22 +14419,94 @@
 	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
-	    fillRule: "evenodd",
-	    clipRule: "evenodd",
-	    d: "M19 21H5v-2h14v2zm-7.707-6.293a1 1 0 001.414 0l6-6-1.414-1.414L13 11.586V3h-2v8.586L6.707 7.293 5.293 8.707l6 6z",
+	    d: "M3.005 3.003h18a1 1 0 011 1v16a1 1 0 01-1 1h-18a1 1 0 01-1-1v-16a1 1 0 011-1zm1 2v14h16v-14h-16zm4.5 9h5.5a.5.5 0 100-1h-4a2.5 2.5 0 110-5h1v-2h2v2h2.5v2h-5.5a.5.5 0 000 1h4a2.5 2.5 0 010 5h-1v2h-2v-2h-2.5v-2z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconDeposit24.propTypes = {
+	IconFiatcurrency.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
 	var _excluded$2j = ["color", "size"];
-	var IconWhitepaperScalable = function IconWhitepaperScalable(props) {
+	var IconHolding = function IconHolding(props) {
 	  var color = props.color,
 	    size = props.size,
 	    otherProps = _objectWithoutProperties(props, _excluded$2j);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24.001171112060547',
+	    height: size || '24',
+	    viewBox: "0 0 24.001171112060547 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M22.453 17.91L12 22.557 1.546 17.911l.719-1.62 9.734 4.328 9.734-4.327.72 1.619zm0-5.608L12 16.95 1.546 12.302l.719-1.618 9.734 4.326 9.734-4.326.72 1.618zm.763-5.855L12 11.494.784 6.447 12 1.4l11.216 5.047zm-18.116 0L12 9.55l6.9-3.104L12 3.34 5.1 6.447z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconHolding.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2k = ["color", "size"];
+	var IconBankCardConnected = function IconBankCardConnected(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2k);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M3.005 3h18a1 1 0 011 1v16a1 1 0 01-1 1h-18a1 1 0 01-1-1V4a1 1 0 011-1zm17 8h-16v8h16v-8zm0-2V5h-16v4h16z",
+	    fill: "currentColor"
+	  }), /*#__PURE__*/react.createElement("path", {
+	    d: "M18.023 12.395l.583.587.105.106-.105.106-4.375 4.411-.106.108-.106-.108-2.625-2.646-.105-.107.105-.105.583-.588.106-.107.107.107 1.934 1.951 3.687-3.715.106-.108.106.107z",
+	    fill: "currentColor",
+	    stroke: "#FEFEFE",
+	    strokeWidth: "0.3"
+	  }));
+	};
+	IconBankCardConnected.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2l = ["color", "size"];
+	var IconCryptoBridgeConnected = function IconCryptoBridgeConnected(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2l);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M17.964 3.44l4.549 8.187.31.559-.31.557-4.55 8.188-.327.59H7.186l-.328-.59-4.548-8.188-.31-.557.31-.559L6.858 3.44l.329-.591h10.449l.328.59zM4.629 12.185l3.91 7.038h7.745l3.908-7.038-3.909-7.037H8.54l-3.91 7.037zm12.871-.262l-3.67 3.059h1.31v1.685H9.175l1.788-1.49 5.458-4.549 1.08 1.295zm-3.639-2.729l-5.458 4.55-1.08-1.296 3.671-3.058H9.683V7.704h5.966l-1.788 1.49z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconCryptoBridgeConnected.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2m = ["color", "size"];
+	var IconOrderGame = function IconOrderGame(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2m);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
@@ -13903,58 +14518,415 @@
 	  }, otherProps), /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M20 5h-4a4 4 0 00-4 4V8a3 3 0 00-3-3H4v13h4l1.222.204c1.134.189 2.14.839 2.778 1.796a4.161 4.161 0 012.778-1.796L16 18h4V5z",
+	    d: "M7.5 2.25h1.875v1.125h5.25V2.25H16.5v1.125H21v3.75h-1.875V5.25H16.5v1.125h-1.875V5.25h-5.25v1.125H7.5V5.25H4.875v13.5H7.5v1.875H3V3.375h4.5V2.25zm8.25 18a4.875 4.875 0 100-9.75 4.875 4.875 0 000 9.75zm0 1.875a6.75 6.75 0 100-13.5 6.75 6.75 0 000 13.5zm.288-4.962l2.913-2.913-1.326-1.326-2.25 2.25-1.125-1.125-1.326 1.326 1.788 1.788a.937.937 0 001.326 0z",
 	    fill: "currentColor"
 	  }));
 	};
-	IconWhitepaperScalable.propTypes = {
+	IconOrderGame.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
 
-	var _excluded$2k = ["color", "size"];
-	var IconSuccess64 = function IconSuccess64(props) {
+	var _excluded$2n = ["color", "size"];
+	var IconOpenBlindBox = function IconOpenBlindBox(props) {
 	  var color = props.color,
 	    size = props.size,
-	    otherProps = _objectWithoutProperties(props, _excluded$2k);
+	    otherProps = _objectWithoutProperties(props, _excluded$2n);
 	  return /*#__PURE__*/react.createElement("svg", _extends({
 	    style: {
 	      color: color
 	    },
-	    width: size || '64',
-	    height: size || '64',
-	    viewBox: "0 0 64 64",
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
 	    xmlns: "http://www.w3.org/2000/svg"
-	  }, otherProps), /*#__PURE__*/react.createElement("svg", {
-	    width: "64",
-	    height: "64",
-	    fill: "none",
-	    xmlns: "http://www.w3.org/2000/svg"
-	  }, /*#__PURE__*/react.createElement("circle", {
-	    cx: "32",
-	    cy: "32",
-	    r: "24",
-	    fill: "url(#paint0_linear_774_7)"
-	  }), /*#__PURE__*/react.createElement("path", {
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
 	    fillRule: "evenodd",
 	    clipRule: "evenodd",
-	    d: "M44.536 26L29 41.535 19.465 32 23 28.464l6 6 12-12L44.536 26z",
-	    fill: "#0A1161"
-	  }), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("linearGradient", {
-	    id: "paint0_linear_774_7",
-	    x1: "8",
-	    y1: "32.828",
-	    x2: "56",
-	    y2: "32.828",
-	    gradientUnits: "userSpaceOnUse"
-	  }, /*#__PURE__*/react.createElement("stop", {
-	    stopColor: "#9EE6FC"
-	  }), /*#__PURE__*/react.createElement("stop", {
-	    offset: "1",
-	    stopColor: "#EBB9E7"
-	  })))));
+	    d: "M10.654 4.066l-.562-2.063-1.809.494.562 2.062 1.81-.493zM3.75 2.438l2.25 3-1.5 1.125-2.25-3 1.5-1.126zm16.5 0l-2.25 3 1.5 1.125 2.25-3-1.5-1.126zm-5.972-.415l-.563 2.25 1.82.454.562-2.25-1.819-.454zM4.5 12.75H15v6.75H4.5v-6.75zM15 21.375H2.625v-9.904L.358 6.937h12.218l3.455 3.456 3.456-3.456h4.21l-1.575 3.938h.003v10.5H15zm1.875-1.875h3.375v-6.75h-3.375v6.75zm-4.313-3.188H9.376v-1.875h3.188v1.876zM4.33 10.688l-.937-1.874h8.407l1.875 1.874H4.33zm16.599-1.874l-.75 1.874h-1.79l1.875-1.874h.665z",
+	    fill: "currentColor"
+	  }));
 	};
-	IconSuccess64.propTypes = {
+	IconOpenBlindBox.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2o = ["color", "size"];
+	var IconLandscapeSpan = function IconLandscapeSpan(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2o);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M11.086 4L9.257 2.172 10.672.757 14.914 5l-4.242 4.243-1.415-1.415L11.086 6H8.5a3 3 0 00-3 3v4h-2V9a5 5 0 015-5h2.586zM9.5 11a1 1 0 011-1h10a1 1 0 011 1v10a1 1 0 01-1 1h-10a1 1 0 01-1-1V11zm2 1v8h8v-8h-8z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconLandscapeSpan.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2p = ["color", "size"];
+	var IconListingCancel = function IconListingCancel(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2p);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M19.1 17.334l1.31-1.31 1.59 1.59-3.943 3.943-3.943-3.943 1.59-1.59 1.146 1.145V13.67h2.25v3.663zm2.155-9.64c.842 2.244-.818 4.64-3.215 4.64a3.435 3.435 0 01-2.961-1.694l-.054.085a3.425 3.425 0 01-5.806 0l-.053-.085a3.432 3.432 0 01-2.815 1.688v5.218h6.494v2.249H3.323v-2.25h.78v-5.929a3.43 3.43 0 01-1.114-3.923L5.13 1.978h13.98l2.144 5.715zm-16.16.788a1.186 1.186 0 002.134 1.015l.151-.26L9.1 6.29l2.026 3.241a1.176 1.176 0 001.993.001l.218-.35 1.808-2.892 1.718 2.945.152.26a1.186 1.186 0 002.135-1.014l-1.596-4.255H6.69L5.094 8.482z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconListingCancel.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2q = ["color", "size"];
+	var IconConnect = function IconConnect(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2q);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M19.333 5.65H4.667v7H3V3.983h18v16.334H10.667V18.65h8.666v-2.667H13V8.317h6.333V5.65zm0 4.333v4.334h-4.666V9.983h4.666zm-1 1.334H16v1.666h2l.333-1.666zM3 15.983v-1.666a6 6 0 016 6H7.333A4.333 4.333 0 003 15.983zm0 2.667c.92 0 1.667.746 1.667 1.667H3V18.65z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconConnect.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2r = ["color", "size"];
+	var IconExpect = function IconExpect(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2r);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    fillRule: "evenodd",
+	    clipRule: "evenodd",
+	    d: "M20.468 5.71H6.004v6.988l-1.643 1.21V4.068h17.75v16.107h-11.68l-1.505-2.65-1.222-2.115-2.454 1.787 1.865.5-.863 3.158-1.585-.433.427-1.566-3.594-.963 6.714-4.887 2.138 3.703 1.035 1.822H20.468V15.9h-6.246V8.34h6.246V5.71zm0 4.274v4.273h-4.602V9.984h4.602zm-.987 1.315h-2.3v1.643h1.972l.328-1.643z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconExpect.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2s = ["color", "size"];
+	var IconSubmitTransaction = function IconSubmitTransaction(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2s);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M20.063 9.838h-1.875v-4.4H5.063v12.297l1.736-1.172h4.579v1.875H7.372l-4.184 2.827V3.562h16.875v6.276zm-3.188 6.1c1.473 0 2.45.44 3.071.98.303.263.502.533.628.75.24.411.332.884.468 1.336l-1.796.538-.262-.872a1.144 1.144 0 00-.269-.338c-.24-.21-.764-.52-1.84-.52s-1.6.31-1.84.52a1.144 1.144 0 00-.27.338l-.261.872-1.796-.538c.106-.352.184-.718.327-1.058a2.41 2.41 0 01.14-.278c.126-.217.326-.487.629-.75.622-.54 1.598-.98 3.071-.98zm0-5.063a2.25 2.25 0 110 4.5 2.25 2.25 0 010-4.5zm-5.813 3.188H7.688v-1.876h3.375v1.876zm5.813-1.313a.375.375 0 100 .75.375.375 0 000-.75zm-1.313-2.438H7.689V8.438h7.875v1.874z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSubmitTransaction.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2t = ["color", "size"];
+	var IconUnlockCurrency = function IconUnlockCurrency(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2t);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M10.5 2.438c1.894 0 3.65.283 4.967.772.655.243 1.25.555 1.699.95.447.392.834.948.834 1.652 0 .064-.004.127-.01.188H18v4.5h-1.875V8.134c-.21.102-.43.196-.658.281-1.316.489-3.073.772-4.966.773-1.894 0-3.652-.284-4.968-.773a7.43 7.43 0 01-.658-.281v2.727l.1.1c.191.192.747.563 1.69.886.918.314 2.142.561 3.615.561 1.77 0 3.547-.181 4.48-.585l.862-.372.743 1.722-.86.37c-1.322.572-3.448.74-5.225.74-1.682 0-3.11-.282-4.222-.663a9.172 9.172 0 01-1.183-.497v2.817c.267.266.646.582 1.28.857.784.34 2.013.64 3.97.64h.938v1.875h-.938c-2.146 0-3.64-.33-4.714-.794a5.84 5.84 0 01-2.06-1.46 1.309 1.309 0 01-.35-.892v-4.527l-.014-.014.013-.014V5.812c0-.704.388-1.26.834-1.653.449-.394 1.044-.706 1.699-.949 1.316-.49 3.074-.772 4.968-.772zm0 1.874c-1.73 0-3.255.263-4.314.656-.533.198-.899.411-1.114.6-.158.14-.19.222-.197.245.006.022.039.105.197.244.215.189.581.402 1.114.6 1.059.393 2.584.655 4.315.655 1.73 0 3.255-.262 4.313-.655.533-.198.899-.411 1.114-.6.158-.14.19-.222.197-.245-.006-.022-.039-.105-.197-.244-.215-.189-.581-.402-1.114-.6-1.059-.393-2.583-.655-4.313-.655zM20.52 12.11l-.755 1.616 1.737.834-.811 1.69-1.718-.823-.393.842a3.162 3.162 0 11-1.699-.793l1.94-4.158 1.699.792zm-3.522 5.334a1.286 1.286 0 10-1.087 2.332 1.286 1.286 0 001.087-2.332z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconUnlockCurrency.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2u = ["color", "size"];
+	var IconSecureEmail = function IconSecureEmail(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2u);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M22.125 14.25v3.177a3 3 0 01-1.456 2.572l-2.294 1.376-2.294-1.376a3 3 0 01-1.456-2.572V14.25l3.75-1.125 3.75 1.125zm0-2.625H20.25v-5.25H3.75v11.25h9.375V19.5H1.875v-15h20.25v7.125zm-5.625 4.02v1.782c0 .395.207.76.546.964l1.329.798 1.33-.798c.338-.204.545-.57.545-.964v-1.781l-1.875-.563-1.875.563zm1.153-5.423L12 12.913l-5.653-2.691.806-1.694L12 10.837l4.847-2.309.806 1.694z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSecureEmail.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2v = ["color", "size"];
+	var IconWallet = function IconWallet(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2v);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M20.005 7V5h-16v14h16v-2h-8a1 1 0 01-1-1V8a1 1 0 011-1h8zm-17-4h18a1 1 0 011 1v16a1 1 0 01-1 1h-18a1 1 0 01-1-1V4a1 1 0 011-1zm10 6v6h7V9h-7zm2 2h3v2h-3v-2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconWallet.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2w = ["color", "size"];
+	var IconInfo2 = function IconInfo2(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2w);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 6a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-3 4h2v8H9v2h6v-2h-2V8H9v2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconInfo2.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2x = ["color", "size"];
+	var IconSubscribed = function IconSubscribed(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2x);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M20 22.724l-8-4.573-8 4.573V2h16v20.724zm-9-11.138L8.707 9.293l-1.414 1.414L11 14.414l5.707-5.707-1.414-1.414L11 11.586z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSubscribed.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2y = ["color", "size"];
+	var IconSubscribe = function IconSubscribe(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2y);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M14.5 4H6v15.276l6-3.427 6 3.427V11h2v11.724l-8-4.573-8 4.573V2h10.5v2zM20 4h2v2h-2v2h-2V6h-2V4h2V2h2v2z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconSubscribe.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2z = ["color", "size"];
+	var IconFailed = function IconFailed(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2z);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M12 10.303L8.606 6.909 6.909 8.606 10.303 12l-3.394 3.394 1.697 1.697L12 13.697l3.394 3.394 1.697-1.697L13.697 12l3.394-3.394-1.697-1.697L12 10.303z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconFailed.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2A = ["color", "size"];
+	var IconInfo1 = function IconInfo1(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2A);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M10.8 10.8V18h2.4v-7.2h-2.4zm0-4.8v2.4h2.4V6h-2.4z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconInfo1.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2B = ["color", "size"];
+	var IconCheck = function IconCheck(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2B);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M18.549 8.949L10.8 16.697l-5.049-5.048L7.45 9.95l3.351 3.352 6.052-6.052 1.697 1.698z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconCheck.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2C = ["color", "size"];
+	var IconPnWalletEntry = function IconPnWalletEntry(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2C);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("g", {
+	    clipPath: "url(#clip0_1102_4182)"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    d: "M24 18l-6 6H0V0h24v18zM1 23h16.586L23 17.586V1H1v22zm14.778-11l-5.39 5.389-.706-.707L14.363 12 9.682 7.318l.707-.707L15.779 12z",
+	    fill: "currentColor"
+	  })), /*#__PURE__*/react.createElement("defs", null, /*#__PURE__*/react.createElement("clipPath", {
+	    id: "clip0_1102_4182"
+	  }, /*#__PURE__*/react.createElement("path", {
+	    fill: "#fff",
+	    d: "M0 0h24v24H0z"
+	  }))));
+	};
+	IconPnWalletEntry.propTypes = {
+	  color: propTypes.string,
+	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
+	};
+
+	var _excluded$2D = ["color", "size"];
+	var IconColorfulIconListing = function IconColorfulIconListing(props) {
+	  var color = props.color,
+	    size = props.size,
+	    otherProps = _objectWithoutProperties(props, _excluded$2D);
+	  return /*#__PURE__*/react.createElement("svg", _extends({
+	    style: {
+	      color: color
+	    },
+	    width: size || '24',
+	    height: size || '24',
+	    viewBox: "0 0 24 24",
+	    xmlns: "http://www.w3.org/2000/svg"
+	  }, otherProps), /*#__PURE__*/react.createElement("path", {
+	    d: "M19.295 9.565a2.65 2.65 0 01-4.77 2.266l-.124-.213-.178.286a2.641 2.641 0 01-4.479 0l-.18-.286-.124.213a2.65 2.65 0 01-2.288 1.315l-.006-.002v4.329h5.346V19H4.855v-1.527h.764v-4.815a2.648 2.648 0 01-.948-3.093L6.383 5h11.2l1.712 4.565zm-.082 6.015l-3.09 3.09L14 16.743l1.027-1.13 1.045.95 2.06-2.062 1.08 1.08zM6.102 10.102a1.122 1.122 0 002.02.96l.124-.213L9.52 8.664l1.52 2.43a1.114 1.114 0 001.888 0l.178-.285 1.34-2.145 1.275 2.185.124.213a1.123 1.123 0 002.02-.96l-1.34-3.575H7.44l-1.34 3.575z",
+	    fill: "currentColor"
+	  }));
+	};
+	IconColorfulIconListing.propTypes = {
 	  color: propTypes.string,
 	  size: propTypes.oneOfType([propTypes.string, propTypes.number])
 	};
@@ -13963,155 +14935,174 @@
 
 	var icons = /*#__PURE__*/Object.freeze({
 		__proto__: null,
-		IconInfo12: IconInfo12,
-		IconHelp12: IconHelp12,
-		IconDirection12: IconDirection12,
-		IconLinkedWallet12: IconLinkedWallet12,
-		IconWalletInfo12: IconWalletInfo12,
-		IconWalletConnect12: IconWalletConnect12,
-		IconWalletConnected12: IconWalletConnected12,
-		IconWalletDisConnect12: IconWalletDisConnect12,
-		IconLinkedWalletThin12: IconLinkedWalletThin12,
-		IconUnLinkedWalletThin12: IconUnLinkedWalletThin12,
-		IconCheckError12: IconCheckError12,
-		IconCheckRight12: IconCheckRight12,
-		IconMinus12: IconMinus12,
-		IconPlus12: IconPlus12,
-		IconArrow12: IconArrow12,
-		IconMinus16: IconMinus16,
-		IconPlus16: IconPlus16,
-		IconEmailChange16: IconEmailChange16,
-		IconDeposit16: IconDeposit16,
-		IconPublishTime16: IconPublishTime16,
-		IconMessageClear16: IconMessageClear16,
-		IconUnLinkedWallet16: IconUnLinkedWallet16,
-		IconNftAmount16: IconNftAmount16,
-		IconWalletDisConnect16: IconWalletDisConnect16,
-		IconLinkedWallet16: IconLinkedWallet16,
-		IconFailed16: IconFailed16,
-		IconWalletConnected16: IconWalletConnected16,
-		IconClose16: IconClose16,
-		IconInfo16: IconInfo16,
-		IconOwners16: IconOwners16,
-		IconNft16: IconNft16,
-		IconUser16: IconUser16,
-		IconArrow16: IconArrow16,
-		IconChecked16: IconChecked16,
-		IconFilter16: IconFilter16,
-		IconEmail24: IconEmail24,
-		IconMessageUnread24: IconMessageUnread24,
-		IconMessage24: IconMessage24,
-		IconCopy24: IconCopy24,
-		IconXsoulShare24: IconXsoulShare24,
-		IconXsoulInfo24: IconXsoulInfo24,
-		IconSignOut24: IconSignOut24,
-		IconArrow24: IconArrow24,
-		IconClose24: IconClose24,
-		IconPnWalletEntry24: IconPnWalletEntry24,
-		IconResetPassword24: IconResetPassword24,
-		IconRandom24: IconRandom24,
-		IconSettings24: IconSettings24,
-		IconGame24: IconGame24,
-		IconAssetTabPlatform24: IconAssetTabPlatform24,
-		IconConnect24: IconConnect24,
-		IconSuccess24: IconSuccess24,
-		IconOtherFill24: IconOtherFill24,
-		IconHide24: IconHide24,
-		IconShow24: IconShow24,
-		IconWalletConnected24: IconWalletConnected24,
-		IconUser24: IconUser24,
-		IconShare24: IconShare24,
-		IconFailed24: IconFailed24,
-		IconInfo24: IconInfo24,
-		IconSearch24: IconSearch24,
-		IconMessage32: IconMessage32,
-		IconClose32: IconClose32,
-		IconWalletConnected32: IconWalletConnected32,
-		IconMore32: IconMore32,
-		IconWalletSwitch32: IconWalletSwitch32,
-		IconArrow32: IconArrow32,
-		IconUser32: IconUser32,
-		IconLang32: IconLang32,
-		IconCloseThin32: IconCloseThin32,
-		IconH5Menu32: IconH5Menu32,
-		IconMessageClear40: IconMessageClear40,
-		IconWalletConnected40: IconWalletConnected40,
-		IconUser40: IconUser40,
-		IconListing64: IconListing64,
-		IconBindEmail64: IconBindEmail64,
-		IconOrderGame64: IconOrderGame64,
-		IconOpenBlindBox64: IconOpenBlindBox64,
-		IconLandscapeSpan64: IconLandscapeSpan64,
-		IconListingCancel64: IconListingCancel64,
-		IconFailed64: IconFailed64,
-		IconSubmitTransaction64: IconSubmitTransaction64,
-		IconUnlockCurrency64: IconUnlockCurrency64,
-		IconUser72: IconUser72,
-		IconNodata80: IconNodata80,
-		IconMessageEmpty80: IconMessageEmpty80,
-		IconCongratulate80: IconCongratulate80,
-		IconEmail80: IconEmail80,
-		IconConnect80: IconConnect80,
-		IconExpect80: IconExpect80,
-		IconLinkedWallet80: IconLinkedWallet80,
-		IconResetPassword80: IconResetPassword80,
-		IconWalletConnected80: IconWalletConnected80,
-		IconTelegramScalable: IconTelegramScalable,
-		IconEmail120: IconEmail120,
-		IconResetPassword120: IconResetPassword120,
-		IconPolygonScalable: IconPolygonScalable,
-		IconXterioLogoScalable: IconXterioLogoScalable,
-		IconVideoScalable: IconVideoScalable,
-		IconAppstoreScalable: IconAppstoreScalable,
-		IconAndroidScalable: IconAndroidScalable,
-		IconMacScalable: IconMacScalable,
-		IconSteamScalable: IconSteamScalable,
-		IconWebScalable: IconWebScalable,
-		IconWindowsScalable: IconWindowsScalable,
-		IconChainBscScalable: IconChainBscScalable,
-		IconChainPolygonScalable: IconChainPolygonScalable,
-		IconMediumScalable: IconMediumScalable,
-		IconTokenBnbScalable: IconTokenBnbScalable,
-		IconMessageLogoScalable: IconMessageLogoScalable,
-		IconCopyScalable: IconCopyScalable,
-		IconSaveScalable: IconSaveScalable,
-		IconTokenEthScalable: IconTokenEthScalable,
-		IconYoutubeScalable: IconYoutubeScalable,
-		IconFacebookScalable: IconFacebookScalable,
-		IconGoogleScalable: IconGoogleScalable,
-		IconSoldOutScalable: IconSoldOutScalable,
-		IconLogoScalable: IconLogoScalable,
-		IconCoinbaseScalable: IconCoinbaseScalable,
-		IconMetamaskScalable: IconMetamaskScalable,
-		IconWalletConnectScalable: IconWalletConnectScalable,
-		IconChainEthereumScalable: IconChainEthereumScalable,
-		IconPausedScalable: IconPausedScalable,
-		IconBinanceScalable: IconBinanceScalable,
-		IconDiscordScalable: IconDiscordScalable,
-		IconInstagramScalable: IconInstagramScalable,
-		IconLinkedinScalable: IconLinkedinScalable,
-		IconTwitterScalable: IconTwitterScalable,
-		IconTxSuccessScalable: IconTxSuccessScalable,
-		IconUniswapScalable: IconUniswapScalable,
-		IconXterioScalable: IconXterioScalable,
-		IconLoadingBarScalable: IconLoadingBarScalable,
-		IconTxProcessingScalable: IconTxProcessingScalable,
-		IconSuccess16: IconSuccess16,
-		IconDirection16: IconDirection16,
-		IconEdit12: IconEdit12,
-		IconGame16: IconGame16,
-		IconCreditcard32: IconCreditcard32,
-		IconFiatcurrency40: IconFiatcurrency40,
-		IconGoogleplayScalable: IconGoogleplayScalable,
-		IconQuiz16: IconQuiz16,
-		IconQuiz24: IconQuiz24,
-		IconLink24: IconLink24,
-		IconNft24: IconNft24,
-		IconTrustwalletScalable: IconTrustwalletScalable,
-		IconSafepaScalable: IconSafepaScalable,
-		IconDeposit24: IconDeposit24,
-		IconWhitepaperScalable: IconWhitepaperScalable,
-		IconSuccess64: IconSuccess64
+		IconTelegram: IconTelegram,
+		IconPolygon: IconPolygon,
+		IconXterioLogo: IconXterioLogo,
+		IconVideo: IconVideo,
+		IconAppstore: IconAppstore,
+		IconAndroid: IconAndroid,
+		IconMac: IconMac,
+		IconSteam: IconSteam,
+		IconWeb: IconWeb,
+		IconWindows: IconWindows,
+		IconChainBsc: IconChainBsc,
+		IconChainBase: IconChainBase,
+		IconChainArbitrum: IconChainArbitrum,
+		IconTokenBnb: IconTokenBnb,
+		IconMedium: IconMedium,
+		IconMessageLogo: IconMessageLogo,
+		IconShareCopy: IconShareCopy,
+		IconSave: IconSave,
+		IconTwitter: IconTwitter,
+		IconYoutube: IconYoutube,
+		IconFacebook: IconFacebook,
+		IconGoogle: IconGoogle,
+		IconSoldOut: IconSoldOut,
+		IconTiktok: IconTiktok,
+		IconLogo: IconLogo,
+		IconLogoMonochrome: IconLogoMonochrome,
+		IconCoinbase: IconCoinbase,
+		IconMetamask: IconMetamask,
+		IconWalletConnect: IconWalletConnect,
+		IconPaused: IconPaused,
+		IconBinance: IconBinance,
+		IconDiscord: IconDiscord,
+		IconInstagram: IconInstagram,
+		IconLinkedin: IconLinkedin,
+		IconTxSuccess: IconTxSuccess,
+		IconUniswap: IconUniswap,
+		IconXterio: IconXterio,
+		IconLoadingBar: IconLoadingBar,
+		IconTxProcessing: IconTxProcessing,
+		IconGoogleplay: IconGoogleplay,
+		IconTrustwallet: IconTrustwallet,
+		IconSafepa: IconSafepa,
+		IconWhitepaper: IconWhitepaper,
+		IconTokenPolygonMatic: IconTokenPolygonMatic,
+		IconChainPolygon: IconChainPolygon,
+		IconTokenArbitrumEth: IconTokenArbitrumEth,
+		IconChainEthereum: IconChainEthereum,
+		IconTokenEth: IconTokenEth,
+		IconOpenSea: IconOpenSea,
+		IconReservoir: IconReservoir,
+		IconChainXterio: IconChainXterio,
+		IconLooksrare: IconLooksrare,
+		IconX2y2: IconX2y2,
+		IconElement: IconElement,
+		IconBlur: IconBlur,
+		IconMagiceden: IconMagiceden,
+		IconLogo2: IconLogo2,
+		IconOthers: IconOthers,
+		IconOkx: IconOkx,
+		IconChainXterioBsc: IconChainXterioBsc,
+		IconChainXterioEth: IconChainXterioEth,
+		IconTokenUsdt: IconTokenUsdt,
+		IconLine: IconLine,
+		IconTokenUsdc: IconTokenUsdc,
+		IconPc: IconPc,
+		IconSend: IconSend,
+		IconBybit: IconBybit,
+		IconGateio: IconGateio,
+		IconFiat: IconFiat,
+		IconTokenXter: IconTokenXter,
+		IconLinkedWallet: IconLinkedWallet,
+		IconWalletDisConnect: IconWalletDisConnect,
+		IconPlus: IconPlus,
+		IconMinus: IconMinus,
+		IconDirection: IconDirection,
+		IconEdit: IconEdit,
+		IconCheckRight: IconCheckRight,
+		IconCheckError: IconCheckError,
+		IconArrow: IconArrow,
+		IconWalletInfo: IconWalletInfo,
+		IconHelp: IconHelp,
+		IconSad: IconSad,
+		IconCongratulate: IconCongratulate,
+		IconGenerate: IconGenerate,
+		IconPoints: IconPoints,
+		IconRefresh: IconRefresh,
+		IconFilter: IconFilter,
+		IconNoinvite: IconNoinvite,
+		IconPublishTime: IconPublishTime,
+		IconDeposit: IconDeposit,
+		IconGame: IconGame,
+		IconEmailChange: IconEmailChange,
+		IconNftAmount: IconNftAmount,
+		IconChecked: IconChecked,
+		IconArrowGradient: IconArrowGradient,
+		IconOwners: IconOwners,
+		IconUser: IconUser,
+		IconNft: IconNft,
+		IconMessageClear: IconMessageClear,
+		IconQuiz: IconQuiz,
+		IconClose: IconClose,
+		IconQrcode: IconQrcode,
+		IconFolder: IconFolder,
+		IconEvent: IconEvent,
+		IconEmail: IconEmail,
+		IconCopy: IconCopy,
+		IconDelete: IconDelete,
+		IconFullscreen: IconFullscreen,
+		IconGallery: IconGallery,
+		IconStaking: IconStaking,
+		IconDepositToGame: IconDepositToGame,
+		IconCalendar: IconCalendar,
+		IconTokenDefault: IconTokenDefault,
+		IconMessageUnread: IconMessageUnread,
+		IconMessage: IconMessage,
+		IconXsoulShare: IconXsoulShare,
+		IconSettings: IconSettings,
+		IconAssetTabPlatform: IconAssetTabPlatform,
+		IconSignOut: IconSignOut,
+		IconResetPassword: IconResetPassword,
+		IconHide: IconHide,
+		IconShow: IconShow,
+		IconRandom: IconRandom,
+		IconNodata: IconNodata,
+		IconGameNormal: IconGameNormal,
+		IconGameSelect: IconGameSelect,
+		IconMarketNormal: IconMarketNormal,
+		IconMarketSelect: IconMarketSelect,
+		IconProfileNormal: IconProfileNormal,
+		IconProfileSelect: IconProfileSelect,
+		IconMore: IconMore,
+		IconGift: IconGift,
+		IconCancelListing: IconCancelListing,
+		Icon2FApassword: Icon2FApassword,
+		IconSecurity: IconSecurity,
+		IconCreate: IconCreate,
+		IconReport: IconReport,
+		IconTakephoto: IconTakephoto,
+		IconSupport: IconSupport,
+		IconUnname: IconUnname,
+		IconLang: IconLang,
+		IconCreditcard: IconCreditcard,
+		IconPartnerCollection: IconPartnerCollection,
+		IconBindEmail: IconBindEmail,
+		IconH5Menu: IconH5Menu,
+		IconWalletSwitch: IconWalletSwitch,
+		IconFiatcurrency: IconFiatcurrency,
+		IconHolding: IconHolding,
+		IconBankCardConnected: IconBankCardConnected,
+		IconCryptoBridgeConnected: IconCryptoBridgeConnected,
+		IconOrderGame: IconOrderGame,
+		IconOpenBlindBox: IconOpenBlindBox,
+		IconLandscapeSpan: IconLandscapeSpan,
+		IconListingCancel: IconListingCancel,
+		IconConnect: IconConnect,
+		IconExpect: IconExpect,
+		IconSubmitTransaction: IconSubmitTransaction,
+		IconUnlockCurrency: IconUnlockCurrency,
+		IconSecureEmail: IconSecureEmail,
+		IconWallet: IconWallet,
+		IconInfo2: IconInfo2,
+		IconSubscribed: IconSubscribed,
+		IconSubscribe: IconSubscribe,
+		IconFailed: IconFailed,
+		IconInfo1: IconInfo1,
+		IconCheck: IconCheck,
+		IconPnWalletEntry: IconPnWalletEntry,
+		IconColorfulIconListing: IconColorfulIconListing
 	});
 
 	var _templateObject;
@@ -14128,209 +15119,220 @@
 	});
 
 	var ComponentNameToWidth = {
-	  IconInfo12: 12,
-	  IconHelp12: 12,
-	  IconDirection12: 12,
-	  IconLinkedWallet12: 12,
-	  IconWalletInfo12: 12,
-	  IconWalletConnect12: 12,
-	  IconWalletConnected12: 12,
-	  IconWalletDisConnect12: 12,
-	  IconLinkedWalletThin12: 12,
-	  IconUnLinkedWalletThin12: 12,
-	  IconCheckError12: 12,
-	  IconCheckRight12: 12,
-	  IconMinus12: 12,
-	  IconPlus12: 12,
-	  IconArrow12: 12,
-	  IconMinus16: 16,
-	  IconPlus16: 16,
-	  IconEmailChange16: 16,
-	  IconDeposit16: 16,
-	  IconPublishTime16: 16,
-	  IconMessageClear16: 16,
-	  IconUnLinkedWallet16: 16,
-	  IconNftAmount16: 16,
-	  IconWalletDisConnect16: 16,
-	  IconLinkedWallet16: 16,
-	  IconFailed16: 16,
-	  IconWalletConnected16: 16,
-	  IconClose16: 16,
-	  IconInfo16: 16,
-	  IconOwners16: 16,
-	  IconNft16: 16,
-	  IconUser16: 16,
-	  IconArrow16: 16,
-	  IconChecked16: 16,
-	  IconFilter16: 16,
-	  IconEmail24: 24,
-	  IconMessageUnread24: 24,
-	  IconMessage24: 24,
-	  IconCopy24: 24,
-	  IconXsoulShare24: 24,
-	  IconXsoulInfo24: 24,
-	  IconSignOut24: 24,
-	  IconArrow24: 24,
-	  IconClose24: 24,
-	  IconPnWalletEntry24: 24,
-	  IconResetPassword24: 24,
-	  IconRandom24: 24,
-	  IconSettings24: 24,
-	  IconGame24: 24,
-	  IconAssetTabPlatform24: 24,
-	  IconConnect24: 24,
-	  IconSuccess24: 24,
-	  IconOtherFill24: 24,
-	  IconHide24: 24,
-	  IconShow24: 24,
-	  IconWalletConnected24: 24,
-	  IconUser24: 24,
-	  IconShare24: 24,
-	  IconFailed24: 24,
-	  IconInfo24: 24,
-	  IconSearch24: 24,
-	  IconMessage32: 32,
-	  IconClose32: 32,
-	  IconWalletConnected32: 32,
-	  IconMore32: 32,
-	  IconWalletSwitch32: 32,
-	  IconArrow32: 32,
-	  IconUser32: 34,
-	  IconLang32: 32,
-	  IconCloseThin32: 32,
-	  IconH5Menu32: 32,
-	  IconMessageClear40: 40,
-	  IconWalletConnected40: 40,
-	  IconUser40: 40,
-	  IconListing64: 64,
-	  IconBindEmail64: 64,
-	  IconOrderGame64: 64,
-	  IconOpenBlindBox64: 64,
-	  IconLandscapeSpan64: 64,
-	  IconListingCancel64: 64,
-	  IconFailed64: 64,
-	  IconSubmitTransaction64: 64,
-	  IconUnlockCurrency64: 64,
-	  IconUser72: 72,
-	  IconNodata80: 80,
-	  IconMessageEmpty80: 80,
-	  IconCongratulate80: 80,
-	  IconEmail80: 80,
-	  IconConnect80: 80,
-	  IconExpect80: 80,
-	  IconLinkedWallet80: 80,
-	  IconResetPassword80: 80,
-	  IconWalletConnected80: 80,
-	  IconTelegramScalable: 24,
-	  IconEmail120: 120,
-	  IconResetPassword120: 120,
-	  IconPolygonScalable: 21.3330078125,
-	  IconXterioLogoScalable: 116.36328125,
-	  IconVideoScalable: 24,
-	  IconAppstoreScalable: 24,
-	  IconAndroidScalable: 24,
-	  IconMacScalable: 24,
-	  IconSteamScalable: 24,
-	  IconWebScalable: 24,
-	  IconWindowsScalable: 24,
-	  IconChainBscScalable: 24,
-	  IconChainPolygonScalable: 24,
-	  IconMediumScalable: 24,
-	  IconTokenBnbScalable: 24,
-	  IconMessageLogoScalable: 24,
-	  IconCopyScalable: 24,
-	  IconSaveScalable: 24,
-	  IconTokenEthScalable: 24,
-	  IconYoutubeScalable: 24,
-	  IconFacebookScalable: 24,
-	  IconGoogleScalable: 24,
-	  IconSoldOutScalable: 209,
-	  IconLogoScalable: 24,
-	  IconCoinbaseScalable: 24,
-	  IconMetamaskScalable: 24,
-	  IconWalletConnectScalable: 24,
-	  IconChainEthereumScalable: 24,
-	  IconPausedScalable: 24,
-	  IconBinanceScalable: 24,
-	  IconDiscordScalable: 24,
-	  IconInstagramScalable: 24,
-	  IconLinkedinScalable: 24,
-	  IconTwitterScalable: 24,
-	  IconTxSuccessScalable: 24,
-	  IconUniswapScalable: 24,
-	  IconXterioScalable: 24,
-	  IconLoadingBarScalable: 68,
-	  IconTxProcessingScalable: 64,
-	  IconSuccess16: 16,
-	  IconDirection16: 16,
-	  IconEdit12: 12,
-	  IconGame16: 16,
-	  IconCreditcard32: 32,
-	  IconFiatcurrency40: 40,
-	  IconGoogleplayScalable: 24,
-	  IconQuiz16: 16,
-	  IconQuiz24: 24,
-	  IconLink24: 24,
-	  IconNft24: 24,
-	  IconTrustwalletScalable: 24,
-	  IconSafepaScalable: 24,
-	  IconDeposit24: 24,
-	  IconWhitepaperScalable: 24,
-	  IconSuccess64: 64
+	  "IconTelegram": 24,
+	  "IconPolygon": 21.33333396911621,
+	  "IconXterioLogo": 116.36363983154297,
+	  "IconVideo": 24,
+	  "IconAppstore": 24,
+	  "IconAndroid": 24,
+	  "IconMac": 24,
+	  "IconSteam": 24,
+	  "IconWeb": 24,
+	  "IconWindows": 24,
+	  "IconChainBsc": 24,
+	  "IconChainBase": 24,
+	  "IconChainArbitrum": 24,
+	  "IconTokenBnb": 24,
+	  "IconMedium": 24,
+	  "IconMessageLogo": 24,
+	  "IconShareCopy": 24,
+	  "IconSave": 24,
+	  "IconTwitter": 24,
+	  "IconYoutube": 24,
+	  "IconFacebook": 24,
+	  "IconGoogle": 24,
+	  "IconSoldOut": 209,
+	  "IconTiktok": 24,
+	  "IconLogo": 24,
+	  "IconLogoMonochrome": 24,
+	  "IconCoinbase": 24,
+	  "IconMetamask": 24,
+	  "IconWalletConnect": 24,
+	  "IconPaused": 24,
+	  "IconBinance": 24,
+	  "IconDiscord": 24,
+	  "IconInstagram": 24,
+	  "IconLinkedin": 24,
+	  "IconTxSuccess": 24,
+	  "IconUniswap": 24,
+	  "IconXterio": 24,
+	  "IconLoadingBar": 68,
+	  "IconTxProcessing": 64,
+	  "IconGoogleplay": 24,
+	  "IconTrustwallet": 24,
+	  "IconSafepa": 24,
+	  "IconWhitepaper": 24,
+	  "IconTokenPolygonMatic": 24,
+	  "IconChainPolygon": 24,
+	  "IconTokenArbitrumEth": 24,
+	  "IconChainEthereum": 24,
+	  "IconTokenEth": 24,
+	  "IconOpenSea": 24,
+	  "IconReservoir": 24,
+	  "IconChainXterio": 24,
+	  "IconLooksrare": 24,
+	  "IconX2y2": 24,
+	  "IconElement": 24,
+	  "IconBlur": 24,
+	  "IconMagiceden": 24,
+	  "IconLogo2": 24,
+	  "IconOthers": 32,
+	  "IconOkx": 24,
+	  "IconChainXterioBsc": 24,
+	  "IconChainXterioEth": 24.000072479248047,
+	  "IconTokenUsdt": 24,
+	  "IconLine": 24,
+	  "IconTokenUsdc": 24,
+	  "IconPc": 24,
+	  "IconSend": 24,
+	  "IconBybit": 24,
+	  "IconGateio": 24,
+	  "IconFiat": 24,
+	  "IconTokenXter": 24,
+	  "IconLinkedWallet": 24,
+	  "IconWalletDisConnect": 24,
+	  "IconPlus": 24,
+	  "IconMinus": 24,
+	  "IconDirection": 24,
+	  "IconEdit": 24,
+	  "IconCheckRight": 24,
+	  "IconCheckError": 24,
+	  "IconArrow": 24,
+	  "IconWalletInfo": 24,
+	  "IconHelp": 24,
+	  "IconSad": 24,
+	  "IconCongratulate": 24,
+	  "IconGenerate": 24,
+	  "IconPoints": 24,
+	  "IconRefresh": 24,
+	  "IconFilter": 24,
+	  "IconNoinvite": 24,
+	  "IconPublishTime": 24,
+	  "IconDeposit": 24,
+	  "IconGame": 24,
+	  "IconEmailChange": 24,
+	  "IconNftAmount": 24,
+	  "IconChecked": 24,
+	  "IconArrowGradient": 24,
+	  "IconOwners": 24,
+	  "IconUser": 24,
+	  "IconNft": 24,
+	  "IconMessageClear": 24,
+	  "IconQuiz": 24,
+	  "IconClose": 24,
+	  "IconQrcode": 24,
+	  "IconFolder": 24,
+	  "IconEvent": 24,
+	  "IconEmail": 24,
+	  "IconCopy": 24,
+	  "IconDelete": 24,
+	  "IconFullscreen": 24,
+	  "IconGallery": 24,
+	  "IconStaking": 24,
+	  "IconDepositToGame": 24,
+	  "IconCalendar": 24,
+	  "IconTokenDefault": 24,
+	  "IconMessageUnread": 24,
+	  "IconMessage": 24,
+	  "IconXsoulShare": 24,
+	  "IconSettings": 24,
+	  "IconAssetTabPlatform": 24,
+	  "IconSignOut": 24,
+	  "IconResetPassword": 24,
+	  "IconHide": 24,
+	  "IconShow": 24,
+	  "IconRandom": 24,
+	  "IconNodata": 24,
+	  "IconGameNormal": 24,
+	  "IconGameSelect": 24,
+	  "IconMarketNormal": 24,
+	  "IconMarketSelect": 24,
+	  "IconProfileNormal": 24,
+	  "IconProfileSelect": 24,
+	  "IconMore": 24,
+	  "IconGift": 24,
+	  "IconCancelListing": 24,
+	  "Icon2FApassword": 24,
+	  "IconSecurity": 24,
+	  "IconCreate": 24,
+	  "IconReport": 24,
+	  "IconTakephoto": 24,
+	  "IconSupport": 24,
+	  "IconUnname": 24,
+	  "IconLang": 24,
+	  "IconCreditcard": 24,
+	  "IconPartnerCollection": 24,
+	  "IconBindEmail": 24,
+	  "IconH5Menu": 24,
+	  "IconWalletSwitch": 24,
+	  "IconFiatcurrency": 24,
+	  "IconHolding": 24.001171112060547,
+	  "IconBankCardConnected": 24,
+	  "IconCryptoBridgeConnected": 24,
+	  "IconOrderGame": 24,
+	  "IconOpenBlindBox": 24,
+	  "IconLandscapeSpan": 24,
+	  "IconListingCancel": 24,
+	  "IconConnect": 24,
+	  "IconExpect": 24,
+	  "IconSubmitTransaction": 24,
+	  "IconUnlockCurrency": 24,
+	  "IconSecureEmail": 24,
+	  "IconWallet": 24,
+	  "IconInfo2": 24,
+	  "IconSubscribed": 24,
+	  "IconSubscribe": 24,
+	  "IconFailed": 24,
+	  "IconInfo1": 24,
+	  "IconCheck": 24,
+	  "IconPnWalletEntry": 24,
+	  "IconColorfulIconListing": 24
 	};
 
 	var _templateObject$2;
 	var Container = Ye$1.ul(_templateObject$2 || (_templateObject$2 = _taggedTemplateLiteral(["\n  display: grid;\n  grid-template-columns: repeat(5, 1fr);\n  justify-items: stretch;\n  align-items: stretch;\n  margin: 0;\n  padding: 0 0 50px 0;\n  list-style: none;\n  background: rgba(0,0,0,0.4);\n"])));
-	var config = [{
-	  size: "12 * 12",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("12");
-	  })
-	}, {
-	  size: "16 * 16",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("16");
-	  })
-	}, {
-	  size: "24 * 24",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("24");
-	  })
-	}, {
-	  size: "32 * 32",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("32");
-	  })
-	}, {
-	  size: "40 * 40",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("40");
-	  })
-	}, {
-	  size: "64 * 64",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("64");
-	  })
-	}, {
-	  size: "72 * 72",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("72");
-	  })
-	}, {
-	  size: "80 * 80",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("80");
-	  })
-	}, {
-	  size: "120 * 120",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("120");
-	  })
-	}, {
+	var config = [
+	// {
+	//   size: "12 * 12",
+	//   icons: Object.keys(icons).filter((k) => k.endsWith("12")),
+	// },
+	// {
+	//   size: "16 * 16",
+	//   icons: Object.keys(icons).filter((k) => k.endsWith("16")),
+	// },
+	// {
+	//   size: "24 * 24",
+	//   icons: Object.keys(icons).filter((k) => k.endsWith("24")),
+	// },
+	// {
+	//   size: "32 * 32",
+	//   icons: Object.keys(icons).filter((k) => k.endsWith("32")),
+	// },
+	// {
+	//   size: "40 * 40",
+	//   icons: Object.keys(icons).filter((k) => k.endsWith("40")),
+	// },
+	// {
+	//   size: "64 * 64",
+	//   icons: Object.keys(icons).filter((k) => k.endsWith("64")),
+	// },
+	// {
+	//   size: "72 * 72",
+	//   icons: Object.keys(icons).filter((k) => k.endsWith("72")),
+	// },
+	// {
+	//   size: "80 * 80",
+	//   icons: Object.keys(icons).filter((k) => k.endsWith("80")),
+	// },
+	// {
+	//   size: "120 * 120",
+	//   icons: Object.keys(icons).filter((k) => k.endsWith("120")),
+	// },
+	{
 	  size: "Scalable",
-	  icons: Object.keys(icons).filter(function (k) {
-	    return k.endsWith("Scalable");
-	  }).sort(function (a, b) {
+	  icons: Object.keys(icons)
+	  // .filter((k) => k.endsWith("Scalable"))
+	  .sort(function (a, b) {
 	    return ComponentNameToWidth[a] - ComponentNameToWidth[b];
 	  })
 	}];

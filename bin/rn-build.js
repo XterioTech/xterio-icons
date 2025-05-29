@@ -141,17 +141,19 @@ let ComponentNameToWidth = {};
 Object.keys(icons)
   .map((key) => icons[key])
   .forEach(({ name, width, height }) => {
-    generateIconCode({ name, width, height }).then(
-      ({ ComponentName, name }) => {
-        appendToIconsIndex({ ComponentName, name });
-        ComponentNameToWidth[ComponentName] = width;
-        // fs.writeFileSync(
-        //   path.join(rootDir, "src", "config.js"),
-        //   `export const ComponentNameToWidth = ${JSON.stringify(
-        //     ComponentNameToWidth
-        //   )}`,
-        //   "utf-8"
-        // );
-      }
-    );
+     if(name.startsWith('icon') || name.startsWith('colorful_icon')) {
+      generateIconCode({ name, width, height }).then(
+        ({ ComponentName, name }) => {
+          appendToIconsIndex({ ComponentName, name });
+          ComponentNameToWidth[ComponentName] = width;
+          // fs.writeFileSync(
+          //   path.join(rootDir, "src", "config.js"),
+          //   `export const ComponentNameToWidth = ${JSON.stringify(
+          //     ComponentNameToWidth
+          //   )}`,
+          //   "utf-8"
+          // );
+        }
+      );
+    }
   });

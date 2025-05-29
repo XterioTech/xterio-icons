@@ -62,7 +62,7 @@ const attrsToString = (attrs, style) => {
 
 // generate icon code separately
 const generateIconCode = async ({ name, width, height }) => {
-  const { type, size, componentName: ComponentName, style } = parseName(
+  const { type, componentName: ComponentName, style } = parseName(
     name,
     defaultStyle
   );
@@ -70,7 +70,7 @@ const generateIconCode = async ({ name, width, height }) => {
   const location = path.join(rootDir, "src/svg", `${name}.svg`);
   const destination = path.join(rootDir, "src/icons", `${ComponentName}.js`);
   const code = fs.readFileSync(location);
-  const { svgCode, originFill } = await processSvg(code, type, size);
+  const { svgCode, originFill } = await processSvg(code, type);
   const element = await getElementCode(
     ComponentName,
     attrsToString(getAttrs(style), style),
@@ -126,7 +126,8 @@ let ComponentNameToWidth = {};
 Object.keys(icons)
   .map((key) => icons[key])
   .forEach(({ name, width, height }) => {
-    generateIconCode({ name, width, height }).then(
+    if(name.startsWith('icon') || name.startsWith('colorful_icon')) {
+      generateIconCode({ name, width, height }).then(
       ({ ComponentName, name }) => {
         appendToIconsIndex({ ComponentName, name });
         ComponentNameToWidth[ComponentName] = width;
@@ -139,4 +140,6 @@ Object.keys(icons)
         );
       }
     );
+    }
+    
   });
