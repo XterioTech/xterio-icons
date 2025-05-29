@@ -39,11 +39,9 @@ if (!fileId) {
 
 console.log(`Exporting ${FIGMA_FILE_URL} components`)
 client.file(fileId)
-
   .then(({ data }) => {
     console.log('Processing response')
     const components = {}
-
     function check(c) {
       if (c.type === 'COMPONENT') {
         const {name, id} = c
@@ -64,7 +62,6 @@ client.file(fileId)
         c.children.forEach(check)
       }
     }
-
     data.document.children.forEach(check)
     if (Object.values(components).length === 0) {
       throw Error('No components found!')

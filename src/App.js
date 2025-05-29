@@ -17,46 +17,46 @@ const Container = styled.ul`
 `;
 
 const config = [
-  {
-    size: "12 * 12",
-    icons: Object.keys(icons).filter((k) => k.endsWith("12")),
-  },
-  {
-    size: "16 * 16",
-    icons: Object.keys(icons).filter((k) => k.endsWith("16")),
-  },
-  {
-    size: "24 * 24",
-    icons: Object.keys(icons).filter((k) => k.endsWith("24")),
-  },
-  {
-    size: "32 * 32",
-    icons: Object.keys(icons).filter((k) => k.endsWith("32")),
-  },
-  {
-    size: "40 * 40",
-    icons: Object.keys(icons).filter((k) => k.endsWith("40")),
-  },
-  {
-    size: "64 * 64",
-    icons: Object.keys(icons).filter((k) => k.endsWith("64")),
-  },
-  {
-    size: "72 * 72",
-    icons: Object.keys(icons).filter((k) => k.endsWith("72")),
-  },
-  {
-    size: "80 * 80",
-    icons: Object.keys(icons).filter((k) => k.endsWith("80")),
-  },
-  {
-    size: "120 * 120",
-    icons: Object.keys(icons).filter((k) => k.endsWith("120")),
-  },
+  // {
+  //   size: "12 * 12",
+  //   icons: Object.keys(icons).filter((k) => k.endsWith("12")),
+  // },
+  // {
+  //   size: "16 * 16",
+  //   icons: Object.keys(icons).filter((k) => k.endsWith("16")),
+  // },
+  // {
+  //   size: "24 * 24",
+  //   icons: Object.keys(icons).filter((k) => k.endsWith("24")),
+  // },
+  // {
+  //   size: "32 * 32",
+  //   icons: Object.keys(icons).filter((k) => k.endsWith("32")),
+  // },
+  // {
+  //   size: "40 * 40",
+  //   icons: Object.keys(icons).filter((k) => k.endsWith("40")),
+  // },
+  // {
+  //   size: "64 * 64",
+  //   icons: Object.keys(icons).filter((k) => k.endsWith("64")),
+  // },
+  // {
+  //   size: "72 * 72",
+  //   icons: Object.keys(icons).filter((k) => k.endsWith("72")),
+  // },
+  // {
+  //   size: "80 * 80",
+  //   icons: Object.keys(icons).filter((k) => k.endsWith("80")),
+  // },
+  // {
+  //   size: "120 * 120",
+  //   icons: Object.keys(icons).filter((k) => k.endsWith("120")),
+  // },
   {
     size: "Scalable",
     icons: Object.keys(icons)
-      .filter((k) => k.endsWith("Scalable"))
+      // .filter((k) => k.endsWith("Scalable"))
       .sort((a, b) => {
         return ComponentNameToWidth[a] - ComponentNameToWidth[b];
       }),
